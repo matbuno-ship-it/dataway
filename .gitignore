@@ -1,0 +1,6 @@
+node_modules/
+temporary screenshots/
+api-*.txt
+scrape-*.html
+products-all.json
+products-merged.json

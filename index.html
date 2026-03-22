@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DATAWAY – Špičkové riešenia pre vašu sieťovú infraštruktúru</title>
+  <meta name="description" content="DATAWAY dodáva certifikované optické káble, metalickú kabeláž a sieťové prvky najvyššej kvality.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-blue': '#3a59f1',
+            'brand-navy': '#081c7e',
+            'brand-gold': '#d4a843',
+            'brand-dark': '#0f1b3d',
+            'brand-gray': {
+              50: '#f8f9fc',
+              100: '#eef1f6',
+              400: '#8e95a9',
+              700: '#3d4663',
+            }
+          },
+          fontFamily: {
+            heading: ['Inter', 'system-ui', 'sans-serif'],
+            body: ['IBM Plex Sans', 'system-ui', 'sans-serif'],
+          },
+          boxShadow: {
+            'card': '0 1px 3px rgba(58,89,241,0.04), 0 8px 24px rgba(8,28,126,0.06)',
+            'card-hover': '0 2px 8px rgba(58,89,241,0.08), 0 16px 40px rgba(8,28,126,0.10)',
+            'floating': '0 4px 12px rgba(58,89,241,0.06), 0 24px 48px rgba(8,28,126,0.12)',
+            'nav': '0 1px 2px rgba(8,28,126,0.04), 0 4px 16px rgba(8,28,126,0.06)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'IBM Plex Sans', system-ui, sans-serif; line-height: 1.7; color: #3d4663; }
+    h1, h2, h3, h4, h5, h6 { font-family: 'Inter', system-ui, sans-serif; color: #0f1b3d; }
+
+    /* Nav link underline animation */
+    .nav-link { position: relative; }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, #3a59f1, #081c7e);
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+    .nav-link:hover::after,
+    .nav-link:focus-visible::after {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+
+    /* Button states */
+    .btn-primary {
+      background: linear-gradient(90deg, #3a59f1, #081c7e);
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.2s ease, box-shadow 0.3s ease;
+    }
+    .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 4px 16px rgba(58,89,241,0.3); }
+    .btn-primary:focus-visible { outline: 2px solid #3a59f1; outline-offset: 2px; }
+    .btn-primary:active { transform: scale(0.98); }
+
+    .btn-secondary {
+      border: 1.5px solid #3a59f1;
+      color: #3a59f1;
+      transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.2s ease, background 0.2s ease;
+    }
+    .btn-secondary:hover { background: rgba(58,89,241,0.06); transform: translateY(-1px); }
+    .btn-secondary:focus-visible { outline: 2px solid #3a59f1; outline-offset: 2px; }
+    .btn-secondary:active { transform: scale(0.98); }
+
+    /* Card hover */
+    .card-lift {
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+    }
+    .card-lift:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 2px 8px rgba(58,89,241,0.08), 0 16px 40px rgba(8,28,126,0.10);
+    }
+
+    /* Product card */
+    .product-card {
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 2px 8px rgba(58,89,241,0.08), 0 16px 40px rgba(8,28,126,0.10);
+    }
+    .product-card:focus-within {
+      outline: 2px solid #3a59f1;
+      outline-offset: 2px;
+    }
+
+    /* Filter pill */
+    .filter-pill {
+      transition: transform 0.2s ease, opacity 0.2s ease, background 0.2s ease, color 0.2s ease;
+    }
+    .filter-pill:hover { transform: translateY(-1px); }
+    .filter-pill:active { transform: scale(0.97); }
+    .filter-pill:focus-visible { outline: 2px solid #3a59f1; outline-offset: 2px; }
+    .filter-pill.active {
+      background: linear-gradient(90deg, #3a59f1, #081c7e);
+      color: white;
+    }
+
+    /* Gradient text */
+    .gradient-text {
+      background: linear-gradient(90deg, #3a59f1, #081c7e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* Distributor logo */
+    .dist-logo {
+      filter: grayscale(1);
+      opacity: 0.5;
+      transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+    }
+    .dist-logo:hover {
+      filter: grayscale(0);
+      opacity: 1;
+      transform: scale(1.05);
+    }
+
+    /* Mobile menu */
+    .mobile-menu {
+      transform: translateY(-100%);
+      opacity: 0;
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.3s ease;
+      pointer-events: none;
+    }
+    .mobile-menu.open {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    /* Skeleton loader */
+    @keyframes shimmer {
+      0% { opacity: 0.5; }
+      50% { opacity: 1; }
+      100% { opacity: 0.5; }
+    }
+    .skeleton { animation: shimmer 1.5s infinite; }
+
+    /* Product appear animation */
+    .product-enter {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    .product-visible {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    /* Grid reveal layer */
+    #grid-reveal {
+      pointer-events: none;
+    }
+
+    /* Checkmark icon */
+    .check-icon {
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: rgba(58,89,241,0.1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  </style>
+</head>
+<body class="bg-white overflow-x-hidden">
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header id="nav-header" class="fixed top-0 left-0 right-0 z-50 transition-[background-color,box-shadow] duration-300">
+    <div class="max-w-7xl mx-auto px-5 md:px-6">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <!-- Logo -->
+        <a href="#" class="flex-shrink-0">
+          <img src="Brand/Loga-na-sirku-450-x-120-px-11.webp" alt="DATAWAY logo" class="h-8 md:h-10 w-auto">
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden lg:flex items-center gap-8" aria-label="Hlavná navigácia">
+          <a href="produkty.html?category=Optické+siete" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Optické siete</a>
+          <a href="produkty.html?category=Metalické+siete" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Metalické siete</a>
+          <a href="produkty.html?category=Rozvádzače" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Rozvádzače</a>
+          <a href="produkty.html?category=Montážne+príslušenstvo" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Montážne príslušenstvo</a>
+          <a href="produkty.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Produkty</a>
+        </nav>
+
+        <!-- CTA + Mobile toggle -->
+        <div class="flex items-center gap-4">
+          <a href="#kontakt" class="hidden md:inline-flex btn-primary text-white text-sm font-medium px-5 py-2.5 rounded-lg">
+            Kontaktujte nás
+          </a>
+          <button id="menu-toggle" class="lg:hidden p-2 text-brand-gray-700 hover:text-brand-dark focus-visible:outline-2 focus-visible:outline-brand-blue focus-visible:outline-offset-2" aria-label="Otvoriť menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu lg:hidden absolute top-full left-0 right-0 bg-white shadow-floating">
+      <div class="px-5 py-6 space-y-4">
+        <a href="produkty.html?category=Optické+siete" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2">Optické siete</a>
+        <a href="produkty.html?category=Metalické+siete" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2">Metalické siete</a>
+        <a href="produkty.html?category=Rozvádzače" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2">Rozvádzače</a>
+        <a href="produkty.html?category=Montážne+príslušenstvo" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2">Montážne príslušenstvo</a>
+        <a href="produkty.html" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2">Produkty</a>
+        <a href="#kontakt" class="btn-primary inline-block text-white text-sm font-medium px-5 py-2.5 rounded-lg mt-2">Kontaktujte nás</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section id="hero" class="relative min-h-[85vh] flex items-center justify-center overflow-hidden pt-20" onmousemove="handleHeroMouse(event)">
+      <!-- Grid layer: base (subtle) -->
+      <div class="absolute inset-0 z-0 opacity-[0.08]">
+        <svg id="grid-base" class="w-full h-full" style="color:#3d4663">
+          <defs>
+            <pattern id="grid-pattern-base" width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1"/>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#grid-pattern-base)"/>
+        </svg>
+      </div>
+      <!-- Grid layer: mouse-reveal (bright) -->
+      <div id="grid-reveal" class="absolute inset-0 z-0 opacity-50" style="-webkit-mask-image:radial-gradient(300px circle at -1000px -1000px, black, transparent); mask-image:radial-gradient(300px circle at -1000px -1000px, black, transparent);">
+        <svg id="grid-bright" class="w-full h-full" style="color:#3a59f1">
+          <defs>
+            <pattern id="grid-pattern-bright" width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1"/>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#grid-pattern-bright)"/>
+        </svg>
+      </div>
+      <!-- Gradient orbs -->
+      <div class="absolute inset-0 pointer-events-none z-0">
+        <div class="absolute right-[-15%] top-[-15%] w-[45%] h-[45%] rounded-full bg-brand-gold/20 blur-[120px]"></div>
+        <div class="absolute right-[10%] top-[-5%] w-[25%] h-[25%] rounded-full bg-brand-blue/20 blur-[100px]"></div>
+        <div class="absolute left-[-10%] bottom-[-15%] w-[45%] h-[45%] rounded-full bg-brand-blue/20 blur-[120px]"></div>
+      </div>
+
+      <div class="relative z-10 max-w-3xl mx-auto px-5 md:px-6 text-center">
+        <span class="inline-block text-xs font-semibold tracking-[0.15em] uppercase text-brand-blue mb-6">Sieťová infraštruktúra</span>
+        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-[-0.03em] leading-[1.1] mb-6">
+          Špičkové riešenia pre vašu <span class="gradient-text">sieťovú infraštruktúru</span>
+        </h1>
+        <p class="text-lg md:text-xl text-brand-gray-700 max-w-2xl mx-auto mb-10 leading-relaxed">
+          DATAWAY dodáva certifikované optické káble, metalickú kabeláž a sieťové prvky najvyššej kvality.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="produkty.html" class="btn-primary text-white font-medium px-8 py-3.5 rounded-lg text-base">
+            Naše produkty
+          </a>
+          <a href="#kontakt" class="btn-secondary font-medium px-8 py-3.5 rounded-lg text-base">
+            Kontaktujte nás
+          </a>
+        </div>
+      </div>
+      <!-- Gradient fade at bottom -->
+      <div class="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white to-transparent z-[1]"></div>
+    </section>
+
+    <!-- ============ VALUE PROPOSITIONS ============ -->
+    <section class="py-16 md:py-24 bg-brand-gray-50">
+      <div class="max-w-7xl mx-auto px-5 md:px-6">
+        <div class="text-center mb-12 md:mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em]">Prečo <span class="gradient-text">DATAWAY</span>?</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          <!-- Card 1 -->
+          <div class="card-lift bg-white rounded-xl shadow-card p-8">
+            <div class="w-12 h-12 rounded-lg bg-brand-blue/10 flex items-center justify-center mb-5">
+              <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 tracking-[-0.01em]">Vysoká kvalita</h3>
+            <p class="text-brand-gray-700 text-base">Naše produkty spĺňajú najprísnejšie medzinárodné normy a certifikácie pre sieťovú infraštruktúru.</p>
+          </div>
+          <!-- Card 2 -->
+          <div class="card-lift bg-white rounded-xl shadow-card p-8">
+            <div class="w-12 h-12 rounded-lg bg-brand-blue/10 flex items-center justify-center mb-5">
+              <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 tracking-[-0.01em]">Odborný prístup</h3>
+            <p class="text-brand-gray-700 text-base">Tím skúsených odborníkov vám pomôže nájsť optimálne riešenie pre vaše potreby.</p>
+          </div>
+          <!-- Card 3 -->
+          <div class="card-lift bg-white rounded-xl shadow-card p-8">
+            <div class="w-12 h-12 rounded-lg bg-brand-blue/10 flex items-center justify-center mb-5">
+              <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 tracking-[-0.01em]">Inovačné riešenia</h3>
+            <p class="text-brand-gray-700 text-base">Prinášame najnovšie technológie a inovatívne produkty pre modernú sieťovú infraštruktúru.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRODUCTS PREVIEW ============ -->
+    <section id="produkty" class="py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-5 md:px-6">
+        <div class="text-center mb-10 md:mb-14">
+          <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-4">Objavte naše <span class="gradient-text">produkty</span></h2>
+          <p class="text-brand-gray-700 text-lg max-w-2xl mx-auto">Kompletný sortiment pre optické a metalické sieťové riešenia.</p>
+        </div>
+
+        <!-- Category cards linking to products page -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+          <a href="produkty.html?category=Optické+siete" class="card-lift group bg-white rounded-xl shadow-card p-6 text-center block">
+            <div class="w-14 h-14 rounded-xl bg-brand-blue/10 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-7 h-7 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </div>
+            <h3 class="font-heading text-lg font-semibold text-brand-dark mb-1 group-hover:text-brand-blue transition-colors duration-200">Optické siete</h3>
+            <p class="text-sm text-brand-gray-400">92 produktov</p>
+          </a>
+          <a href="produkty.html?category=Metalické+siete" class="card-lift group bg-white rounded-xl shadow-card p-6 text-center block">
+            <div class="w-14 h-14 rounded-xl bg-brand-blue/10 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-7 h-7 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+            </div>
+            <h3 class="font-heading text-lg font-semibold text-brand-dark mb-1 group-hover:text-brand-blue transition-colors duration-200">Metalické siete</h3>
+            <p class="text-sm text-brand-gray-400">264 produktov</p>
+          </a>
+          <a href="produkty.html?category=Rozvádzače" class="card-lift group bg-white rounded-xl shadow-card p-6 text-center block">
+            <div class="w-14 h-14 rounded-xl bg-brand-blue/10 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-7 h-7 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"/></svg>
+            </div>
+            <h3 class="font-heading text-lg font-semibold text-brand-dark mb-1 group-hover:text-brand-blue transition-colors duration-200">Rozvádzače</h3>
+            <p class="text-sm text-brand-gray-400">22 produktov</p>
+          </a>
+          <a href="produkty.html?category=Montážne+príslušenstvo" class="card-lift group bg-white rounded-xl shadow-card p-6 text-center block">
+            <div class="w-14 h-14 rounded-xl bg-brand-blue/10 flex items-center justify-center mx-auto mb-4">
+              <svg class="w-7 h-7 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+            </div>
+            <h3 class="font-heading text-lg font-semibold text-brand-dark mb-1 group-hover:text-brand-blue transition-colors duration-200">Montážne príslušenstvo</h3>
+            <p class="text-sm text-brand-gray-400">27 produktov</p>
+          </a>
+        </div>
+
+        <div class="text-center">
+          <a href="produkty.html" class="btn-primary inline-flex items-center gap-2 text-white font-medium px-8 py-3.5 rounded-lg text-base">
+            Zobraziť všetky produkty
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NOVINKY (last 4 products) ============ -->
+    <section class="py-16 md:py-24 bg-brand-gray-50">
+      <div class="max-w-7xl mx-auto px-5 md:px-6">
+        <div class="text-center mb-10 md:mb-14">
+          <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-4">Najnovšie <span class="gradient-text">produkty</span></h2>
+          <p class="text-brand-gray-700 text-lg max-w-2xl mx-auto">Práve pridané do nášho katalógu.</p>
+        </div>
+        <div id="novinky-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Rendered by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ VIDEO + WHY CHOOSE ============ -->
+    <section class="py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-5 md:px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <div>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-6">Prečo si vybrať <span class="gradient-text">DATAWAY</span>?</h2>
+            <p class="text-brand-gray-700 text-lg leading-relaxed mb-8">
+              S dlhoročnými skúsenosťami v oblasti sieťovej infraštruktúry vám prinášame spoľahlivé a overené riešenia pre rýchly a bezpečný prenos dát.
+            </p>
+            <!-- YouTube video -->
+            <div class="rounded-xl overflow-hidden shadow-card aspect-video">
+              <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ABvYURI-b2M" title="DATAWAY video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>
+            </div>
+          </div>
+          <div class="space-y-5">
+            <!-- Benefit 1 -->
+            <div class="flex items-start gap-4 bg-white rounded-xl p-5 shadow-card">
+              <div class="check-icon">
+                <svg class="w-3.5 h-3.5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-brand-dark mb-1">Optické káble</h4>
+                <p class="text-brand-gray-700 text-sm">Rýchly a spoľahlivý prenos dát na veľké vzdialenosti s minimálnou stratou signálu.</p>
+              </div>
+            </div>
+            <!-- Benefit 2 -->
+            <div class="flex items-start gap-4 bg-white rounded-xl p-5 shadow-card">
+              <div class="check-icon">
+                <svg class="w-3.5 h-3.5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-brand-dark mb-1">Metalické káble</h4>
+                <p class="text-brand-gray-700 text-sm">Vysoká odolnosť a vodivosť pre spoľahlivú sieťovú infraštruktúru.</p>
+              </div>
+            </div>
+            <!-- Benefit 3 -->
+            <div class="flex items-start gap-4 bg-white rounded-xl p-5 shadow-card">
+              <div class="check-icon">
+                <svg class="w-3.5 h-3.5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-brand-dark mb-1">Efektívne distribučné riešenia</h4>
+                <p class="text-brand-gray-700 text-sm">Kompletné riešenia pre rozvádzače a montážne príslušenstvo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT / KONTAKT ============ -->
+    <section id="kontakt" class="py-16 md:py-24 bg-brand-dark relative overflow-hidden" onmousemove="handleContactMouse(event)">
+      <!-- Grid layer: base (subtle white) -->
+      <div class="absolute inset-0 z-0 opacity-[0.04]">
+        <svg class="w-full h-full" style="color:white">
+          <defs>
+            <pattern id="contact-grid-base" width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1"/>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#contact-grid-base)"/>
+        </svg>
+      </div>
+      <!-- Grid layer: mouse-reveal (bright white) -->
+      <div id="contact-grid-reveal" class="absolute inset-0 z-0 opacity-30" style="-webkit-mask-image:radial-gradient(300px circle at -1000px -1000px, black, transparent); mask-image:radial-gradient(300px circle at -1000px -1000px, black, transparent);">
+        <svg class="w-full h-full" style="color:white">
+          <defs>
+            <pattern id="contact-grid-bright" width="40" height="40" patternUnits="userSpaceOnUse">
+              <path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1"/>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#contact-grid-bright)"/>
+        </svg>
+      </div>
+      <!-- Gradient orbs -->
+      <div class="absolute inset-0 pointer-events-none z-0">
+        <div class="absolute right-[-15%] top-[-15%] w-[35%] h-[35%] rounded-full bg-brand-gold/10 blur-[100px]"></div>
+        <div class="absolute left-[-10%] bottom-[-15%] w-[35%] h-[35%] rounded-full bg-brand-blue/15 blur-[100px]"></div>
+      </div>
+      <div class="relative z-10 max-w-7xl mx-auto px-5 md:px-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+          <!-- Left: heading + description -->
+          <div class="lg:sticky lg:top-28">
+            <img src="Brand/Loga-na-sirku-450-x-120-px-12.webp" alt="DATAWAY" class="h-12 md:h-14 w-auto mb-8">
+            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] text-white mb-6">Kontaktujte nás</h2>
+            <p class="text-white/70 text-lg leading-relaxed">
+              Máte otázky alebo potrebujete pomoc s vaším nákupom? Neváhajte nás kontaktovať – radi vám pomôžeme.
+            </p>
+          </div>
+          <!-- Right: contact form -->
+          <div>
+            <form id="contact-form" class="space-y-5">
+              <div>
+                <label for="cf-name" class="block text-sm font-medium text-white/80 mb-1.5">Meno a priezvisko</label>
+                <input type="text" id="cf-name" name="name" required placeholder="Meno a priezvisko"
+                  class="w-full px-4 py-3 rounded-lg bg-white/[0.07] border border-white/[0.12] text-white placeholder:text-white/40 text-sm focus:outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 transition-[border-color,box-shadow] duration-200">
+              </div>
+              <div>
+                <label for="cf-email" class="block text-sm font-medium text-white/80 mb-1.5">Email</label>
+                <input type="email" id="cf-email" name="email" required placeholder="Email"
+                  class="w-full px-4 py-3 rounded-lg bg-white/[0.07] border border-white/[0.12] text-white placeholder:text-white/40 text-sm focus:outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 transition-[border-color,box-shadow] duration-200">
+              </div>
+              <div>
+                <label for="cf-message" class="block text-sm font-medium text-white/80 mb-1.5">Správa</label>
+                <textarea id="cf-message" name="message" rows="5" required placeholder="Správa"
+                  class="w-full px-4 py-3 rounded-lg bg-white/[0.07] border border-white/[0.12] text-white placeholder:text-white/40 text-sm focus:outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 transition-[border-color,box-shadow] duration-200 resize-none"></textarea>
+              </div>
+              <button type="submit"
+                class="w-full sm:w-auto btn-primary text-white font-medium px-8 py-3.5 rounded-lg text-base inline-flex items-center justify-center gap-2">
+                Odoslať
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+              </button>
+              <div id="form-status" class="hidden text-sm font-medium rounded-lg px-4 py-3 mt-2"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DISTRIBUTORS ============ -->
+    <section class="py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-5 md:px-6">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-4">Naši <span class="gradient-text">distribútori</span></h2>
+          <p class="text-brand-gray-700 text-lg">Spoľahliví partneri pre distribúciu našich produktov.</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+          <a href="https://www.tes.eu/" target="_blank" rel="noopener" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="TES">
+            <img src="Brand/distributors/tes.png" alt="TES" class="max-h-12 max-w-full object-contain">
+          </a>
+          <a href="https://www.aircom.sk/" target="_blank" rel="noopener" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="AIRCOM">
+            <img src="Brand/distributors/aircom.png" alt="AIRCOM" class="max-h-12 max-w-full object-contain">
+          </a>
+          <a href="https://www.daxa.sk/" target="_blank" rel="noopener" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="DAXA-IT">
+            <img src="Brand/distributors/daxa-it.png" alt="DAXA-IT" class="max-h-12 max-w-full object-contain">
+          </a>
+          <a href="https://www.axilogi.sk/" target="_blank" rel="noopener" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="AXILOGI s.r.o.">
+            <img src="Brand/distributors/axilogi.png" alt="AXILOGI s.r.o." class="max-h-12 max-w-full object-contain">
+          </a>
+          <a href="https://www.hacom.sk/" target="_blank" rel="noopener" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="HACOM">
+            <img src="Brand/distributors/hacom.png" alt="HACOM" class="max-h-12 max-w-full object-contain">
+          </a>
+          <a href="https://www.ab-com.sk/" target="_blank" rel="noopener" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="AB-COM">
+            <img src="Brand/distributors/ab-com.png" alt="AB-COM" class="max-h-12 max-w-full object-contain">
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="bg-brand-dark py-12 md:py-16">
+    <div class="max-w-7xl mx-auto px-5 md:px-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+        <!-- Logo + desc -->
+        <div>
+          <img src="Brand/Loga-na-sirku-450-x-120-px-12.webp" alt="DATAWAY" class="h-10 w-auto mb-4">
+          <p class="text-white/60 text-sm leading-relaxed">Prinášame vám kvalitné optické a metalické káble a sieťové riešenia pre modernú infraštruktúru.</p>
+        </div>
+        <!-- Nav -->
+        <div>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Kategórie</h4>
+          <ul class="space-y-2.5">
+            <li><a href="produkty.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-brand-gold focus-visible:outline-offset-2">Optické siete</a></li>
+            <li><a href="produkty.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-brand-gold focus-visible:outline-offset-2">Metalické siete</a></li>
+            <li><a href="produkty.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-brand-gold focus-visible:outline-offset-2">Rozvádzače</a></li>
+            <li><a href="produkty.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-brand-gold focus-visible:outline-offset-2">Montážne príslušenstvo</a></li>
+          </ul>
+        </div>
+        <!-- Contact -->
+        <div>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Kontakt</h4>
+          <ul class="space-y-2.5">
+            <li><a href="mailto:info@dataway.eu" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200">info@dataway.eu</a></li>
+            <li><span class="text-white/60 text-sm">Slovenská republika</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-8 text-center">
+        <p class="text-white/40 text-sm">DATAWAY &copy; 2025. Všetky práva vyhradené.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ JAVASCRIPT ============ -->
+  <script>
+    // ---- NOVINKY (last 4 products) ----
+    (function() {
+      const novinkyGrid = document.getElementById('novinky-grid');
+      if (!novinkyGrid) return;
+
+      // Fetch products.json for the last 4
+      fetch('products.json')
+        .then(r => r.json())
+        .then(products => {
+          const last4 = products.slice(-4);
+          novinkyGrid.innerHTML = last4.map(p => `
+            <a href="produkt.html?slug=${p.slug}" class="product-card bg-white rounded-xl shadow-card overflow-hidden block">
+              <div class="aspect-square bg-white p-4 flex items-center justify-center overflow-hidden">
+                <img src="${p.image}" alt="${p.name}" class="max-w-full max-h-full object-contain" loading="lazy"
+                     onerror="this.src='Brand/Loga-na-sirku-450-x-120-px-11.webp'; this.style.opacity='0.3'; this.style.padding='2rem';">
+              </div>
+              <div class="p-4">
+                <span class="inline-block text-xs font-medium text-brand-blue bg-brand-blue/8 px-2 py-0.5 rounded-full mb-2">${p.category}</span>
+                <h3 class="font-heading text-sm font-semibold text-brand-dark leading-snug line-clamp-2">${p.name}</h3>
+              </div>
+            </a>
+          `).join('');
+        })
+        .catch(() => { novinkyGrid.innerHTML = '<p class="text-brand-gray-400 col-span-4 text-center">Produkty sa nepodarilo načítať.</p>'; });
+    })();
+
+    // ---- INFINITE GRID ANIMATION ----
+    (function() {
+      const patternBase = document.getElementById('grid-pattern-base');
+      const patternBright = document.getElementById('grid-pattern-bright');
+      const gridReveal = document.getElementById('grid-reveal');
+
+      let offsetX = 0;
+      let offsetY = 0;
+      const speedX = 0.3;
+      const speedY = 0.3;
+
+      function animate() {
+        offsetX = (offsetX + speedX) % 40;
+        offsetY = (offsetY + speedY) % 40;
+
+        if (patternBase) {
+          patternBase.setAttribute('x', offsetX);
+          patternBase.setAttribute('y', offsetY);
+        }
+        if (patternBright) {
+          patternBright.setAttribute('x', offsetX);
+          patternBright.setAttribute('y', offsetY);
+        }
+
+        requestAnimationFrame(animate);
+      }
+
+      animate();
+    })();
+
+    // ---- MOUSE REVEAL ----
+    function handleHeroMouse(e) {
+      const hero = document.getElementById('hero');
+      const reveal = document.getElementById('grid-reveal');
+      if (!hero || !reveal) return;
+      const rect = hero.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      const mask = 'radial-gradient(300px circle at ' + x + 'px ' + y + 'px, black, transparent)';
+      reveal.style.maskImage = mask;
+      reveal.style.webkitMaskImage = mask;
+    }
+
+    // ---- CONTACT GRID ANIMATION ----
+    (function() {
+      const cBase = document.getElementById('contact-grid-base');
+      const cBright = document.getElementById('contact-grid-bright');
+      let cOffX = 0, cOffY = 0;
+
+      function animateContactGrid() {
+        cOffX = (cOffX + 0.3) % 40;
+        cOffY = (cOffY + 0.3) % 40;
+        if (cBase) { cBase.setAttribute('x', cOffX); cBase.setAttribute('y', cOffY); }
+        if (cBright) { cBright.setAttribute('x', cOffX); cBright.setAttribute('y', cOffY); }
+        requestAnimationFrame(animateContactGrid);
+      }
+      animateContactGrid();
+    })();
+
+    function handleContactMouse(e) {
+      const section = document.getElementById('kontakt');
+      const reveal = document.getElementById('contact-grid-reveal');
+      if (!section || !reveal) return;
+      const rect = section.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      const mask = 'radial-gradient(300px circle at ' + x + 'px ' + y + 'px, black, transparent)';
+      reveal.style.maskImage = mask;
+      reveal.style.webkitMaskImage = mask;
+    }
+
+    // ---- CONTACT FORM ----
+    (function() {
+      const form = document.getElementById('contact-form');
+      if (!form) return;
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const status = document.getElementById('form-status');
+        const name = document.getElementById('cf-name').value.trim();
+        const email = document.getElementById('cf-email').value.trim();
+        const message = document.getElementById('cf-message').value.trim();
+        if (!name || !email || !message) return;
+
+        // Show success (no backend yet - placeholder)
+        status.classList.remove('hidden', 'bg-red-500/20', 'text-red-300');
+        status.classList.add('bg-green-500/20', 'text-green-300');
+        status.textContent = 'Ďakujeme! Vaša správa bola odoslaná.';
+        form.reset();
+      });
+    })();
+
+    // ---- NAV SCROLL ----
+    const header = document.getElementById('nav-header');
+    const hero = document.getElementById('hero');
+
+    const navObserver = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        header.classList.remove('bg-white', 'shadow-nav');
+        header.classList.add('bg-transparent');
+      } else {
+        header.classList.add('bg-white', 'shadow-nav');
+        header.classList.remove('bg-transparent');
+      }
+    }, { threshold: 0.1 });
+    navObserver.observe(hero);
+
+    // ---- MOBILE MENU ----
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    let menuOpen = false;
+
+    menuToggle.addEventListener('click', () => {
+      menuOpen = !menuOpen;
+      mobileMenu.classList.toggle('open', menuOpen);
+      menuToggle.setAttribute('aria-expanded', menuOpen);
+      menuToggle.innerHTML = menuOpen
+        ? '<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>'
+        : '<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>';
+    });
+
+    mobileMenu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        menuOpen = false;
+        mobileMenu.classList.remove('open');
+        menuToggle.innerHTML = '<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>';
+      });
+    });
+  </script>
+
+</body>
+</html>
