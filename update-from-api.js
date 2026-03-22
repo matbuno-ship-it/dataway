@@ -1,10 +1,8 @@
 const fs = require('fs');
 
-// Parse the XML API response
 const xml = fs.readFileSync('tesshop-api-response.xml', 'utf8');
 const products = JSON.parse(fs.readFileSync('products.json', 'utf8'));
 
-// Extract all SHOPITEMs from XML
 function parseShopItems(xml) {
   const items = [];
   const itemRegex = /<SHOPITEM[^>]*>([\s\S]*?)<\/SHOPITEM>/g;
@@ -28,7 +26,7 @@ function parseShopItems(xml) {
 
     // Get text properties (specs)
     const specs = {};
-    const propRegex = /<TEXT_PROPERTY>\s*<NAME>([^<]*)<\/NAME>\s*<VALUE>([^<]*)<\/VALUE>\s*<\/TEXT_PROPERTY>/g;
+    const propRegex = /<TEXT_PROPERTY>\s*<NAME>([^<]*)<\/NAME>\s*<VALUE>([\s\S]*?)<\/VALUE>\s*<\/TEXT_PROPERTY>/g;
     let propMatch;
     while ((propMatch = propRegex.exec(block)) !== null) {
       const key = propMatch[1].trim();
@@ -36,37 +34,39 @@ function parseShopItems(xml) {
       if (key && val) specs[key] = val;
     }
 
-    // Get categories
-    const categories = [];
-    const catRegex = /<CATEGORY[^>]*>([^<]+)<\/CATEGORY>/g;
-    let catMatch;
-    while ((catMatch = catRegex.exec(block)) !== null) {
-      categories.push(catMatch[1].trim());
-    }
+    // Get DESCRIPTION - keep HTML formatting but sanitize
+    let rawDesc = get('DESCRIPTION') || '';
+    // Decode HTML entities
+    rawDesc = rawDesc
+      .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;nbsp;/g, ' ').replace(/&amp;/g, '&')
+      .replace(/&nbsp;/g, ' ').replace(/&deg;/g, '°').replace(/&ndash;/g, '–').replace(/&mdash;/g, '—')
+      .replace(/&rsquo;/g, "'").replace(/&lsquo;/g, "'").replace(/&rdquo;/g, '"').replace(/&ldquo;/g, '"')
+      .replace(/&hellip;/g, '...');
 
-    // Decode HTML entities in description
-    let desc = get('DESCRIPTION') || '';
-    desc = desc
-      .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&')
-      .replace(/<[^>]+>/g, '')
-      .replace(/&nbsp;/g, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
+    // Sanitize HTML: only allow safe tags
+    // Remove style attributes but keep the tags
+    rawDesc = rawDesc.replace(/\s*style="[^"]*"/gi, '');
+    // Remove empty paragraphs
+    rawDesc = rawDesc.replace(/<p>\s*\s*<\/p>/gi, '');
+    rawDesc = rawDesc.replace(/<p>\s*<\/p>/gi, '');
+    // Remove script/iframe/form tags completely
+    rawDesc = rawDesc.replace(/<(script|iframe|form|input|textarea|select|button|object|embed)[^>]*>[\s\S]*?<\/\1>/gi, '');
+    rawDesc = rawDesc.replace(/<(script|iframe|form|input|textarea|select|button|object|embed)[^>]*\/?>/gi, '');
+    // Clean up whitespace
+    rawDesc = rawDesc.replace(/\n\s*\n\s*\n/g, '\n\n').trim();
 
     const shortDesc = get('SHORT_DESCRIPTION') || '';
 
     items.push({
       code: get('CODE'),
-      ean: get('EAN'),
       partNumber: get('PART_NUMBER'),
       name: get('NAME'),
       shortDescription: shortDesc,
-      description: desc || shortDesc,
+      descriptionHtml: rawDesc || null,
+      description: shortDesc, // plain text fallback
       warranty: get('WARRANTY'),
       images: images,
       specs: specs,
-      categories: categories,
-      isNew: get('NEW') === '1',
     });
   }
 
@@ -76,26 +76,17 @@ function parseShopItems(xml) {
 const apiItems = parseShopItems(xml);
 console.log('API items parsed:', apiItems.length);
 
-// Match API items to our products by partNumber or code
-let matched = 0;
-let unmatched = 0;
-let imageUpdated = 0;
+let matched = 0, unmatched = 0, imageUpdated = 0, descUpdated = 0;
 
 products.forEach(prod => {
-  // Try matching by partNumber first, then by code
   let apiItem = apiItems.find(a => a.partNumber && prod.partNumber && a.partNumber === prod.partNumber);
-  if (!apiItem) {
-    apiItem = apiItems.find(a => a.code && prod.code && a.code === prod.code);
-  }
-  if (!apiItem) {
-    // Try matching by name similarity
-    apiItem = apiItems.find(a => a.name && prod.name && a.name.toLowerCase() === prod.name.toLowerCase());
-  }
+  if (!apiItem) apiItem = apiItems.find(a => a.code && prod.code && a.code === prod.code);
+  if (!apiItem) apiItem = apiItems.find(a => a.name && prod.name && a.name.toLowerCase() === prod.name.toLowerCase());
 
   if (apiItem) {
     matched++;
 
-    // Update images from API (tesshop has the latest)
+    // Update images
     if (apiItem.images && apiItem.images.length > 0) {
       const oldImage = prod.image;
       prod.images = apiItem.images;
@@ -103,19 +94,30 @@ products.forEach(prod => {
       if (oldImage !== prod.image) imageUpdated++;
     }
 
-    // Update specs from API if available
-    if (Object.keys(apiItem.specs).length > 0) {
-      prod.specs = apiItem.specs;
+    // Update description with HTML version
+    if (apiItem.descriptionHtml) {
+      prod.descriptionHtml = apiItem.descriptionHtml;
+      descUpdated++;
     }
 
-    // Update description from API
-    if (apiItem.description) {
-      prod.description = apiItem.description;
+    // Update plain description
+    if (apiItem.shortDescription) {
+      prod.description = apiItem.shortDescription;
+    }
+
+    // Update specs
+    if (Object.keys(apiItem.specs).length > 0) {
+      prod.specs = apiItem.specs;
     }
 
     // Update warranty
     if (apiItem.warranty) {
       prod.warranty = apiItem.warranty + ' mesiacov';
+    }
+
+    // Update name from API (most accurate)
+    if (apiItem.name) {
+      prod.name = apiItem.name;
     }
   } else {
     unmatched++;
@@ -125,26 +127,16 @@ products.forEach(prod => {
 console.log('Matched:', matched);
 console.log('Unmatched:', unmatched);
 console.log('Images updated:', imageUpdated);
+console.log('Descriptions with HTML:', descUpdated);
 
-// Show unmatched products
-if (unmatched > 0) {
-  const unmatchedProds = products.filter(p => {
-    return !apiItems.find(a =>
-      (a.partNumber && p.partNumber && a.partNumber === p.partNumber) ||
-      (a.code && p.code && a.code === p.code) ||
-      (a.name && p.name && a.name.toLowerCase() === p.name.toLowerCase())
-    );
-  });
-  console.log('\nUnmatched products (first 10):');
-  unmatchedProds.slice(0, 10).forEach(p => console.log('  ', p.code, '-', p.name));
-}
-
-// Check the specific product the client complained about
-const fodc = products.find(p => p.slug === 'dataway-fodc-144-opticka-spojka-144-s-vybavou-6x-kazeta');
-if (fodc) {
-  console.log('\nFODC-144 product:');
-  console.log('  Images:', fodc.images);
-}
+// Stats on HTML content
+const withUl = products.filter(p => p.descriptionHtml && p.descriptionHtml.includes('<ul')).length;
+const withStrong = products.filter(p => p.descriptionHtml && p.descriptionHtml.includes('<strong')).length;
+const withP = products.filter(p => p.descriptionHtml && p.descriptionHtml.includes('<p>')).length;
+console.log('\nFormatting stats:');
+console.log('  With paragraphs:', withP);
+console.log('  With bold text:', withStrong);
+console.log('  With bullet lists:', withUl);
 
 fs.writeFileSync('products.json', JSON.stringify(products, null, 2), 'utf8');
-console.log('\nSaved updated products.json');
+console.log('\nSaved products.json');
