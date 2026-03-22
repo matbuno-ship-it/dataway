@@ -201,9 +201,9 @@
       'tes': {
         name: 'TES \u2013 SLOVAKIA, s.r.o.',
         logo: 'Brand/distributors/tes.png',
-        phone: '+421 905 555 555',
-        phoneRaw: '+421905555555',
-        email: 'info@tes.eu',
+        phone: '+421 917 498 814',
+        phoneRaw: '+421917498814',
+        email: '',
         country: 'Slovensko'
       },
       'aircom': {
@@ -211,15 +211,15 @@
         logo: 'Brand/distributors/aircom.png',
         phone: '+420 241 400 333',
         phoneRaw: '+420241400333',
-        email: 'info@aircom.cz',
-        country: '\u010ceská republika'
+        email: '',
+        country: '\u010cesk\u00e1 republika'
       },
       'daxa-it': {
         name: 'Daxa IT s. r. o.',
         logo: 'Brand/distributors/daxa-it.png',
         phone: '+421 910 706 104',
         phoneRaw: '+421910706104',
-        email: 'info@daxa.sk',
+        email: '',
         country: 'Slovensko'
       },
       'axilogi': {
@@ -227,15 +227,15 @@
         logo: 'Brand/distributors/axilogi.png',
         phone: '+420 602 834 919',
         phoneRaw: '+420602834919',
-        email: 'info@axilogi.cz',
-        country: '\u010ceská republika'
+        email: '',
+        country: '\u010cesk\u00e1 republika'
       },
       'hacom': {
         name: 'Hacom',
         logo: 'Brand/distributors/hacom.png',
         phone: '+421 948 979 979',
         phoneRaw: '+421948979979',
-        email: 'info@hacom.sk',
+        email: '',
         country: 'Slovensko'
       },
       'ab-com': {
@@ -243,7 +243,7 @@
         logo: 'Brand/distributors/ab-com.png',
         phone: '+421 38 536 2611',
         phoneRaw: '+421385362611',
-        email: 'info@ab-com.sk',
+        email: '',
         country: 'Slovensko'
       }
     };
@@ -261,7 +261,11 @@
       document.getElementById('dist-name').textContent = dist.name;
       document.getElementById('dist-logo').src = dist.logo;
       document.getElementById('dist-logo').alt = dist.name;
-      document.getElementById('dist-email').innerHTML = '<a href="mailto:' + dist.email + '" class="hover:text-brand-blue transition-colors duration-200">' + dist.email + '</a>';
+      if (dist.email) {
+        document.getElementById('dist-email').innerHTML = '<a href="mailto:' + dist.email + '" class="hover:text-brand-blue transition-colors duration-200">' + dist.email + '</a>';
+      } else {
+        document.getElementById('dist-email').closest('.card-lift').style.display = 'none';
+      }
       document.getElementById('dist-phone').textContent = dist.phone;
       document.getElementById('dist-phone').href = 'tel:' + dist.phoneRaw;
       document.getElementById('dist-country').textContent = dist.country;
