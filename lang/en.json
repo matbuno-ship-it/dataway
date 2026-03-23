@@ -69,6 +69,7 @@
   "form.success_message": "Thank you! Your message has been sent.",
 
   "section.distributors.heading": "Our Distributors",
+  "section.distributors.title": "Our <span class=\"gradient-text\">Distributors</span>",
   "section.distributors.description": "Trusted partners for distributing our products.",
 
   "page.products.heading": "Product Catalog",
