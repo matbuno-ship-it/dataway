@@ -42,10 +42,12 @@
   "card.innovative_solutions.description": "We bring the latest technologies and innovative products for modern network infrastructure.",
 
   "section.products.heading": "Discover Our Products",
+  "section.products.heading_html": "Discover Our <span class=\"gradient-text\">Products</span>",
   "section.products.description": "Complete range of optical and copper network solutions.",
   "product.count.suffix": "products",
 
   "section.latest_products.title": "Latest Products",
+  "section.latest_products.title_html": "Latest <span class=\"gradient-text\">Products</span>",
   "section.latest_products.description": "Just added to our catalog.",
 
   "section.why_choose.title": "Why Choose DATAWAY?",
@@ -70,6 +72,7 @@
   "section.distributors.description": "Trusted partners for distributing our products.",
 
   "page.products.heading": "Product Catalog",
+  "page.products.heading_html": "Product <span class=\"gradient-text\">Catalog</span>",
   "page.products.subheading": "Complete range of optical and copper network solutions.",
   "search.placeholder": "Search product...",
   "sidebar.categories_heading": "Categories",

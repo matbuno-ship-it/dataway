@@ -183,11 +183,11 @@
     <!-- Page header -->
     <div class="max-w-7xl mx-auto px-5 md:px-6 mb-8">
       <div class="flex items-center gap-2 text-sm text-brand-gray-400 mb-4">
-        <a href="index.html" class="hover:text-brand-blue transition-colors duration-200">Domov</a>
+        <a href="index.html" class="hover:text-brand-blue transition-colors duration-200" data-i18n="breadcrumb.home">Domov</a>
         <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-        <span class="text-brand-dark font-medium">Produkty</span>
+        <span class="text-brand-dark font-medium" data-i18n="breadcrumb.products">Produkty</span>
       </div>
-      <h1 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-2">Katalóg <span class="gradient-text">produktov</span></h1>
+      <h1 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-2" data-i18n-html="page.products.heading_html">Katalóg <span class="gradient-text">produktov</span></h1>
       <p class="text-brand-gray-700 text-lg" data-i18n="section.products.description">Kompletný sortiment pre optické a metalické sieťové riešenia.</p>
     </div>
 
@@ -214,7 +214,7 @@
 
             <!-- Product count -->
             <div class="mt-6 pt-4 border-t border-brand-gray-100">
-              <p class="text-sm text-brand-gray-400"><span id="product-count" class="font-semibold text-brand-dark">0</span> produktov</p>
+              <p class="text-sm text-brand-gray-400"><span id="product-count" class="font-semibold text-brand-dark">0</span> <span data-i18n="product.count.suffix">produktov</span></p>
             </div>
           </div>
         </aside>
@@ -256,11 +256,11 @@
               <!-- Active filter chips rendered by JS -->
             </div>
             <div class="flex items-center gap-2">
-              <label for="sort-select" class="text-sm text-brand-gray-400">Zoradiť:</label>
+              <label for="sort-select" class="text-sm text-brand-gray-400" data-i18n="sort.label">Zoradiť:</label>
               <select id="sort-select" class="text-sm border border-brand-gray-100 rounded-lg px-3 py-2 bg-brand-gray-50 text-brand-dark focus:outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/10">
-                <option value="az">A – Z</option>
-                <option value="za">Z – A</option>
-                <option value="cat">Podľa kategórie</option>
+                <option value="az" data-i18n="sort.option.asc">A – Z</option>
+                <option value="za" data-i18n="sort.option.desc">Z – A</option>
+                <option value="cat" data-i18n="sort.option.by_category">Podľa kategórie</option>
               </select>
             </div>
           </div>
@@ -297,10 +297,10 @@
         <div>
           <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4"><span data-i18n="sidebar.categories_heading"><span data-i18n="footer.categories_heading">Kategórie</span></span></h4>
           <ul class="space-y-2.5">
-            <li><a href="produkty.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200">Optické siete</a></li>
-            <li><a href="produkty.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200">Metalické siete</a></li>
-            <li><a href="produkty.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200">Rozvádzače</a></li>
-            <li><a href="produkty.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200">Montážne príslušenstvo</a></li>
+            <li><a href="produkty.html?category=Optické+siete" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200" data-i18n="nav.category.optical">Optické siete</a></li>
+            <li><a href="produkty.html?category=Metalické+siete" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200" data-i18n="nav.category.copper">Metalické siete</a></li>
+            <li><a href="produkty.html?category=Rozvádzače" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200" data-i18n="nav.category.cabinets">Rozvádzače</a></li>
+            <li><a href="produkty.html?category=Montážne+príslušenstvo" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200" data-i18n="nav.category.accessories">Montážne príslušenstvo</a></li>
           </ul>
         </div>
       <div class="border-t border-white/10 pt-8 text-center">

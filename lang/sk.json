@@ -42,10 +42,12 @@
   "card.innovative_solutions.description": "Prinášame najnovšie technológie a inovatívne produkty pre modernú sieťovú infraštruktúru.",
 
   "section.products.heading": "Objavte naše produkty",
+  "section.products.heading_html": "Objavte naše <span class=\"gradient-text\">produkty</span>",
   "section.products.description": "Kompletný sortiment pre optické a metalické sieťové riešenia.",
   "product.count.suffix": "produktov",
 
   "section.latest_products.title": "Najnovšie produkty",
+  "section.latest_products.title_html": "Najnovšie <span class=\"gradient-text\">produkty</span>",
   "section.latest_products.description": "Práve pridané do nášho katalógu.",
 
   "section.why_choose.title": "Prečo si vybrať DATAWAY?",
@@ -70,6 +72,7 @@
   "section.distributors.description": "Spoľahliví partneri pre distribúciu našich produktov.",
 
   "page.products.heading": "Katalóg produktov",
+  "page.products.heading_html": "Katalóg <span class=\"gradient-text\">produktov</span>",
   "page.products.subheading": "Kompletný sortiment pre optické a metalické sieťové riešenia.",
   "search.placeholder": "Hľadať produkt...",
   "sidebar.categories_heading": "Kategórie",
