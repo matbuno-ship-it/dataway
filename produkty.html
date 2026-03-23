@@ -324,6 +324,7 @@
     function pName(p) { return (window.i18n?.lang === 'en' && p.name_en) ? p.name_en : p.name; }
     function pCategory(p) { return (window.i18n?.lang === 'en' && p.category_en) ? p.category_en : p.category; }
     function pSubcategory(p) { return (window.i18n?.lang === 'en' && p.subcategory_en) ? p.subcategory_en : p.subcategory; }
+    function pSpecs(p) { return (window.i18n?.lang === 'en' && p.specs_en) ? p.specs_en : p.specs; }
     function t(key, fallback) { return window.i18n?.t?.(key) || fallback || key; }
 
     // ---- BUILD CATEGORY TREE ----
