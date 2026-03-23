@@ -69,6 +69,7 @@
   "form.success_message": "Ďakujeme! Vaša správa bola odoslaná.",
 
   "section.distributors.heading": "Naši distribútori",
+  "section.distributors.title": "Naši <span class=\"gradient-text\">distribútori</span>",
   "section.distributors.description": "Spoľahliví partneri pre distribúciu našich produktov.",
 
   "page.products.heading": "Katalóg produktov",
