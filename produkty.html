@@ -328,16 +328,32 @@
     function t(key, fallback) { return window.i18n?.t?.(key) || fallback || key; }
 
     // ---- BUILD CATEGORY TREE ----
+    // Always build tree with SK keys (internal identifiers)
     function buildCategoryTree() {
       const tree = {};
       PRODUCTS.forEach(p => {
-        const cat = pCategory(p);
-        const sub = pSubcategory(p);
+        const cat = p.category;
+        const sub = p.subcategory;
         if (!tree[cat]) tree[cat] = {};
         if (!tree[cat][sub]) tree[cat][sub] = 0;
         tree[cat][sub]++;
       });
       return tree;
+    }
+    // Display name helpers (translate for display only)
+    function displayCategory(cat) {
+      if (window.i18n?.lang === 'en') {
+        const sample = PRODUCTS.find(p => p.category === cat);
+        return sample?.category_en || cat;
+      }
+      return cat;
+    }
+    function displaySubcategory(sub) {
+      if (window.i18n?.lang === 'en') {
+        const sample = PRODUCTS.find(p => p.subcategory === sub);
+        return sample?.subcategory_en || sub;
+      }
+      return sub;
     }
     let categoryTree = buildCategoryTree();
 
@@ -355,10 +371,11 @@
       Object.entries(categoryTree).forEach(([cat, subs]) => {
         const catCount = Object.values(subs).reduce((a, b) => a + b, 0);
         const isActive = activeCategory === cat;
+        const escapedCat = cat.replace(/"/g, '&quot;');
 
         html += `<div class="mt-1">
-          <button class="cat-btn ${isActive ? 'active' : ''} w-full text-left px-3 py-2 rounded-lg text-sm flex items-center justify-between" data-category="${cat}">
-            <span>${cat}</span>
+          <button class="cat-btn ${isActive ? 'active' : ''} w-full text-left px-3 py-2 rounded-lg text-sm flex items-center justify-between" data-category="${escapedCat}">
+            <span>${displayCategory(cat)}</span>
             <span class="text-xs text-brand-gray-400">${catCount}</span>
           </button>`;
 
@@ -370,7 +387,7 @@
           Object.entries(subs).sort().forEach(([sub, count]) => {
             const escapedSub = sub.replace(/"/g, '&quot;');
             html += `<button class="subcat-btn ${activeSubcategory === sub ? 'active' : ''} w-full text-left px-3 py-1.5 rounded text-sm text-brand-gray-700 flex items-center justify-between" data-subcategory="${escapedSub}">
-              <span>${sub}</span>
+              <span>${displaySubcategory(sub)}</span>
               <span class="text-xs text-brand-gray-400">${count}</span>
             </button>`;
           });
@@ -404,10 +421,10 @@
       let result = PRODUCTS;
 
       if (activeCategory !== 'all') {
-        result = result.filter(p => pCategory(p) === activeCategory);
+        result = result.filter(p => p.category === activeCategory);
       }
       if (activeSubcategory !== 'all') {
-        result = result.filter(p => pSubcategory(p) === activeSubcategory);
+        result = result.filter(p => p.subcategory === activeSubcategory);
       }
       if (searchQuery) {
         const words = searchQuery.toLowerCase().split(/\s+/).filter(Boolean);
@@ -483,13 +500,13 @@
 
       if (activeCategory !== 'all') {
         html += `<span class="inline-flex items-center gap-1 text-xs font-medium text-brand-blue bg-brand-blue/8 px-3 py-1.5 rounded-full">
-          ${activeCategory}
+          ${displayCategory(activeCategory)}
           <button class="hover:text-brand-navy ml-1" onclick="activeCategory='all';activeSubcategory='all';visibleCount=24;update();">&times;</button>
         </span>`;
       }
       if (activeSubcategory !== 'all') {
         html += `<span class="inline-flex items-center gap-1 text-xs font-medium text-brand-gold bg-brand-gold/10 px-3 py-1.5 rounded-full">
-          ${activeSubcategory}
+          ${displaySubcategory(activeSubcategory)}
           <button class="hover:text-brand-dark ml-1" onclick="activeSubcategory='all';visibleCount=24;update();">&times;</button>
         </span>`;
       }
