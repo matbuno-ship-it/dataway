@@ -339,8 +339,11 @@
   </script>
   <script src="i18n.js"></script>
   <script>
-    // Ensure initial render uses correct language after i18n loads
-    if (window.i18n?.lang === 'en') { renderProduct(); }
+    // Re-render after i18n fully loads translations
+    (function waitForI18n() {
+      if (window.i18n?.ready) { renderProduct(); }
+      else { setTimeout(waitForI18n, 50); }
+    })();
   </script>
 </body>
 </html>

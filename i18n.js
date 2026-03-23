@@ -23,9 +23,12 @@
     Object.entries(CATEGORY_MAP).map(([k, v]) => [v, k])
   );
 
+  let ready = false;
+
   // Expose globally
   window.i18n = {
     get lang() { return currentLang; },
+    get ready() { return ready; },
     t,
     setLang,
     translateCategory,
@@ -51,6 +54,8 @@
     // Apply translations
     applyTranslations();
     updateSwitcher();
+
+    ready = true;
 
     // Dispatch event for JS-rendered content
     window.dispatchEvent(new CustomEvent('languageChanged', { detail: { lang: currentLang } }));
