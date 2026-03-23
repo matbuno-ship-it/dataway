@@ -667,19 +667,43 @@
     (function() {
       const form = document.getElementById('contact-form');
       if (!form) return;
-      form.addEventListener('submit', function(e) {
+      form.addEventListener('submit', async function(e) {
         e.preventDefault();
         const status = document.getElementById('form-status');
+        const submitBtn = form.querySelector('button[type="submit"]');
         const name = document.getElementById('cf-name').value.trim();
         const email = document.getElementById('cf-email').value.trim();
         const message = document.getElementById('cf-message').value.trim();
         if (!name || !email || !message) return;
 
-        // Show success (no backend yet - placeholder)
-        status.classList.remove('hidden', 'bg-red-500/20', 'text-red-300');
-        status.classList.add('bg-green-500/20', 'text-green-300');
-        status.textContent = window.i18n?.t('form.success_message') || 'Ďakujeme! Vaša správa bola odoslaná.';
-        form.reset();
+        // Disable button while sending
+        submitBtn.disabled = true;
+        submitBtn.style.opacity = '0.5';
+
+        try {
+          const res = await fetch('/api/contact', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name, email, message })
+          });
+
+          status.classList.remove('hidden', 'bg-red-500/20', 'text-red-300', 'bg-green-500/20', 'text-green-300');
+          if (res.ok) {
+            status.classList.add('bg-green-500/20', 'text-green-300');
+            status.textContent = window.i18n?.t('form.success_message') || 'Ďakujeme! Vaša správa bola odoslaná.';
+            form.reset();
+          } else {
+            status.classList.add('bg-red-500/20', 'text-red-300');
+            status.textContent = window.i18n?.t('form.error_message') || 'Nastala chyba. Skúste to znova.';
+          }
+        } catch (err) {
+          status.classList.remove('hidden');
+          status.classList.add('bg-red-500/20', 'text-red-300');
+          status.textContent = window.i18n?.t('form.error_message') || 'Nastala chyba. Skúste to znova.';
+        } finally {
+          submitBtn.disabled = false;
+          submitBtn.style.opacity = '1';
+        }
       });
     })();
 
