@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DATAWAY – Špičkové riešenia pre vašu sieťovú infraštruktúru</title>
-  <meta name="description" content="DATAWAY dodáva certifikované optické káble, metalickú kabeláž a sieťové prvky najvyššej kvality.">
+  <title data-i18n="page.home.title">DATAWAY – Špičkové riešenia pre vašu sieťovú infraštruktúru</title>
+  <meta name="description" content="DATAWAY dodáva certifikované optické káble, metalickú kabeláž a sieťové prvky najvyššej kvality." data-i18n="page.home.description">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -200,20 +200,23 @@
         </a>
 
         <!-- Desktop Nav -->
-        <nav class="hidden lg:flex items-center gap-8" aria-label="Hlavná navigácia">
-          <a href="produkty.html?category=Optické+siete" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Optické siete</a>
-          <a href="produkty.html?category=Metalické+siete" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Metalické siete</a>
-          <a href="produkty.html?category=Rozvádzače" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Rozvádzače</a>
-          <a href="produkty.html?category=Montážne+príslušenstvo" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Montážne príslušenstvo</a>
-          <a href="produkty.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Produkty</a>
+        <nav class="hidden lg:flex items-center gap-8" aria-label="Hlavná navigácia" data-i18n-aria="nav.main.label">
+          <a href="produkty.html?category=Optické+siete" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.category.optical">Optické siete</span></a>
+          <a href="produkty.html?category=Metalické+siete" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.category.copper">Metalické siete</span></a>
+          <a href="produkty.html?category=Rozvádzače" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.category.cabinets">Rozvádzače</span></a>
+          <a href="produkty.html?category=Montážne+príslušenstvo" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.category.accessories">Montážne príslušenstvo</span></a>
+          <a href="produkty.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.products">Produkty</span></a>
         </nav>
 
         <!-- CTA + Mobile toggle -->
         <div class="flex items-center gap-4">
-          <a href="#kontakt" class="hidden md:inline-flex btn-primary text-white text-sm font-medium px-5 py-2.5 rounded-lg">
-            Kontaktujte nás
-          </a>
-          <button id="menu-toggle" class="lg:hidden p-2 text-brand-gray-700 hover:text-brand-dark focus-visible:outline-2 focus-visible:outline-brand-blue focus-visible:outline-offset-2" aria-label="Otvoriť menu">
+          <!-- Language Switcher -->
+          <div class="flex items-center border border-brand-gray-100 rounded-lg overflow-hidden text-xs">
+            <button class="lang-switch-btn px-2 py-1.5 transition-colors" data-lang="sk" onclick="i18n.setLang('sk')">SK</button>
+            <button class="lang-switch-btn px-2 py-1.5 transition-colors" data-lang="en" onclick="i18n.setLang('en')">EN</button>
+          </div>
+          <a href="#kontakt" class="hidden md:inline-flex btn-primary text-white text-sm font-medium px-5 py-2.5 rounded-lg"><span data-i18n="button.contact_us"><span data-i18n="section.contact.heading">Kontaktujte nás</span></span></a>
+          <button id="menu-toggle" class="lg:hidden p-2 text-brand-gray-700 hover:text-brand-dark focus-visible:outline-2 focus-visible:outline-brand-blue focus-visible:outline-offset-2" aria-label="Otvoriť menu" data-i18n-aria="button.open_menu">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
           </button>
         </div>
@@ -223,12 +226,12 @@
     <!-- Mobile Menu -->
     <div id="mobile-menu" class="mobile-menu lg:hidden absolute top-full left-0 right-0 bg-white shadow-floating">
       <div class="px-5 py-6 space-y-4">
-        <a href="produkty.html?category=Optické+siete" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2">Optické siete</a>
-        <a href="produkty.html?category=Metalické+siete" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2">Metalické siete</a>
-        <a href="produkty.html?category=Rozvádzače" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2">Rozvádzače</a>
-        <a href="produkty.html?category=Montážne+príslušenstvo" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2">Montážne príslušenstvo</a>
-        <a href="produkty.html" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2">Produkty</a>
-        <a href="#kontakt" class="btn-primary inline-block text-white text-sm font-medium px-5 py-2.5 rounded-lg mt-2">Kontaktujte nás</a>
+        <a href="produkty.html?category=Optické+siete" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2"><span data-i18n="nav.category.optical">Optické siete</span></a>
+        <a href="produkty.html?category=Metalické+siete" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2"><span data-i18n="nav.category.copper">Metalické siete</span></a>
+        <a href="produkty.html?category=Rozvádzače" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2"><span data-i18n="nav.category.cabinets">Rozvádzače</span></a>
+        <a href="produkty.html?category=Montážne+príslušenstvo" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2"><span data-i18n="nav.category.accessories">Montážne príslušenstvo</span></a>
+        <a href="produkty.html" class="block text-base font-medium text-brand-gray-700 hover:text-brand-dark py-2"><span data-i18n="nav.products">Produkty</span></a>
+        <a href="#kontakt" class="btn-primary inline-block text-white text-sm font-medium px-5 py-2.5 rounded-lg mt-2"><span data-i18n="button.contact_us"><span data-i18n="section.contact.heading">Kontaktujte nás</span></span></a>
       </div>
     </div>
   </header>
@@ -266,20 +269,14 @@
       </div>
 
       <div class="relative z-10 max-w-3xl mx-auto px-5 md:px-6 text-center">
-        <span class="inline-block text-xs font-semibold tracking-[0.15em] uppercase text-brand-blue mb-6">Sieťová infraštruktúra</span>
+        <span class="inline-block text-xs font-semibold tracking-[0.15em] uppercase text-brand-blue mb-6"><span data-i18n="hero.tagline">Sieťová infraštruktúra</span></span>
         <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-[-0.03em] leading-[1.1] mb-6">
-          Špičkové riešenia pre vašu <span class="gradient-text">sieťovú infraštruktúru</span>
+          <span data-i18n="hero.title">Špičkové riešenia pre vašu</span> <span class="gradient-text"><span data-i18n="hero.title2">sieťovú infraštruktúru</span></span>
         </h1>
-        <p class="text-lg md:text-xl text-brand-gray-700 max-w-2xl mx-auto mb-10 leading-relaxed">
-          DATAWAY dodáva certifikované optické káble, metalickú kabeláž a sieťové prvky najvyššej kvality.
-        </p>
+        <p class="text-lg md:text-xl text-brand-gray-700 max-w-2xl mx-auto mb-10 leading-relaxed" data-i18n="hero.description">DATAWAY dodáva certifikované optické káble, metalickú kabeláž a sieťové prvky najvyššej kvality.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="produkty.html" class="btn-primary text-white font-medium px-8 py-3.5 rounded-lg text-base">
-            Naše produkty
-          </a>
-          <a href="#kontakt" class="btn-secondary font-medium px-8 py-3.5 rounded-lg text-base">
-            Kontaktujte nás
-          </a>
+          <a href="produkty.html" class="btn-primary text-white font-medium px-8 py-3.5 rounded-lg text-base"><span data-i18n="button.our_products">Naše produkty</span></a>
+          <a href="#kontakt" class="btn-secondary font-medium px-8 py-3.5 rounded-lg text-base"><span data-i18n="section.contact.heading">Kontaktujte nás</span></a>
         </div>
       </div>
       <!-- Gradient fade at bottom -->
@@ -290,7 +287,7 @@
     <section class="py-16 md:py-24 bg-brand-gray-50">
       <div class="max-w-7xl mx-auto px-5 md:px-6">
         <div class="text-center mb-12 md:mb-16">
-          <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em]">Prečo <span class="gradient-text">DATAWAY</span>?</h2>
+          <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em]" data-i18n-html="section.why_dataway.title_html">Prečo <span class="gradient-text">DATAWAY</span>?</h2>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           <!-- Card 1 -->
@@ -298,24 +295,24 @@
             <div class="w-12 h-12 rounded-lg bg-brand-blue/10 flex items-center justify-center mb-5">
               <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3 tracking-[-0.01em]">Vysoká kvalita</h3>
-            <p class="text-brand-gray-700 text-base">Naše produkty spĺňajú najprísnejšie medzinárodné normy a certifikácie pre sieťovú infraštruktúru.</p>
+            <h3 class="text-xl font-semibold mb-3 tracking-[-0.01em]"><span data-i18n="card.high_quality.title">Vysoká kvalita</span></h3>
+            <p class="text-brand-gray-700 text-base" data-i18n="card.high_quality.description">Naše produkty spĺňajú najprísnejšie medzinárodné normy a certifikácie pre sieťovú infraštruktúru.</p>
           </div>
           <!-- Card 2 -->
           <div class="card-lift bg-white rounded-xl shadow-card p-8">
             <div class="w-12 h-12 rounded-lg bg-brand-blue/10 flex items-center justify-center mb-5">
               <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3 tracking-[-0.01em]">Odborný prístup</h3>
-            <p class="text-brand-gray-700 text-base">Tím skúsených odborníkov vám pomôže nájsť optimálne riešenie pre vaše potreby.</p>
+            <h3 class="text-xl font-semibold mb-3 tracking-[-0.01em]"><span data-i18n="card.expert_approach.title">Odborný prístup</span></h3>
+            <p class="text-brand-gray-700 text-base" data-i18n="card.expert_approach.description">Tím skúsených odborníkov vám pomôže nájsť optimálne riešenie pre vaše potreby.</p>
           </div>
           <!-- Card 3 -->
           <div class="card-lift bg-white rounded-xl shadow-card p-8">
             <div class="w-12 h-12 rounded-lg bg-brand-blue/10 flex items-center justify-center mb-5">
               <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
             </div>
-            <h3 class="text-xl font-semibold mb-3 tracking-[-0.01em]">Inovačné riešenia</h3>
-            <p class="text-brand-gray-700 text-base">Prinášame najnovšie technológie a inovatívne produkty pre modernú sieťovú infraštruktúru.</p>
+            <h3 class="text-xl font-semibold mb-3 tracking-[-0.01em]"><span data-i18n="card.innovative_solutions.title">Inovačné riešenia</span></h3>
+            <p class="text-brand-gray-700 text-base" data-i18n="card.innovative_solutions.description">Prinášame najnovšie technológie a inovatívne produkty pre modernú sieťovú infraštruktúru.</p>
           </div>
         </div>
       </div>
@@ -326,7 +323,7 @@
       <div class="max-w-7xl mx-auto px-5 md:px-6">
         <div class="text-center mb-10 md:mb-14">
           <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-4">Objavte naše <span class="gradient-text">produkty</span></h2>
-          <p class="text-brand-gray-700 text-lg max-w-2xl mx-auto">Kompletný sortiment pre optické a metalické sieťové riešenia.</p>
+          <p class="text-brand-gray-700 text-lg max-w-2xl mx-auto" data-i18n="section.products.description">Kompletný sortiment pre optické a metalické sieťové riešenia.</p>
         </div>
 
         <!-- Category cards linking to products page -->
@@ -375,7 +372,7 @@
       <div class="max-w-7xl mx-auto px-5 md:px-6">
         <div class="text-center mb-10 md:mb-14">
           <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-4">Najnovšie <span class="gradient-text">produkty</span></h2>
-          <p class="text-brand-gray-700 text-lg max-w-2xl mx-auto">Práve pridané do nášho katalógu.</p>
+          <p class="text-brand-gray-700 text-lg max-w-2xl mx-auto" data-i18n="section.latest_products.description">Práve pridané do nášho katalógu.</p>
         </div>
         <div id="novinky-grid" class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
           <!-- Rendered by JS -->
@@ -388,10 +385,8 @@
       <div class="max-w-7xl mx-auto px-5 md:px-6">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div>
-            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-6">Prečo si vybrať <span class="gradient-text">DATAWAY</span>?</h2>
-            <p class="text-brand-gray-700 text-lg leading-relaxed mb-8">
-              S dlhoročnými skúsenosťami v oblasti sieťovej infraštruktúry vám prinášame spoľahlivé a overené riešenia pre rýchly a bezpečný prenos dát.
-            </p>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-6" data-i18n-html="section.why_choose.title_html">Prečo si vybrať <span class="gradient-text">DATAWAY</span>?</h2>
+            <p class="text-brand-gray-700 text-lg leading-relaxed mb-8" data-i18n="section.why_choose.description">S dlhoročnými skúsenosťami v oblasti sieťovej infraštruktúry vám prinášame spoľahlivé a overené riešenia pre rýchly a bezpečný prenos dát.</p>
             <!-- YouTube video -->
             <div class="rounded-xl overflow-hidden shadow-card aspect-video">
               <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ABvYURI-b2M" title="DATAWAY video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>
@@ -404,8 +399,8 @@
                 <svg class="w-3.5 h-3.5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
               </div>
               <div>
-                <h4 class="font-semibold text-brand-dark mb-1">Optické káble</h4>
-                <p class="text-brand-gray-700 text-sm">Rýchly a spoľahlivý prenos dát na veľké vzdialenosti s minimálnou stratou signálu.</p>
+                <h4 class="font-semibold text-brand-dark mb-1"><span data-i18n="benefit.optical_cables.title">Optické káble</span></h4>
+                <p class="text-brand-gray-700 text-sm" data-i18n="benefit.optical_cables.description">Rýchly a spoľahlivý prenos dát na veľké vzdialenosti s minimálnou stratou signálu.</p>
               </div>
             </div>
             <!-- Benefit 2 -->
@@ -414,8 +409,8 @@
                 <svg class="w-3.5 h-3.5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
               </div>
               <div>
-                <h4 class="font-semibold text-brand-dark mb-1">Metalické káble</h4>
-                <p class="text-brand-gray-700 text-sm">Vysoká odolnosť a vodivosť pre spoľahlivú sieťovú infraštruktúru.</p>
+                <h4 class="font-semibold text-brand-dark mb-1"><span data-i18n="benefit.metallic_cables.title">Metalické káble</span></h4>
+                <p class="text-brand-gray-700 text-sm" data-i18n="benefit.metallic_cables.description">Vysoká odolnosť a vodivosť pre spoľahlivú sieťovú infraštruktúru.</p>
               </div>
             </div>
             <!-- Benefit 3 -->
@@ -424,8 +419,8 @@
                 <svg class="w-3.5 h-3.5 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"/></svg>
               </div>
               <div>
-                <h4 class="font-semibold text-brand-dark mb-1">Efektívne distribučné riešenia</h4>
-                <p class="text-brand-gray-700 text-sm">Kompletné riešenia pre rozvádzače a montážne príslušenstvo.</p>
+                <h4 class="font-semibold text-brand-dark mb-1"><span data-i18n="benefit.distribution_solutions.title">Efektívne distribučné riešenia</span></h4>
+                <p class="text-brand-gray-700 text-sm" data-i18n="benefit.distribution_solutions.description">Kompletné riešenia pre rozvádzače a montážne príslušenstvo.</p>
               </div>
             </div>
           </div>
@@ -467,27 +462,25 @@
           <!-- Left: heading + description -->
           <div class="lg:sticky lg:top-28">
             <img src="Brand/Loga-na-sirku-450-x-120-px-12.webp" alt="DATAWAY" class="h-14 md:h-16 w-auto mb-8">
-            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] text-white mb-6">Kontaktujte nás</h2>
-            <p class="text-white/70 text-lg leading-relaxed">
-              Máte otázky alebo potrebujete pomoc s vaším nákupom? Neváhajte nás kontaktovať – radi vám pomôžeme.
-            </p>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] text-white mb-6"><span data-i18n="section.contact.heading">Kontaktujte nás</span></h2>
+            <p class="text-white/70 text-lg leading-relaxed" data-i18n="section.contact.description">Máte otázky alebo potrebujete pomoc s vaším nákupom? Neváhajte nás kontaktovať – radi vám pomôžeme.</p>
           </div>
           <!-- Right: contact form -->
           <div>
             <form id="contact-form" class="space-y-5">
               <div>
-                <label for="cf-name" class="block text-sm font-medium text-white/80 mb-1.5">Meno a priezvisko</label>
-                <input type="text" id="cf-name" name="name" required placeholder="Meno a priezvisko"
+                <label for="cf-name" class="block text-sm font-medium text-white/80 mb-1.5" data-i18n="form.field.name">Meno a priezvisko</label>
+                <input type="text" id="cf-name" name="name" required placeholder="Meno a priezvisko" data-i18n-placeholder="form.field.name"
                   class="w-full px-4 py-3 rounded-lg bg-white/[0.07] border border-white/[0.12] text-white placeholder:text-white/40 text-sm focus:outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 transition-[border-color,box-shadow] duration-200">
               </div>
               <div>
-                <label for="cf-email" class="block text-sm font-medium text-white/80 mb-1.5">Email</label>
-                <input type="email" id="cf-email" name="email" required placeholder="Email"
+                <label for="cf-email" class="block text-sm font-medium text-white/80 mb-1.5" data-i18n="form.field.email">Email</label>
+                <input type="email" id="cf-email" name="email" required placeholder="Email" data-i18n-placeholder="form.field.email"
                   class="w-full px-4 py-3 rounded-lg bg-white/[0.07] border border-white/[0.12] text-white placeholder:text-white/40 text-sm focus:outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 transition-[border-color,box-shadow] duration-200">
               </div>
               <div>
-                <label for="cf-message" class="block text-sm font-medium text-white/80 mb-1.5">Správa</label>
-                <textarea id="cf-message" name="message" rows="5" required placeholder="Správa"
+                <label for="cf-message" class="block text-sm font-medium text-white/80 mb-1.5" data-i18n="form.field.message">Správa</label>
+                <textarea id="cf-message" name="message" rows="5" required placeholder="Správa" data-i18n-placeholder="form.field.message"
                   class="w-full px-4 py-3 rounded-lg bg-white/[0.07] border border-white/[0.12] text-white placeholder:text-white/40 text-sm focus:outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 transition-[border-color,box-shadow] duration-200 resize-none"></textarea>
               </div>
               <button type="submit"
@@ -507,7 +500,7 @@
       <div class="max-w-7xl mx-auto px-5 md:px-6">
         <div class="text-center mb-12">
           <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-4">Naši <span class="gradient-text">distribútori</span></h2>
-          <p class="text-brand-gray-700 text-lg">Spoľahliví partneri pre distribúciu našich produktov.</p>
+          <p class="text-brand-gray-700 text-lg" data-i18n="section.distributors.description">Spoľahliví partneri pre distribúciu našich produktov.</p>
         </div>
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
           <a href="distributor.html?slug=tes" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="TES – SLOVAKIA, s.r.o.">
@@ -540,11 +533,11 @@
         <!-- Logo + desc -->
         <div>
           <img src="Brand/Loga-na-sirku-450-x-120-px-12.webp" alt="DATAWAY" class="h-14 md:h-16 w-auto mb-4">
-          <p class="text-white/60 text-sm leading-relaxed">Prinášame vám kvalitné optické a metalické káble a sieťové riešenia pre modernú infraštruktúru.</p>
+          <p class="text-white/60 text-sm leading-relaxed" data-i18n="footer.description">Prinášame vám kvalitné optické a metalické káble a sieťové riešenia pre modernú infraštruktúru.</p>
         </div>
         <!-- Nav -->
         <div>
-          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Kategórie</h4>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4"><span data-i18n="sidebar.categories_heading"><span data-i18n="footer.categories_heading">Kategórie</span></span></h4>
           <ul class="space-y-2.5">
             <li><a href="produkty.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-brand-gold focus-visible:outline-offset-2">Optické siete</a></li>
             <li><a href="produkty.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-brand-gold focus-visible:outline-offset-2">Metalické siete</a></li>
@@ -554,7 +547,7 @@
         </div>
       </div>
       <div class="border-t border-white/10 pt-8 text-center">
-        <p class="text-white/40 text-sm">DATAWAY &copy; 2025. Všetky práva vyhradené.</p>
+        <p class="text-white/40 text-sm" data-i18n="footer.copyright">DATAWAY © 2025. Všetky práva vyhradené.</p>
       </div>
     </div>
   </footer>
@@ -562,30 +555,42 @@
   <!-- ============ JAVASCRIPT ============ -->
   <script>
     // ---- NOVINKY (last 4 products) ----
+    let novinkyProducts = [];
+    function renderNovinky() {
+      const novinkyGrid = document.getElementById('novinky-grid');
+      if (!novinkyGrid || novinkyProducts.length === 0) return;
+      const lang = () => window.i18n?.lang || 'sk';
+      const pN = (p) => (lang() === 'en' && p.name_en) ? p.name_en : p.name;
+      const pC = (p) => (lang() === 'en' && p.category_en) ? p.category_en : p.category;
+
+      novinkyGrid.innerHTML = novinkyProducts.map(p => `
+        <a href="produkt.html?slug=${p.slug}" class="product-card bg-white rounded-xl shadow-card overflow-hidden block">
+          <div class="aspect-square bg-white p-4 flex items-center justify-center overflow-hidden">
+            <img src="${p.image}" alt="${pN(p)}" class="max-w-full max-h-full object-contain" loading="lazy"
+                 onerror="this.src='Brand/Loga-na-sirku-450-x-120-px-11.webp'; this.style.opacity='0.3'; this.style.padding='2rem';">
+          </div>
+          <div class="p-4">
+            <span class="inline-block text-xs font-medium text-brand-blue bg-brand-blue/8 px-2 py-0.5 rounded-full mb-2">${pC(p)}</span>
+            <h3 class="font-heading text-sm font-semibold text-brand-dark leading-snug line-clamp-2">${pN(p)}</h3>
+          </div>
+        </a>
+      `).join('');
+    }
+
     (function() {
       const novinkyGrid = document.getElementById('novinky-grid');
       if (!novinkyGrid) return;
-
-      // Fetch products.json for the last 4
       fetch('products.json')
         .then(r => r.json())
         .then(products => {
-          const last4 = products.slice(-4);
-          novinkyGrid.innerHTML = last4.map(p => `
-            <a href="produkt.html?slug=${p.slug}" class="product-card bg-white rounded-xl shadow-card overflow-hidden block">
-              <div class="aspect-square bg-white p-4 flex items-center justify-center overflow-hidden">
-                <img src="${p.image}" alt="${p.name}" class="max-w-full max-h-full object-contain" loading="lazy"
-                     onerror="this.src='Brand/Loga-na-sirku-450-x-120-px-11.webp'; this.style.opacity='0.3'; this.style.padding='2rem';">
-              </div>
-              <div class="p-4">
-                <span class="inline-block text-xs font-medium text-brand-blue bg-brand-blue/8 px-2 py-0.5 rounded-full mb-2">${p.category}</span>
-                <h3 class="font-heading text-sm font-semibold text-brand-dark leading-snug line-clamp-2">${p.name}</h3>
-              </div>
-            </a>
-          `).join('');
+          novinkyProducts = products.slice(-4);
+          renderNovinky();
         })
-        .catch(() => { novinkyGrid.innerHTML = '<p class="text-brand-gray-400 col-span-4 text-center">Produkty sa nepodarilo načítať.</p>'; });
+        .catch(() => { novinkyGrid.innerHTML = '<p class="text-brand-gray-400 col-span-4 text-center" data-i18n="error.products_load_failed">Produkty sa nepodarilo načítať.</p>'; });
     })();
+
+    // Re-render novinky on language change
+    window.addEventListener('languageChanged', renderNovinky);
 
     // ---- INFINITE GRID ANIMATION ----
     (function() {
@@ -716,5 +721,6 @@
     });
   </script>
 
+  <script src="i18n.js"></script>
 </body>
 </html>

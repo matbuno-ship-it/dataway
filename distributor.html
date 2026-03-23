@@ -86,13 +86,18 @@
           <img src="Brand/Loga-na-sirku-450-x-120-px-11.webp" alt="DATAWAY logo" class="h-12 md:h-14 w-auto">
         </a>
         <nav class="hidden lg:flex items-center gap-8">
-          <a href="index.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Domov</a>
-          <a href="produkty.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Produkty</a>
-          <a href="index.html#kontakt" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark">Kontakt</a>
+          <a href="index.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.home">Domov</span></a>
+          <a href="produkty.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.products">Produkty</span></a>
+          <a href="index.html#kontakt" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.contact">Kontakt</span></a>
         </nav>
         <div class="flex items-center gap-4">
-          <a href="index.html#kontakt" class="hidden md:inline-flex btn-primary text-white text-sm font-medium px-5 py-2.5 rounded-lg">Kontaktujte nás</a>
-          <button id="menu-toggle" class="lg:hidden p-2 text-brand-gray-700 hover:text-brand-dark" aria-label="Menu">
+          <!-- Language Switcher -->
+          <div class="flex items-center border border-brand-gray-100 rounded-lg overflow-hidden text-xs">
+            <button class="lang-switch-btn px-2 py-1.5 transition-colors" data-lang="sk" onclick="i18n.setLang('sk')">SK</button>
+            <button class="lang-switch-btn px-2 py-1.5 transition-colors" data-lang="en" onclick="i18n.setLang('en')">EN</button>
+          </div>
+          <a href="index.html#kontakt" class="hidden md:inline-flex btn-primary text-white text-sm font-medium px-5 py-2.5 rounded-lg"><span data-i18n="button.contact_us"><span data-i18n="section.contact.heading">Kontaktujte nás</span></span></a>
+          <button id="menu-toggle" class="lg:hidden p-2 text-brand-gray-700 hover:text-brand-dark" aria-label="Menu" data-i18n-aria="button.open_menu">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
           </button>
         </div>
@@ -100,9 +105,9 @@
     </div>
     <div id="mobile-menu" class="mobile-menu lg:hidden absolute top-full left-0 right-0 bg-white shadow-nav">
       <div class="px-5 py-6 space-y-4">
-        <a href="index.html" class="block text-base font-medium text-brand-gray-700 py-2">Domov</a>
-        <a href="produkty.html" class="block text-base font-medium text-brand-gray-700 py-2">Produkty</a>
-        <a href="index.html#kontakt" class="block text-base font-medium text-brand-gray-700 py-2">Kontakt</a>
+        <a href="index.html" class="block text-base font-medium text-brand-gray-700 py-2"><span data-i18n="nav.home">Domov</span></a>
+        <a href="produkty.html" class="block text-base font-medium text-brand-gray-700 py-2"><span data-i18n="nav.products">Produkty</span></a>
+        <a href="index.html#kontakt" class="block text-base font-medium text-brand-gray-700 py-2"><span data-i18n="nav.contact">Kontakt</span></a>
       </div>
     </div>
   </header>
@@ -113,7 +118,7 @@
       <div class="flex items-center gap-2 text-sm text-brand-gray-400 mb-10 flex-wrap">
         <a href="index.html" class="hover:text-brand-blue transition-colors duration-200">Domov</a>
         <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-        <a href="index.html#distributori" class="hover:text-brand-blue transition-colors duration-200">Distribútori</a>
+        <a href="index.html#distributori" class="hover:text-brand-blue transition-colors duration-200"><span data-i18n="breadcrumb.distributors">Distribútori</span></a>
         <svg class="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
         <span id="bc-name" class="text-brand-dark font-medium"></span>
       </div>
@@ -124,7 +129,7 @@
           <img id="dist-logo" src="" alt="" class="max-w-full max-h-full object-contain">
         </div>
         <h1 id="dist-name" class="text-3xl md:text-4xl font-bold tracking-[-0.02em] mb-3"></h1>
-        <p class="text-brand-gray-700 text-lg">Autorizovaný distribútor produktov DATAWAY</p>
+        <p class="text-brand-gray-700 text-lg"><span data-i18n="distributor.badge_text">Autorizovaný distribútor produktov DATAWAY</span></p>
       </div>
 
       <!-- Contact cards -->
@@ -158,9 +163,7 @@
       <!-- Back link -->
       <div class="text-center">
         <a href="index.html#distributori" class="btn-secondary font-medium px-6 py-3 rounded-lg inline-flex items-center gap-2 text-sm">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
-          Späť na distribútorov
-        </a>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg><span data-i18n="button.back_to_distributors">Späť na distribútorov</span></a>
       </div>
     </div>
   </main>
@@ -171,10 +174,10 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
         <div>
           <img src="Brand/Loga-na-sirku-450-x-120-px-12.webp" alt="DATAWAY" class="h-14 md:h-16 w-auto mb-4">
-          <p class="text-white/60 text-sm leading-relaxed">Prinášame vám kvalitné optické a metalické káble a sieťové riešenia pre modernú infraštruktúru.</p>
+          <p class="text-white/60 text-sm leading-relaxed" data-i18n="footer.description">Prinášame vám kvalitné optické a metalické káble a sieťové riešenia pre modernú infraštruktúru.</p>
         </div>
         <div>
-          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4">Kategórie</h4>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4"><span data-i18n="sidebar.categories_heading"><span data-i18n="footer.categories_heading">Kategórie</span></span></h4>
           <ul class="space-y-2.5">
             <li><a href="produkty.html?category=Optické+siete" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200">Optické siete</a></li>
             <li><a href="produkty.html?category=Metalické+siete" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200">Metalické siete</a></li>
@@ -182,7 +185,7 @@
             <li><a href="produkty.html?category=Montážne+príslušenstvo" class="text-white/60 text-sm hover:text-brand-gold transition-colors duration-200">Montážne príslušenstvo</a></li>
           </ul>
         </div>
-        <p class="text-white/40 text-sm">DATAWAY &copy; 2025. Všetky práva vyhradené.</p>
+        <p class="text-white/40 text-sm" data-i18n="footer.copyright">DATAWAY © 2025. Všetky práva vyhradené.</p>
       </div>
     </div>
   </footer>
@@ -196,7 +199,7 @@
         phone: '+421 917 498 814',
         phoneRaw: '+421917498814',
         email: '',
-        country: 'Slovensko'
+        country: 'Slovensko', country_en: 'Slovakia'
       },
       'aircom': {
         name: 'AIRCOM Praha s.r.o.',
@@ -204,7 +207,7 @@
         phone: '+420 241 400 333',
         phoneRaw: '+420241400333',
         email: '',
-        country: '\u010cesk\u00e1 republika'
+        country: '\u010cesk\u00e1 republika', country_en: 'Czech Republic'
       },
       'daxa-it': {
         name: 'Daxa IT s. r. o.',
@@ -212,7 +215,7 @@
         phone: '+421 910 706 104',
         phoneRaw: '+421910706104',
         email: '',
-        country: 'Slovensko'
+        country: 'Slovensko', country_en: 'Slovakia'
       },
       'axilogi': {
         name: 'Axilogi s.r.o.',
@@ -220,7 +223,7 @@
         phone: '+420 602 834 919',
         phoneRaw: '+420602834919',
         email: '',
-        country: '\u010cesk\u00e1 republika'
+        country: '\u010cesk\u00e1 republika', country_en: 'Czech Republic'
       },
       'hacom': {
         name: 'Hacom',
@@ -228,7 +231,7 @@
         phone: '+421 948 979 979',
         phoneRaw: '+421948979979',
         email: '',
-        country: 'Slovensko'
+        country: 'Slovensko', country_en: 'Slovakia'
       },
       'ab-com': {
         name: 'AB-COM',
@@ -236,7 +239,7 @@
         phone: '+421 38 536 2611',
         phoneRaw: '+421385362611',
         email: '',
-        country: 'Slovensko'
+        country: 'Slovensko', country_en: 'Slovakia'
       }
     };
 
@@ -246,7 +249,7 @@
     const dist = DISTRIBUTORS[slug];
 
     if (!dist) {
-      document.querySelector('main').innerHTML = '<div class="max-w-7xl mx-auto px-5 md:px-6 pt-20 text-center"><h1 class="text-3xl font-bold mb-4">Distribútor nebol nájdený</h1><p class="text-brand-gray-700 mb-8">Požadovaný distribútor neexistuje.</p><a href="index.html#distributori" class="btn-primary text-white font-medium px-6 py-3 rounded-lg inline-block">Zobraziť distribútorov</a></div>';
+      document.querySelector('main').innerHTML = '<div class="max-w-7xl mx-auto px-5 md:px-6 pt-20 text-center"><h1 class="text-3xl font-bold mb-4"><span data-i18n="error.distributor_not_found_heading">Distribútor nebol nájdený</span></h1><p class="text-brand-gray-700 mb-8" data-i18n="error.distributor_not_found_description">Požadovaný distribútor neexistuje.</p><a href="index.html#distributori" class="btn-primary text-white font-medium px-6 py-3 rounded-lg inline-block">Zobraziť distribútorov</a></div>';
     } else {
       document.getElementById('page-title').textContent = dist.name + ' \u2013 DATAWAY';
       document.getElementById('bc-name').textContent = dist.name;
@@ -260,8 +263,17 @@
       }
       document.getElementById('dist-phone').textContent = dist.phone;
       document.getElementById('dist-phone').href = 'tel:' + dist.phoneRaw;
-      document.getElementById('dist-country').textContent = dist.country;
+      const countryText = (window.i18n?.lang === 'en' && dist.country_en) ? dist.country_en : dist.country;
+      document.getElementById('dist-country').textContent = countryText;
     }
+
+    // Re-render on language change
+    window.addEventListener('languageChanged', () => {
+      if (dist) {
+        const ct = (window.i18n?.lang === 'en' && dist.country_en) ? dist.country_en : dist.country;
+        document.getElementById('dist-country').textContent = ct;
+      }
+    });
 
     // Mobile menu
     const menuToggle = document.getElementById('menu-toggle');
@@ -275,5 +287,6 @@
         : '<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>';
     });
   </script>
+  <script src="i18n.js"></script>
 </body>
 </html>
