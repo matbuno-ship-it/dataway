@@ -260,7 +260,11 @@
 
       // Meta
       document.getElementById('meta-code').textContent = product.code || '–';
-      document.getElementById('meta-part').textContent = product.partNumber || '–';
+      if (product.partNumber) {
+        document.getElementById('meta-part').textContent = product.partNumber;
+      } else {
+        document.getElementById('meta-part').parentElement.style.display = 'none';
+      }
       document.getElementById('meta-warranty').textContent = product.warranty || '–';
 
       // Description - use HTML version if available, plain text as fallback
