@@ -142,8 +142,8 @@
         <!-- Left: Images -->
         <div>
           <!-- Main image -->
-          <div class="bg-brand-gray-50 rounded-2xl p-6 md:p-10 flex items-center justify-center aspect-square mb-4">
-            <img id="main-image" src="" alt="" class="max-w-full max-h-full object-contain">
+          <div class="bg-white rounded-2xl p-6 md:p-10 flex items-center justify-center aspect-square mb-4 border border-brand-gray-100">
+            <img id="main-image" src="" alt="" class="max-w-full max-h-full object-contain bg-white">
           </div>
           <!-- Thumbnails -->
           <div id="thumbnails" class="grid grid-cols-4 sm:grid-cols-5 gap-3"></div>
@@ -290,7 +290,7 @@
       if (allImages.length > 1) {
         const thumbsEl = document.getElementById('thumbnails');
         thumbsEl.innerHTML = allImages.map((img, i) => `
-          <button class="thumb bg-brand-gray-50 rounded-lg p-2 aspect-square flex items-center justify-center ${i === 0 ? 'active' : ''}"
+          <button class="thumb bg-white border border-brand-gray-100 rounded-lg p-2 aspect-square flex items-center justify-center ${i === 0 ? 'active' : ''}"
                   data-idx="${i}" aria-label="Obrázok ${i + 1}">
             <img src="${img}" alt="" class="max-w-full max-h-full object-contain" loading="lazy"
                  onerror="this.parentElement.style.display='none'">

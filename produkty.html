@@ -471,8 +471,8 @@
       grid.innerHTML = toShow.map((p, i) => `
         <a href="produkt.html?slug=${p.slug}" class="product-card product-enter bg-white rounded-xl shadow-card overflow-hidden block"
              style="transition-delay: ${Math.min(i * 30, 300)}ms">
-          <div class="aspect-square bg-brand-gray-50 p-4 flex items-center justify-center overflow-hidden">
-            <img src="${p.image}" alt="${pName(p)}" class="max-w-full max-h-full object-contain" loading="lazy"
+          <div class="aspect-square bg-white p-4 flex items-center justify-center overflow-hidden">
+            <img src="${p.image}" alt="${pName(p)}" class="max-w-full max-h-full object-contain bg-white" loading="lazy"
                  onerror="this.src='Brand/Loga-na-sirku-450-x-120-px-11.webp'; this.style.opacity='0.3'; this.style.padding='2rem';">
           </div>
           <div class="p-4">
