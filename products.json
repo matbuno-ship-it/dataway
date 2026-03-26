@@ -686,7 +686,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Couplers",
-    "name_en": "DATAWAY Coupler panelová, CAT6, STP, RJ45/RJ45",
+    "name_en": "DATAWAY Panel Coupler, CAT6, STP, RJ45/RJ45",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Supported Protocols": "2.5/5GBASE-T",
@@ -725,7 +725,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Couplers",
-    "name_en": "DATAWAY Coupler panelová, CAT6A, STP, RJ45/RJ45",
+    "name_en": "DATAWAY Panel Coupler, CAT6A, STP, RJ45/RJ45",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Supported Protocols": "10GBaseT",
@@ -1745,7 +1745,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY Blank Cover otvoru SC duplex, Black",
+    "name_en": "DATAWAY Blank Cover SC duplex, Black",
     "specs_en": {
       "Color": "Black",
       "Fiber Count": "Duplex"
@@ -1780,7 +1780,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x64 0.9mm, G.657A1, SC/APC",
+    "name_en": "Optical splitter PLC, MINI module, 1x64 0.9mm, G.657A1, SC/APC",
     "specs_en": {
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
       "Connectors": "SC / APC",
@@ -2156,7 +2156,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "DATAWAY FT-A-2015, FTTH box, 2x SC, vnútorný",
+    "name_en": "DATAWAY FT-A-2015, FTTH box, 2x SC, indoor",
     "specs_en": {
       "Color": "White",
       "Weight (kg)": "0,08",
@@ -2308,7 +2308,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x4 0.9mm, G657A1, SC/APC",
+    "name_en": "Optical splitter PLC, MINI module, 1x4 0.9mm, G657A1, SC/APC",
     "specs_en": {
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
       "Connectors": "SC / APC",
@@ -2346,7 +2346,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x16 0.9mm, G657A1, SC/APC",
+    "name_en": "Optical splitter PLC, MINI module, 1x16 0.9mm, G657A1, SC/APC",
     "specs_en": {
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
       "Connectors": "SC / APC",
@@ -2414,7 +2414,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x4 0.9mm, G657A1, bez Connectorov",
+    "name_en": "Optical splitter PLC, MINI module, 1x4 0.9mm, G657A1, without Connectors",
     "specs_en": {
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
       "Connectors": "without connectors",
@@ -2453,7 +2453,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x32 0.9mm, G.657A1, SC/APC",
+    "name_en": "Optical splitter PLC, MINI module, 1x32 0.9mm, G.657A1, SC/APC",
     "specs_en": {
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
       "Connectors": "SC / APC",
@@ -4346,7 +4346,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY Blank Cover otvoru SC simplex, Black",
+    "name_en": "DATAWAY Blank Cover SC simplex, Black",
     "specs_en": {
       "Color": "Black",
       "Fiber Count": "Simplex"
@@ -4534,7 +4534,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Tools & Instruments",
-    "name_en": "DATAWAY AQL, Napínacie kliešte oceľovej pásky, 25mm, 1.5mm",
+    "name_en": "DATAWAY AQL, Tensioning pliers steel strip, 25mm, 1.5mm",
     "specs_en": {
       "Weight (kg)": "1,2 kg",
       "Dimensions (mm)": "245 x 105 x 79.5 mm",
@@ -4860,7 +4860,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "DATAWAY FT-A-4SC, FTTH box, 4x SC-simplex, vnútorný",
+    "name_en": "DATAWAY FT-A-4SC, FTTH box, 4x SC-simplex, indoor",
     "specs_en": {
       "Color": "White",
       "Weight (kg)": "0,14 kg",
@@ -4899,7 +4899,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x16 0.9mm, G657A1, bez Connectorov",
+    "name_en": "Optical splitter PLC, MINI module, 1x16 0.9mm, G657A1, without Connectors",
     "specs_en": {
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
       "Connectors": "without connectors",
@@ -4937,7 +4937,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x2 0.9mm, G657A1, bez Connectorov",
+    "name_en": "Optical splitter PLC, MINI module, 1x2 0.9mm, G657A1, without Connectors",
     "specs_en": {
       "Operating Temperature (°C)": "-40 to 85",
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
@@ -4975,7 +4975,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x8 0.9mm, G657A1, bez Connectorov",
+    "name_en": "Optical splitter PLC, MINI module, 1x8 0.9mm, G657A1, without Connectors",
     "specs_en": {
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
       "Connectors": "without connectors",
@@ -5017,7 +5017,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Patch Panels",
-    "name_en": "DATAWAY Patchpanel 1U, 19\", výsuvný, 24x SC simplex, White (s Splice Traymi)",
+    "name_en": "DATAWAY Patch panel 1U, 19\", sliding, 24x SC simplex, White (with Splice Trays)",
     "specs_en": {
       "Color": "White",
       "Weight (kg)": "1,8",
@@ -5084,7 +5084,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x2 0.9mm, G.657A1, SC/APC",
+    "name_en": "Optical splitter PLC, MINI module, 1x2 0.9mm, G.657A1, SC/APC",
     "specs_en": {
       "Operating Temperature (°C)": "-40 to 85",
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
@@ -5122,7 +5122,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x8 0.9mm, G657A1, SC/APC",
+    "name_en": "Optical splitter PLC, MINI module, 1x8 0.9mm, G657A1, SC/APC",
     "specs_en": {
       "Operating Temperature (°C)": "-40 do +85 °C",
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
@@ -5200,7 +5200,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x64 0.9mm, G657A1, bez Connectorov",
+    "name_en": "Optical splitter PLC, MINI module, 1x64 0.9mm, G657A1, without Connectors",
     "specs_en": {
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
       "Connectors": "without connectors",
@@ -6432,7 +6432,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Couplers",
-    "name_en": "DATAWAY Coupler RJ45, STP CAT6/CAT5E, vonkajšia IP68",
+    "name_en": "DATAWAY Coupler RJ45, STP CAT6/CAT5E, outdoor IP68",
     "specs_en": {
       "Operating Temperature (°C)": "-40 to 80",
       "Protection Rating": "IP68",
@@ -7189,7 +7189,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Tools & Instruments",
-    "name_en": "DATAWAY MBT, Napínacie kliešte oceľovej pásky 20mm, 1.5mm",
+    "name_en": "DATAWAY MBT, Tensioning pliers steel strip 20mm, 1.5mm",
     "specs_en": {
       "Color": "Blue",
       "Weight (kg)": "1,7",
@@ -8047,7 +8047,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "DATAWAY H25-96, Fiber Optic Closure zemná pre 96 zvarov, 4x Splice Tray, IP68",
+    "name_en": "DATAWAY H25-96, Fiber Optic Closure ground for 96 splices, 4x Splice Tray, IP68",
     "specs_en": {
       "Color": "Black",
       "Weight (kg)": "2,45",
@@ -8393,7 +8393,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Patch Panels",
-    "name_en": "DATAWAY Patchpanel 1U, 19\", výsuvný, 12x SC simplex, White (s Splice Tray)",
+    "name_en": "DATAWAY Patch panel 1U, 19\", sliding, 12x SC simplex, White (with Splice Tray)",
     "specs_en": {
       "Color": "White",
       "Weight (kg)": "1,8",
@@ -8433,7 +8433,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "Optický splitter PLC, MINI modul, 1x32 0.9mm, G657A1, bez Connectorov",
+    "name_en": "Optical splitter PLC, MINI module, 1x32 0.9mm, G657A1, without Connectors",
     "specs_en": {
       "Wavelength - Tx/Rx [nm]": "1260-1650 nm",
       "Connectors": "without connectors",
@@ -8776,7 +8776,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
-    "name_en": "DATAWAY IDC Connector RJ45 STP, CAT6A, CAT7 beznástrojový",
+    "name_en": "DATAWAY IDC Connector RJ45 STP, CAT6A, CAT7 tool-free",
     "specs_en": {
       "Operating Temperature (°C)": "-20 to 60",
       "Protection Rating": "50 µ gold",
@@ -9379,7 +9379,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY UW-50-120, Odvíjačka káblových cievok, do 600kg",
+    "name_en": "DATAWAY UW-50-120, Cable reel unwinder, up to 600kg",
     "specs_en": {
       "Color": "Orange",
       "Weight (kg)": "16",
@@ -9411,7 +9411,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY UW-2T-2000, Odvíjačka káblových cievok, do 2000kg",
+    "name_en": "DATAWAY UW-2T-2000, Cable reel unwinder, up to 2000kg",
     "specs_en": {
       "Load Capacity": "2000 kg",
       "Material": "oceľ"
@@ -9579,7 +9579,7 @@
     ],
     "category_en": "Cabinets",
     "subcategory_en": "Accessories",
-    "name_en": "DATAWAY Vyväzovací panel 19\" 1U, 5x plastové oko 40x50mm, Blue",
+    "name_en": "DATAWAY Binding panel 19\" 1U, 5x plastic eye 40x50mm, Blue",
     "specs_en": {
       "Color": "Black / Blue",
       "Height U": "1",
@@ -10078,7 +10078,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "DATAWAY FT-A-2SC, FTTH box, 2x SC, vnútorný",
+    "name_en": "DATAWAY FT-A-2SC, FTTH box, 2x SC, indoor",
     "specs_en": {
       "Color": "White",
       "Max. Installed Adapters": "2",
@@ -10531,7 +10531,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Copper Cabling",
-    "name_en": "DATAWAY (305m) Cable CAT5E, FTP, LSOH, Dca, Orange plášť",
+    "name_en": "DATAWAY (305m) Cable CAT5E, FTP, LSOH, Dca, Orange sheath",
     "specs_en": {
       "Weight (kg)": "13,5",
       "Operating Temperature (°C)": "-20 to 60",
@@ -10578,7 +10578,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Adapters",
-    "name_en": "Huawei FTTH box, SC/APC Adapter, vnútorný",
+    "name_en": "Huawei FTTH box, SC/APC Adapter, indoor",
     "specs_en": {
       "Color": "White",
       "Dimensions (mm)": "86 x 86 x 25",
@@ -11872,7 +11872,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Couplers",
-    "name_en": "DATAWAY Coupler RJ45, STP CAT5E, vonkajšia IP67",
+    "name_en": "DATAWAY Coupler RJ45, STP CAT5E, outdoor IP67",
     "specs_en": {
       "Operating Temperature (°C)": "-40 to 85°C",
       "Protection Rating": "IP67",
@@ -12024,7 +12024,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Keystones",
-    "name_en": "DATAWAY Patch Panel 10\" 12x Keystone, 1U modulárny, UNI",
+    "name_en": "DATAWAY Patch Panel 10\" 12x Keystone, 1U modular, UNI",
     "specs_en": {
       "Color": "Black",
       "Weight (kg)": "0,19",
@@ -12387,7 +12387,7 @@
     ],
     "category_en": "Cabinets",
     "subcategory_en": "19\" Cabinets",
-    "name_en": "DATAWAY Inštalačný panel 3U, DIN, do 19\" Cabineta, M6, Gray",
+    "name_en": "DATAWAY Installation panel 3U, DIN, for 19\" Cabinet, M6, Gray",
     "specs_en": {
       "Color": "Gray (RAL7035)",
       "Weight (kg)": "1,9",
@@ -13066,7 +13066,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Patch Panels",
-    "name_en": "DATAWAY Patchpanel 1U, 19\", výsuvný, 24x SC duplex, White (s Splice Traymi)",
+    "name_en": "DATAWAY Patch panel 1U, 19\", sliding, 24x SC duplex, White (with Splice Trays)",
     "specs_en": {
       "Color": "White",
       "Weight (kg)": "1,8",
@@ -13109,7 +13109,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Patch Panels",
-    "name_en": "DATAWAY Patchpanel 1U, 19\", výsuvný, 12x SC duplex, White (s Splice Traymi)",
+    "name_en": "DATAWAY Patch panel 1U, 19\", sliding, 12x SC duplex, White (with Splice Trays)",
     "specs_en": {
       "Color": "White",
       "Weight (kg)": "1,8",
@@ -13222,7 +13222,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Copper Cabling",
-    "name_en": "DATAWAY (100m) Cable CAT5E, UTP, LSOH, Dca, drevená cievka",
+    "name_en": "DATAWAY (100m) Cable CAT5E, UTP, LSOH, Dca, wooden reel",
     "specs_en": {
       "Color": "Purple (RAL4005)",
       "Weight (kg)": "3,5",
@@ -13468,7 +13468,7 @@
     ],
     "category_en": "Cabinets",
     "subcategory_en": "19\" Cabinets",
-    "name_en": "DATAWAY, Cabinet 18U, 19\", 600x600mm, Glass Door, odnímateľné bočnice, (nožičky v balení) Gray",
+    "name_en": "DATAWAY Cabinet 18U, 19\", 600x600mm, Glass Door, removable side panels, (feet included) Gray",
     "specs_en": {
       "Color": "Gray RAL7035",
       "Weight (kg)": "34",
@@ -14145,7 +14145,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
-    "name_en": "DATAWAY (1ks) sieťový Connector RJ45 FTP, CAT6A/CAT7 drôt, classic",
+    "name_en": "DATAWAY (1pc) network Connector RJ45 FTP, CAT6A/CAT7 wire, classic",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Protection Rating": "50 µ gold",
@@ -14222,7 +14222,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY Tester sieťových káblov RJ45, RJ11 (UTP/STP) LED",
+    "name_en": "DATAWAY Tester network cables RJ45, RJ11 (UTP/STP) LED",
     "specs_en": {
       "Color": "White/Green",
       "Weight (kg)": "0,09",
@@ -14261,7 +14261,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY Wire tracker, Tester+lokátor sieťových káblov RJ45",
+    "name_en": "DATAWAY Wire tracker, Tester+locator network cables RJ45",
     "specs_en": {
       "Weight (kg)": "0,29",
       "Power Supply": "2x 9V batérie",
@@ -14297,7 +14297,7 @@
     ],
     "category_en": "Cabinets",
     "subcategory_en": "PDU & Power",
-    "name_en": "DATAWAY PDU Napájací panel 5x 230V, 1U, 19\", M6, 3m",
+    "name_en": "DATAWAY PDU Power panel 5x 230V, 1U, 19\", M6, 3m",
     "specs_en": {
       "Weight (kg)": "0,91",
       "Protection Rating": "IP20",
@@ -14339,7 +14339,7 @@
     ],
     "category_en": "Cabinets",
     "subcategory_en": "PDU & Power",
-    "name_en": "DATAWAY PDU Napájací panel 8x 230V, 1U, 19\", M6, 3m",
+    "name_en": "DATAWAY PDU Power panel 8x 230V, 1U, 19\", M6, 3m",
     "specs_en": {
       "Weight (kg)": "0,99",
       "Protection Rating": "IP20",
@@ -14467,7 +14467,7 @@
     ],
     "category_en": "Cabinets",
     "subcategory_en": "PDU & Power",
-    "name_en": "DATAWAY PDU Napájací panel 3x 230V, 1U, 10\", M6, 3m",
+    "name_en": "DATAWAY PDU Power panel 3x 230V, 1U, 10\", M6, 3m",
     "specs_en": {
       "Protection Rating": "IP20",
       "Dimensions (mm)": "431 x 44 x 44 mm",
@@ -14507,7 +14507,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Couplers",
-    "name_en": "DATAWAY Patch Panel 19\" 24x panelová Coupler, modulárny, 0.5U",
+    "name_en": "DATAWAY Patch Panel 19\" 24x panel Coupler, modular, 0.5U",
     "specs_en": {
       "Color": "strieborná",
       "Operating Temperature (°C)": "-10 to 60°C",
@@ -14966,7 +14966,7 @@
     ],
     "category_en": "Installation Accessories",
     "subcategory_en": "Cable Trays",
-    "name_en": "DATAWAY Žľab káblový (ks) 100x50mm, 1.4mm, 2m, LSZH, White",
+    "name_en": "DATAWAY Cable tray (pc) 100x50mm, 1.4mm, 2m, LSZH, White",
     "specs_en": {
       "Color": "White",
       "Width (mm)": "100",
@@ -15004,7 +15004,7 @@
     ],
     "category_en": "Installation Accessories",
     "subcategory_en": "Cable Trays",
-    "name_en": "DATAWAY Žľab káblový (ks) 40x20mm, 1.0mm, 2m, LSZH, White",
+    "name_en": "DATAWAY Cable tray (pc) 40x20mm, 1.0mm, 2m, LSZH, White",
     "specs_en": {
       "Color": "White",
       "Width (mm)": "40",
@@ -15499,7 +15499,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Keystones",
-    "name_en": "DATAWAY Patch Panel V2, 19\" 24x Keystone, modulárny, UNI",
+    "name_en": "DATAWAY Patch Panel V2, 19\" 24x Keystone, modular, UNI",
     "specs_en": {
       "Color": "Black",
       "Operating Temperature (°C)": "-20 to 60",
@@ -15888,7 +15888,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Couplers",
-    "name_en": "DATAWAY sieťová Coupler RJ45, UTP CAT5E, priama",
+    "name_en": "DATAWAY network Coupler RJ45, UTP CAT5E, straight",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 60°C",
@@ -15929,7 +15929,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Couplers",
-    "name_en": "DATAWAY sieťová Coupler RJ45, STP, CAT5E, priama",
+    "name_en": "DATAWAY network Coupler RJ45, STP, CAT5E, straight",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60°C",
       "Supported Protocols": "1000BaseT",
@@ -16071,7 +16071,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY Univerzálny orezávač datových káblov",
+    "name_en": "DATAWAY Universal data cable cutter",
     "specs_en": {
       "Color": "Yellow",
       "Weight (kg)": "0,10",
@@ -16338,7 +16338,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Keystones",
-    "name_en": "DATAWAY Patch Panel LITE, 19\" 24x Keystone, modulárny, UNI",
+    "name_en": "DATAWAY Patch Panel LITE, 19\" 24x Keystone, modular, UNI",
     "specs_en": {
       "Color": "Black",
       "Weight (kg)": "0,75",
@@ -17596,7 +17596,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Copper Cabling",
-    "name_en": "DATAWAY (305m) Cable CAT5E, FTP, LSOH, Dca, Purple plášť",
+    "name_en": "DATAWAY (305m) Cable CAT5E, FTP, LSOH, Dca, Purple sheath",
     "specs_en": {
       "Color": "Purple (RAL4005)",
       "Weight (kg)": "13,5",
@@ -17657,7 +17657,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Copper Cabling",
-    "name_en": "DATAWAY (100m) Cable CAT5E, FTP, LSOH, Dca, drevená cievka",
+    "name_en": "DATAWAY (100m) Cable CAT5E, FTP, LSOH, Dca, wooden reel",
     "specs_en": {
       "Color": "Purple (RAL4005)",
       "Weight (kg)": "4,4",
