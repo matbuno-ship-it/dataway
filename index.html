@@ -208,8 +208,13 @@
           <a href="produkty.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.products">Produkty</span></a>
         </nav>
 
-        <!-- CTA + Mobile toggle -->
+        <!-- Search + CTA + Mobile toggle -->
         <div class="flex items-center gap-4">
+          <!-- Header Search -->
+          <form class="hidden md:flex items-center relative" onsubmit="event.preventDefault(); const q=this.querySelector('input').value.trim(); if(q) window.location.href='produkty.html?search='+encodeURIComponent(q);">
+            <svg class="absolute left-3 w-4 h-4 text-brand-gray-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            <input type="text" placeholder="Hľadať produkt..." data-i18n-placeholder="search.placeholder" class="w-44 lg:w-56 pl-9 pr-3 py-2 text-sm border border-brand-gray-100 rounded-lg bg-brand-gray-50 text-brand-dark placeholder:text-brand-gray-400 focus:outline-none focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/10 transition-all">
+          </form>
           <!-- Language Switcher -->
           <div class="flex items-center border border-brand-gray-100 rounded-lg overflow-hidden text-xs">
             <button class="lang-switch-btn px-2 py-1.5 transition-colors" data-lang="sk" onclick="i18n.setLang('sk')">SK</button>
