@@ -106,5 +106,16 @@
 
   "footer.description": "Prinášame vám kvalitné optické a metalické káble a sieťové riešenia pre modernú infraštruktúru.",
   "footer.categories_heading": "Kategórie",
-  "footer.copyright": "DATAWAY © 2025. Všetky práva vyhradené."
+  "footer.legal_heading": "Právne informácie",
+  "footer.privacy_policy": "Ochrana osobných údajov",
+  "footer.cookie_policy": "Zásady cookies",
+  "footer.copyright": "DATAWAY © 2025. Všetky práva vyhradené.",
+
+  "form.consent_text": "Odoslaním formulára súhlasíte so spracovaním osobných údajov podľa",
+  "form.consent_link": "Ochrany osobných údajov",
+
+  "page.privacy.title": "Ochrana osobných údajov – DATAWAY",
+  "page.privacy.heading": "Ochrana osobných údajov",
+  "page.cookies.title": "Zásady cookies – DATAWAY",
+  "page.cookies.heading": "Zásady cookies"
 }

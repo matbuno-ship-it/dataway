@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="page.privacy.title">Ochrana osobných údajov – DATAWAY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { 'brand-blue': '#3a59f1', 'brand-navy': '#081c7e', 'brand-gold': '#d4a843', 'brand-dark': '#0f1b3d', 'brand-gray': { 50: '#f8f9fc', 100: '#eef1f6', 400: '#8e95a9', 700: '#3d4663' } }, fontFamily: { heading: ['Inter', 'system-ui', 'sans-serif'], body: ['IBM Plex Sans', 'system-ui', 'sans-serif'] } } }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'IBM Plex Sans', system-ui, sans-serif; line-height: 1.7; color: #3d4663; }
+    .nav-link { position: relative; }
+    .nav-link::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: #3a59f1; transition: width 0.25s ease; }
+    .nav-link:hover::after { width: 100%; }
+    .btn-primary { background: linear-gradient(135deg, #3a59f1 0%, #081c7e 100%); transition: all 0.25s ease; }
+    .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(58,89,241,0.3); }
+    .lang-switch-btn[data-active="true"] { background: #3a59f1; color: white; }
+    .legal-content h2 { font-family: 'Inter', system-ui, sans-serif; font-size: 1.25rem; font-weight: 700; color: #0f1b3d; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .legal-content h3 { font-family: 'Inter', system-ui, sans-serif; font-size: 1.1rem; font-weight: 600; color: #0f1b3d; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .legal-content p { margin-bottom: 0.75rem; }
+    .legal-content ul { list-style: disc; padding-left: 1.5rem; margin-bottom: 0.75rem; }
+    .legal-content li { margin-bottom: 0.25rem; }
+  </style>
+</head>
+<body class="bg-white">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-nav">
+    <div class="max-w-7xl mx-auto px-5 md:px-6">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="index.html" class="flex-shrink-0">
+          <img src="Brand/Loga-na-sirku-450-x-120-px-11.webp" alt="DATAWAY logo" class="h-12 md:h-14 w-auto">
+        </a>
+        <nav class="hidden lg:flex items-center gap-8">
+          <a href="index.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.home">Domov</span></a>
+          <a href="produkty.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.products">Produkty</span></a>
+          <a href="index.html#kontakt" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.contact">Kontakt</span></a>
+        </nav>
+        <div class="flex items-center gap-4">
+          <div class="flex items-center border border-brand-gray-100 rounded-lg overflow-hidden text-xs">
+            <button class="lang-switch-btn px-2 py-1.5 transition-colors" data-lang="sk" onclick="i18n.setLang('sk')">SK</button>
+            <button class="lang-switch-btn px-2 py-1.5 transition-colors" data-lang="en" onclick="i18n.setLang('en')">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-24 md:pt-28 pb-16 md:pb-24">
+    <div class="max-w-3xl mx-auto px-5 md:px-6">
+      <div class="flex items-center gap-2 text-sm text-brand-gray-400 mb-8">
+        <a href="index.html" class="hover:text-brand-blue" data-i18n="breadcrumb.home">Domov</a>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        <span class="text-brand-dark font-medium" data-i18n="page.privacy.heading">Ochrana osobných údajov</span>
+      </div>
+
+      <h1 class="font-heading text-3xl md:text-4xl font-bold text-brand-dark mb-8" data-i18n="page.privacy.heading">Ochrana osobných údajov</h1>
+
+      <!-- SK content -->
+      <div id="privacy-sk" class="legal-content">
+        <p><strong>Posledná aktualizácia:</strong> marec 2026</p>
+        <p>DATAWAY (ďalej len „prevádzkovateľ") kladie veľký dôraz na ochranu osobných údajov návštevníkov tejto webovej stránky. Tieto zásady vysvetľujú, aké osobné údaje zhromažďujeme, prečo ich spracúvame a aké máte práva v súlade s Nariadením Európskeho parlamentu a Rady (EÚ) 2016/679 (GDPR).</p>
+
+        <h2>1. Prevádzkovateľ</h2>
+        <p>Prevádzkovateľom osobných údajov je DATAWAY.<br>
+        Kontakt: <a href="mailto:info@dataway.eu" class="text-brand-blue hover:underline">info@dataway.eu</a></p>
+
+        <h2>2. Aké údaje spracúvame</h2>
+        <h3>a) Kontaktný formulár</h3>
+        <p>Pri odoslaní kontaktného formulára spracúvame:</p>
+        <ul>
+          <li>Meno a priezvisko</li>
+          <li>E-mailová adresa</li>
+          <li>Obsah správy</li>
+        </ul>
+        <p><strong>Právny základ:</strong> Čl. 6 ods. 1 písm. b) GDPR — spracúvanie je nevyhnutné na účely plnenia zmluvy alebo na vykonanie opatrení prijatých pred uzatvorením zmluvy na žiadosť dotknutej osoby.</p>
+        <p><strong>Doba uchovávania:</strong> Údaje z kontaktného formulára uchovávame po dobu nevyhnutnú na vybavenie vašej požiadavky, maximálne 2 roky.</p>
+
+        <h3>b) Cookies a analytické údaje</h3>
+        <p>Na webovej stránke používame technicky nevyhnutné cookies na zabezpečenie fungovania stránky. Analytické cookies používame len s vaším súhlasom. Podrobnosti nájdete v <a href="cookies.html" class="text-brand-blue hover:underline">Zásadách cookies</a>.</p>
+        <p><strong>Právny základ:</strong> Čl. 6 ods. 1 písm. a) GDPR — súhlas dotknutej osoby (pre analytické cookies); Čl. 6 ods. 1 písm. f) GDPR — oprávnený záujem (pre nevyhnutné cookies).</p>
+
+        <h3>c) Serverové logy</h3>
+        <p>Pri návšteve stránky sa automaticky zaznamenáva IP adresa, typ prehliadača, dátum a čas prístupu. Tieto údaje sú spracúvané na základe oprávneného záujmu prevádzkovateľa (Čl. 6 ods. 1 písm. f) GDPR) za účelom zabezpečenia bezpečnosti a stability webovej stránky.</p>
+
+        <h2>3. Príjemcovia údajov</h2>
+        <p>Vaše osobné údaje môžu byť zdieľané s:</p>
+        <ul>
+          <li>Poskytovateľom hostingových služieb (Vercel Inc.) — na účely prevádzky webovej stránky</li>
+          <li>Poskytovateľom analytických služieb (len so súhlasom) — na účely analýzy návštevnosti</li>
+        </ul>
+        <p>Údaje nie sú predávané tretím stranám na marketingové účely.</p>
+
+        <h2>4. Prenos údajov mimo EÚ/EHP</h2>
+        <p>Niektorí naši poskytovatelia služieb môžu spracúvať údaje mimo Európskeho hospodárskeho priestoru. V takých prípadoch zabezpečujeme primeranú úroveň ochrany prostredníctvom štandardných zmluvných doložiek schválených Európskou komisiou.</p>
+
+        <h2>5. Vaše práva</h2>
+        <p>Podľa GDPR máte nasledujúce práva:</p>
+        <ul>
+          <li><strong>Právo na prístup</strong> (Čl. 15) — máte právo získať potvrdenie o tom, či sa spracúvajú vaše osobné údaje</li>
+          <li><strong>Právo na opravu</strong> (Čl. 16) — máte právo na opravu nesprávnych osobných údajov</li>
+          <li><strong>Právo na vymazanie</strong> (Čl. 17) — máte právo požiadať o vymazanie vašich údajov</li>
+          <li><strong>Právo na obmedzenie spracúvania</strong> (Čl. 18) — máte právo požiadať o obmedzenie spracúvania</li>
+          <li><strong>Právo na prenosnosť údajov</strong> (Čl. 20) — máte právo získať svoje údaje v štruktúrovanom formáte</li>
+          <li><strong>Právo namietať</strong> (Čl. 21) — máte právo namietať proti spracúvaniu údajov</li>
+          <li><strong>Právo odvolať súhlas</strong> — kedykoľvek môžete odvolať svoj súhlas so spracúvaním údajov</li>
+        </ul>
+        <p>Ak chcete uplatniť niektoré z týchto práv, kontaktujte nás na <a href="mailto:info@dataway.eu" class="text-brand-blue hover:underline">info@dataway.eu</a>.</p>
+
+        <h2>6. Právo podať sťažnosť</h2>
+        <p>Máte právo podať sťažnosť dozornému orgánu na ochranu osobných údajov, ak sa domnievate, že spracúvanie vašich osobných údajov porušuje GDPR.</p>
+
+        <h2>7. Zmeny zásad</h2>
+        <p>Tieto zásady môžeme príležitostne aktualizovať. Aktuálna verzia je vždy dostupná na tejto stránke.</p>
+      </div>
+
+      <!-- EN content -->
+      <div id="privacy-en" class="legal-content" style="display:none;">
+        <p><strong>Last updated:</strong> March 2026</p>
+        <p>DATAWAY (hereinafter referred to as the "controller") places great emphasis on protecting the personal data of visitors to this website. This policy explains what personal data we collect, why we process it, and what rights you have in accordance with Regulation (EU) 2016/679 (GDPR).</p>
+
+        <h2>1. Controller</h2>
+        <p>The controller of personal data is DATAWAY.<br>
+        Contact: <a href="mailto:info@dataway.eu" class="text-brand-blue hover:underline">info@dataway.eu</a></p>
+
+        <h2>2. What data we process</h2>
+        <h3>a) Contact form</h3>
+        <p>When you submit a contact form, we process:</p>
+        <ul>
+          <li>Full name</li>
+          <li>Email address</li>
+          <li>Message content</li>
+        </ul>
+        <p><strong>Legal basis:</strong> Art. 6(1)(b) GDPR — processing is necessary for the performance of a contract or for taking pre-contractual steps at the request of the data subject.</p>
+        <p><strong>Retention period:</strong> We retain contact form data for the time necessary to handle your request, up to a maximum of 2 years.</p>
+
+        <h3>b) Cookies and analytics</h3>
+        <p>We use technically necessary cookies to ensure the website functions properly. We only use analytical cookies with your consent. For details, see our <a href="cookies.html" class="text-brand-blue hover:underline">Cookie Policy</a>.</p>
+        <p><strong>Legal basis:</strong> Art. 6(1)(a) GDPR — consent (for analytical cookies); Art. 6(1)(f) GDPR — legitimate interest (for essential cookies).</p>
+
+        <h3>c) Server logs</h3>
+        <p>When you visit the website, your IP address, browser type, date and time of access are automatically recorded. This data is processed on the basis of the controller's legitimate interest (Art. 6(1)(f) GDPR) for the purpose of ensuring the security and stability of the website.</p>
+
+        <h2>3. Data recipients</h2>
+        <p>Your personal data may be shared with:</p>
+        <ul>
+          <li>Hosting provider (Vercel Inc.) — for the purpose of operating the website</li>
+          <li>Analytics provider (only with consent) — for the purpose of traffic analysis</li>
+        </ul>
+        <p>Data is not sold to third parties for marketing purposes.</p>
+
+        <h2>4. Transfer of data outside the EU/EEA</h2>
+        <p>Some of our service providers may process data outside the European Economic Area. In such cases, we ensure an adequate level of protection through Standard Contractual Clauses approved by the European Commission.</p>
+
+        <h2>5. Your rights</h2>
+        <p>Under the GDPR, you have the following rights:</p>
+        <ul>
+          <li><strong>Right of access</strong> (Art. 15) — you have the right to obtain confirmation as to whether your personal data is being processed</li>
+          <li><strong>Right to rectification</strong> (Art. 16) — you have the right to rectify inaccurate personal data</li>
+          <li><strong>Right to erasure</strong> (Art. 17) — you have the right to request the deletion of your data</li>
+          <li><strong>Right to restriction of processing</strong> (Art. 18) — you have the right to request restriction of processing</li>
+          <li><strong>Right to data portability</strong> (Art. 20) — you have the right to receive your data in a structured format</li>
+          <li><strong>Right to object</strong> (Art. 21) — you have the right to object to the processing of your data</li>
+          <li><strong>Right to withdraw consent</strong> — you may withdraw your consent to data processing at any time</li>
+        </ul>
+        <p>To exercise any of these rights, contact us at <a href="mailto:info@dataway.eu" class="text-brand-blue hover:underline">info@dataway.eu</a>.</p>
+
+        <h2>6. Right to lodge a complaint</h2>
+        <p>You have the right to lodge a complaint with a supervisory authority for the protection of personal data if you believe that the processing of your personal data violates the GDPR.</p>
+
+        <h2>7. Changes to this policy</h2>
+        <p>We may update this policy from time to time. The current version is always available on this page.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-brand-dark py-12 md:py-16">
+    <div class="max-w-7xl mx-auto px-5 md:px-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+        <div>
+          <img src="Brand/Loga-na-sirku-450-x-120-px-12.webp" alt="DATAWAY" class="h-14 md:h-16 w-auto mb-4">
+          <p class="text-white/60 text-sm leading-relaxed" data-i18n="footer.description">Prinášame vám kvalitné optické a metalické káble a sieťové riešenia pre modernú infraštruktúru.</p>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4"><span data-i18n="footer.categories_heading">Kategórie</span></h4>
+          <ul class="space-y-2.5">
+            <li><a href="produkty.html?category=Optické+siete" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="nav.category.optical">Optické siete</span></a></li>
+            <li><a href="produkty.html?category=Metalické+siete" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="nav.category.copper">Metalické siete</span></a></li>
+            <li><a href="produkty.html?category=Rozvádzače" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="nav.category.cabinets">Rozvádzače</span></a></li>
+            <li><a href="produkty.html?category=Montážne+príslušenstvo" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="nav.category.accessories">Montážne príslušenstvo</span></a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4"><span data-i18n="footer.legal_heading">Právne informácie</span></h4>
+          <ul class="space-y-2.5">
+            <li><a href="ochrana-osobnych-udajov.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="footer.privacy_policy">Ochrana osobných údajov</span></a></li>
+            <li><a href="cookies.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="footer.cookie_policy">Zásady cookies</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-8 text-center">
+        <p class="text-white/40 text-sm" data-i18n="footer.copyright">DATAWAY © 2025. Všetky práva vyhradené.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script>
+    // Toggle SK/EN content based on language
+    function updateLegalContent() {
+      const lang = localStorage.getItem('dataway_lang') || 'sk';
+      document.getElementById('privacy-sk').style.display = lang === 'sk' ? '' : 'none';
+      document.getElementById('privacy-en').style.display = lang === 'en' ? '' : 'none';
+    }
+    updateLegalContent();
+    window.addEventListener('languageChanged', updateLegalContent);
+  </script>
+  <script src="cookie-consent.js"></script>
+</body>
+</html>

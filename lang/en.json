@@ -106,5 +106,16 @@
 
   "footer.description": "We bring you quality fiber optic and copper cables and network solutions for modern infrastructure.",
   "footer.categories_heading": "Categories",
-  "footer.copyright": "DATAWAY © 2025. All rights reserved."
+  "footer.legal_heading": "Legal",
+  "footer.privacy_policy": "Privacy Policy",
+  "footer.cookie_policy": "Cookie Policy",
+  "footer.copyright": "DATAWAY © 2025. All rights reserved.",
+
+  "form.consent_text": "By submitting this form, you agree to the processing of personal data according to our",
+  "form.consent_link": "Privacy Policy",
+
+  "page.privacy.title": "Privacy Policy – DATAWAY",
+  "page.privacy.heading": "Privacy Policy",
+  "page.cookies.title": "Cookie Policy – DATAWAY",
+  "page.cookies.heading": "Cookie Policy"
 }

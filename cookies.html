@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="page.cookies.title">Zásady cookies – DATAWAY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { 'brand-blue': '#3a59f1', 'brand-navy': '#081c7e', 'brand-gold': '#d4a843', 'brand-dark': '#0f1b3d', 'brand-gray': { 50: '#f8f9fc', 100: '#eef1f6', 400: '#8e95a9', 700: '#3d4663' } }, fontFamily: { heading: ['Inter', 'system-ui', 'sans-serif'], body: ['IBM Plex Sans', 'system-ui', 'sans-serif'] } } }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'IBM Plex Sans', system-ui, sans-serif; line-height: 1.7; color: #3d4663; }
+    .nav-link { position: relative; }
+    .nav-link::after { content: ''; position: absolute; bottom: -2px; left: 0; width: 0; height: 2px; background: #3a59f1; transition: width 0.25s ease; }
+    .nav-link:hover::after { width: 100%; }
+    .lang-switch-btn[data-active="true"] { background: #3a59f1; color: white; }
+    .legal-content h2 { font-family: 'Inter', system-ui, sans-serif; font-size: 1.25rem; font-weight: 700; color: #0f1b3d; margin-top: 2rem; margin-bottom: 0.75rem; }
+    .legal-content h3 { font-family: 'Inter', system-ui, sans-serif; font-size: 1.1rem; font-weight: 600; color: #0f1b3d; margin-top: 1.5rem; margin-bottom: 0.5rem; }
+    .legal-content p { margin-bottom: 0.75rem; }
+    .legal-content ul { list-style: disc; padding-left: 1.5rem; margin-bottom: 0.75rem; }
+    .legal-content li { margin-bottom: 0.25rem; }
+    .legal-content table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+    .legal-content th, .legal-content td { border: 1px solid #eef1f6; padding: 0.5rem 0.75rem; text-align: left; font-size: 0.875rem; }
+    .legal-content th { background: #f8f9fc; font-weight: 600; color: #0f1b3d; }
+  </style>
+</head>
+<body class="bg-white">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-nav">
+    <div class="max-w-7xl mx-auto px-5 md:px-6">
+      <div class="flex items-center justify-between h-16 md:h-20">
+        <a href="index.html" class="flex-shrink-0">
+          <img src="Brand/Loga-na-sirku-450-x-120-px-11.webp" alt="DATAWAY logo" class="h-12 md:h-14 w-auto">
+        </a>
+        <nav class="hidden lg:flex items-center gap-8">
+          <a href="index.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.home">Domov</span></a>
+          <a href="produkty.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.products">Produkty</span></a>
+          <a href="index.html#kontakt" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.contact">Kontakt</span></a>
+        </nav>
+        <div class="flex items-center gap-4">
+          <div class="flex items-center border border-brand-gray-100 rounded-lg overflow-hidden text-xs">
+            <button class="lang-switch-btn px-2 py-1.5 transition-colors" data-lang="sk" onclick="i18n.setLang('sk')">SK</button>
+            <button class="lang-switch-btn px-2 py-1.5 transition-colors" data-lang="en" onclick="i18n.setLang('en')">EN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-24 md:pt-28 pb-16 md:pb-24">
+    <div class="max-w-3xl mx-auto px-5 md:px-6">
+      <div class="flex items-center gap-2 text-sm text-brand-gray-400 mb-8">
+        <a href="index.html" class="hover:text-brand-blue" data-i18n="breadcrumb.home">Domov</a>
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        <span class="text-brand-dark font-medium" data-i18n="page.cookies.heading">Zásady cookies</span>
+      </div>
+
+      <h1 class="font-heading text-3xl md:text-4xl font-bold text-brand-dark mb-8" data-i18n="page.cookies.heading">Zásady cookies</h1>
+
+      <!-- SK content -->
+      <div id="cookies-sk" class="legal-content">
+        <p><strong>Posledná aktualizácia:</strong> marec 2026</p>
+        <p>Táto stránka vysvetľuje, ako webová stránka DATAWAY používa cookies a podobné technológie v súlade so Smernicou 2002/58/ES (ePrivacy) a Nariadením (EÚ) 2016/679 (GDPR).</p>
+
+        <h2>1. Čo sú cookies</h2>
+        <p>Cookies sú malé textové súbory, ktoré sa ukladajú vo vašom prehliadači pri návšteve webovej stránky. Pomáhajú stránke zapamätať si vaše nastavenia a preferencie.</p>
+
+        <h2>2. Aké cookies používame</h2>
+
+        <table>
+          <thead>
+            <tr><th>Názov</th><th>Účel</th><th>Typ</th><th>Doba platnosti</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>dataway_cookie_consent</td><td>Uloženie vašej voľby ohľadom cookies</td><td>Nevyhnutné</td><td>1 rok</td></tr>
+            <tr><td>dataway_lang</td><td>Zapamätanie zvoleného jazyka (SK/EN)</td><td>Nevyhnutné</td><td>1 rok</td></tr>
+          </tbody>
+        </table>
+
+        <h3>a) Nevyhnutné cookies</h3>
+        <p>Tieto cookies sú potrebné na správne fungovanie webovej stránky. Nevyžadujú váš súhlas podľa čl. 5 ods. 3 Smernice 2002/58/ES, pretože sú nevyhnutné na poskytovanie služby.</p>
+
+        <h3>b) Analytické cookies</h3>
+        <p>Analytické cookies nám pomáhajú pochopiť, ako návštevníci používajú webovú stránku. Tieto cookies sa aktivujú len s vaším výslovným súhlasom. Právnym základom je čl. 6 ods. 1 písm. a) GDPR.</p>
+
+        <h2>3. Ako spravovať cookies</h2>
+        <p>Cookies môžete spravovať nasledujúcimi spôsobmi:</p>
+        <ul>
+          <li><strong>Cookie banner</strong> — pri prvej návšteve stránky si môžete vybrať, či prijmete všetky cookies alebo len nevyhnutné</li>
+          <li><strong>Nastavenia prehliadača</strong> — väčšina prehliadačov umožňuje blokovať alebo vymazať cookies v nastaveniach</li>
+        </ul>
+        <p>Ak chcete zmeniť svoju voľbu, vymažte cookies vo svojom prehliadači a pri ďalšej návšteve sa vám zobrazí banner znova.</p>
+
+        <h2>4. Služby tretích strán</h2>
+        <p>V súčasnosti nepoužívame cookies tretích strán na marketingové účely. Ak v budúcnosti pridáme analytické nástroje (napr. Google Analytics), budú aktivované len s vaším súhlasom.</p>
+
+        <h2>5. Kontakt</h2>
+        <p>Ak máte otázky ohľadom cookies, kontaktujte nás na <a href="mailto:info@dataway.eu" class="text-brand-blue hover:underline">info@dataway.eu</a>.</p>
+      </div>
+
+      <!-- EN content -->
+      <div id="cookies-en" class="legal-content" style="display:none;">
+        <p><strong>Last updated:</strong> March 2026</p>
+        <p>This page explains how the DATAWAY website uses cookies and similar technologies in accordance with Directive 2002/58/EC (ePrivacy) and Regulation (EU) 2016/679 (GDPR).</p>
+
+        <h2>1. What are cookies</h2>
+        <p>Cookies are small text files that are stored in your browser when you visit a website. They help the site remember your settings and preferences.</p>
+
+        <h2>2. Cookies we use</h2>
+
+        <table>
+          <thead>
+            <tr><th>Name</th><th>Purpose</th><th>Type</th><th>Duration</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>dataway_cookie_consent</td><td>Stores your cookie preference</td><td>Essential</td><td>1 year</td></tr>
+            <tr><td>dataway_lang</td><td>Remembers selected language (SK/EN)</td><td>Essential</td><td>1 year</td></tr>
+          </tbody>
+        </table>
+
+        <h3>a) Essential cookies</h3>
+        <p>These cookies are necessary for the website to function properly. They do not require your consent under Art. 5(3) of Directive 2002/58/EC, as they are strictly necessary to provide the service.</p>
+
+        <h3>b) Analytical cookies</h3>
+        <p>Analytical cookies help us understand how visitors use the website. These cookies are only activated with your explicit consent. The legal basis is Art. 6(1)(a) GDPR.</p>
+
+        <h2>3. How to manage cookies</h2>
+        <p>You can manage cookies in the following ways:</p>
+        <ul>
+          <li><strong>Cookie banner</strong> — on your first visit, you can choose to accept all cookies or only essential ones</li>
+          <li><strong>Browser settings</strong> — most browsers allow you to block or delete cookies in their settings</li>
+        </ul>
+        <p>To change your preference, clear cookies in your browser and the banner will appear again on your next visit.</p>
+
+        <h2>4. Third-party services</h2>
+        <p>We currently do not use third-party cookies for marketing purposes. If we add analytical tools (e.g., Google Analytics) in the future, they will only be activated with your consent.</p>
+
+        <h2>5. Contact</h2>
+        <p>If you have questions about cookies, contact us at <a href="mailto:info@dataway.eu" class="text-brand-blue hover:underline">info@dataway.eu</a>.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-brand-dark py-12 md:py-16">
+    <div class="max-w-7xl mx-auto px-5 md:px-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+        <div>
+          <img src="Brand/Loga-na-sirku-450-x-120-px-12.webp" alt="DATAWAY" class="h-14 md:h-16 w-auto mb-4">
+          <p class="text-white/60 text-sm leading-relaxed" data-i18n="footer.description">Prinášame vám kvalitné optické a metalické káble a sieťové riešenia pre modernú infraštruktúru.</p>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4"><span data-i18n="footer.categories_heading">Kategórie</span></h4>
+          <ul class="space-y-2.5">
+            <li><a href="produkty.html?category=Optické+siete" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="nav.category.optical">Optické siete</span></a></li>
+            <li><a href="produkty.html?category=Metalické+siete" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="nav.category.copper">Metalické siete</span></a></li>
+            <li><a href="produkty.html?category=Rozvádzače" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="nav.category.cabinets">Rozvádzače</span></a></li>
+            <li><a href="produkty.html?category=Montážne+príslušenstvo" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="nav.category.accessories">Montážne príslušenstvo</span></a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-white font-semibold text-sm uppercase tracking-wider mb-4"><span data-i18n="footer.legal_heading">Právne informácie</span></h4>
+          <ul class="space-y-2.5">
+            <li><a href="ochrana-osobnych-udajov.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="footer.privacy_policy">Ochrana osobných údajov</span></a></li>
+            <li><a href="cookies.html" class="text-white/60 text-sm hover:text-brand-gold transition-colors"><span data-i18n="footer.cookie_policy">Zásady cookies</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-8 text-center">
+        <p class="text-white/40 text-sm" data-i18n="footer.copyright">DATAWAY © 2025. Všetky práva vyhradené.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script>
+    function updateLegalContent() {
+      const lang = localStorage.getItem('dataway_lang') || 'sk';
+      document.getElementById('cookies-sk').style.display = lang === 'sk' ? '' : 'none';
+      document.getElementById('cookies-en').style.display = lang === 'en' ? '' : 'none';
+    }
+    updateLegalContent();
+    window.addEventListener('languageChanged', updateLegalContent);
+  </script>
+  <script src="cookie-consent.js"></script>
+</body>
+</html>
