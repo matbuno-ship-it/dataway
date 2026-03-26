@@ -208,7 +208,6 @@
           <a href="produkty.html" class="nav-link text-sm font-medium text-brand-gray-700 hover:text-brand-dark"><span data-i18n="nav.products">Produkty</span></a>
         </nav>
 
-        <!-- Search + CTA + Mobile toggle -->
         <div class="flex items-center gap-4">
           <!-- Header Search -->
           <form class="hidden md:flex items-center relative" onsubmit="event.preventDefault(); const q=this.querySelector('input').value.trim(); if(q) window.location.href='produkty.html?search='+encodeURIComponent(q);">
@@ -220,7 +219,6 @@
             <button class="lang-switch-btn px-2 py-1.5 transition-colors" data-lang="sk" onclick="i18n.setLang('sk')">SK</button>
             <button class="lang-switch-btn px-2 py-1.5 transition-colors" data-lang="en" onclick="i18n.setLang('en')">EN</button>
           </div>
-          <a href="#kontakt" class="hidden md:inline-flex btn-primary text-white text-sm font-medium px-5 py-2.5 rounded-lg"><span data-i18n="button.contact_us"><span data-i18n="section.contact.heading">Kontaktujte nás</span></span></a>
           <button id="menu-toggle" class="lg:hidden p-2 text-brand-gray-700 hover:text-brand-dark focus-visible:outline-2 focus-visible:outline-brand-blue focus-visible:outline-offset-2" aria-label="Otvoriť menu" data-i18n-aria="button.open_menu">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
           </button>
