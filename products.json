@@ -482,7 +482,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Panels",
-    "name_en": "DATAWAY Patch Panel 19\" 24x RJ45, CAT6, STP s vyväzovacou lištou",
+    "name_en": "DATAWAY Patch Panel 19\" 24x RJ45, CAT6, STP s cable management bar",
     "specs_en": {
       "Color": "Black",
       "Weight (kg)": "1,4",
@@ -538,7 +538,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Panels",
-    "name_en": "DATAWAY Patch Panel 19\" 24x RJ45, CAT5E, UTP s vyväzovacou lištou",
+    "name_en": "DATAWAY Patch Panel 19\" 24x RJ45, CAT5E, UTP s cable management bar",
     "specs_en": {
       "Color": "Black",
       "Operating Temperature (°C)": "-20 to 60",
@@ -590,7 +590,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Keystones",
-    "name_en": "DATAWAY Keystone CAT5E, UTP RJ45 samorezný",
+    "name_en": "DATAWAY Keystone CAT5E, UTP RJ45 toolless",
     "specs_en": {
       "Weight (kg)": "0,025",
       "Operating Temperature (°C)": "-10 to 60",
@@ -640,7 +640,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Keystones",
-    "name_en": "DATAWAY Keystone CAT6, UTP, RJ45, samorezný",
+    "name_en": "DATAWAY Keystone CAT6, UTP, RJ45, toolless",
     "specs_en": {
       "Weight (kg)": "0,025",
       "Operating Temperature (°C)": "-10 to 60",
@@ -777,7 +777,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Copper Cabling",
-    "name_en": "DATAWAY (500m) Cable CAT5E, FTP, PE, Fca, samonosný",
+    "name_en": "DATAWAY (500m) Cable CAT5E, FTP, PE, Fca, self-supporting",
     "specs_en": {
       "Color": "Black (RAL 9011)",
       "Operating Temperature (°C)": "-20 to 80",
@@ -955,7 +955,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Cables",
-    "name_en": "DATAWAY DROP (1000m) 4-vlákno, G.657A2, LSOH, 5x2mm",
+    "name_en": "DATAWAY DROP (1000m) 4-fiber, G.657A2, LSOH, 5x2mm",
     "specs_en": {
       "Operating Temperature (°C)": "-5 to 50",
       "Cable Type": "Flat DROP",
@@ -1012,7 +1012,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Cables",
-    "name_en": "DATAWAY DROP (1000m) 1-vlákno, G.657A2, LSOH, Eca, 3,0mm",
+    "name_en": "DATAWAY DROP (1000m) 1-fiber, G.657A2, LSOH, Eca, 3,0mm",
     "specs_en": {
       "Operating Temperature (°C)": "-20 to 60",
       "Cable Type": "DROP",
@@ -1072,7 +1072,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Cables",
-    "name_en": "DATAWAY DROP (1000m) 2-vlákno, G.657A2, LSOH, Eca, 3,0mm",
+    "name_en": "DATAWAY DROP (1000m) 2-fiber, G.657A2, LSOH, Eca, 3,0mm",
     "specs_en": {
       "Operating Temperature (°C)": "-20 to 60",
       "Cable Type": "DROP",
@@ -1863,7 +1863,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
-    "name_en": "DATAWAY (100ks) Connector RJ45 UTP, CAT5E, classic, drôt",
+    "name_en": "DATAWAY (100ks) Connector RJ45 UTP, CAT5E, classic, solid",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Protection Rating": "50 µ gold",
@@ -1911,7 +1911,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
-    "name_en": "DATAWAY (100ks) Connector RJ45 FTP, CAT5E, classic, drôt",
+    "name_en": "DATAWAY (100ks) Connector RJ45 FTP, CAT5E, classic, solid",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Protection Rating": "50 µ gold",
@@ -2580,7 +2580,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Cables",
-    "name_en": "DATAWAY DROP (1000m) 4-vlákno, G.657A2, LSOH, Eca, 3,0mm",
+    "name_en": "DATAWAY DROP (1000m) 4-fiber, G.657A2, LSOH, Eca, 3,0mm",
     "specs_en": {
       "Operating Temperature (°C)": "-20 to 60",
       "Cable Type": "DROP",
@@ -2640,7 +2640,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Cables",
-    "name_en": "DATAWAY DROP (1000m) 12-vlákno, G.657A2, LSOH, Eca, 3,6mm",
+    "name_en": "DATAWAY DROP (1000m) 12-fiber, G.657A2, LSOH, Eca, 3,6mm",
     "specs_en": {
       "Operating Temperature (°C)": "-20 to 60",
       "Cable Type": "DROP",
@@ -2904,7 +2904,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Cables",
-    "name_en": "DATAWAY DROP (1000m) 8-vlákno, G.657A2, LSOH, Eca, 3,6mm",
+    "name_en": "DATAWAY DROP (1000m) 8-fiber, G.657A2, LSOH, Eca, 3,6mm",
     "specs_en": {
       "Operating Temperature (°C)": "-30 to 70",
       "Cable Type": "DROP",
@@ -4371,7 +4371,7 @@
     ],
     "category_en": "Cabinets",
     "subcategory_en": "Accessories",
-    "name_en": "DATAWAY MK-M6, Mounting Kit M6 (4ks matice, 4ks skrutky, 4ks podložky)",
+    "name_en": "DATAWAY MK-M6, Mounting set M6 (4ks nuts, 4ks screws, 4ks washers)",
     "description_en": "Montážna sada DATAWAY MK-M6 je praktická sada upevňovacieho hardvéru určená pre jednoduchú a spoľahlivú inštaláciu zariadení s M6 upevňovacími bodmi. Sada contains 4 kusy matíc, skrutiek a podložiek.",
     "descriptionHtml_en": "<p><strong>Montážna sada DATAWAY MK-M6</strong> je praktická sada upevňovacieho hardvéru určená pre jednoduchú a spoľahlivú inštaláciu zariadení s M6 upevňovacími bodmi. Sada contains 4 kusy matíc, skrutiek a podložiek, čo zaručí pevné a stabilné uchytenie <strong>rackových políc, panelov, konzol, rozvádzačov alebo iného technického príslušenstva</strong>. Thanks to kompletnej sade prebieha montáž rýchlo, bezpečne a bez potreby dokupovania samostatných komponentov.</p>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Obsah balenia:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p><strong>4&times; M6 matice</strong> – pre reliable ukotvenie</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>4&times; M6 skrutky</strong> – s kompatibilným závitom</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>4&times; podložky</strong> – pre rovnomerné rozloženie sily a ochranu povrchov</p>\r\n\t</li>\r\n</ul>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Hlavné vlastnosti:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p><strong>Kompletná montážna sada</strong> pre M6 upevnenia</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>vhodná pre racky, police, panely a iné montážne riešenia</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>materiál: odolná <strong>oceľ / galvanizované spracovanie</strong></p>\r\n\t</li>\r\n\t<li>\r\n\t<p>zvyšuje stabilitu a bezpečnosť montáže</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>jednoduchá inštalácia bez potreby ďalších dielov</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>kompatibilná so štandardnými M6 upevňovacími bodmi</p>\r\n\t</li>\r\n</ul>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Použitie:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p>Inštalácia <strong>rackových políc a panelov</strong></p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Montáž technického príslušenstva v 19&quot; rozvádzačoch</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Upevnenie konzol, nosníkov, držiakov</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Industriálne a IT inštalácie, kde sa vyžaduje pevné uchytenie</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Ako náhradná sada pre servis alebo rekonštrukciu</p>\r\n\t</li>\r\n</ul>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Prečo si ju vybrať:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p>Kompletná a <strong>cenovo výhodná sada</strong> pre M6 upevnenia</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>reliable komponenty</strong> pre dlhodobú prevádzku</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Uľahčuje montáž a skracuje čas inštalácie</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Vhodná pre professional aj DIY inštalácie</p>\r\n\t</li>\r\n</ul>"
   },
@@ -4394,7 +4394,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Network Infrastructure",
-    "name_en": "DATAWAY PA-1700, Kotva koncová, 700N (8-15 mm)",
+    "name_en": "DATAWAY PA-1700, dead-end anchor, 700N (8-15 mm)",
     "description_en": "Anchor designed for ADSS fiber optic cables for medium and long distances (70m to 200m). For cables with diameter 8-15 mm. 700N depending on the fiber optic cable.",
     "descriptionHtml_en": "<p> Anchor designed for ADSS fiber optic cables for medium and long distances (70m to 200m). For cables with diameter 8-15 mm. 700N depending on the fiber optic cable.</p>"
   },
@@ -4594,7 +4594,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY Páska napínacia (50m) 19mm, 0.7mm, SS304",
+    "name_en": "DATAWAY tensioning band (50m) 19mm, 0.7mm, SS304",
     "specs_en": {
       "Weight (kg)": "5,29",
       "Strip Thickness (mm)": "0,7",
@@ -5370,7 +5370,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY Páska napínacia (50m) 10mm, 0.7mm, SS304",
+    "name_en": "DATAWAY tensioning band (50m) 10mm, 0.7mm, SS304",
     "specs_en": {
       "Weight (kg)": "5,1",
       "Strip Thickness (mm)": "0,7",
@@ -6003,7 +6003,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Panels",
-    "name_en": "DATAWAY Patch Panel 19\" 24x RJ45, CAT6A, STP s vyväzovacou lištou",
+    "name_en": "DATAWAY Patch Panel 19\" 24x RJ45, CAT6A, STP s cable management bar",
     "specs_en": {
       "Color": "Black",
       "Weight (kg)": "1,4",
@@ -6905,7 +6905,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY HC-8+12, Univerzálny Holder kotiev viacnásobný",
+    "name_en": "DATAWAY HC-8+12, Universal anchor holder multiple",
     "specs_en": {
       "Weight (kg)": "0,89",
       "Dimensions (mm)": "325 x 75 x 40",
@@ -7269,7 +7269,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Network Infrastructure",
-    "name_en": "DATAWAY DS-6, Kotva priebežná, 4-8mm",
+    "name_en": "DATAWAY DS-6, through anchor, 4-8mm",
     "description_en": "Priebežná kotva DS-6 je určený pre miesta v inštalácii samonosného systému, kde nie je nutné kábel kotviť.",
     "descriptionHtml_en": "<p>Týmto spôsobom možno ušetriť nemalé náklady z pohľadu celej realizácie trasy.</p>\r\n\r\n<p>Stredová časť je tvorená neoprénom odolným UV žiareniu, ktorá zaisťuje bezpečné uchytenie káblu s priemerom do 4-6mm.</p>"
   },
@@ -8466,7 +8466,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY Sada samorezných skrutiek (100-ks) M2.2x0.85, dł.6mm",
+    "name_en": "DATAWAY set of toolless screws (100-ks) M2.2x0.85, length 6mm",
     "specs_en": {
       "Dimensions (mm)": "M2.2 × 0.85, dĺžka 6 mm",
       "Packaging": "100pcs per pack",
@@ -8816,7 +8816,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Adapters",
-    "name_en": "DATAWAY Fiber Optic Adapter SC/APC, SM, SIMPLEX, bez ušiek, s Coverkou",
+    "name_en": "DATAWAY Fiber Optic Adapter SC/APC, SM, SIMPLEX, without ears, with cover",
     "specs_en": {
       "Color": "Green",
       "Cable Type": "Single Mode",
@@ -8859,7 +8859,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Cables",
-    "name_en": "DATAWAY Patch Cable plochý CAT6A, UTP PVC, 25m, White",
+    "name_en": "DATAWAY Patch Cable flat CAT6A, UTP PVC, 25m, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 50",
@@ -8906,7 +8906,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Cables",
-    "name_en": "DATAWAY Patch Cable plochý CAT6A, UTP PVC, 20m, White",
+    "name_en": "DATAWAY Patch Cable flat CAT6A, UTP PVC, 20m, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 50",
@@ -8954,7 +8954,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Cables",
-    "name_en": "DATAWAY Patch Cable plochý CAT6A, UTP PVC, 15m, White",
+    "name_en": "DATAWAY Patch Cable flat CAT6A, UTP PVC, 15m, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 50",
@@ -9002,7 +9002,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Cables",
-    "name_en": "DATAWAY Patch Cable plochý CAT6A, UTP PVC, 10m, White",
+    "name_en": "DATAWAY Patch Cable flat CAT6A, UTP PVC, 10m, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 50",
@@ -9050,7 +9050,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Cables",
-    "name_en": "DATAWAY Patch Cable plochý CAT6A, UTP PVC, 7m, White",
+    "name_en": "DATAWAY Patch Cable flat CAT6A, UTP PVC, 7m, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 50",
@@ -9098,7 +9098,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Cables",
-    "name_en": "DATAWAY Patch Cable plochý CAT6A, UTP PVC, 5m, White",
+    "name_en": "DATAWAY Patch Cable flat CAT6A, UTP PVC, 5m, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 50",
@@ -9146,7 +9146,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Cables",
-    "name_en": "DATAWAY Patch Cable plochý CAT6A, UTP PVC, 3m, White",
+    "name_en": "DATAWAY Patch Cable flat CAT6A, UTP PVC, 3m, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 50",
@@ -9194,7 +9194,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Cables",
-    "name_en": "DATAWAY Patch Cable plochý CAT6A, UTP PVC, 2m, White",
+    "name_en": "DATAWAY Patch Cable flat CAT6A, UTP PVC, 2m, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 50",
@@ -9242,7 +9242,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Cables",
-    "name_en": "DATAWAY Patch Cable plochý CAT6A, UTP PVC, 1m, White",
+    "name_en": "DATAWAY Patch Cable flat CAT6A, UTP PVC, 1m, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 50",
@@ -9660,7 +9660,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Cables",
-    "name_en": "DATAWAY DROP (1000m) 24-vlákno, G.657A2, LSOH, Eca, 3,6mm",
+    "name_en": "DATAWAY DROP (1000m) 24-fiber, G.657A2, LSOH, Eca, 3,6mm",
     "specs_en": {
       "Operating Temperature (°C)": "-20 to 60",
       "Cable Type": "DROP",
@@ -9987,7 +9987,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY CS-1865, Káblová vodiaca kladka, 18mm, 65mm",
+    "name_en": "DATAWAY CS-1865, cable guide pulley, 18mm, 65mm",
     "specs_en": {
       "Color": "Blue",
       "Weight (kg)": "0,21",
@@ -10031,7 +10031,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Cables",
-    "name_en": "DATAWAY DROP (1000m) 2-vlákno, G.657A2, LSOH, 5x2mm",
+    "name_en": "DATAWAY DROP (1000m) 2-fiber, G.657A2, LSOH, 5x2mm",
     "specs_en": {
       "Operating Temperature (°C)": "-5 to 50",
       "Cable Type": "Flat DROP",
@@ -10234,7 +10234,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Cables",
-    "name_en": "DATAWAY DROP (1000m) 2-vlákno, G.657A2, LSOH, Eca, 3mm, White",
+    "name_en": "DATAWAY DROP (1000m) 2-fiber, G.657A2, LSOH, Eca, 3mm, White",
     "specs_en": {
       "Operating Temperature (°C)": "-20 to 60",
       "Cable Type": "DROP",
@@ -12091,7 +12091,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Couplers",
-    "name_en": "DATAWAY Okenná Coupler RJ45, 300/235mm, medený pásik",
+    "name_en": "DATAWAY window coupler RJ45, 300/235mm, copper strip",
     "specs_en": {
       "Weight (kg)": "0,025",
       "LAN Speed": "(1) 10/100Mbps",
@@ -12660,7 +12660,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "DATAWAY Fiber Optic Cable, FTTx, 4-vlákno, 1T4F, 3x2mm, G.657A2, 80N, White",
+    "name_en": "DATAWAY Fiber Optic Cable, FTTx, 4-fiber, 1T4F, 3x2mm, G.657A2, 80N, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-20…+60 °C",
@@ -12704,7 +12704,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Passive Components",
-    "name_en": "DATAWAY Fiber Optic Cable, FTTx, 2-vlákno, 1T2F, 3x2mm, G.657A2, 80N, White",
+    "name_en": "DATAWAY Fiber Optic Cable, FTTx, 2-fiber, 1T2F, 3x2mm, G.657A2, 80N, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-20…+60 °C",
@@ -12749,7 +12749,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Cables",
-    "name_en": "DATAWAY Patch Cable plochý CAT6A, UTP PVC, 35m, White",
+    "name_en": "DATAWAY Patch Cable flat CAT6A, UTP PVC, 35m, White",
     "specs_en": {
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 50",
@@ -13620,7 +13620,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY spojovací box, CAT5E, STP, LSA+/Krone",
+    "name_en": "DATAWAY junction box, CAT5E, STP, LSA+/Krone",
     "specs_en": {
       "Color": "strieborná",
       "Operating Temperature (°C)": "-20 to 60",
@@ -13720,7 +13720,7 @@
     ],
     "category_en": "Optical Networks",
     "subcategory_en": "Network Infrastructure",
-    "name_en": "DATAWAY DS-8, Kotva priebežná, 8-12mm",
+    "name_en": "DATAWAY DS-8, through anchor, 8-12mm",
     "description_en": "The continuous anchor DS-8 is designed for locations in self-supporting system installations where cable anchoring is not necessary. This allows for significant cost savings in terms of the overall route implementation. The central part is made of neoprene resistant to UV radiation, which ensures secure cable retention with a diameter of up to 8-12mm. The DS-8 anchor is an element used in the construction of overhead cable routes for cable suspension. It is responsible for maintaining proper cable tension between spans. The holder ensures secure cable retention without risk of damage. The removable mounting eye allows threading through closed openings - this facilitates installation on most commercially available rod holders, hooks, and eyes.",
     "descriptionHtml_en": "<p>The continuous anchor DS-8 is designed for locations in self-supporting system installations where cable anchoring is not necessary. This allows for significant cost savings in terms of the overall route implementation. The central part is made of neoprene <strong>resistant to UV radiation</strong>, which ensures secure cable retention with a diameter of up to <strong>8-12mm</strong>.</p>\r\n\n<p>The DS-8 anchor is an element used in the construction of overhead cable routes for cable suspension. It is responsible for maintaining proper cable tension between spans.</p>\r\n\n<p>The holder ensures secure cable retention without risk of damage. The removable mounting eye allows threading through closed openings - this facilitates installation on most commercially available rod holders, hooks, and eyes.</p>"
   },
@@ -13803,7 +13803,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
-    "name_en": "DATAWAY (100ks) Connector RJ45 1.0mm FTP, CAT5E, EASY drôt/lanko",
+    "name_en": "DATAWAY (100ks) Connector RJ45 1.0mm FTP, CAT5E, EASY solid/stranded",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Protection Rating": "50 µ gold",
@@ -13857,7 +13857,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
-    "name_en": "DATAWAY (100ks) Connector RJ45 1.0mm UTP, CAT5E, EASY drôt/lanko",
+    "name_en": "DATAWAY (100ks) Connector RJ45 1.0mm UTP, CAT5E, EASY solid/stranded",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Protection Rating": "50 µ gold",
@@ -13914,7 +13914,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
-    "name_en": "DATAWAY (100ks) Connector RJ45 1.1mm FTP, CAT5E, EASY drôt/lanko",
+    "name_en": "DATAWAY (100ks) Connector RJ45 1.1mm FTP, CAT5E, EASY solid/stranded",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Protection Rating": "50 µ gold",
@@ -13971,7 +13971,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
-    "name_en": "DATAWAY (100ks) Connector RJ45 1.2mm, FTP, CAT6, EASY, drôt/lanko",
+    "name_en": "DATAWAY (100ks) Connector RJ45 1.2mm, FTP, CAT6, EASY, solid/stranded",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Protection Rating": "50 µ gold",
@@ -14791,7 +14791,7 @@
     ],
     "category_en": "Installation Accessories",
     "subcategory_en": "Installation Materials",
-    "name_en": "DATAWAY Predlžovací Cable, 4x Outlet 230V, vypínač, White, 2m",
+    "name_en": "DATAWAY Extension cable, 4x outlet 230V, switch, White, 2m",
     "specs_en": {
       "Color": "White",
       "Buttons": "vypínač ON/OFF",
@@ -14824,7 +14824,7 @@
     ],
     "category_en": "Installation Accessories",
     "subcategory_en": "Installation Materials",
-    "name_en": "DATAWAY Predlžovací Cable, 4x Outlet 230V, vypínač, White, 5m",
+    "name_en": "DATAWAY Extension cable, 4x outlet 230V, switch, White, 5m",
     "specs_en": {
       "Color": "White",
       "Buttons": "vypínač ON/OFF",
@@ -14857,7 +14857,7 @@
     ],
     "category_en": "Installation Accessories",
     "subcategory_en": "Installation Materials",
-    "name_en": "DATAWAY Predlžovací Cable, 4x Outlet 230V, vypínač, White, 10m",
+    "name_en": "DATAWAY Extension cable, 4x outlet 230V, switch, White, 10m",
     "specs_en": {
       "Color": "White",
       "Buttons": "vypínač ON/OFF",
@@ -14890,7 +14890,7 @@
     ],
     "category_en": "Installation Accessories",
     "subcategory_en": "Installation Materials",
-    "name_en": "DATAWAY Predlžovací Cable, 4x Outlet 230V, vypínač, White, 15m",
+    "name_en": "DATAWAY Extension cable, 4x outlet 230V, switch, White, 15m",
     "specs_en": {
       "Color": "White",
       "Buttons": "vypínač ON/OFF",
@@ -15036,7 +15036,7 @@
     ],
     "category_en": "Installation Accessories",
     "subcategory_en": "Installation Materials",
-    "name_en": "DATAWAY (250ks) Hmoždinka natĺkacia 6x60mm so zapustenou hlavou + šrób",
+    "name_en": "DATAWAY (250ks) hammer-in anchor 6x60mm with countersunk head + screw",
     "specs_en": {
       "Packaging": "250 pcs per pack"
     },
@@ -15447,7 +15447,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Panels",
-    "name_en": "DATAWAY Patch Panel 19\" 24x RJ45, CAT5E, STP s vyväzovacou lištou",
+    "name_en": "DATAWAY Patch Panel 19\" 24x RJ45, CAT5E, STP s cable management bar",
     "specs_en": {
       "Color": "Black",
       "Weight (kg)": "1,4",
@@ -15550,7 +15550,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Keystones",
-    "name_en": "DATAWAY Keystone CAT5E, STP, RJ45, samorezný",
+    "name_en": "DATAWAY Keystone CAT5E, STP, RJ45, toolless",
     "specs_en": {
       "Weight (kg)": "0,025",
       "Operating Temperature (°C)": "-10 to 60",
@@ -15600,7 +15600,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Keystones",
-    "name_en": "DATAWAY Keystone CAT6A, STP, RJ45, samorezný",
+    "name_en": "DATAWAY Keystone CAT6A, STP, RJ45, toolless",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Lifespan": "1000 insertions/removals",
@@ -15755,7 +15755,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY spojovací box, CAT5E, UTP, LSA+/Krone",
+    "name_en": "DATAWAY junction box, CAT5E, UTP, LSA+/Krone",
     "specs_en": {
       "Color": "Black",
       "Operating Temperature (°C)": "-20 to 60",
@@ -15798,7 +15798,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Other",
-    "name_en": "DATAWAY spojovací box, CAT6A, FTP, samorezný",
+    "name_en": "DATAWAY junction box, CAT6A, FTP, toolless",
     "specs_en": {
       "Color": "strieborná",
       "Operating Temperature (°C)": "-20 to 60",
@@ -15975,7 +15975,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
-    "name_en": "DATAWAY (100ks) Connector RJ45 FTP, CAT6, classic, 1.2mm, drôt",
+    "name_en": "DATAWAY (100ks) Connector RJ45 FTP, CAT6, classic, 1.2mm, solid",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Protection Rating": "50 µ gold",
@@ -16027,7 +16027,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
-    "name_en": "DATAWAY (100ks) Connector RJ45 UTP, CAT6, classic, 1.2mm, drôt",
+    "name_en": "DATAWAY (100ks) Connector RJ45 UTP, CAT6, classic, 1.2mm, solid",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Protection Rating": "50 µ gold",
@@ -16149,7 +16149,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
-    "name_en": "DATAWAY (100ks) Connector RJ45 1.1mm, FTP, CAT5E, EASY, s uzemňovacou sponou",
+    "name_en": "DATAWAY (100ks) Connector RJ45 1.1mm, FTP, CAT5E, EASY, with grounding clip",
     "specs_en": {
       "Operating Temperature (°C)": "-40 to 85",
       "Protection Rating": "50 µ gold",
@@ -17960,7 +17960,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Keystones",
-    "name_en": "DATAWAY Keystone CAT6, STP, RJ45, samorezný",
+    "name_en": "DATAWAY Keystone CAT6, STP, RJ45, toolless",
     "specs_en": {
       "Operating Temperature (°C)": "-10 to 60",
       "Lifespan": "1000 insertions/removals",
@@ -18279,7 +18279,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Copper Cabling",
-    "name_en": "DATAWAY (305m) Cable CAT5E, FTP, PE, Fca, samonosný",
+    "name_en": "DATAWAY (305m) Cable CAT5E, FTP, PE, Fca, self-supporting",
     "specs_en": {
       "Color": "Black (RAL 9011)",
       "Operating Temperature (°C)": "-20 to 80",
@@ -18343,7 +18343,7 @@
     ],
     "category_en": "Copper Networks",
     "subcategory_en": "Copper Cabling",
-    "name_en": "DATAWAY (100m) Cable CAT5E, FTP, PE, Fca, samonosný",
+    "name_en": "DATAWAY (100m) Cable CAT5E, FTP, PE, Fca, self-supporting",
     "specs_en": {
       "Color": "Black (RAL 9011)",
       "Operating Temperature (°C)": "-20 to 80",
