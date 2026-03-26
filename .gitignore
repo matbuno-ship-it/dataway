@@ -4,3 +4,4 @@ api-*.txt
 scrape-*.html
 products-all.json
 products-merged.json
+translate-fix.mjs
