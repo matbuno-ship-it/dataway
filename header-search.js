@@ -60,14 +60,15 @@
       var name = pName(p);
       var cat = pCategory(p);
       var img = p.image || 'Brand/Loga-na-sirku-450-x-120-px-11.webp';
-      html += '<a href="produkt.html?slug=' + p.slug + '" style="display:flex;align-items:center;gap:12px;padding:10px 16px;text-decoration:none;transition:background 0.15s;border-bottom:1px solid #f0f1f5;" onmouseover="this.style.background=\'#f8f9fc\'" onmouseout="this.style.background=\'transparent\'">';
-      html += '<div style="width:44px;height:44px;flex-shrink:0;background:#f8f9fc;border-radius:8px;overflow:hidden;display:flex;align-items:center;justify-content:center;">';
+      html += '<a href="produkt.html?slug=' + p.slug + '" class="ms-result" style="display:flex;align-items:center;gap:14px;padding:12px 16px;text-decoration:none;border-bottom:1px solid #f0f1f5;" onmouseover="this.style.background=\'#f8f9fc\'" onmouseout="this.style.background=\'transparent\'">';
+      html += '<div style="width:48px;height:48px;flex-shrink:0;background:#f8f9fc;border-radius:10px;overflow:hidden;display:flex;align-items:center;justify-content:center;">';
       html += '<img src="' + img + '" alt="" style="max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply;" onerror="this.src=\'Brand/Loga-na-sirku-450-x-120-px-11.webp\';this.style.opacity=\'0.3\'">';
       html += '</div>';
       html += '<div style="flex:1;min-width:0;">';
-      html += '<div style="font-size:13px;font-weight:600;color:#0f1b3d;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' + name + '</div>';
-      html += '<div style="font-size:11px;color:#8e95a9;">' + cat + '</div>';
+      html += '<div style="font-size:14px;font-weight:600;color:#0f1b3d;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;">' + name + '</div>';
+      html += '<div style="font-size:12px;color:#8e95a9;margin-top:2px;">' + cat + '</div>';
       html += '</div>';
+      html += '<svg style="width:16px;height:16px;color:#c8cdd8;flex-shrink:0;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>';
       html += '</a>';
     });
 
@@ -126,22 +127,36 @@
     updateVisibility();
     window.addEventListener('resize', updateVisibility);
 
+    // Inject CSS for mobile overlay animations
+    var style = document.createElement('style');
+    style.textContent = '' +
+      '#mobile-search-overlay { opacity:0; transition:opacity 0.25s ease; }' +
+      '#mobile-search-overlay.open { opacity:1; }' +
+      '#mobile-search-overlay .ms-panel { transform:translateY(-100%); transition:transform 0.3s cubic-bezier(0.32,0.72,0,1); }' +
+      '#mobile-search-overlay.open .ms-panel { transform:translateY(0); }' +
+      '#mobile-search-overlay .ms-input { transition:border-color 0.2s,box-shadow 0.2s; }' +
+      '#mobile-search-overlay .ms-input:focus { border-color:#3a59f1; box-shadow:0 0 0 3px rgba(58,89,241,0.12); }' +
+      '#mobile-search-overlay .ms-result { transition:background 0.15s; }' +
+      '#mobile-search-overlay .ms-result:active { background:#eef1f6; }';
+    document.head.appendChild(style);
+
     // Overlay
     mobileOverlay = document.createElement('div');
     mobileOverlay.id = 'mobile-search-overlay';
-    mobileOverlay.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;z-index:9998;background:rgba(0,0,0,0.4);display:none;';
-    mobileOverlay.innerHTML = '<div style="background:white;padding:16px 16px 0;box-shadow:0 4px 24px rgba(0,0,0,0.15);">' +
-      '<div style="display:flex;align-items:center;gap:10px;">' +
-        '<form id="mobile-search-form" style="flex:1;position:relative;display:flex;align-items:center;">' +
-          '<svg style="position:absolute;left:12px;width:16px;height:16px;color:#8e95a9;pointer-events:none;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>' +
-          '<input type="text" id="mobile-search-input" placeholder="' + (getLang() === 'en' ? 'Search product...' : 'Hľadať produkt...') + '" style="width:100%;padding:10px 12px 10px 38px;font-size:15px;border:1px solid #eef1f6;border-radius:10px;background:#f8f9fc;outline:none;color:#0f1b3d;" autocomplete="off">' +
-        '</form>' +
-        '<button id="mobile-search-close" type="button" style="padding:8px;color:#3d4663;flex-shrink:0;">' +
-          '<svg style="width:20px;height:20px;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>' +
-        '</button>' +
-      '</div>' +
-      '<div id="mobile-search-results" style="max-height:calc(100vh - 80px);overflow-y:auto;"></div>' +
-    '</div>';
+    mobileOverlay.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;z-index:9998;background:rgba(8,28,126,0.3);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);display:none;';
+    mobileOverlay.innerHTML = '' +
+      '<div class="ms-panel" style="background:white;padding:20px 16px 0;box-shadow:0 8px 32px rgba(8,28,126,0.12);border-bottom-left-radius:20px;border-bottom-right-radius:20px;">' +
+        '<div style="display:flex;align-items:center;gap:12px;margin-bottom:4px;">' +
+          '<form id="mobile-search-form" style="flex:1;position:relative;display:flex;align-items:center;">' +
+            '<svg style="position:absolute;left:14px;width:18px;height:18px;color:#8e95a9;pointer-events:none;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>' +
+            '<input type="text" id="mobile-search-input" class="ms-input" placeholder="' + (getLang() === 'en' ? 'Search product...' : 'Hľadať produkt...') + '" style="width:100%;padding:14px 16px 14px 44px;font-size:16px;border:2px solid #eef1f6;border-radius:14px;background:#f8f9fc;outline:none;color:#0f1b3d;font-family:inherit;" autocomplete="off">' +
+          '</form>' +
+          '<button id="mobile-search-close" type="button" style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;color:#8e95a9;flex-shrink:0;border-radius:12px;background:#f8f9fc;border:none;cursor:pointer;">' +
+            '<svg style="width:18px;height:18px;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>' +
+          '</button>' +
+        '</div>' +
+        '<div id="mobile-search-results" style="max-height:calc(100vh - 100px);overflow-y:auto;padding-bottom:8px;-webkit-overflow-scrolling:touch;"></div>' +
+      '</div>';
 
     document.body.appendChild(mobileOverlay);
 
@@ -149,19 +164,27 @@
     var mobileResults = document.getElementById('mobile-search-results');
     var mobileForm = document.getElementById('mobile-search-form');
 
-    // Open overlay
+    // Open overlay with animation
     searchBtn.addEventListener('click', function() {
       mobileOverlay.style.display = 'block';
       document.body.style.overflow = 'hidden';
-      setTimeout(function() { mobileInput.focus(); }, 100);
+      requestAnimationFrame(function() {
+        requestAnimationFrame(function() {
+          mobileOverlay.classList.add('open');
+        });
+      });
+      setTimeout(function() { mobileInput.focus(); }, 300);
     });
 
-    // Close overlay
+    // Close overlay with animation
     function closeMobileSearch() {
-      mobileOverlay.style.display = 'none';
+      mobileOverlay.classList.remove('open');
       document.body.style.overflow = '';
-      mobileInput.value = '';
-      mobileResults.innerHTML = '';
+      setTimeout(function() {
+        mobileOverlay.style.display = 'none';
+        mobileInput.value = '';
+        mobileResults.innerHTML = '';
+      }, 280);
     }
 
     document.getElementById('mobile-search-close').addEventListener('click', closeMobileSearch);
