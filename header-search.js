@@ -1,7 +1,9 @@
 (function() {
   let products = null;
   let dropdownEl = null;
+  let mobileDropdownEl = null;
   let debounceTimer = null;
+  let mobileOverlay = null;
 
   function getLang() {
     return localStorage.getItem('dataway_lang') || 'sk';
@@ -17,26 +19,22 @@
 
   async function loadProducts() {
     if (products) return products;
-    // Use inline PRODUCTS if available (produkty.html, produkt.html)
     if (window.PRODUCTS) {
       products = window.PRODUCTS;
       return products;
     }
-    // Otherwise fetch products.json
     try {
-      const res = await fetch('products.json');
+      var res = await fetch('products.json');
       products = await res.json();
       return products;
     } catch(e) {
-      console.error('Failed to load products for search:', e);
       return [];
     }
   }
 
   function search(query, allProducts) {
-    const words = query.toLowerCase().split(/\s+/).filter(Boolean);
+    var words = query.toLowerCase().split(/\s+/).filter(Boolean);
     if (words.length === 0) return [];
-
     return allProducts.filter(function(p) {
       var haystack = [
         p.name, p.name_en, p.category, p.category_en,
@@ -47,27 +45,14 @@
     });
   }
 
-  function createDropdown(form) {
-    if (dropdownEl) return dropdownEl;
-    dropdownEl = document.createElement('div');
-    dropdownEl.id = 'header-search-dropdown';
-    dropdownEl.style.cssText = 'position:absolute;top:100%;left:0;right:0;margin-top:4px;background:white;border-radius:12px;box-shadow:0 4px 24px rgba(8,28,126,0.15),0 0 0 1px rgba(58,89,241,0.08);z-index:100;overflow:hidden;display:none;min-width:320px;max-height:420px;overflow-y:auto;';
-    form.style.position = 'relative';
-    form.appendChild(dropdownEl);
-    return dropdownEl;
-  }
-
-  function showResults(results, query, form, input) {
-    var dd = createDropdown(form);
+  function buildResultsHTML(results, query) {
     var lang = getLang();
     var maxShow = 6;
     var shown = results.slice(0, maxShow);
 
     if (shown.length === 0) {
-      var noResultsText = lang === 'en' ? 'No products found' : 'Žiadne produkty';
-      dd.innerHTML = '<div style="padding:16px 20px;color:#8e95a9;font-size:13px;text-align:center;">' + noResultsText + '</div>';
-      dd.style.display = 'block';
-      return;
+      var noText = lang === 'en' ? 'No products found' : 'Žiadne produkty';
+      return '<div style="padding:16px 20px;color:#8e95a9;font-size:13px;text-align:center;">' + noText + '</div>';
     }
 
     var html = '';
@@ -93,7 +78,23 @@
       html += '<a href="produkty.html?search=' + encodeURIComponent(query) + '" style="display:block;padding:12px 16px;text-align:center;font-size:13px;font-weight:600;color:#3a59f1;text-decoration:none;transition:background 0.15s;" onmouseover="this.style.background=\'#f8f9fc\'" onmouseout="this.style.background=\'transparent\'">' + allText + '</a>';
     }
 
-    dd.innerHTML = html;
+    return html;
+  }
+
+  // ---- DESKTOP DROPDOWN ----
+  function createDropdown(form) {
+    if (dropdownEl) return dropdownEl;
+    dropdownEl = document.createElement('div');
+    dropdownEl.id = 'header-search-dropdown';
+    dropdownEl.style.cssText = 'position:absolute;top:100%;left:0;right:0;margin-top:4px;background:white;border-radius:12px;box-shadow:0 4px 24px rgba(8,28,126,0.15),0 0 0 1px rgba(58,89,241,0.08);z-index:100;overflow:hidden;display:none;min-width:320px;max-height:420px;overflow-y:auto;';
+    form.style.position = 'relative';
+    form.appendChild(dropdownEl);
+    return dropdownEl;
+  }
+
+  function showDesktopResults(results, query, form) {
+    var dd = createDropdown(form);
+    dd.innerHTML = buildResultsHTML(results, query);
     dd.style.display = 'block';
   }
 
@@ -101,10 +102,113 @@
     if (dropdownEl) dropdownEl.style.display = 'none';
   }
 
+  // ---- MOBILE SEARCH OVERLAY ----
+  function createMobileOverlay() {
+    if (mobileOverlay) return;
+
+    // Search trigger button (magnifying glass in header)
+    var header = document.querySelector('header');
+    if (!header) return;
+    var menuToggle = header.querySelector('#menu-toggle');
+    if (!menuToggle) return;
+
+    var searchBtn = document.createElement('button');
+    searchBtn.id = 'mobile-search-toggle';
+    searchBtn.setAttribute('aria-label', 'Search');
+    searchBtn.style.cssText = 'padding:8px;color:#3d4663;display:none;';
+    searchBtn.innerHTML = '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>';
+    menuToggle.parentNode.insertBefore(searchBtn, menuToggle);
+
+    // Show only on mobile (md breakpoint = 768px)
+    function updateVisibility() {
+      searchBtn.style.display = window.innerWidth < 768 ? 'block' : 'none';
+    }
+    updateVisibility();
+    window.addEventListener('resize', updateVisibility);
+
+    // Overlay
+    mobileOverlay = document.createElement('div');
+    mobileOverlay.id = 'mobile-search-overlay';
+    mobileOverlay.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;z-index:9998;background:rgba(0,0,0,0.4);display:none;';
+    mobileOverlay.innerHTML = '<div style="background:white;padding:16px 16px 0;box-shadow:0 4px 24px rgba(0,0,0,0.15);">' +
+      '<div style="display:flex;align-items:center;gap:10px;">' +
+        '<form id="mobile-search-form" style="flex:1;position:relative;display:flex;align-items:center;">' +
+          '<svg style="position:absolute;left:12px;width:16px;height:16px;color:#8e95a9;pointer-events:none;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>' +
+          '<input type="text" id="mobile-search-input" placeholder="' + (getLang() === 'en' ? 'Search product...' : 'Hľadať produkt...') + '" style="width:100%;padding:10px 12px 10px 38px;font-size:15px;border:1px solid #eef1f6;border-radius:10px;background:#f8f9fc;outline:none;color:#0f1b3d;" autocomplete="off">' +
+        '</form>' +
+        '<button id="mobile-search-close" type="button" style="padding:8px;color:#3d4663;flex-shrink:0;">' +
+          '<svg style="width:20px;height:20px;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>' +
+        '</button>' +
+      '</div>' +
+      '<div id="mobile-search-results" style="max-height:calc(100vh - 80px);overflow-y:auto;"></div>' +
+    '</div>';
+
+    document.body.appendChild(mobileOverlay);
+
+    var mobileInput = document.getElementById('mobile-search-input');
+    var mobileResults = document.getElementById('mobile-search-results');
+    var mobileForm = document.getElementById('mobile-search-form');
+
+    // Open overlay
+    searchBtn.addEventListener('click', function() {
+      mobileOverlay.style.display = 'block';
+      document.body.style.overflow = 'hidden';
+      setTimeout(function() { mobileInput.focus(); }, 100);
+    });
+
+    // Close overlay
+    function closeMobileSearch() {
+      mobileOverlay.style.display = 'none';
+      document.body.style.overflow = '';
+      mobileInput.value = '';
+      mobileResults.innerHTML = '';
+    }
+
+    document.getElementById('mobile-search-close').addEventListener('click', closeMobileSearch);
+    mobileOverlay.addEventListener('click', function(e) {
+      if (e.target === mobileOverlay) closeMobileSearch();
+    });
+
+    // Search input
+    mobileInput.addEventListener('input', function() {
+      clearTimeout(debounceTimer);
+      var q = mobileInput.value.trim();
+      if (q.length < 2) {
+        mobileResults.innerHTML = '';
+        return;
+      }
+      debounceTimer = setTimeout(async function() {
+        var allProducts = await loadProducts();
+        var results = search(q, allProducts);
+        mobileResults.innerHTML = buildResultsHTML(results, q);
+      }, 200);
+    });
+
+    // Enter
+    mobileForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      var q = mobileInput.value.trim();
+      if (!q) return;
+      closeMobileSearch();
+      if (typeof window.handleSearch === 'function') {
+        window.handleSearch(q);
+      } else {
+        window.location.href = 'produkty.html?search=' + encodeURIComponent(q);
+      }
+    });
+
+    // ESC
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && mobileOverlay.style.display !== 'none') {
+        closeMobileSearch();
+      }
+    });
+  }
+
+  // ---- INIT ----
   function init() {
-    // Find header search forms on the page
+    // Desktop search
     var forms = document.querySelectorAll('form[id="header-search-form"]');
-    if (forms.length === 0) return;
 
     forms.forEach(function(form) {
       var input = form.querySelector('input[type="text"]');
@@ -120,7 +224,7 @@
         debounceTimer = setTimeout(async function() {
           var allProducts = await loadProducts();
           var results = search(q, allProducts);
-          showResults(results, q, form, input);
+          showDesktopResults(results, q, form);
         }, 200);
       });
 
@@ -131,24 +235,20 @@
         }
       });
 
-      // Handle Enter — on produkty.html use existing search, elsewhere redirect
       form.addEventListener('submit', function(e) {
         e.preventDefault();
         var q = input.value.trim();
         if (!q) return;
         hideDropdown();
-
-        // If on produkty.html, use the page's handleSearch function
         if (typeof window.handleSearch === 'function') {
           window.handleSearch(q);
-          return;
+        } else {
+          window.location.href = 'produkty.html?search=' + encodeURIComponent(q);
         }
-        // Otherwise redirect to produkty.html
-        window.location.href = 'produkty.html?search=' + encodeURIComponent(q);
       });
     });
 
-    // Close dropdown on click outside
+    // Close desktop dropdown on click outside
     document.addEventListener('click', function(e) {
       var isInside = false;
       forms.forEach(function(form) {
@@ -157,13 +257,18 @@
       if (!isInside) hideDropdown();
     });
 
-    // Close on ESC
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') hideDropdown();
     });
 
-    // Re-render on language change
+    // Language change
     window.addEventListener('languageChanged', function() {
+      // Update mobile placeholder
+      var mInput = document.getElementById('mobile-search-input');
+      if (mInput) {
+        mInput.placeholder = getLang() === 'en' ? 'Search product...' : 'Hľadať produkt...';
+      }
+      // Re-render if dropdown open
       if (dropdownEl && dropdownEl.style.display !== 'none') {
         forms.forEach(function(form) {
           var input = form.querySelector('input[type="text"]');
@@ -173,6 +278,9 @@
         });
       }
     });
+
+    // Mobile search
+    createMobileOverlay();
   }
 
   if (document.readyState === 'loading') {
