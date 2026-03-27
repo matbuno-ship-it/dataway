@@ -1,7 +1,6 @@
 (function() {
   let products = null;
   let dropdownEl = null;
-  let mobileDropdownEl = null;
   let debounceTimer = null;
   let mobileOverlay = null;
 
@@ -10,21 +9,25 @@
   }
 
   function pName(p) {
-    return getLang() === 'en' ? (p.name_en || p.name) : p.name;
+    return getLang() === 'en' ? (p.ne || p.n) : p.n;
   }
 
   function pCategory(p) {
-    return getLang() === 'en' ? (p.category_en || p.category) : p.category;
+    return getLang() === 'en' ? (p.ce || p.c) : p.c;
   }
 
   async function loadProducts() {
     if (products) return products;
+    // Use inline PRODUCTS if available (produkty.html, produkt.html)
     if (window.PRODUCTS) {
-      products = window.PRODUCTS;
+      products = window.PRODUCTS.map(function(p) {
+        return { s: p.slug, n: p.name, ne: p.name_en, c: p.category, ce: p.category_en, sc: p.subcategory, sce: p.subcategory_en, co: p.code, pn: p.partNumber, i: p.image };
+      });
       return products;
     }
+    // Fetch lightweight search index (~155KB vs 2MB)
     try {
-      var res = await fetch('products.json');
+      var res = await fetch('products-search.json');
       products = await res.json();
       return products;
     } catch(e) {
@@ -37,9 +40,7 @@
     if (words.length === 0) return [];
     return allProducts.filter(function(p) {
       var haystack = [
-        p.name, p.name_en, p.category, p.category_en,
-        p.subcategory, p.subcategory_en,
-        p.code, p.partNumber
+        p.n, p.ne, p.c, p.ce, p.sc, p.sce, p.co, p.pn
       ].filter(Boolean).join(' ').toLowerCase();
       return words.every(function(w) { return haystack.includes(w); });
     });
@@ -59,8 +60,8 @@
     shown.forEach(function(p) {
       var name = pName(p);
       var cat = pCategory(p);
-      var img = p.image || 'Brand/Loga-na-sirku-450-x-120-px-11.webp';
-      html += '<a href="produkt.html?slug=' + p.slug + '" class="ms-result" style="display:flex;align-items:center;gap:14px;padding:12px 16px;text-decoration:none;border-bottom:1px solid #f0f1f5;" onmouseover="this.style.background=\'#f8f9fc\'" onmouseout="this.style.background=\'transparent\'">';
+      var img = p.i || 'Brand/Loga-na-sirku-450-x-120-px-11.webp';
+      html += '<a href="produkt.html?slug=' + p.s + '" class="ms-result" style="display:flex;align-items:center;gap:14px;padding:12px 16px;text-decoration:none;border-bottom:1px solid #f0f1f5;" onmouseover="this.style.background=\'#f8f9fc\'" onmouseout="this.style.background=\'transparent\'">';
       html += '<div style="width:48px;height:48px;flex-shrink:0;background:#f8f9fc;border-radius:10px;overflow:hidden;display:flex;align-items:center;justify-content:center;">';
       html += '<img src="' + img + '" alt="" style="max-width:100%;max-height:100%;object-fit:contain;mix-blend-mode:multiply;" onerror="this.src=\'Brand/Loga-na-sirku-450-x-120-px-11.webp\';this.style.opacity=\'0.3\'">';
       html += '</div>';

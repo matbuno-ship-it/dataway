@@ -73,3 +73,11 @@ function embedInFile(filename) {
 
 embedInFile('produkty.html');
 embedInFile('produkt.html');
+
+// Generate lightweight search index
+const mini = products.map(p => ({
+  s: p.slug, n: p.name, ne: p.name_en, c: p.category, ce: p.category_en,
+  sc: p.subcategory, sce: p.subcategory_en, co: p.code, pn: p.partNumber, i: p.image
+}));
+fs.writeFileSync('products-search.json', JSON.stringify(mini));
+console.log('products-search.json: ' + (JSON.stringify(mini).length / 1024).toFixed(0) + 'KB (' + mini.length + ' products)');
