@@ -93,6 +93,16 @@ function parseAllProducts(xml) {
       if (key && val) specs[key] = val;
     }
 
+    // Related files (datasheets, test reports, etc.)
+    const files = [];
+    const fileRegex = /<RELATED_FILE>\s*<TEXT>([^<]*)<\/TEXT>\s*<URL>([^<]*)<\/URL>\s*<\/RELATED_FILE>/g;
+    let fileMatch;
+    while ((fileMatch = fileRegex.exec(block)) !== null) {
+      const text = fileMatch[1].trim();
+      const url = fileMatch[2].trim();
+      if (text && url) files.push({ text, url });
+    }
+
     // Categories
     const categories = [];
     const catRegex = /<CATEGORY[^>]*>([^<]+)<\/CATEGORY>/g;
@@ -133,6 +143,7 @@ function parseAllProducts(xml) {
       specs: Object.keys(specs).length > 0 ? specs : null,
       image: images[0] || null,
       images: images.length > 0 ? images : null,
+      files: files.length > 0 ? files : null,
     });
   }
 
@@ -161,10 +172,13 @@ const withDesc = unique.filter(p => p.descriptionHtml).length;
 const withSpecs = unique.filter(p => p.specs).length;
 const withImages = unique.filter(p => p.images && p.images.length > 0).length;
 const withBullets = unique.filter(p => p.descriptionHtml && p.descriptionHtml.includes('<ul')).length;
+const withFiles = unique.filter(p => p.files).length;
+const totalFiles = unique.reduce((sum, p) => sum + (p.files ? p.files.length : 0), 0);
 console.log('\nDescriptions:', withDesc);
 console.log('Specs:', withSpecs);
 console.log('Images:', withImages);
 console.log('With bullet lists:', withBullets);
+console.log('With files/datasheets:', withFiles, '(' + totalFiles + ' files total)');
 
 fs.writeFileSync('products.json', JSON.stringify(unique, null, 2), 'utf8');
 console.log('\nSaved products.json with', unique.length, 'products');
