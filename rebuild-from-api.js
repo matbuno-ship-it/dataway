@@ -160,6 +160,29 @@ const unique = products.filter(p => {
   return true;
 });
 
+// Preserve existing EN translations from previous products.json
+const EN_FIELDS = ['name_en', 'category_en', 'subcategory_en', 'description_en', 'descriptionHtml_en', 'specs_en'];
+try {
+  const prev = JSON.parse(fs.readFileSync('products.json', 'utf8'));
+  const prevByCode = {};
+  prev.forEach(p => { if (p.code) prevByCode[p.code] = p; });
+  let restored = 0;
+  unique.forEach(p => {
+    const old = prevByCode[p.code];
+    if (!old) return;
+    EN_FIELDS.forEach(f => {
+      if (old[f] && !p[f]) {
+        p[f] = old[f];
+      }
+    });
+    restored++;
+  });
+  const withEn = unique.filter(p => p.name_en).length;
+  console.log('Restored EN translations for', withEn, 'products (matched', restored, 'by code)');
+} catch (e) {
+  console.log('No previous products.json found, skipping EN restore');
+}
+
 console.log('Parsed from API:', products.length);
 console.log('Unique by slug:', unique.length);
 
