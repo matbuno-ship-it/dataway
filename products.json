@@ -2691,7 +2691,20 @@
     "images": [
       "https://www.tesshop.sk/img.asp?attid=4159832"
     ],
-    "files": null
+    "files": null,
+    "name_en": "DATAWAY ReadyKit Patch Cord SC/APC - SC/APC 50m, 2mm, G.657A2, Simplex",
+    "category_en": "Fiber Optics",
+    "subcategory_en": "Patch Cords",
+    "description_en": "Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. G.657A2 fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.",
+    "descriptionHtml_en": "<p>Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. <strong>G.657A2</strong> fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.</p>\n\n<p><strong>Features:</strong></p>\n\n<ul>\n\t<li><p>Length: <strong>50 m</strong></p></li>\n\t<li><p>Connectors: <strong>SC/APC – SC/APC</strong> (green, APC polish)</p></li>\n\t<li><p>Type: <strong>Simplex</strong></p></li>\n\t<li><p>Fiber type: <strong>Singlemode G.657A2</strong> – excellent bend resistance, low insertion loss</p></li>\n\t<li><p>Suitable for FTTH, FTTx, GPON, active devices, cabinets and patch panels</p></li>\n\t<li><p>High-quality construction and stable optical parameters</p></li>\n</ul>",
+    "specs_en": {
+      "Cable Diameter (mm)": "3.0",
+      "Length (m)": "50",
+      "Core Diameter (µm)": "9/125 (OS2)",
+      "Application": "Orange, Telekom, UPC, Slovanet and others",
+      "Fiber Count": "simplex",
+      "Fiber Type": "SM G.657A"
+    }
   },
   {
     "name": "DATAWAY (100m) kábel CAT6, FTP, LSOH, Dca",
@@ -6751,7 +6764,19 @@
       "https://www.tesshop.sk/img.asp?attid=4617927",
       "https://www.tesshop.sk/img.asp?attid=4617928"
     ],
-    "files": null
+    "files": null,
+    "name_en": "DATAWAY ReadyKit Patch Cord SC/PC - SC/PC 100m, 3mm, G.657A2, Simplex, Outdoor",
+    "category_en": "Fiber Optics",
+    "subcategory_en": "Patch Cords",
+    "description_en": "DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC with a length of 100 meters is a ready-made solution for fast and easy deployment of optical connections without the need for splicing.",
+    "descriptionHtml_en": "<p><strong>DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC</strong> with a length of <strong>100 meters</strong> is a ready-made solution for fast and easy deployment of optical connections without the need for splicing. With its <strong>simplex (1 fiber)</strong> design and high-quality <strong>G.657A2</strong> fiber, it is ideal for installations requiring high flexibility and bend resistance.</p>\n\n<p>The patch cord is equipped with <strong>SC/PC connectors on both ends</strong>, ensuring reliable connection with low insertion loss. The robust <strong>3 mm outer jacket</strong> is designed for <strong>outdoor use</strong>, making the cable suitable for inter-building connections, facade routing, or exterior cable runs.</p>\n\n<p>The ReadyKit solution enables immediate deployment without additional modifications, significantly reducing installation time.</p>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><p><strong>Type:</strong> fiber optic patch cord – ReadyKit package</p></li>\n\t<li><p><strong>Connectors:</strong> <strong>SC/PC – SC/PC</strong></p></li>\n\t<li><p><strong>Length:</strong> <strong>100 m</strong></p></li>\n\t<li><p><strong>Fiber:</strong> <strong>G.657A2</strong> – enhanced bend resistance</p></li>\n\t<li><p><strong>Type:</strong> <strong>simplex (1 fiber)</strong></p></li>\n\t<li><p><strong>Cable Diameter:</strong> <strong>3 mm</strong></p></li>\n\t<li><p><strong>Application:</strong> <strong>outdoor / exterior</strong></p></li>\n\t<li><p><strong>Installation:</strong> no splicing required</p></li>\n</ul>",
+    "specs_en": {
+      "Length (m)": "100",
+      "Cable Diameter (mm)": "3.0",
+      "Connectors": "SC/PC - SC/PC",
+      "Fiber Count": "simplex",
+      "Fiber Type": "SM G.657A2"
+    }
   },
   {
     "name": "DATAWAY K-7-70, Karabína 7x70mm, 2kN",
@@ -10050,7 +10075,17 @@
       "https://www.tesshop.sk/img.asp?attid=2130438",
       "https://www.tesshop.sk/img.asp?attid=2130116"
     ],
-    "files": null
+    "files": null,
+    "name_en": "DATAWAY Fiber Optic Patch Cord SC/PC - LC/PC 3m Duplex, SM, G657A2",
+    "category_en": "Fiber Optics",
+    "subcategory_en": "Patch Cords",
+    "description_en": "A fiber optic patch cord (jumper cable) is a standard interconnect optical cable terminated with optical connectors on both ends. Patch cords are used for connecting devices inside cabinets or for connecting active equipment to optical routes terminated in the cabinet.",
+    "descriptionHtml_en": "<p>A fiber optic patch cord (jumper cable) is a standard interconnect optical cable terminated with optical connectors on both ends. Patch cords are used for connecting devices inside cabinets or for connecting active equipment to optical routes terminated in the cabinet. Patch cords are typically available in <strong>duplex</strong> (2 fibers, 4 connectors) or <strong>simplex</strong> (1 fiber, 2 connectors) versions for single-fiber WDM applications.</p>",
+    "specs_en": {
+      "Cable Diameter (mm)": "3 mm",
+      "Fiber Count": "duplex",
+      "Fiber Type": "SM G.657A"
+    }
   },
   {
     "name": "DATAWAY Optický patchcord SC/APC - SC/APC 0,5m, duplex, SM, G657A2",
@@ -11636,7 +11671,30 @@
         "text": "Prehlásenie o zhode",
         "url": "https://www.tesshop.sk/img.asp?attid=4620557"
       }
-    ]
+    ],
+    "name_en": "DATAWAY DROP (1000m) 4-Fiber, G.657A2, PE, 3.0mm",
+    "category_en": "Fiber Optics",
+    "subcategory_en": "Fiber Optic Cables",
+    "description_en": "The DATAWAY DROP optical cable is a self-supporting 4-fiber cable with SC connector designed for FTTx and FTTH connections, outdoor and indoor installations. Thanks to its reinforced construction with a strength member, it provides high mechanical strength and reliability when suspended on poles.",
+    "descriptionHtml_en": "<p>The <strong>DATAWAY DROP</strong> optical cable is a <strong>self-supporting 4-fiber cable</strong> with SC connector designed for FTTx and FTTH connections, outdoor and indoor installations. Thanks to its <strong>reinforced construction with a strength member</strong>, it provides high mechanical strength and reliability when suspended on poles or between buildings.</p>\n\n<p><br />\n<img src=\"https://www.tesshop.sk/dataway-drop-1000m-24-vlakno-g-657a2-lsoh-eca-3-6mm-image1-big_ies4627192.jpg\" />          <img src=\"https://www.tesshop.sk/dataway-drop-1000m-24-vlakno-g-657a2-lsoh-eca-3-6mm-image1-big_ies4627193.jpg\" /></p>\n\n<p>It uses <strong>G.657A2 optical fibers</strong>, which offer <strong>high bend resistance</strong> and enable easy handling even in installations with limited space. The outer jacket made of <strong>polyethylene PE</strong> ensures <strong>high strength and durability in outdoor environments.</strong></p>\n\n<p><br />\n<img src=\"https://www.tesshop.sk/dataway-drop-1000m-opticky-kabel-4-vlakno-g-657a2-lsoh-eca-3-0mm-image1-big_ies4009582.jpg\" /></p>\n\n<p>With a diameter of <strong>3.0 mm</strong>, it represents a <strong>lightweight, durable and versatile solution</strong> for modern optical networks. The cable is wound on a reel of <strong>1000 meters</strong>, packed in a cardboard box.</p>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><p>Type: Self-supporting DROP optical cable, <strong>4 fibers</strong></p></li>\n\t<li><p>Fiber type: Singlemode <strong>G.657A2</strong></p></li>\n\t<li><p>Package length: <strong>1000 m</strong></p></li>\n\t<li><p>Outer jacket: <strong>PE</strong>, outdoor</p></li>\n\t<li><p>Cable diameter: <strong>3.0 mm</strong></p></li>\n\t<li><p>Reinforced construction – <strong>suitable for aerial installation (self-supporting type)</strong></p></li>\n\t<li><p>High bend resistance and easy handling</p></li>\n\t<li><p>Application: FTTx, FTTH, outdoor distribution, building connections, telecommunications networks</p></li>\n</ul>",
+    "specs_en": {
+      "Fiber Count": "(4)",
+      "Fiber Layout": "0T4F",
+      "Package": "1000 m",
+      "Operating Temperature (°C)": "-20 to 60",
+      "Tension (Long Term) (N)": "240",
+      "Cable Diameter (mm)": "3.0",
+      "Crush (Long Term) (N)": "300",
+      "Installation Temperature (°C)": "-5 to 40",
+      "Tension (Short Term) (N)": "700",
+      "Crush (Short Term) (N)": "700",
+      "Weight (kg/km)": "8.7",
+      "Cable Type": "DROP",
+      "Fire Reaction Class": "Eca",
+      "Jacket": "PE",
+      "Connectors": "SC",
+      "Fiber Type": "SM G.657A2"
+    }
   },
   {
     "name": "DATAWAY ReadyKit patchcord SC/APC - SC/APC 80m, 2mm, G.657A2, simplex",
@@ -11660,7 +11718,20 @@
     "images": [
       "https://www.tesshop.sk/img.asp?attid=4658299"
     ],
-    "files": null
+    "files": null,
+    "name_en": "DATAWAY ReadyKit Patch Cord SC/APC - SC/APC 80m, 2mm, G.657A2, Simplex",
+    "category_en": "Fiber Optics",
+    "subcategory_en": "Patch Cords",
+    "description_en": "Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. G.657A2 fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.",
+    "descriptionHtml_en": "<p>Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. <strong>G.657A2</strong> fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.</p>\n\n<p><strong>Features:</strong></p>\n\n<ul>\n\t<li><p>Length: <strong>80 m</strong></p></li>\n\t<li><p>Connectors: <strong>SC/APC – SC/APC</strong> (green, APC polish)</p></li>\n\t<li><p>Type: <strong>Simplex</strong></p></li>\n\t<li><p>Fiber type: <strong>Singlemode G.657A2</strong> – excellent bend resistance, low insertion loss</p></li>\n\t<li><p>Suitable for FTTH, FTTx, GPON, active devices, cabinets and patch panels</p></li>\n\t<li><p>High-quality construction and stable optical parameters</p></li>\n</ul>",
+    "specs_en": {
+      "Cable Diameter (mm)": "3.0",
+      "Length (m)": "80",
+      "Core Diameter (µm)": "9/125 (OS2)",
+      "Application": "Orange, Telekom, UPC, Slovanet and others",
+      "Fiber Count": "simplex",
+      "Fiber Type": "SM G.657A"
+    }
   },
   {
     "name": "DATAWAY ReadyKit patchcord SC/APC - SC/APC 70m, 2mm, G.657A2, simplex",
@@ -11684,7 +11755,20 @@
     "images": [
       "https://www.tesshop.sk/img.asp?attid=4680835"
     ],
-    "files": null
+    "files": null,
+    "name_en": "DATAWAY ReadyKit Patch Cord SC/APC - SC/APC 70m, 2mm, G.657A2, Simplex",
+    "category_en": "Fiber Optics",
+    "subcategory_en": "Patch Cords",
+    "description_en": "Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. G.657A2 fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.",
+    "descriptionHtml_en": "<p>Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. <strong>G.657A2</strong> fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.</p>\n\n<p><strong>Features:</strong></p>\n\n<ul>\n\t<li><p>Length: <strong>70 m</strong></p></li>\n\t<li><p>Connectors: <strong>SC/APC – SC/APC</strong> (green, APC polish)</p></li>\n\t<li><p>Type: <strong>Simplex</strong></p></li>\n\t<li><p>Fiber type: <strong>Singlemode G.657A2</strong> – excellent bend resistance, low insertion loss</p></li>\n\t<li><p>Suitable for FTTH, FTTx, GPON, active devices, cabinets and patch panels</p></li>\n\t<li><p>High-quality construction and stable optical parameters</p></li>\n</ul>",
+    "specs_en": {
+      "Cable Diameter (mm)": "3.0",
+      "Length (m)": "70",
+      "Core Diameter (µm)": "9/125 (OS2)",
+      "Application": "Orange, Telekom, UPC, Slovanet and others",
+      "Fiber Count": "simplex",
+      "Fiber Type": "SM G.657A"
+    }
   },
   {
     "name": "Optický splitter PLC, MINI modul, 1x16 0.9mm, G657A1, bez konektorov",
@@ -14940,7 +15024,19 @@
       "https://www.tesshop.sk/img.asp?attid=4617925",
       "https://www.tesshop.sk/img.asp?attid=4617926"
     ],
-    "files": null
+    "files": null,
+    "name_en": "DATAWAY ReadyKit Patch Cord SC/PC - SC/PC 50m, 3mm, G.657A2, Simplex, Outdoor",
+    "category_en": "Fiber Optics",
+    "subcategory_en": "Patch Cords",
+    "description_en": "DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC with a length of 50 meters is a ready-made solution for fast and easy deployment of optical connections without the need for splicing.",
+    "descriptionHtml_en": "<p><strong>DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC</strong> with a length of <strong>50 meters</strong> is a ready-made solution for fast and easy deployment of optical connections without the need for splicing. With its <strong>simplex (1 fiber)</strong> design and high-quality <strong>G.657A2</strong> fiber, it is ideal for installations requiring high flexibility and bend resistance.</p>\n\n<p>The patch cord is equipped with <strong>SC/PC connectors on both ends</strong>, ensuring reliable connection with low insertion loss. The robust <strong>3 mm outer jacket</strong> is designed for <strong>outdoor use</strong>, making the cable suitable for inter-building connections, facade routing, or exterior cable runs.</p>\n\n<p>The ReadyKit solution enables immediate deployment without additional modifications, significantly reducing installation time.</p>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><p><strong>Type:</strong> fiber optic patch cord – ReadyKit package</p></li>\n\t<li><p><strong>Connectors:</strong> <strong>SC/PC – SC/PC</strong></p></li>\n\t<li><p><strong>Length:</strong> <strong>50 m</strong></p></li>\n\t<li><p><strong>Fiber:</strong> <strong>G.657A2</strong> – enhanced bend resistance</p></li>\n\t<li><p><strong>Type:</strong> <strong>simplex (1 fiber)</strong></p></li>\n\t<li><p><strong>Cable Diameter:</strong> <strong>3 mm</strong></p></li>\n\t<li><p><strong>Application:</strong> <strong>outdoor / exterior</strong></p></li>\n\t<li><p><strong>Installation:</strong> no splicing required</p></li>\n</ul>",
+    "specs_en": {
+      "Cable Diameter (mm)": "3.0",
+      "Length (m)": "50",
+      "Connectors": "SC/PC - SC/PC",
+      "Fiber Count": "simplex",
+      "Fiber Type": "SM G.657A2"
+    }
   },
   {
     "name": "DATAWAY Okenná spojka RJ45, 300/235mm, medený pásik",
@@ -17114,7 +17210,17 @@
     "images": [
       "https://www.tesshop.sk/img.asp?attid=2391842"
     ],
-    "files": null
+    "files": null,
+    "name_en": "DATAWAY Fiber Optic Patch Cord SC/APC - LC/APC 1m Simplex, SM, G657A2",
+    "category_en": "Fiber Optics",
+    "subcategory_en": "Patch Cords",
+    "description_en": "A fiber optic patch cord (jumper cable) is a standard interconnect optical cable terminated with optical connectors on both ends. Patch cords are used for connecting devices inside cabinets or for connecting active equipment to optical routes terminated in the cabinet.",
+    "descriptionHtml_en": "<p>A fiber optic patch cord (jumper cable) is a standard interconnect optical cable terminated with optical connectors on both ends. Patch cords are used for connecting devices inside cabinets or for connecting active equipment to optical routes terminated in the cabinet. Patch cords are typically available in <strong>duplex</strong> (2 fibers, 4 connectors) or <strong>simplex</strong> (1 fiber, 2 connectors) versions for single-fiber WDM applications.</p>",
+    "specs_en": {
+      "Cable Diameter (mm)": "3 mm",
+      "Fiber Count": "simplex",
+      "Fiber Type": "SM G.657A"
+    }
   },
   {
     "name": "DATAWAY Optický pigtail set LC/PC, SM G657A2, 2m (12 colours 0,9/0,25mm) (Box)",
@@ -17967,7 +18073,20 @@
     "images": [
       "https://www.tesshop.sk/img.asp?attid=4680839"
     ],
-    "files": null
+    "files": null,
+    "name_en": "DATAWAY ReadyKit Patch Cord SC/APC - SC/APC 30m, 2mm, G.657A2, Simplex",
+    "category_en": "Fiber Optics",
+    "subcategory_en": "Patch Cords",
+    "description_en": "Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. G.657A2 fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.",
+    "descriptionHtml_en": "<p>Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. <strong>G.657A2</strong> fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.</p>\n\n<p><strong>Features:</strong></p>\n\n<ul>\n\t<li><p>Length: <strong>30 m</strong></p></li>\n\t<li><p>Connectors: <strong>SC/APC – SC/APC</strong> (green, APC polish)</p></li>\n\t<li><p>Type: <strong>Simplex</strong></p></li>\n\t<li><p>Fiber type: <strong>Singlemode G.657A2</strong> – excellent bend resistance, low insertion loss</p></li>\n\t<li><p>Suitable for FTTH, FTTx, GPON, active devices, cabinets and patch panels</p></li>\n\t<li><p>High-quality construction and stable optical parameters</p></li>\n</ul>",
+    "specs_en": {
+      "Cable Diameter (mm)": "3.0",
+      "Length (m)": "30",
+      "Core Diameter (µm)": "9/125 (OS2)",
+      "Application": "Orange, Telekom, UPC, Slovanet and others",
+      "Fiber Count": "simplex",
+      "Fiber Type": "SM G.657A"
+    }
   },
   {
     "name": "DATAWAY, Rozvádzač 6U, 19\", 600x550mm, sklenené dvere, odímateľné bočnice, šedý",
@@ -21423,7 +21542,19 @@
       "https://www.tesshop.sk/img.asp?attid=4617932",
       "https://www.tesshop.sk/img.asp?attid=4617941"
     ],
-    "files": null
+    "files": null,
+    "name_en": "DATAWAY ReadyKit Patch Cord SC/PC - SC/PC 80m, 3mm, G.657A2, Simplex, Outdoor",
+    "category_en": "Fiber Optics",
+    "subcategory_en": "Patch Cords",
+    "description_en": "DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC with a length of 80 meters is a ready-made solution for fast and easy deployment of optical connections without the need for splicing.",
+    "descriptionHtml_en": "<p><strong>DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC</strong> with a length of <strong>80 meters</strong> is a ready-made solution for fast and easy deployment of optical connections without the need for splicing. With its <strong>simplex (1 fiber)</strong> design and high-quality <strong>G.657A2</strong> fiber, it is ideal for installations requiring high flexibility and bend resistance.</p>\n\n<p>The patch cord is equipped with <strong>SC/PC connectors on both ends</strong>, ensuring reliable connection with low insertion loss. The robust <strong>3 mm outer jacket</strong> is designed for <strong>outdoor use</strong>, making the cable suitable for inter-building connections, facade routing, or exterior cable runs.</p>\n\n<p>The ReadyKit solution enables immediate deployment without additional modifications, significantly reducing installation time.</p>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><p><strong>Type:</strong> fiber optic patch cord – ReadyKit package</p></li>\n\t<li><p><strong>Connectors:</strong> <strong>SC/PC – SC/PC</strong></p></li>\n\t<li><p><strong>Length:</strong> <strong>80 m</strong></p></li>\n\t<li><p><strong>Fiber:</strong> <strong>G.657A2</strong> – enhanced bend resistance</p></li>\n\t<li><p><strong>Type:</strong> <strong>simplex (1 fiber)</strong></p></li>\n\t<li><p><strong>Cable Diameter:</strong> <strong>3 mm</strong></p></li>\n\t<li><p><strong>Application:</strong> <strong>outdoor / exterior</strong></p></li>\n\t<li><p><strong>Installation:</strong> no splicing required</p></li>\n</ul>",
+    "specs_en": {
+      "Cable Diameter (mm)": "3.0",
+      "Length (m)": "80",
+      "Connectors": "SC/PC - SC/PC",
+      "Fiber Count": "simplex",
+      "Fiber Type": "SM G.657A2"
+    }
   },
   {
     "name": "DATAWAY DROP (1000m) 8-vlákno, G.657A2, LSOH, Eca, 3,6mm",
