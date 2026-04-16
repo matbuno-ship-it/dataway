@@ -21,6 +21,7 @@ const subcategoryRules = [
   { category: 'Metalické siete', pattern: /keyston/i, subcategory: 'Keystony' },
   { category: 'Metalické siete', pattern: /panel/i, subcategory: 'Patch panely' },
   { category: 'Metalické siete', pattern: /kábel|cable|lank/i, subcategory: 'Metalická kabeláž' },
+  { category: 'Rozvádzače', pattern: /rozvádzač.*10"|rozvadzac.*10"/i, subcategory: 'Rozvádzače 10"' },
   { category: 'Rozvádzače', pattern: /rozvádzač|rozvadzac/i, subcategory: 'Rozvádzače 19"' },
   { category: 'Rozvádzače', pattern: /polic/i, subcategory: 'Police' },
   { category: 'Rozvádzače', pattern: /pdu|napájac|prepäť/i, subcategory: 'PDU a napájanie' },
