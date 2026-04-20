@@ -126,6 +126,7 @@ function parseAllProducts(xml) {
 
     const shortDesc = get('SHORT_DESCRIPTION') || '';
     const code = get('CODE');
+    const ean = get('EAN');
     const partNumber = get('PART_NUMBER');
     const warranty = get('WARRANTY');
     const category = getMainCategory(categories);
@@ -135,6 +136,7 @@ function parseAllProducts(xml) {
       name,
       slug,
       code,
+      ean,
       partNumber,
       warranty: warranty ? warranty + ' mesiacov' : null,
       category,
