@@ -138,7 +138,7 @@ function parseAllProducts(xml) {
       code,
       ean,
       partNumber,
-      warranty: warranty ? warranty + ' mesiacov' : null,
+      warrantyMonths: warranty ? parseInt(warranty, 10) : null,
       category,
       subcategory: getSubcategory(name, category),
       description: shortDesc,

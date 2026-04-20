@@ -87,8 +87,10 @@
   "message.no_products_description": "Try changing the filter or search query.",
 
   "product.meta.code_label": "Code:",
+  "product.meta.ean_label": "EAN:",
   "product.meta.part_number_label": "Part No.:",
   "product.meta.warranty_label": "Warranty:",
+  "product.meta.months": "months",
   "product.downloads_heading": "Downloads",
   "product.specifications_heading": "Technical Specifications",
   "breadcrumb.home": "Home",

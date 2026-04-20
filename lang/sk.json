@@ -87,8 +87,10 @@
   "message.no_products_description": "Skúste zmeniť filter alebo vyhľadávanie.",
 
   "product.meta.code_label": "Kód:",
+  "product.meta.ean_label": "EAN:",
   "product.meta.part_number_label": "Part n.:",
   "product.meta.warranty_label": "Záruka:",
+  "product.meta.months": "mesiacov",
   "product.downloads_heading": "Na stiahnutie",
   "product.specifications_heading": "Technické parametre",
   "breadcrumb.home": "Domov",
