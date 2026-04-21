@@ -52,7 +52,6 @@
         "url": "https://youtu.be/ABvYURI-b2M"
       }
     ],
-    "name_en": "DATAWAY (100ks) Connector RJ45 1.2mm, FTP, CAT6, EASY, solid/stranded",
     "category_en": "Copper Networks",
     "subcategory_en": "Connectors",
     "description_en": "DATAWAY pass-through EASY shielded RJ45 connectors are supplied with small holes (1.2mm) at the end of their section, through which conductors pass through the entire body of the connector. Connectors are packaged in plastic bags of 100 pcs.\n\nAdvantages:\n- Before crimping the connector, there is no need to trim the conductors to an exact length, so some wires will not be too short and improperly crimped.\n- Holes with a diameter up to 1.2mm.\n- You can easily check the color order before crimping the connector.\n- 100% reliability, so you will not need to test the cable before use.\n\nFor their installation, we recommend using crimping pliers marked EASY. Like all other products, the contacts of these connectors are covered with 50 µm gold.",
@@ -69,7 +68,8 @@
       "Lifespan": "500 insertions/removals",
       "Design": "EASY",
       "Certifications": "RoHS"
-    }
+    },
+    "name_en": "DATAWAY Patch Cable CAT5E, UTP LSOH, 1m, Green"
   },
   {
     "name": "DATAWAY Krimpovacie kliešte RJ45/RJ12/RJ11/RJ10",
@@ -97,7 +97,7 @@
       "https://www.tesshop.sk/img.asp?attid=1899435"
     ],
     "files": null,
-    "name_en": "DATAWAY Crimping pliers RJ45/RJ12/RJ11/RJ10",
+    "name_en": "DATAWAY Patch Cable CAT5E, UTP LSOH, 2m, Green",
     "category_en": "Copper Networks",
     "subcategory_en": "Other",
     "description_en": "DATAWAY DW-HT-2008AR are robust and precise crimping pliers designed for network and telecommunications cabling. This universal tool is ideal for professional and home work where reliable termination of RJ45, RJ12, RJ11 and RJ10 connectors is needed.",
@@ -163,7 +163,7 @@
       "Dimensions (mm)": "220 x 60 x 21",
       "Storage Temperature (°C)": "-40 to 70",
       "Category": "CAT5E ; CAT6",
-      "Connectors": "RJ45 8p8c ; RJ12 6p6c (EASY konektory)",
+      "Connectors": "RJ45 8p8c ; RJ12 6p6c (EASY connectors)",
       "Design": "EASY, CLASSIC"
     }
   },
@@ -6721,7 +6721,7 @@
     ],
     "files": null,
     "name_en": "DATAWAY Fiber Optic Patch Cord SC/APC - LC/APC 1m Simplex, SM, G657A2",
-    "category_en": "Fiber Optics",
+    "category_en": "Optical Networks",
     "subcategory_en": "Patch Cords",
     "description_en": "A fiber optic patch cord (jumper cable) is a standard interconnect optical cable terminated with optical connectors on both ends. Patch cords are used for connecting devices inside cabinets or for connecting active equipment to optical routes terminated in the cabinet.",
     "descriptionHtml_en": "<p>A fiber optic patch cord (jumper cable) is a standard interconnect optical cable terminated with optical connectors on both ends. Patch cords are used for connecting devices inside cabinets or for connecting active equipment to optical routes terminated in the cabinet. Patch cords are typically available in <strong>duplex</strong> (2 fibers, 4 connectors) or <strong>simplex</strong> (1 fiber, 2 connectors) versions for single-fiber WDM applications.</p>",
@@ -7688,7 +7688,7 @@
     ],
     "files": null,
     "name_en": "DATAWAY ReadyKit Patch Cord SC/PC - SC/PC 100m, 3mm, G.657A2, Simplex, Outdoor",
-    "category_en": "Fiber Optics",
+    "category_en": "Optical Networks",
     "subcategory_en": "Patch Cords",
     "description_en": "DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC with a length of 100 meters is a ready-made solution for fast and easy deployment of optical connections without the need for splicing.",
     "descriptionHtml_en": "<p><strong>DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC</strong> with a length of <strong>100 meters</strong> is a ready-made solution for fast and easy deployment of optical connections without the need for splicing. With its <strong>simplex (1 fiber)</strong> design and high-quality <strong>G.657A2</strong> fiber, it is ideal for installations requiring high flexibility and bend resistance.</p>\n\n<p>The patch cord is equipped with <strong>SC/PC connectors on both ends</strong>, ensuring reliable connection with low insertion loss. The robust <strong>3 mm outer jacket</strong> is designed for <strong>outdoor use</strong>, making the cable suitable for inter-building connections, facade routing, or exterior cable runs.</p>\n\n<p>The ReadyKit solution enables immediate deployment without additional modifications, significantly reducing installation time.</p>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><p><strong>Type:</strong> fiber optic patch cord – ReadyKit package</p></li>\n\t<li><p><strong>Connectors:</strong> <strong>SC/PC – SC/PC</strong></p></li>\n\t<li><p><strong>Length:</strong> <strong>100 m</strong></p></li>\n\t<li><p><strong>Fiber:</strong> <strong>G.657A2</strong> – enhanced bend resistance</p></li>\n\t<li><p><strong>Type:</strong> <strong>simplex (1 fiber)</strong></p></li>\n\t<li><p><strong>Cable Diameter:</strong> <strong>3 mm</strong></p></li>\n\t<li><p><strong>Application:</strong> <strong>outdoor / exterior</strong></p></li>\n\t<li><p><strong>Installation:</strong> no splicing required</p></li>\n</ul>",
@@ -7799,7 +7799,7 @@
       "Color": "White",
       "Operating Temperature (°C)": "-10 to 60",
       "Dimensions (mm)": "22 x 17 x 23",
-      "Material": "plast",
+      "Material": "plastic",
       "Design": "modular"
     }
   },
@@ -9153,7 +9153,7 @@
     ],
     "files": null,
     "name_en": "DATAWAY Fiber Optic Patch Cord SC/PC - LC/PC 3m Duplex, SM, G657A2",
-    "category_en": "Fiber Optics",
+    "category_en": "Optical Networks",
     "subcategory_en": "Patch Cords",
     "description_en": "A fiber optic patch cord (jumper cable) is a standard interconnect optical cable terminated with optical connectors on both ends. Patch cords are used for connecting devices inside cabinets or for connecting active equipment to optical routes terminated in the cabinet.",
     "descriptionHtml_en": "<p>A fiber optic patch cord (jumper cable) is a standard interconnect optical cable terminated with optical connectors on both ends. Patch cords are used for connecting devices inside cabinets or for connecting active equipment to optical routes terminated in the cabinet. Patch cords are typically available in <strong>duplex</strong> (2 fibers, 4 connectors) or <strong>simplex</strong> (1 fiber, 2 connectors) versions for single-fiber WDM applications.</p>",
@@ -11963,7 +11963,7 @@
       }
     ],
     "name_en": "DATAWAY Cabinet 6U, 10\", 312x300mm, Glass Door, Removable Side Panels, Grey",
-    "category_en": "Cabinets & Racks",
+    "category_en": "Cabinets",
     "subcategory_en": "Cabinets 10\"",
     "description_en": "DATAWAY 6U 10\" cabinet is a compact and practical solution for housing smaller network and IT devices.",
     "descriptionHtml_en": "<p><strong>DATAWAY 6U 10\" cabinet</strong> is a compact and practical solution for housing smaller network and IT devices. With dimensions of <strong>312 &times; 300 mm</strong>, it is ideal for installations in homes, small offices, or technical rooms where a full-size 19\" rack is not required.</p>\n\n<p>The cabinet is equipped with a <strong>glass front door</strong> that allows easy visual inspection of devices without opening them. <strong>Removable side panels</strong> provide convenient access during installation and maintenance. Solid construction and high-quality workmanship ensure stability and protection for the housed equipment.</p>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><strong>Height:</strong> <strong>6U</strong></li>\n\t<li><strong>Type:</strong> <strong>10\" cabinet</strong></li>\n\t<li><strong>Dimensions:</strong> <strong>312 &times; 300 mm</strong></li>\n\t<li><strong>Door:</strong> <strong>glass front door</strong></li>\n\t<li><strong>Color:</strong> <strong>grey</strong></li>\n\t<li><strong>Side panels:</strong> <strong>removable</strong></li>\n\t<li><strong>Mounting:</strong> for 10\" equipment</li>\n\t<li><strong>Construction:</strong> solid metal design</li>\n\t<li><strong>Ventilation:</strong> prepared for natural or forced cooling</li>\n\t<li><strong>Security:</strong> lockable option (depending on model)</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Applications:</strong></h3>\n\n<ul>\n\t<li>Small network installations (routers, switches, patch panels)</li>\n\t<li>Home networks and smart home solutions</li>\n\t<li>Office IT distribution</li>\n\t<li>Telecommunications and security systems (CCTV, alarms)</li>\n\t<li>Technical rooms with limited space</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Why choose it:</strong></h3>\n\n<ul>\n\t<li><strong>Compact 10\" design</strong> saves space</li>\n\t<li><strong>6U capacity</strong> for essential IT equipment</li>\n\t<li><strong>Glass door</strong> for quick overview of devices</li>\n\t<li><strong>Removable side panels</strong> for easy installation</li>\n\t<li><strong>grey design</strong> suitable for various environments</li>\n</ul>",
@@ -12014,7 +12014,7 @@
       }
     ],
     "name_en": "DATAWAY Cabinet 9U, 10\", 312x300mm, Glass Door, Removable Side Panels, Grey",
-    "category_en": "Cabinets & Racks",
+    "category_en": "Cabinets",
     "subcategory_en": "Cabinets 10\"",
     "description_en": "DATAWAY 9U 10\" cabinet is a compact and practical solution for housing smaller network and IT devices.",
     "descriptionHtml_en": "<p><strong>DATAWAY 9U 10\" cabinet</strong> is a compact and practical solution for housing smaller network and IT devices. With dimensions of <strong>312 &times; 300 mm</strong>, it is ideal for installations in homes, small offices, or technical rooms where a full-size 19\" rack is not required.</p>\n\n<p>The cabinet is equipped with a <strong>glass front door</strong> that allows easy visual inspection of devices without opening them. <strong>Removable side panels</strong> provide convenient access during installation and maintenance. Solid construction and high-quality workmanship ensure stability and protection for the housed equipment.</p>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><strong>Height:</strong> <strong>9U</strong></li>\n\t<li><strong>Type:</strong> <strong>10\" cabinet</strong></li>\n\t<li><strong>Dimensions:</strong> <strong>312 &times; 300 mm</strong></li>\n\t<li><strong>Door:</strong> <strong>glass front door</strong></li>\n\t<li><strong>Color:</strong> <strong>grey</strong></li>\n\t<li><strong>Side panels:</strong> <strong>removable</strong></li>\n\t<li><strong>Mounting:</strong> for 10\" equipment</li>\n\t<li><strong>Construction:</strong> solid metal design</li>\n\t<li><strong>Ventilation:</strong> prepared for natural or forced cooling</li>\n\t<li><strong>Security:</strong> lockable option (depending on model)</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Applications:</strong></h3>\n\n<ul>\n\t<li>Small network installations (routers, switches, patch panels)</li>\n\t<li>Home networks and smart home solutions</li>\n\t<li>Office IT distribution</li>\n\t<li>Telecommunications and security systems (CCTV, alarms)</li>\n\t<li>Technical rooms with limited space</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Why choose it:</strong></h3>\n\n<ul>\n\t<li><strong>Compact 10\" design</strong> saves space</li>\n\t<li><strong>9U capacity</strong> for essential IT equipment</li>\n\t<li><strong>Glass door</strong> for quick overview of devices</li>\n\t<li><strong>Removable side panels</strong> for easy installation</li>\n\t<li><strong>grey design</strong> suitable for various environments</li>\n</ul>",
@@ -12065,7 +12065,7 @@
       }
     ],
     "name_en": "DATAWAY Cabinet 12U, 10\", 312x300mm, Glass Door, Removable Side Panels, Grey",
-    "category_en": "Cabinets & Racks",
+    "category_en": "Cabinets",
     "subcategory_en": "Cabinets 10\"",
     "description_en": "DATAWAY 12U 10\" cabinet is a compact and practical solution for housing smaller network and IT devices.",
     "descriptionHtml_en": "<p><strong>DATAWAY 12U 10\" cabinet</strong> is a compact and practical solution for housing smaller network and IT devices. With dimensions of <strong>312 &times; 300 mm</strong>, it is ideal for installations in homes, small offices, or technical rooms where a full-size 19\" rack is not required.</p>\n\n<p>The cabinet is equipped with a <strong>glass front door</strong> that allows easy visual inspection of devices without opening them. <strong>Removable side panels</strong> provide convenient access during installation and maintenance. Solid construction and high-quality workmanship ensure stability and protection for the housed equipment.</p>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><strong>Height:</strong> <strong>12U</strong></li>\n\t<li><strong>Type:</strong> <strong>10\" cabinet</strong></li>\n\t<li><strong>Dimensions:</strong> <strong>312 &times; 300 mm</strong></li>\n\t<li><strong>Door:</strong> <strong>glass front door</strong></li>\n\t<li><strong>Color:</strong> <strong>grey</strong></li>\n\t<li><strong>Side panels:</strong> <strong>removable</strong></li>\n\t<li><strong>Mounting:</strong> for 10\" equipment</li>\n\t<li><strong>Construction:</strong> solid metal design</li>\n\t<li><strong>Ventilation:</strong> prepared for natural or forced cooling</li>\n\t<li><strong>Security:</strong> lockable option (depending on model)</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Applications:</strong></h3>\n\n<ul>\n\t<li>Small network installations (routers, switches, patch panels)</li>\n\t<li>Home networks and smart home solutions</li>\n\t<li>Office IT distribution</li>\n\t<li>Telecommunications and security systems (CCTV, alarms)</li>\n\t<li>Technical rooms with limited space</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Why choose it:</strong></h3>\n\n<ul>\n\t<li><strong>Compact 10\" design</strong> saves space</li>\n\t<li><strong>12U capacity</strong> for essential IT equipment</li>\n\t<li><strong>Glass door</strong> for quick overview of devices</li>\n\t<li><strong>Removable side panels</strong> for easy installation</li>\n\t<li><strong>grey design</strong> suitable for various environments</li>\n</ul>",
@@ -12354,7 +12354,7 @@
       }
     ],
     "name_en": "DATAWAY DROP (1000m) 4-Fiber, G.657A2, PE, 3.0mm",
-    "category_en": "Fiber Optics",
+    "category_en": "Optical Networks",
     "subcategory_en": "Fiber Optic Cables",
     "description_en": "The DATAWAY DROP optical cable is a self-supporting 4-fiber cable with SC connector designed for FTTx and FTTH connections, outdoor and indoor installations. Thanks to its reinforced construction with a strength member, it provides high mechanical strength and reliability when suspended on poles.",
     "descriptionHtml_en": "<p>The <strong>DATAWAY DROP</strong> optical cable is a <strong>self-supporting 4-fiber cable</strong> with SC connector designed for FTTx and FTTH connections, outdoor and indoor installations. Thanks to its <strong>reinforced construction with a strength member</strong>, it provides high mechanical strength and reliability when suspended on poles or between buildings.</p>\n\n<p><br />\n<img src=\"https://www.tesshop.sk/dataway-drop-1000m-24-vlakno-g-657a2-lsoh-eca-3-6mm-image1-big_ies4627192.jpg\" />          <img src=\"https://www.tesshop.sk/dataway-drop-1000m-24-vlakno-g-657a2-lsoh-eca-3-6mm-image1-big_ies4627193.jpg\" /></p>\n\n<p>It uses <strong>G.657A2 optical fibers</strong>, which offer <strong>high bend resistance</strong> and enable easy handling even in installations with limited space. The outer jacket made of <strong>polyethylene PE</strong> ensures <strong>high strength and durability in outdoor environments.</strong></p>\n\n<p><br />\n<img src=\"https://www.tesshop.sk/dataway-drop-1000m-opticky-kabel-4-vlakno-g-657a2-lsoh-eca-3-0mm-image1-big_ies4009582.jpg\" /></p>\n\n<p>With a diameter of <strong>3.0 mm</strong>, it represents a <strong>lightweight, durable and versatile solution</strong> for modern optical networks. The cable is wound on a reel of <strong>1000 meters</strong>, packed in a cardboard box.</p>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><p>Type: Self-supporting DROP optical cable, <strong>4 fibers</strong></p></li>\n\t<li><p>Fiber type: Singlemode <strong>G.657A2</strong></p></li>\n\t<li><p>Package length: <strong>1000 m</strong></p></li>\n\t<li><p>Outer jacket: <strong>PE</strong>, outdoor</p></li>\n\t<li><p>Cable diameter: <strong>3.0 mm</strong></p></li>\n\t<li><p>Reinforced construction – <strong>suitable for aerial installation (self-supporting type)</strong></p></li>\n\t<li><p>High bend resistance and easy handling</p></li>\n\t<li><p>Application: FTTx, FTTH, outdoor distribution, building connections, telecommunications networks</p></li>\n</ul>",
@@ -12402,7 +12402,7 @@
     ],
     "files": null,
     "name_en": "DATAWAY ReadyKit Patch Cord SC/APC - SC/APC 80m, 2mm, G.657A2, Simplex",
-    "category_en": "Fiber Optics",
+    "category_en": "Optical Networks",
     "subcategory_en": "Patch Cords",
     "description_en": "Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. G.657A2 fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.",
     "descriptionHtml_en": "<p>Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. <strong>G.657A2</strong> fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.</p>\n\n<p><strong>Features:</strong></p>\n\n<ul>\n\t<li><p>Length: <strong>80 m</strong></p></li>\n\t<li><p>Connectors: <strong>SC/APC – SC/APC</strong> (green, APC polish)</p></li>\n\t<li><p>Type: <strong>Simplex</strong></p></li>\n\t<li><p>Fiber type: <strong>Singlemode G.657A2</strong> – excellent bend resistance, low insertion loss</p></li>\n\t<li><p>Suitable for FTTH, FTTx, GPON, active devices, cabinets and patch panels</p></li>\n\t<li><p>High-quality construction and stable optical parameters</p></li>\n</ul>",
@@ -12440,7 +12440,7 @@
     ],
     "files": null,
     "name_en": "DATAWAY ReadyKit Patch Cord SC/APC - SC/APC 70m, 2mm, G.657A2, Simplex",
-    "category_en": "Fiber Optics",
+    "category_en": "Optical Networks",
     "subcategory_en": "Patch Cords",
     "description_en": "Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. G.657A2 fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.",
     "descriptionHtml_en": "<p>Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. <strong>G.657A2</strong> fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.</p>\n\n<p><strong>Features:</strong></p>\n\n<ul>\n\t<li><p>Length: <strong>70 m</strong></p></li>\n\t<li><p>Connectors: <strong>SC/APC – SC/APC</strong> (green, APC polish)</p></li>\n\t<li><p>Type: <strong>Simplex</strong></p></li>\n\t<li><p>Fiber type: <strong>Singlemode G.657A2</strong> – excellent bend resistance, low insertion loss</p></li>\n\t<li><p>Suitable for FTTH, FTTx, GPON, active devices, cabinets and patch panels</p></li>\n\t<li><p>High-quality construction and stable optical parameters</p></li>\n</ul>",
@@ -16522,7 +16522,7 @@
       }
     ],
     "name_en": "DATAWAY Cabinet 9U, 10\", 312x300mm, Glass Door, Removable Side Panels, Black",
-    "category_en": "Cabinets & Racks",
+    "category_en": "Cabinets",
     "subcategory_en": "Cabinets 10\"",
     "description_en": "DATAWAY 9U 10\" cabinet is a compact and practical solution for housing smaller network and IT devices.",
     "descriptionHtml_en": "<p><strong>DATAWAY 9U 10\" cabinet</strong> is a compact and practical solution for housing smaller network and IT devices. With dimensions of <strong>312 &times; 300 mm</strong>, it is ideal for installations in homes, small offices, or technical rooms where a full-size 19\" rack is not required.</p>\n\n<p>The cabinet is equipped with a <strong>glass front door</strong> that allows easy visual inspection of devices without opening them. <strong>Removable side panels</strong> provide convenient access during installation and maintenance. Solid construction and high-quality workmanship ensure stability and protection for the housed equipment.</p>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><strong>Height:</strong> <strong>9U</strong></li>\n\t<li><strong>Type:</strong> <strong>10\" cabinet</strong></li>\n\t<li><strong>Dimensions:</strong> <strong>312 &times; 300 mm</strong></li>\n\t<li><strong>Door:</strong> <strong>glass front door</strong></li>\n\t<li><strong>Color:</strong> <strong>black</strong></li>\n\t<li><strong>Side panels:</strong> <strong>removable</strong></li>\n\t<li><strong>Mounting:</strong> for 10\" equipment</li>\n\t<li><strong>Construction:</strong> solid metal design</li>\n\t<li><strong>Ventilation:</strong> prepared for natural or forced cooling</li>\n\t<li><strong>Security:</strong> lockable option (depending on model)</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Applications:</strong></h3>\n\n<ul>\n\t<li>Small network installations (routers, switches, patch panels)</li>\n\t<li>Home networks and smart home solutions</li>\n\t<li>Office IT distribution</li>\n\t<li>Telecommunications and security systems (CCTV, alarms)</li>\n\t<li>Technical rooms with limited space</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Why choose it:</strong></h3>\n\n<ul>\n\t<li><strong>Compact 10\" design</strong> saves space</li>\n\t<li><strong>9U capacity</strong> for essential IT equipment</li>\n\t<li><strong>Glass door</strong> for quick overview of devices</li>\n\t<li><strong>Removable side panels</strong> for easy installation</li>\n\t<li><strong>black design</strong> suitable for various environments</li>\n</ul>",
@@ -18247,7 +18247,7 @@
     ],
     "files": null,
     "name_en": "DATAWAY ReadyKit Patch Cord SC/PC - SC/PC 50m, 3mm, G.657A2, Simplex, Outdoor",
-    "category_en": "Fiber Optics",
+    "category_en": "Optical Networks",
     "subcategory_en": "Patch Cords",
     "description_en": "DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC with a length of 50 meters is a ready-made solution for fast and easy deployment of optical connections without the need for splicing.",
     "descriptionHtml_en": "<p><strong>DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC</strong> with a length of <strong>50 meters</strong> is a ready-made solution for fast and easy deployment of optical connections without the need for splicing. With its <strong>simplex (1 fiber)</strong> design and high-quality <strong>G.657A2</strong> fiber, it is ideal for installations requiring high flexibility and bend resistance.</p>\n\n<p>The patch cord is equipped with <strong>SC/PC connectors on both ends</strong>, ensuring reliable connection with low insertion loss. The robust <strong>3 mm outer jacket</strong> is designed for <strong>outdoor use</strong>, making the cable suitable for inter-building connections, facade routing, or exterior cable runs.</p>\n\n<p>The ReadyKit solution enables immediate deployment without additional modifications, significantly reducing installation time.</p>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><p><strong>Type:</strong> fiber optic patch cord – ReadyKit package</p></li>\n\t<li><p><strong>Connectors:</strong> <strong>SC/PC – SC/PC</strong></p></li>\n\t<li><p><strong>Length:</strong> <strong>50 m</strong></p></li>\n\t<li><p><strong>Fiber:</strong> <strong>G.657A2</strong> – enhanced bend resistance</p></li>\n\t<li><p><strong>Type:</strong> <strong>simplex (1 fiber)</strong></p></li>\n\t<li><p><strong>Cable Diameter:</strong> <strong>3 mm</strong></p></li>\n\t<li><p><strong>Application:</strong> <strong>outdoor / exterior</strong></p></li>\n\t<li><p><strong>Installation:</strong> no splicing required</p></li>\n</ul>",
@@ -19059,7 +19059,7 @@
     ],
     "files": null,
     "name_en": "DATAWAY ReadyKit Patch Cord SC/APC - SC/APC 30m, 2mm, G.657A2, Simplex",
-    "category_en": "Fiber Optics",
+    "category_en": "Optical Networks",
     "subcategory_en": "Patch Cords",
     "description_en": "Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. G.657A2 fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.",
     "descriptionHtml_en": "<p>Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. <strong>G.657A2</strong> fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.</p>\n\n<p><strong>Features:</strong></p>\n\n<ul>\n\t<li><p>Length: <strong>30 m</strong></p></li>\n\t<li><p>Connectors: <strong>SC/APC – SC/APC</strong> (green, APC polish)</p></li>\n\t<li><p>Type: <strong>Simplex</strong></p></li>\n\t<li><p>Fiber type: <strong>Singlemode G.657A2</strong> – excellent bend resistance, low insertion loss</p></li>\n\t<li><p>Suitable for FTTH, FTTx, GPON, active devices, cabinets and patch panels</p></li>\n\t<li><p>High-quality construction and stable optical parameters</p></li>\n</ul>",
@@ -19945,7 +19945,7 @@
     ],
     "files": null,
     "name_en": "DATAWAY ReadyKit Patch Cord SC/APC - SC/APC 50m, 2mm, G.657A2, Simplex",
-    "category_en": "Fiber Optics",
+    "category_en": "Optical Networks",
     "subcategory_en": "Patch Cords",
     "description_en": "Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. G.657A2 fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.",
     "descriptionHtml_en": "<p>Reliable singlemode fiber optic patch cord designed for interconnecting optical components in technical rooms and FTTH/FTTx installations. <strong>G.657A2</strong> fiber provides enhanced bend resistance while maintaining low insertion loss and stable signal transmission.</p>\n\n<p><strong>Features:</strong></p>\n\n<ul>\n\t<li><p>Length: <strong>50 m</strong></p></li>\n\t<li><p>Connectors: <strong>SC/APC – SC/APC</strong> (green, APC polish)</p></li>\n\t<li><p>Type: <strong>Simplex</strong></p></li>\n\t<li><p>Fiber type: <strong>Singlemode G.657A2</strong> – excellent bend resistance, low insertion loss</p></li>\n\t<li><p>Suitable for FTTH, FTTx, GPON, active devices, cabinets and patch panels</p></li>\n\t<li><p>High-quality construction and stable optical parameters</p></li>\n</ul>",
@@ -22212,7 +22212,7 @@
     ],
     "files": null,
     "name_en": "DATAWAY ReadyKit Patch Cord SC/PC - SC/PC 80m, 3mm, G.657A2, Simplex, Outdoor",
-    "category_en": "Fiber Optics",
+    "category_en": "Optical Networks",
     "subcategory_en": "Patch Cords",
     "description_en": "DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC with a length of 80 meters is a ready-made solution for fast and easy deployment of optical connections without the need for splicing.",
     "descriptionHtml_en": "<p><strong>DATAWAY ReadyKit fiber optic patch cord SC/PC – SC/PC</strong> with a length of <strong>80 meters</strong> is a ready-made solution for fast and easy deployment of optical connections without the need for splicing. With its <strong>simplex (1 fiber)</strong> design and high-quality <strong>G.657A2</strong> fiber, it is ideal for installations requiring high flexibility and bend resistance.</p>\n\n<p>The patch cord is equipped with <strong>SC/PC connectors on both ends</strong>, ensuring reliable connection with low insertion loss. The robust <strong>3 mm outer jacket</strong> is designed for <strong>outdoor use</strong>, making the cable suitable for inter-building connections, facade routing, or exterior cable runs.</p>\n\n<p>The ReadyKit solution enables immediate deployment without additional modifications, significantly reducing installation time.</p>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><p><strong>Type:</strong> fiber optic patch cord – ReadyKit package</p></li>\n\t<li><p><strong>Connectors:</strong> <strong>SC/PC – SC/PC</strong></p></li>\n\t<li><p><strong>Length:</strong> <strong>80 m</strong></p></li>\n\t<li><p><strong>Fiber:</strong> <strong>G.657A2</strong> – enhanced bend resistance</p></li>\n\t<li><p><strong>Type:</strong> <strong>simplex (1 fiber)</strong></p></li>\n\t<li><p><strong>Cable Diameter:</strong> <strong>3 mm</strong></p></li>\n\t<li><p><strong>Application:</strong> <strong>outdoor / exterior</strong></p></li>\n\t<li><p><strong>Installation:</strong> no splicing required</p></li>\n</ul>",
@@ -23350,7 +23350,7 @@
       }
     ],
     "name_en": "DATAWAY Cabinet 4U, 10\", 312x300mm, Glass Door, Removable Side Panels, Black",
-    "category_en": "Cabinets & Racks",
+    "category_en": "Cabinets",
     "subcategory_en": "Cabinets 10\"",
     "description_en": "DATAWAY 4U 10\" cabinet is a compact and practical solution for housing smaller network and IT devices.",
     "descriptionHtml_en": "<p><strong>DATAWAY 4U 10\" cabinet</strong> is a compact and practical solution for housing smaller network and IT devices. With dimensions of <strong>312 &times; 300 mm</strong>, it is ideal for installations in homes, small offices, or technical rooms where a full-size 19\" rack is not required.</p>\n\n<p>The cabinet is equipped with a <strong>glass front door</strong> that allows easy visual inspection of devices without opening them. <strong>Removable side panels</strong> provide convenient access during installation and maintenance. Solid construction and high-quality workmanship ensure stability and protection for the housed equipment.</p>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><strong>Height:</strong> <strong>4U</strong></li>\n\t<li><strong>Type:</strong> <strong>10\" cabinet</strong></li>\n\t<li><strong>Dimensions:</strong> <strong>312 &times; 300 mm</strong></li>\n\t<li><strong>Door:</strong> <strong>glass front door</strong></li>\n\t<li><strong>Color:</strong> <strong>black</strong></li>\n\t<li><strong>Side panels:</strong> <strong>removable</strong></li>\n\t<li><strong>Mounting:</strong> for 10\" equipment</li>\n\t<li><strong>Construction:</strong> solid metal design</li>\n\t<li><strong>Ventilation:</strong> prepared for natural or forced cooling</li>\n\t<li><strong>Security:</strong> lockable option (depending on model)</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Applications:</strong></h3>\n\n<ul>\n\t<li>Small network installations (routers, switches, patch panels)</li>\n\t<li>Home networks and smart home solutions</li>\n\t<li>Office IT distribution</li>\n\t<li>Telecommunications and security systems (CCTV, alarms)</li>\n\t<li>Technical rooms with limited space</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Why choose it:</strong></h3>\n\n<ul>\n\t<li><strong>Compact 10\" design</strong> saves space</li>\n\t<li><strong>4U capacity</strong> for essential IT equipment</li>\n\t<li><strong>Glass door</strong> for quick overview of devices</li>\n\t<li><strong>Removable side panels</strong> for easy installation</li>\n\t<li><strong>black design</strong> suitable for various environments</li>\n</ul>",
@@ -23401,7 +23401,7 @@
       }
     ],
     "name_en": "DATAWAY Cabinet 6U, 10\", 312x300mm, Glass Door, Removable Side Panels, Black",
-    "category_en": "Cabinets & Racks",
+    "category_en": "Cabinets",
     "subcategory_en": "Cabinets 10\"",
     "description_en": "DATAWAY 6U 10\" cabinet is a compact and practical solution for housing smaller network and IT devices.",
     "descriptionHtml_en": "<p><strong>DATAWAY 6U 10\" cabinet</strong> is a compact and practical solution for housing smaller network and IT devices. With dimensions of <strong>312 &times; 300 mm</strong>, it is ideal for installations in homes, small offices, or technical rooms where a full-size 19\" rack is not required.</p>\n\n<p>The cabinet is equipped with a <strong>glass front door</strong> that allows easy visual inspection of devices without opening them. <strong>Removable side panels</strong> provide convenient access during installation and maintenance. Solid construction and high-quality workmanship ensure stability and protection for the housed equipment.</p>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><strong>Height:</strong> <strong>6U</strong></li>\n\t<li><strong>Type:</strong> <strong>10\" cabinet</strong></li>\n\t<li><strong>Dimensions:</strong> <strong>312 &times; 300 mm</strong></li>\n\t<li><strong>Door:</strong> <strong>glass front door</strong></li>\n\t<li><strong>Color:</strong> <strong>black</strong></li>\n\t<li><strong>Side panels:</strong> <strong>removable</strong></li>\n\t<li><strong>Mounting:</strong> for 10\" equipment</li>\n\t<li><strong>Construction:</strong> solid metal design</li>\n\t<li><strong>Ventilation:</strong> prepared for natural or forced cooling</li>\n\t<li><strong>Security:</strong> lockable option (depending on model)</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Applications:</strong></h3>\n\n<ul>\n\t<li>Small network installations (routers, switches, patch panels)</li>\n\t<li>Home networks and smart home solutions</li>\n\t<li>Office IT distribution</li>\n\t<li>Telecommunications and security systems (CCTV, alarms)</li>\n\t<li>Technical rooms with limited space</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Why choose it:</strong></h3>\n\n<ul>\n\t<li><strong>Compact 10\" design</strong> saves space</li>\n\t<li><strong>6U capacity</strong> for essential IT equipment</li>\n\t<li><strong>Glass door</strong> for quick overview of devices</li>\n\t<li><strong>Removable side panels</strong> for easy installation</li>\n\t<li><strong>black design</strong> suitable for various environments</li>\n</ul>",
@@ -23452,7 +23452,7 @@
       }
     ],
     "name_en": "DATAWAY Cabinet 12U, 10\", 312x300mm, Glass Door, Removable Side Panels, Black",
-    "category_en": "Cabinets & Racks",
+    "category_en": "Cabinets",
     "subcategory_en": "Cabinets 10\"",
     "description_en": "DATAWAY 12U 10\" cabinet is a compact and practical solution for housing smaller network and IT devices.",
     "descriptionHtml_en": "<p><strong>DATAWAY 12U 10\" cabinet</strong> is a compact and practical solution for housing smaller network and IT devices. With dimensions of <strong>312 &times; 300 mm</strong>, it is ideal for installations in homes, small offices, or technical rooms where a full-size 19\" rack is not required.</p>\n\n<p>The cabinet is equipped with a <strong>glass front door</strong> that allows easy visual inspection of devices without opening them. <strong>Removable side panels</strong> provide convenient access during installation and maintenance. Solid construction and high-quality workmanship ensure stability and protection for the housed equipment.</p>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><strong>Height:</strong> <strong>12U</strong></li>\n\t<li><strong>Type:</strong> <strong>10\" cabinet</strong></li>\n\t<li><strong>Dimensions:</strong> <strong>312 &times; 300 mm</strong></li>\n\t<li><strong>Door:</strong> <strong>glass front door</strong></li>\n\t<li><strong>Color:</strong> <strong>black</strong></li>\n\t<li><strong>Side panels:</strong> <strong>removable</strong></li>\n\t<li><strong>Mounting:</strong> for 10\" equipment</li>\n\t<li><strong>Construction:</strong> solid metal design</li>\n\t<li><strong>Ventilation:</strong> prepared for natural or forced cooling</li>\n\t<li><strong>Security:</strong> lockable option (depending on model)</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Applications:</strong></h3>\n\n<ul>\n\t<li>Small network installations (routers, switches, patch panels)</li>\n\t<li>Home networks and smart home solutions</li>\n\t<li>Office IT distribution</li>\n\t<li>Telecommunications and security systems (CCTV, alarms)</li>\n\t<li>Technical rooms with limited space</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Why choose it:</strong></h3>\n\n<ul>\n\t<li><strong>Compact 10\" design</strong> saves space</li>\n\t<li><strong>12U capacity</strong> for essential IT equipment</li>\n\t<li><strong>Glass door</strong> for quick overview of devices</li>\n\t<li><strong>Removable side panels</strong> for easy installation</li>\n\t<li><strong>black design</strong> suitable for various environments</li>\n</ul>",
@@ -23504,7 +23504,7 @@
       }
     ],
     "name_en": "DATAWAY Cabinet 4U, 10\", 312x300mm, Glass Door, Removable Side Panels, Grey",
-    "category_en": "Cabinets & Racks",
+    "category_en": "Cabinets",
     "subcategory_en": "Cabinets 10\"",
     "description_en": "DATAWAY 4U 10\" cabinet is a compact and practical solution for housing smaller network and IT devices.",
     "descriptionHtml_en": "<p><strong>DATAWAY 4U 10\" cabinet</strong> is a compact and practical solution for housing smaller network and IT devices. With dimensions of <strong>312 &times; 300 mm</strong>, it is ideal for installations in homes, small offices, or technical rooms where a full-size 19\" rack is not required.</p>\n\n<p>The cabinet is equipped with a <strong>glass front door</strong> that allows easy visual inspection of devices without opening them. <strong>Removable side panels</strong> provide convenient access during installation and maintenance. Solid construction and high-quality workmanship ensure stability and protection for the housed equipment.</p>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Key Features:</strong></h3>\n\n<ul>\n\t<li><strong>Height:</strong> <strong>4U</strong></li>\n\t<li><strong>Type:</strong> <strong>10\" cabinet</strong></li>\n\t<li><strong>Dimensions:</strong> <strong>312 &times; 300 mm</strong></li>\n\t<li><strong>Door:</strong> <strong>glass front door</strong></li>\n\t<li><strong>Color:</strong> <strong>grey</strong></li>\n\t<li><strong>Side panels:</strong> <strong>removable</strong></li>\n\t<li><strong>Mounting:</strong> for 10\" equipment</li>\n\t<li><strong>Construction:</strong> solid metal design</li>\n\t<li><strong>Ventilation:</strong> prepared for natural or forced cooling</li>\n\t<li><strong>Security:</strong> lockable option (depending on model)</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Applications:</strong></h3>\n\n<ul>\n\t<li>Small network installations (routers, switches, patch panels)</li>\n\t<li>Home networks and smart home solutions</li>\n\t<li>Office IT distribution</li>\n\t<li>Telecommunications and security systems (CCTV, alarms)</li>\n\t<li>Technical rooms with limited space</li>\n</ul>\n\n<hr />\n<h3> </h3>\n\n<h3><strong>Why choose it:</strong></h3>\n\n<ul>\n\t<li><strong>Compact 10\" design</strong> saves space</li>\n\t<li><strong>4U capacity</strong> for essential IT equipment</li>\n\t<li><strong>Glass door</strong> for quick overview of devices</li>\n\t<li><strong>Removable side panels</strong> for easy installation</li>\n\t<li><strong>grey design</strong> suitable for various environments</li>\n</ul>",

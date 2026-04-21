@@ -208,3 +208,5 @@ console.log('With files/datasheets:', withFiles, '(' + totalFiles + ' files tota
 
 fs.writeFileSync('products.json', JSON.stringify(unique, null, 2), 'utf8');
 console.log('\nSaved products.json with', unique.length, 'products');
+
+require('child_process').spawnSync('node', ['check-translations.mjs', '--products'], { stdio: 'inherit' });

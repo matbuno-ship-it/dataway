@@ -81,3 +81,5 @@ const mini = products.map(p => ({
 }));
 fs.writeFileSync('products-search.json', JSON.stringify(mini));
 console.log('products-search.json: ' + (JSON.stringify(mini).length / 1024).toFixed(0) + 'KB (' + mini.length + ' products)');
+
+require('child_process').spawnSync('node', ['check-translations.mjs', '--embed', '--products'], { stdio: 'inherit' });
