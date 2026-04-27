@@ -17,22 +17,22 @@
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
         <a href="distributor.html?slug=tes" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="TES – SLOVAKIA, s.r.o.">
-          <img src="Brand/distributors/tes.png" alt="TES" class="max-h-16 max-w-full object-contain">
+          <img src="Brand/distributors/tes.png" alt="TES" class="max-h-11 max-w-full object-contain">
         </a>
         <a href="distributor.html?slug=aircom" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="AIRCOM Praha s.r.o.">
-          <img src="Brand/distributors/aircom.png" alt="AIRCOM" class="max-h-16 max-w-full object-contain">
+          <img src="Brand/distributors/aircom.png" alt="AIRCOM" class="max-h-11 max-w-full object-contain">
         </a>
         <a href="distributor.html?slug=daxa-it" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="Daxa IT s. r. o.">
-          <img src="Brand/distributors/daxa-it.png" alt="DAXA-IT" class="max-h-16 max-w-full object-contain">
+          <img src="Brand/distributors/daxa-it.png" alt="DAXA-IT" class="max-h-11 max-w-full object-contain">
         </a>
         <a href="distributor.html?slug=axilogi" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="Axilogi s.r.o.">
-          <img src="Brand/distributors/axilogi.png" alt="AXILOGI s.r.o." class="max-h-16 max-w-full object-contain">
+          <img src="Brand/distributors/axilogi.png" alt="AXILOGI s.r.o." class="max-h-11 max-w-full object-contain">
         </a>
         <a href="distributor.html?slug=hacom" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="Hacom">
-          <img src="Brand/distributors/hacom.png" alt="HACOM" class="max-h-16 max-w-full object-contain">
+          <img src="Brand/distributors/hacom.png" alt="HACOM" class="max-h-11 max-w-full object-contain">
         </a>
         <a href="distributor.html?slug=ab-com" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="AB-COM">
-          <img src="Brand/distributors/ab-com.png" alt="AB-COM" class="max-h-16 max-w-full object-contain">
+          <img src="Brand/distributors/ab-com.png" alt="AB-COM" class="max-h-11 max-w-full object-contain">
         </a>
       </div>
     </div>
