@@ -133,7 +133,15 @@
       </div>
 
       <!-- Contact cards -->
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-12">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
+        <!-- E-shop -->
+        <a id="dist-eshop-card" href="#" target="_blank" rel="noopener noreferrer" class="card-lift bg-brand-gray-50 rounded-xl p-6 text-center block hover:bg-brand-blue/5 transition-colors duration-200">
+          <div class="w-12 h-12 rounded-lg bg-brand-blue/10 flex items-center justify-center mx-auto mb-4">
+            <svg class="w-6 h-6 text-brand-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+          </div>
+          <h3 class="font-semibold text-brand-dark text-sm mb-1" data-i18n="contact.field.eshop">E-shop</h3>
+          <span id="dist-eshop" class="text-brand-gray-700 text-sm font-medium"></span>
+        </a>
         <!-- Email -->
         <div class="card-lift bg-brand-gray-50 rounded-xl p-6 text-center">
           <div class="w-12 h-12 rounded-lg bg-brand-blue/10 flex items-center justify-center mx-auto mb-4">
@@ -199,6 +207,8 @@
         phone: '+421 917 498 814',
         phoneRaw: '+421917498814',
         email: '',
+        eshopUrl: 'https://www.tesshop.sk/default.asp?cls=stoitems&stifulltext_search=and&fulltext=dataway',
+        eshopLabel: 'tesshop.sk',
         country: 'Slovensko', country_en: 'Slovakia'
       },
       'aircom': {
@@ -207,6 +217,8 @@
         phone: '+420 241 400 333',
         phoneRaw: '+420241400333',
         email: '',
+        eshopUrl: 'https://www.wifihw.cz/default.asp?cls=stoitems&stifulltext_search=and&fulltext=dataway',
+        eshopLabel: 'wifihw.cz',
         country: '\u010cesk\u00e1 republika', country_en: 'Czech Republic'
       },
       'daxa-it': {
@@ -215,6 +227,8 @@
         phone: '+421 910 706 104',
         phoneRaw: '+421910706104',
         email: '',
+        eshopUrl: 'https://www.daxait.sk/vyhladavanie/?string=dataway',
+        eshopLabel: 'daxait.sk',
         country: 'Slovensko', country_en: 'Slovakia'
       },
       'axilogi': {
@@ -223,6 +237,8 @@
         phone: '+420 602 834 919',
         phoneRaw: '+420602834919',
         email: '',
+        eshopUrl: 'https://www.axilogi.com/dataway_c356.html',
+        eshopLabel: 'axilogi.com',
         country: '\u010cesk\u00e1 republika', country_en: 'Czech Republic'
       },
       'hacom': {
@@ -231,6 +247,8 @@
         phone: '+421 948 979 979',
         phoneRaw: '+421948979979',
         email: '',
+        eshopUrl: 'https://www.hacom.sk/index.php?searchstring=dataway&searchtype=all&action=search&cid=0&page=6803&searchsubmit=H%BEadaj',
+        eshopLabel: 'hacom.sk',
         country: 'Slovensko', country_en: 'Slovakia'
       },
       'ab-com': {
@@ -239,6 +257,8 @@
         phone: '+421 38 536 2611',
         phoneRaw: '+421385362611',
         email: '',
+        eshopUrl: 'https://abcom.tv/product-widesearch?n=dataway',
+        eshopLabel: 'abcom.tv',
         country: 'Slovensko', country_en: 'Slovakia'
       }
     };
@@ -263,6 +283,13 @@
       }
       document.getElementById('dist-phone').textContent = dist.phone;
       document.getElementById('dist-phone').href = 'tel:' + dist.phoneRaw;
+      if (dist.eshopUrl) {
+        const card = document.getElementById('dist-eshop-card');
+        card.href = dist.eshopUrl;
+        document.getElementById('dist-eshop').textContent = dist.eshopLabel || dist.eshopUrl;
+      } else {
+        document.getElementById('dist-eshop-card').style.display = 'none';
+      }
       const countryText = (window.i18n?.lang === 'en' && dist.country_en) ? dist.country_en : dist.country;
       document.getElementById('dist-country').textContent = countryText;
     }
