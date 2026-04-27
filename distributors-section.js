@@ -17,7 +17,7 @@
       </div>
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
         <a href="distributor.html?slug=tes" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="TES – SLOVAKIA, s.r.o.">
-          <img src="Brand/distributors/tes.png" alt="TES" class="max-h-12 max-w-full object-contain">
+          <img src="Brand/distributors/tes.png" alt="TES" class="max-h-16 max-w-full object-contain">
         </a>
         <a href="distributor.html?slug=aircom" class="dist-logo flex items-center justify-center h-20 bg-brand-gray-50 rounded-xl px-4" title="AIRCOM Praha s.r.o.">
           <img src="Brand/distributors/aircom.png" alt="AIRCOM" class="max-h-12 max-w-full object-contain">
