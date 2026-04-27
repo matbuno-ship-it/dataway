@@ -35,10 +35,11 @@ const subcategoryRules = [
 
 function getMainCategory(categories) {
   for (const cat of categories) {
-    if (cat.includes('Optické siete') || cat.includes('Optick')) return 'Optické siete';
-    if (cat.includes('Metalické siete') || cat.includes('Metalick')) return 'Metalické siete';
-    if (cat.includes('Rozvádzač')) return 'Rozvádzače';
-    if (cat.includes('Montážne') || cat.includes('Montáž')) return 'Montážne príslušenstvo';
+    const c = cat.toLowerCase();
+    if (c.includes('optické siete') || c.includes('optick')) return 'Optické siete';
+    if (c.includes('metalické siete') || c.includes('metalick')) return 'Metalické siete';
+    if (c.includes('rozvádzač') || c.includes('rozvadzac')) return 'Rozvádzače';
+    if (c.includes('montáž') || c.includes('montaz') || c.includes('inštalačný materiál') || c.includes('úložný materiál') || c.includes('náradie') || c.includes('domová inštalácia') || c.includes('napájanie a poe') || c.includes('zásuvky elektrické')) return 'Montážne príslušenstvo';
   }
   return 'Ostatné';
 }
