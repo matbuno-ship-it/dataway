@@ -5,6 +5,16 @@ const API_KEY = process.env.ANTHROPIC_API_KEY;
 const MODEL = 'claude-haiku-4-5-20251001';
 const BATCH_SIZE = 10; // products per API call
 
+// Canonical category map (authoritative: i18n.js CATEGORY_MAP) — model output
+// for category_en is always overridden by this, never trusted.
+const CATEGORY_MAP = {
+  'Metalické siete': 'Copper Networks',
+  'Optické siete': 'Optical Networks',
+  'Rozvádzače': 'Cabinets',
+  'Montážne príslušenstvo': 'Installation Accessories',
+  'Ostatné': 'Other',
+};
+
 const SYSTEM_PROMPT = `You are a professional translator specializing in network infrastructure and telecommunications equipment. Translate product descriptions from Slovak to English.
 
 RULES:
@@ -41,10 +51,10 @@ Respond with ONLY a JSON array of translations, in the same order as the input. 
 - "category_en" (translated category)
 - "subcategory_en" (translated subcategory)
 
-Category translations to use consistently:
+Category translations to use consistently (EXACTLY these values, no variants):
 - "Metalické siete" → "Copper Networks"
-- "Optické siete" → "Fiber Optics"
-- "Rozvádzače" → "Cabinets & Racks"
+- "Optické siete" → "Optical Networks"
+- "Rozvádzače" → "Cabinets"
 - "Montážne príslušenstvo" → "Installation Accessories"
 - "Ostatné" → "Other"
 
@@ -149,6 +159,9 @@ async function main() {
             products[targetIdx][f] = result[f];
           }
         });
+        // Enforce canonical category translation regardless of model output
+        const canonical = CATEGORY_MAP[products[targetIdx].category];
+        if (canonical) products[targetIdx].category_en = canonical;
       });
 
       translated += batch.length;
@@ -173,6 +186,8 @@ async function main() {
                 products[item.index][f] = results[0][f];
               }
             });
+            const canonical = CATEGORY_MAP[products[item.index].category];
+            if (canonical) products[item.index].category_en = canonical;
             translated++;
             console.log(`  Recovered: ${item.product.name.substring(0, 50)}`);
             fs.writeFileSync('products.json', JSON.stringify(products, null, 2), 'utf8');

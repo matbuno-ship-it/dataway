@@ -19,6 +19,7 @@ const MIME = {
   '.ico': 'image/x-icon',
   '.woff2': 'font/woff2',
   '.woff': 'font/woff',
+  '.pdf': 'application/pdf',
 };
 
 const server = createServer(async (req, res) => {

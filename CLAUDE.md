@@ -46,9 +46,12 @@ Never introduce other variants (e.g. "Fiber Optics", "Cabinets & Racks") — the
 
 | Script | Purpose |
 |---|---|
-| `rebuild-from-api.js` | Fetch XML from TES Shop → products.json (preserves `_en` via `EN_FIELDS`) |
+| `rebuild-from-api.js` | Fetch XML from TES Shop → products.json (preserves `_en` via `EN_FIELDS`). Fetches fresh XML when `TESSHOP_USER`/`TESSHOP_PASS` env vars are set, else parses the local `tesshop-api-response.xml`. Runs `download-images.js` + translation check automatically at end. |
+| `download-images.js` | Localize ALL tesshop assets, because remote `tesshop.sk` URLs rot over time (attids rotate → 404): (1) gallery images (`image`/`images`) → `images/`; (2) inline `<img>` in `descriptionHtml`/`descriptionHtml_en` → `images/` (imgs that 404 on tesshop itself are stripped from the HTML); (3) datasheets (`files[].url`) → `files/` with extension from content-type. A ref is rewritten only when the local file actually exists; failed downloads keep the remote URL. YouTube links in `files` stay remote. |
+| `translate-descriptions.mjs` | Translate SK → EN for products missing `_en` fields (needs `ANTHROPIC_API_KEY`). `category_en` is always forced to the canonical CATEGORY_MAP, model output is not trusted for it. |
 | `embed-products.js` | Embed products.json into produkty.html/produkt.html + generate products-search.json |
-| `translate-descriptions.mjs` | Translate SK → EN for products missing `_en` fields |
 | `check-translations.mjs` | Validate everything |
+
+**Product update flow:** `rebuild-from-api.js` → `translate-descriptions.mjs` (if new products) → `embed-products.js`. Afterwards verify products.json contains **zero** `tesshop.sk` occurrences (dead-photo/dead-datasheet risk) — only YouTube links may stay remote.
 
 TES Shop API credentials and URL encoding are documented in the memory reference `reference_tesshop_api.md`.

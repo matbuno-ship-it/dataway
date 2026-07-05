@@ -1,6 +1,26 @@
 const fs = require('fs');
 
-const xml = fs.readFileSync('tesshop-api-response.xml', 'utf8');
+const XML_FILE = 'tesshop-api-response.xml';
+const API_URL = 'https://www.tesshop.sk/i6ws/Default.asmx/GetResultByCode?resultType=StoItemShop_El&code=%7BManName%7DDATAWAY';
+
+async function loadXml() {
+  const user = process.env.TESSHOP_USER;
+  const pass = process.env.TESSHOP_PASS;
+  if (user && pass) {
+    console.log('Fetching fresh XML from TES Shop API...');
+    const res = await fetch(API_URL, {
+      headers: { Authorization: 'Basic ' + Buffer.from(user + ':' + pass).toString('base64') },
+    });
+    if (!res.ok) throw new Error('API fetch failed: HTTP ' + res.status);
+    const xml = await res.text();
+    if (!xml.includes('<SHOPITEM')) throw new Error('API returned no SHOPITEM entries — check credentials/URL encoding');
+    fs.writeFileSync(XML_FILE, xml, 'utf8');
+    console.log('Saved ' + XML_FILE + ' (' + (xml.length / 1024 / 1024).toFixed(1) + ' MB)');
+    return xml;
+  }
+  console.log('TESSHOP_USER/TESSHOP_PASS not set — using existing ' + XML_FILE);
+  return fs.readFileSync(XML_FILE, 'utf8');
+}
 
 // Subcategory rules
 const subcategoryRules = [
@@ -154,6 +174,8 @@ function parseAllProducts(xml) {
   return products;
 }
 
+async function main() {
+const xml = await loadXml();
 const products = parseAllProducts(xml);
 
 // Deduplicate by slug (keep first)
@@ -210,4 +232,12 @@ console.log('With files/datasheets:', withFiles, '(' + totalFiles + ' files tota
 fs.writeFileSync('products.json', JSON.stringify(unique, null, 2), 'utf8');
 console.log('\nSaved products.json with', unique.length, 'products');
 
+// Localize images: download to images/ and rewrite paths so the site never
+// depends on tesshop.sk hotlinks (their attachment IDs rotate and 404 over time).
+console.log('\n--- Localizing images ---');
+require('child_process').spawnSync('node', ['download-images.js'], { stdio: 'inherit' });
+
 require('child_process').spawnSync('node', ['check-translations.mjs', '--products'], { stdio: 'inherit' });
+}
+
+main().catch(e => { console.error(e); process.exit(1); });
