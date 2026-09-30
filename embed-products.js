@@ -1,6 +1,7 @@
 const fs = require('fs');
 const products = JSON.parse(fs.readFileSync('products.json', 'utf8'));
-const json = JSON.stringify(products);
+// Internal bookkeeping fields (e.g. _enSource) stay out of the pages
+const json = JSON.stringify(products, (k, v) => (k.startsWith('_') ? undefined : v));
 
 function embedInFile(filename) {
   const html = fs.readFileSync(filename, 'utf8');

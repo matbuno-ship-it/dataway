@@ -41,6 +41,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "63a7c1f0230f",
+      "description": "9c5f89279444",
+      "descriptionHtml": "5da5bb2bc52a",
+      "specs": "96598e4b7145",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -85,6 +92,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "21cb7f0f06cc",
+      "description": "9c5f89279444",
+      "descriptionHtml": "533878a44880",
+      "specs": "927f3a7019f5",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -129,6 +143,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "e6893eb00365",
+      "description": "9c5f89279444",
+      "descriptionHtml": "3bcef1d04ef0",
+      "specs": "9f51c8eacd12",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -173,6 +194,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "2a59b91c84c0",
+      "description": "9c5f89279444",
+      "descriptionHtml": "cb4e0f28c5ec",
+      "specs": "40d1464baddb",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -217,6 +245,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "f6f52968ab15",
+      "description": "9c5f89279444",
+      "descriptionHtml": "9e779271572d",
+      "specs": "de628070d170",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -263,6 +298,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "326c400a2cba",
+      "description": "9c5f89279444",
+      "descriptionHtml": "326d4f0b6b55",
+      "specs": "3f36a9de3c69",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -309,6 +351,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "eeef732d2b82",
+      "description": "9c5f89279444",
+      "descriptionHtml": "fc5c9a9ae4c2",
+      "specs": "17fbe725c7e0",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -355,6 +404,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "c49cec1f8906",
+      "description": "9c5f89279444",
+      "descriptionHtml": "1c1b36c71824",
+      "specs": "6ca0e2b4c09b",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -401,6 +457,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "8fec9d2cc968",
+      "description": "9c5f89279444",
+      "descriptionHtml": "76cc97c49b7b",
+      "specs": "c39ccbe81613",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -447,6 +510,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "59bc99338548",
+      "description": "9c5f89279444",
+      "descriptionHtml": "df37f9d6db73",
+      "specs": "e329584362b2",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -487,6 +557,13 @@
       "Jacket material": "PE",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "31cd5fed7c50",
+      "description": "4a07039bd09f",
+      "descriptionHtml": "aa2a7521e145",
+      "specs": "47b75d177c08",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -526,6 +603,13 @@
       "Connectors": "LC-LC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "8000bfc221b1",
+      "description": "4a07039bd09f",
+      "descriptionHtml": "c0eae495ab41",
+      "specs": "81884470073d",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -565,6 +649,13 @@
       "Connectors": "LC-LC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "d8a45b35b4ea",
+      "description": "4a07039bd09f",
+      "descriptionHtml": "713401a687c4",
+      "specs": "0243fea89fef",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -604,6 +695,13 @@
       "Number of fibers": "duplex",
       "Connectors": "LC-LC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "0a6e122984df",
+      "description": "4a07039bd09f",
+      "descriptionHtml": "837ca13cf7e8",
+      "specs": "1117c0ec325f",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -662,6 +760,13 @@
       "Doors": "glass",
       "Color": "grey RAL7035",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "4f15c14a467a",
+      "description": "77dd06928a1d",
+      "descriptionHtml": "017c2117e042",
+      "specs": "afe7af64ae68",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -720,6 +825,13 @@
       "Doors": "glass",
       "Color": "grey RAL7035",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "6c339eecc9a0",
+      "description": "5486bd875d98",
+      "descriptionHtml": "809502b3943e",
+      "specs": "63af9b285581",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -766,6 +878,13 @@
       "Number of fibers": "simplex",
       "Cable type": "Single Mode",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "3c848a6d9d59",
+      "description": "92be73fbb384",
+      "descriptionHtml": "b71e7d4dc932",
+      "specs": "186076586fda",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -812,6 +931,13 @@
       "Connectors": "SC",
       "Color": "grey",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "9776b32c8c85",
+      "description": "48da47e83c5b",
+      "descriptionHtml": "1164711b6196",
+      "specs": "2acb4d6b7c32",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -846,6 +972,13 @@
       "Weight (kg)": "0.05 kg",
       "Dimensions (mm)": "118 x 18 x 17 mm",
       "Material": "Stainless Steel 201"
+    },
+    "_enSource": {
+      "name": "1a7e0f98f647",
+      "description": "89b3cff9a06c",
+      "descriptionHtml": "673a43a17fbe",
+      "specs": "edde6492435a",
+      "subcategory": "b3a3b1329ebd"
     }
   },
   {
@@ -887,6 +1020,13 @@
       "Max. load (kN)": "2.5",
       "Dimensions (mm)": "63 x 74 x 55",
       "Material": "galvanized steel"
+    },
+    "_enSource": {
+      "name": "f53dcd0375e0",
+      "description": "472b56f2b89c",
+      "descriptionHtml": "898796c33c3a",
+      "specs": "27d78fbb7fd5",
+      "subcategory": "02cc2ebc592b"
     }
   },
   {
@@ -926,6 +1066,13 @@
       "Connectors": "E2000",
       "Number of fibers": "simplex",
       "Fiber type": "Single Mode"
+    },
+    "_enSource": {
+      "name": "b60a3986b5db",
+      "description": "5d88d1f72ad2",
+      "descriptionHtml": "4522e264b05e",
+      "specs": "3188e9335656",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -974,6 +1121,13 @@
       "Length (m)": "1",
       "Cable diameter (mm)": "5.5",
       "Jacket material": "LSOH"
+    },
+    "_enSource": {
+      "name": "ea92eed218ee",
+      "description": "f731296ad6d5",
+      "descriptionHtml": "402ccb827e9a",
+      "specs": "d35fdd0ae7d0",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -1018,6 +1172,13 @@
     "descriptionHtml_en": "<p>Patch cable in gray color with a length of 10m, FTP design, category CAT5E. The conductor cross-section is <strong>AWG26</strong>. The connector contacts are covered with a thin layer of gold. DATAWAY patch cables are part of a comprehensive system of products for structured cabling.</p>\r\n\n<p>Available in several common patch cable lengths. All cables are certified according to internationally recognized standards. Thanks to the use of quality materials, they are characterized by excellent transmission parameters and long service life.</p>\r\n\n<p>Molded connector protection minimizes the possibility of crosstalk and cables can be used without problems in any active or passive element. We provide an extended <strong>5-year warranty</strong> on all DATAWAY cables!</p>",
     "specs_en": {
       "Length (m)": "10"
+    },
+    "_enSource": {
+      "name": "2d81f23a14c7",
+      "description": "5f92365e319e",
+      "descriptionHtml": "0ca5c35a0246",
+      "specs": "a2be26236737",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -1055,6 +1216,13 @@
       "Cable diameter (mm)": "3 to 6",
       "Color": "black",
       "Material": "UV-stabilized plastic"
+    },
+    "_enSource": {
+      "name": "765502b3fd04",
+      "description": "e9001707566c",
+      "descriptionHtml": "4208beff3e80",
+      "specs": "9fcb5fd60062",
+      "subcategory": "b3a3b1329ebd"
     }
   },
   {
@@ -1100,6 +1268,13 @@
       "Shielding": "yes, STP",
       "Category": "CAT5E",
       "Color": "silver"
+    },
+    "_enSource": {
+      "name": "1729b1db2162",
+      "description": "e2c472b439c3",
+      "descriptionHtml": "1057af2d256a",
+      "specs": "1e1ee9e131aa",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -1141,6 +1316,13 @@
       "Jacket color": "blue",
       "Design": "semi-tight (SEMI-STRIP)",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "5632fee9d804",
+      "description": "4422fcb064ee",
+      "descriptionHtml": "fbde3b4ea68a",
+      "specs": "84b1f6a76a7d",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -1165,7 +1347,14 @@
     "category_en": "Optical Networks",
     "subcategory_en": "Network Infrastructure",
     "description_en": "The DS-6 suspension anchor clamp is intended for points in a self-supporting system installation where the cable does not need to be dead-ended.",
-    "descriptionHtml_en": "<p>In this way, considerable costs can be saved across the entire route construction. The central part is made of <strong>UV-resistant</strong> neoprene, which ensures secure holding of a cable with a diameter of <strong>8-12mm</strong>.</p>\n\n<p>DS-8 anchor clamp - a component used in the construction of aerial cable routes for suspending cables. It is responsible for maintaining the correct cable tension between spans.</p>\n\n<p>The holder guarantees secure holding of the cable without the risk of damaging it. The removable mounting eye allows threading through closed openings - this facilitates installation on most pole brackets, hooks and eyes available on the market.</p>"
+    "descriptionHtml_en": "<p>In this way, considerable costs can be saved across the entire route construction. The central part is made of <strong>UV-resistant</strong> neoprene, which ensures secure holding of a cable with a diameter of <strong>8-12mm</strong>.</p>\n\n<p>DS-8 anchor clamp - a component used in the construction of aerial cable routes for suspending cables. It is responsible for maintaining the correct cable tension between spans.</p>\n\n<p>The holder guarantees secure holding of the cable without the risk of damaging it. The removable mounting eye allows threading through closed openings - this facilitates installation on most pole brackets, hooks and eyes available on the market.</p>",
+    "_enSource": {
+      "name": "1c7c9b9bb480",
+      "description": "e1f84197ad56",
+      "descriptionHtml": "81a8ce5645a7",
+      "specs": "da39a3ee5e6b",
+      "subcategory": "b3a3b1329ebd"
+    }
   },
   {
     "name": "DATAWAY (100ks) Konektor RJ45 1.0mm UTP, CAT5E, EASY drôt/lanko",
@@ -1234,6 +1423,13 @@
       "Design": "EASY",
       "Shielding": "no",
       "Certifications": "RoHS"
+    },
+    "_enSource": {
+      "name": "75dde7a3e3ff",
+      "description": "c6c84fa65709",
+      "descriptionHtml": "45e07dbdbaa5",
+      "specs": "68d59ee2e2b9",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -1306,6 +1502,13 @@
       "Category": "CAT6",
       "Design": "EASY",
       "Certifications": "RoHS"
+    },
+    "_enSource": {
+      "name": "5a3cc63e28a5",
+      "description": "f5d87a68dbe1",
+      "descriptionHtml": "99e61c23bde3",
+      "specs": "750f5e4ca164",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -1345,6 +1548,13 @@
       "Dimensions (mm)": "208 x 71 x 21",
       "Storage temperature (°C)": "-40 to 70",
       "Connectors": "RJ45 8p8c, RJ12 6p6c, RJ11 6p4c, RJ10 4p4c and 4p2c"
+    },
+    "_enSource": {
+      "name": "df49fc3bfcf3",
+      "description": "89fc275bd783",
+      "descriptionHtml": "f67f10445b47",
+      "specs": "8980b54195f3",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -1402,6 +1612,13 @@
       "Category": "CAT5E ; CAT6",
       "Design": "EASY, CLASSIC",
       "Connectors": "RJ45 8p8c ; RJ12 6p6c (EASY connectors)"
+    },
+    "_enSource": {
+      "name": "0e7ff79c8199",
+      "description": "854d36d54974",
+      "descriptionHtml": "fae9548119ae",
+      "specs": "a986aac1ad61",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -1440,6 +1657,13 @@
       "Operating temperature (°C)": "-10 to 60",
       "Storage temperature (°C)": "-40 to 70",
       "Connectors": "RJ45 8p8c (CAT6A)"
+    },
+    "_enSource": {
+      "name": "dbcdce7bcbb2",
+      "description": "a89d5bf12986",
+      "descriptionHtml": "ccb59cf2fb0b",
+      "specs": "cb9b6c740f30",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -1498,6 +1722,13 @@
       "Category": "CAT6A",
       "Design": "CLASSIC",
       "Certifications": "RoHS"
+    },
+    "_enSource": {
+      "name": "12c9cc731d71",
+      "description": "5196eb346726",
+      "descriptionHtml": "311dccc006ac",
+      "specs": "2be6d79f58cf",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -1528,7 +1759,14 @@
       "Number of fibers": "duplex"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Patch Cords"
+    "subcategory_en": "Fiber Patch Cords",
+    "_enSource": {
+      "name": "d623d02e31e1",
+      "description": "8d02930ffe1a",
+      "descriptionHtml": "0bba415de3fb",
+      "specs": "0e44cb410b56",
+      "subcategory": "e05125d60ea2"
+    }
   },
   {
     "name": "DATAWAY patch kábel CAT5E, FTP LSOH, 0,50m, červený",
@@ -1572,6 +1810,13 @@
     "descriptionHtml_en": "<p>Patch cable in red color with length of 0.50 m, FTP design, category 5E. Wire cross-section is <strong>AWG26</strong>. Connector contacts are covered with a thin layer of gold. DATAWAY patch cables are part of a comprehensive product system for structured cabling.</p>\r\n\n<p>Several common patch cable lengths are available to choose from. All cables are certified according to internationally recognized standards. Due to the use of quality materials, they are characterized by excellent transmission parameters and long service life.</p>\r\n\n<p>Molded connector protection minimizes the possibility of crosstalk and cables can be used without problems in any active or passive element. For all DATAWAY cables we provide an extended <strong>5-year warranty</strong>!</p>",
     "specs_en": {
       "Length (m)": "0.50"
+    },
+    "_enSource": {
+      "name": "c4cd62b3e352",
+      "description": "8c02022b9333",
+      "descriptionHtml": "df910b589c31",
+      "specs": "73849a4826bb",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -1625,6 +1870,13 @@
       "Material": "plastic, metal",
       "Connectors": "RJ45, RJ11",
       "Shielding": "UTP/STP"
+    },
+    "_enSource": {
+      "name": "afc1d91a83ec",
+      "description": "f4a3832f8193",
+      "descriptionHtml": "3fa8fff3f87c",
+      "specs": "78aab07ac848",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -1673,6 +1925,13 @@
       "Max. power (W)": "4000",
       "Dimensions (mm)": "431 x 44 x 44 mm",
       "Protection rating": "IP20"
+    },
+    "_enSource": {
+      "name": "ed9233150502",
+      "description": "588cbaecbeed",
+      "descriptionHtml": "a8f10b838e6c",
+      "specs": "0a77cf0d95ae",
+      "subcategory": "3a95f6d5233e"
     }
   },
   {
@@ -1722,6 +1981,13 @@
       "Max. power (W)": "4000",
       "Dimensions (mm)": "431 x 44 x 44 mm",
       "Protection rating": "IP20"
+    },
+    "_enSource": {
+      "name": "c992f6de9a8b",
+      "description": "5ad5aea44379",
+      "descriptionHtml": "c5ccb2daaf7b",
+      "specs": "c446abe653bc",
+      "subcategory": "3a95f6d5233e"
     }
   },
   {
@@ -1773,6 +2039,13 @@
       "Dimensions (mm)": "431 x 44 x 44 mm",
       "Frequency band": "50 Hz",
       "Protection rating": "IP20"
+    },
+    "_enSource": {
+      "name": "35cccd0edccb",
+      "description": "cf6d1bd987a1",
+      "descriptionHtml": "16aee2a4a82d",
+      "specs": "851a20845a73",
+      "subcategory": "3a95f6d5233e"
     }
   },
   {
@@ -1823,6 +2096,13 @@
       "Dimensions (mm)": "431 x 44 x 44 mm",
       "Frequency band": "50 Hz",
       "Protection rating": "IP20"
+    },
+    "_enSource": {
+      "name": "9e610de3e9e7",
+      "description": "6ba18b96adba",
+      "descriptionHtml": "441362015f65",
+      "specs": "1d0b86251919",
+      "subcategory": "3a95f6d5233e"
     }
   },
   {
@@ -1870,6 +2150,13 @@
       "Max. power (W)": "4000",
       "Dimensions (mm)": "431 x 44 x 44 mm",
       "Protection rating": "IP20"
+    },
+    "_enSource": {
+      "name": "e83ada201dab",
+      "description": "919adbb35714",
+      "descriptionHtml": "8888fdb43358",
+      "specs": "7a3b5c922bd2",
+      "subcategory": "3a95f6d5233e"
     }
   },
   {
@@ -1913,6 +2200,13 @@
       "Depth (mm)": "93",
       "Shielding": "yes",
       "Color": "silver"
+    },
+    "_enSource": {
+      "name": "0cb4b3631174",
+      "description": "322057f10e88",
+      "descriptionHtml": "2349bfd6e9a2",
+      "specs": "87381860edc6",
+      "subcategory": "ab154e2fb76c"
     }
   },
   {
@@ -1981,6 +2275,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "c13a671ed02e",
+      "description": "0dbfb92209c4",
+      "descriptionHtml": "384863e1ab3c",
+      "specs": "472673b2147e",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -2045,6 +2346,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "ac1f79680695",
+      "description": "a9886bbc49c9",
+      "descriptionHtml": "c5a49af3ca6f",
+      "specs": "443999e3a4ca",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -2109,6 +2417,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "80598ea64936",
+      "description": "f4d8fbc4bf65",
+      "descriptionHtml": "58f9a23da711",
+      "specs": "c99bd11c7365",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -2168,6 +2483,13 @@
       "Doors": "glass",
       "Color": "grey RAL7035",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "dd91fd0d0c94",
+      "description": "d4c5b02b9077",
+      "descriptionHtml": "498849210d2b",
+      "specs": "a7a480c3ff05",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -2222,6 +2544,13 @@
       "Doors": "glass",
       "Color": "grey RAL7035",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "c6601837a6a1",
+      "description": "d4c5b02b9077",
+      "descriptionHtml": "86ce7dd68850",
+      "specs": "a2f8673cd2c8",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -2280,6 +2609,13 @@
       "Doors": "glass",
       "Color": "grey RAL7035",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "e2d24898685d",
+      "description": "5486bd875d98",
+      "descriptionHtml": "a6931c77b2ef",
+      "specs": "470fae30d3ae",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -2338,6 +2674,13 @@
       "Doors": "glass",
       "Color": "grey RAL7035",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "8c87169ce0c8",
+      "description": "77dd06928a1d",
+      "descriptionHtml": "f1839b71f5be",
+      "specs": "7aec067026eb",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -2397,6 +2740,13 @@
       "Doors": "glass",
       "Color": "grey RAL7035",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "ae1402ebb8f8",
+      "description": "554b26226ed8",
+      "descriptionHtml": "af6ca50f2e9a",
+      "specs": "08ceef29f63c",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -2456,6 +2806,13 @@
       "Doors": "glass",
       "Color": "grey RAL7035",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "e53d6ffb8b10",
+      "description": "233b830dad34",
+      "descriptionHtml": "f6ad30bc5671",
+      "specs": "08e6ffa3d075",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -2514,6 +2871,13 @@
       "Color": "black RAL9005",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "2a6a34dfdfe3",
+      "description": "233b830dad34",
+      "descriptionHtml": "86b0ea7502e4",
+      "specs": "8214a29a4c6c",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -2572,6 +2936,13 @@
       "Color": "black (RAL9005)",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "217bb8638805",
+      "description": "554b26226ed8",
+      "descriptionHtml": "1498a023be31",
+      "specs": "7b5e1aa5fec0",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -2612,6 +2983,13 @@
       "Color": "pink",
       "Design": "with flange",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "36e1e9a0cfe7",
+      "description": "6cf06b30802c",
+      "descriptionHtml": "8a6199a3c45b",
+      "specs": "b4bebc426fe7",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -2658,6 +3036,13 @@
       "Number of fibers": "simplex",
       "Color": "grey",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "4349266a12c2",
+      "description": "d177a17983f5",
+      "descriptionHtml": "ed8bfa9af45e",
+      "specs": "d26ed93abc62",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -2725,6 +3110,13 @@
       "Connectors": "RJ-45 (50µ gold)",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "f8086aeb1963",
+      "description": "8f9f86d7ca2d",
+      "descriptionHtml": "de64f84cf92a",
+      "specs": "98771a8367d2",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -2790,6 +3182,13 @@
       "Jacket": "PVC",
       "Connectors": "RJ-45 (50µ gold)",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "9d7b4563cd1a",
+      "description": "c0dc1678acbc",
+      "descriptionHtml": "0bf8aca4613a",
+      "specs": "0fdaa9f6f436",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -2854,6 +3253,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "0bd296554990",
+      "description": "bf4d97c218ec",
+      "descriptionHtml": "585affbc495d",
+      "specs": "33d7c1028509",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -2892,6 +3298,13 @@
       "Color": "blue",
       "Connectors": "RJ45",
       "Design": "snag-proof"
+    },
+    "_enSource": {
+      "name": "6dc03570ded2",
+      "description": "c942beb44be4",
+      "descriptionHtml": "c942beb44be4",
+      "specs": "4888921f5dfa",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -2930,6 +3343,13 @@
       "Connectors": "SC/PC - SC/PC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "8c2306a22c25",
+      "description": "eb3fc6c5b74d",
+      "descriptionHtml": "bb241b6cdf29",
+      "specs": "770ab846b3d4",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -2967,6 +3387,13 @@
       "Max. allowed tension": "2 kN",
       "Dimensions (mm)": "7 x 70 x 6",
       "Material": "steel"
+    },
+    "_enSource": {
+      "name": "44ca2d226bbe",
+      "description": "44d36cadd7de",
+      "descriptionHtml": "09f434ac5860",
+      "specs": "b0c3cf731e79",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -2992,7 +3419,14 @@
     "category_en": "Optical Networks",
     "subcategory_en": "Tools & Instruments",
     "description_en": "Pole mount DRAG-07 is designed for use in overhead telecommunication networks. It is mounted on a pole using screws or stainless steel tape",
-    "descriptionHtml_en": "<p>Pole mount <strong>DRAG-07 </strong>is designed for use in overhead telecommunication networks. It is mounted on a pole using screws or stainless steel tape. Other overhead network components can then be mounted on the bracket, such as anchor wires or through clamps used to tension cables between spans.</p>\r\n\n<p>The design of the mount provides excellent properties for overhead networks: it is lightweight (galvanized steel) with a simple but sturdy construction and is designed to minimize installation time to the absolute minimum.</p>"
+    "descriptionHtml_en": "<p>Pole mount <strong>DRAG-07 </strong>is designed for use in overhead telecommunication networks. It is mounted on a pole using screws or stainless steel tape. Other overhead network components can then be mounted on the bracket, such as anchor wires or through clamps used to tension cables between spans.</p>\r\n\n<p>The design of the mount provides excellent properties for overhead networks: it is lightweight (galvanized steel) with a simple but sturdy construction and is designed to minimize installation time to the absolute minimum.</p>",
+    "_enSource": {
+      "name": "0bafb1ba4eb2",
+      "description": "6bff7cb78ff2",
+      "descriptionHtml": "cfa596aeea4e",
+      "specs": "da39a3ee5e6b",
+      "subcategory": "02cc2ebc592b"
+    }
   },
   {
     "name": "DATAWAY Keystone modul pre SC-simplex / LC-duplex, neosadený",
@@ -3033,6 +3467,13 @@
       "Color": "white",
       "Design": "modular",
       "Material": "plastic"
+    },
+    "_enSource": {
+      "name": "f1cbadfbfa60",
+      "description": "d5f66e96f3d7",
+      "descriptionHtml": "f7e46f6cd19f",
+      "specs": "12dcb9669286",
+      "subcategory": "048ad33b477b"
     }
   },
   {
@@ -3105,6 +3546,13 @@
       "Category": "CAT5E ; CAT6",
       "Design": "EASY",
       "Certifications": "RoHS"
+    },
+    "_enSource": {
+      "name": "aa94947e6b21",
+      "description": "54ad37e2b3b1",
+      "descriptionHtml": "b59a0bb9544c",
+      "specs": "d22e4fa136df",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -3145,6 +3593,13 @@
       "Weight (kg)": "0.29",
       "Dimensions (mm)": "126 x 49 x 34  a  175 x 42 x 27",
       "Power supply": "2x 9V batteries"
+    },
+    "_enSource": {
+      "name": "dd11545e3ccb",
+      "description": "04f59c604045",
+      "descriptionHtml": "86edd3d2148b",
+      "specs": "430a8f500330",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -3213,6 +3668,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "dafa9584f1d3",
+      "description": "201aa1cd3827",
+      "descriptionHtml": "6bc123fb61fe",
+      "specs": "c851687b6062",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -3277,6 +3739,13 @@
       "Supported standards": "ANSI/TIA 568, ISO/IEC 11801, EN 50173",
       "Category": "CAT5E",
       "Color": "black"
+    },
+    "_enSource": {
+      "name": "5f738b0f3158",
+      "description": "dab49bafc087",
+      "descriptionHtml": "cc9a6f11bca5",
+      "specs": "89f7b1e1ea49",
+      "subcategory": "9cf298768fa9"
     }
   },
   {
@@ -3336,6 +3805,13 @@
       "Category": "CAT5E",
       "Terminal block": "self-punching",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "54ca137a5e45",
+      "description": "99205a4fa55d",
+      "descriptionHtml": "a0fec6054984",
+      "specs": "62f44171d49e",
+      "subcategory": "048ad33b477b"
     }
   },
   {
@@ -3381,6 +3857,13 @@
       "Shielding": "yes, FTP",
       "Category": "CAT6A",
       "Color": "silver"
+    },
+    "_enSource": {
+      "name": "73ba0308d6ce",
+      "description": "8e5253ac6b10",
+      "descriptionHtml": "62d81dd8c22d",
+      "specs": "cb2cdf326359",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -3426,6 +3909,13 @@
       "Material": "FR plastic per UL94-0",
       "Shielding": "no",
       "Device type": "RJ45/RJ45"
+    },
+    "_enSource": {
+      "name": "752818d5d11d",
+      "description": "6d2c461c92f9",
+      "descriptionHtml": "b9b951f98dbd",
+      "specs": "016ac6e7e09d",
+      "subcategory": "ab154e2fb76c"
     }
   },
   {
@@ -3480,6 +3970,13 @@
       "Design": "CLASSIC",
       "Shielding": "no",
       "Certifications": "RoHS"
+    },
+    "_enSource": {
+      "name": "27a4067508d3",
+      "description": "c1c83d7de88d",
+      "descriptionHtml": "a9cacfe33ce3",
+      "specs": "940b1ac4c105",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -3556,6 +4053,13 @@
       "Shielding": "no",
       "Jacket": "PE",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "6b18960a135c",
+      "description": "644e5d45b606",
+      "descriptionHtml": "514f42ac1a4b",
+      "specs": "d69f682de70d",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -3628,6 +4132,13 @@
       "PoE": "PoE, PoE+",
       "Jacket": "PVC",
       "Color": "grey (RAL7035)"
+    },
+    "_enSource": {
+      "name": "ed8db65715d8",
+      "description": "703015f9dee1",
+      "descriptionHtml": "3a18a7da8ac9",
+      "specs": "51863899d62f",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -3700,6 +4211,13 @@
       "Jacket": "LSOH",
       "Conductor": "solid copper 0.50 mm AWG 24",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "3a55e2271e55",
+      "description": "2758cbeb75ae",
+      "descriptionHtml": "ead1b84d9ba2",
+      "specs": "1fb404fc1c74",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -3776,6 +4294,13 @@
       "Conductor": "solid copper 0.50 mm AWG 24",
       "Jacket": "PE",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "0c6284944a5e",
+      "description": "2b7d8dada4f0",
+      "descriptionHtml": "7d0bec12c67b",
+      "specs": "4aef9e1fa035",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -3806,6 +4331,13 @@
     "descriptionHtml_en": "Wire stripper for UTP/STP cables, simple stripper, finger-operated",
     "specs_en": {
       "Color": "orange"
+    },
+    "_enSource": {
+      "name": "5c7353b18b97",
+      "description": "ea702c8a2292",
+      "descriptionHtml": "ea702c8a2292",
+      "specs": "95a987d6daeb",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -3866,6 +4398,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "339d0c256879",
+      "description": "989cd411aa07",
+      "descriptionHtml": "c05342349488",
+      "specs": "af9a80ee4fa1",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -3918,6 +4457,13 @@
       "Shielding": "no",
       "Terminal block": "self-punching",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "da4c7019ce34",
+      "description": "d9640289adbd",
+      "descriptionHtml": "eeecb195ef3c",
+      "specs": "f2ac1f6daf34",
+      "subcategory": "048ad33b477b"
     }
   },
   {
@@ -3965,6 +4511,13 @@
       "Connectors": "SC",
       "Cable type": "Single Mode",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "31999e585f70",
+      "description": "47aa96215503",
+      "descriptionHtml": "b2a4b7d11450",
+      "specs": "6b093b4262e8",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -4000,6 +4553,13 @@
     "specs_en": {
       "Color": "black",
       "Number of fibers": "duplex"
+    },
+    "_enSource": {
+      "name": "a0e5ab59d70b",
+      "description": "aebf3a499fce",
+      "descriptionHtml": "90f028e6742e",
+      "specs": "b7e310401dfc",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -4046,6 +4606,13 @@
       "Fiber type": "G657A1",
       "Construction": "MINI STEEL module",
       "Connectors": "SC / APC"
+    },
+    "_enSource": {
+      "name": "4cbf30a66fc6",
+      "description": "89d32e6dfc54",
+      "descriptionHtml": "4efa9702c0bc",
+      "specs": "2116a0ef4699",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -4083,7 +4650,14 @@
       "Fiber type": "SM G.657A"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Patch Cords"
+    "subcategory_en": "Fiber Patch Cords",
+    "_enSource": {
+      "name": "5e44daf57f03",
+      "description": "a858ecc2a803",
+      "descriptionHtml": "cdb1a4457525",
+      "specs": "3d8d7d9e69f2",
+      "subcategory": "e05125d60ea2"
+    }
   },
   {
     "name": "DATAWAY Optický pigtail SC/PC, G657A2 1,5m, 9/125, 0.9mm, modrý plášť",
@@ -4123,6 +4697,13 @@
       "Jacket color": "blue",
       "Connectors": "SC/PC - blue",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "0b752c0e362c",
+      "description": "77f2f706e3be",
+      "descriptionHtml": "5d56db1fea3c",
+      "specs": "9ba8fc3b7a33",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -4178,6 +4759,13 @@
       "Design": "CLASSIC",
       "Shielding": "no",
       "Certifications": "RoHS"
+    },
+    "_enSource": {
+      "name": "6004b0bda3d1",
+      "description": "a637df50f218",
+      "descriptionHtml": "c5c9a2e1010b",
+      "specs": "7d1e56bf5811",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -4233,6 +4821,13 @@
       "Category": "CAT5E",
       "Design": "CLASSIC",
       "Certifications": "RoHS"
+    },
+    "_enSource": {
+      "name": "c7d548c9ceb0",
+      "description": "22418d4c451b",
+      "descriptionHtml": "c5747aedda5f",
+      "specs": "cea11a9cbf54",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -4267,6 +4862,13 @@
       "Cable diameter (mm)": "3.0",
       "Number of fibers": "duplex",
       "Connectors": "SC/APC ; LC/PC"
+    },
+    "_enSource": {
+      "name": "45244cc15dc8",
+      "description": "6f543eaa796d",
+      "descriptionHtml": "782aa66b562b",
+      "specs": "076ce2e67494",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -4331,6 +4933,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "b3d877904719",
+      "description": "2248714ac4c4",
+      "descriptionHtml": "18cf3e7bc6c9",
+      "specs": "f757b4f3be83",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -4369,6 +4978,13 @@
       "Connectors": "RJ45",
       "Design": "snag-proof",
       "Color": "green"
+    },
+    "_enSource": {
+      "name": "71b02085f89a",
+      "description": "961e8b79c05b",
+      "descriptionHtml": "961e8b79c05b",
+      "specs": "72e7007e3b89",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -4416,6 +5032,13 @@
       "Connectors": "SC",
       "Color": "turquoise",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "072588c46909",
+      "description": "f3f397e146fc",
+      "descriptionHtml": "d1f573cb6fb6",
+      "specs": "624dc9b1de18",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -4452,6 +5075,13 @@
       "Fiber type": "MM OM4",
       "Connectors": "SC",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "8d7bced0aa9e",
+      "description": "a7037935393d",
+      "descriptionHtml": "c0426c207170",
+      "specs": "3498959bf721",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -4488,7 +5118,14 @@
       "Fiber type": "SM G.657A2"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Patch Cords"
+    "subcategory_en": "Fiber Patch Cords",
+    "_enSource": {
+      "name": "1ab84599f158",
+      "description": "f32f39e56917",
+      "descriptionHtml": "65942a8c429d",
+      "specs": "d80056b09907",
+      "subcategory": "e05125d60ea2"
+    }
   },
   {
     "name": "DATAWAY Optický splitter PLC, MINI modul, 1x4 0.9mm, G657A1, SC/APC",
@@ -4533,6 +5170,13 @@
       "Fiber type": "G657A1",
       "Construction": "MINI STEEL module",
       "Connectors": "SC / APC"
+    },
+    "_enSource": {
+      "name": "d8ac5b901c10",
+      "description": "d6293f316fbe",
+      "descriptionHtml": "8684fc0c2140",
+      "specs": "2116a0ef4699",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -4571,6 +5215,13 @@
       "Connectors": "LC ; LC",
       "Fiber type": "SM G.657A2",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "bdfab81df3cb",
+      "description": "c032f61c3f8f",
+      "descriptionHtml": "23dcf305d48e",
+      "specs": "f6e08415ee2c",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -4616,6 +5267,13 @@
       "Connectors": "without connectors",
       "Fiber type": "G657A1",
       "Construction": "MINI STEEL module"
+    },
+    "_enSource": {
+      "name": "d31f2c40a526",
+      "description": "7942ecd6fd2e",
+      "descriptionHtml": "891770ff2fa5",
+      "specs": "beeb7a14df46",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -4662,6 +5320,13 @@
       "Fiber type": "G.657A1",
       "Construction": "MINI STEEL module",
       "Connectors": "SC / APC"
+    },
+    "_enSource": {
+      "name": "8cc22754f8a8",
+      "description": "98ae774d7a4a",
+      "descriptionHtml": "0d36c14188e0",
+      "specs": "d0133abf477b",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -4713,6 +5378,13 @@
       "Cable type": "Single Mode",
       "Application": "indoor",
       "Color": "green"
+    },
+    "_enSource": {
+      "name": "182fa4e0009a",
+      "description": "f58ec772340d",
+      "descriptionHtml": "5677be518429",
+      "specs": "578c87c8dece",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -4747,6 +5419,13 @@
       "Number of fibers": "duplex",
       "Application": "Orange, Telekom, UPC, Slovanet and others",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "ebd2e54c5f7c",
+      "description": "f629fd2252fd",
+      "descriptionHtml": "80eb620c766c",
+      "specs": "30e079f68eca",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -4782,6 +5461,13 @@
     "specs_en": {
       "Color": "black",
       "Number of fibers": "simplex"
+    },
+    "_enSource": {
+      "name": "895869099314",
+      "description": "925209c3edba",
+      "descriptionHtml": "056e81b3d6ba",
+      "specs": "4a5b7e9e7cee",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -4805,7 +5491,14 @@
     "category_en": "Cabinets",
     "subcategory_en": "Accessories",
     "description_en": "DATAWAY MK-M6 mounting kit is a practical set of fastening hardware designed for simple and reliable installation of devices with M6 mounting points. The set contains 4 nuts, bolts and washers.",
-    "descriptionHtml_en": "<p><strong>DATAWAY MK-M6 mounting kit</strong> is a practical set of fastening hardware designed for simple and reliable installation of devices with M6 mounting points. The set contains 4 nuts, bolts and washers, ensuring firm and stable attachment of <strong>rack shelves, panels, brackets, patch panels or other technical accessories</strong>. Thanks to the complete set, assembly is quick, safe and without the need to purchase individual components separately.</p>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Package contents:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p><strong>4× M6 nuts</strong> – for reliable anchoring</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>4× M6 bolts</strong> – with compatible thread</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>4× washers</strong> – for even force distribution and surface protection</p>\r\n\t</li>\r\n</ul>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Key features:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p><strong>Complete mounting kit</strong> for M6 fastening</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>suitable for racks, shelves, panels and other mounting solutions</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>material: durable <strong>steel / galvanized finish</strong></p>\r\n\t</li>\r\n\t<li>\r\n\t<p>increases stability and safety of assembly</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>simple installation without need for additional parts</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>compatible with standard M6 mounting points</p>\r\n\t</li>\r\n</ul>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Application:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p>Installation of <strong>rack shelves and panels</strong></p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Assembly of technical accessories in 19\" patch panels</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Fastening of brackets, beams, holders</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Industrial and IT installations requiring firm fastening</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>As replacement kit for service or reconstruction</p>\r\n\t</li>\r\n</ul>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Why choose it:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p>Complete and <strong>cost-effective kit</strong> for M6 fastening</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>Reliable components</strong> for long-term operation</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Facilitates assembly and reduces installation time</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Suitable for professional and DIY installations</p>\r\n\t</li>\r\n</ul>"
+    "descriptionHtml_en": "<p><strong>DATAWAY MK-M6 mounting kit</strong> is a practical set of fastening hardware designed for simple and reliable installation of devices with M6 mounting points. The set contains 4 nuts, bolts and washers, ensuring firm and stable attachment of <strong>rack shelves, panels, brackets, patch panels or other technical accessories</strong>. Thanks to the complete set, assembly is quick, safe and without the need to purchase individual components separately.</p>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Package contents:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p><strong>4× M6 nuts</strong> – for reliable anchoring</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>4× M6 bolts</strong> – with compatible thread</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>4× washers</strong> – for even force distribution and surface protection</p>\r\n\t</li>\r\n</ul>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Key features:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p><strong>Complete mounting kit</strong> for M6 fastening</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>suitable for racks, shelves, panels and other mounting solutions</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>material: durable <strong>steel / galvanized finish</strong></p>\r\n\t</li>\r\n\t<li>\r\n\t<p>increases stability and safety of assembly</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>simple installation without need for additional parts</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>compatible with standard M6 mounting points</p>\r\n\t</li>\r\n</ul>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Application:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p>Installation of <strong>rack shelves and panels</strong></p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Assembly of technical accessories in 19\" patch panels</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Fastening of brackets, beams, holders</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Industrial and IT installations requiring firm fastening</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>As replacement kit for service or reconstruction</p>\r\n\t</li>\r\n</ul>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Why choose it:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p>Complete and <strong>cost-effective kit</strong> for M6 fastening</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>Reliable components</strong> for long-term operation</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Facilitates assembly and reduces installation time</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Suitable for professional and DIY installations</p>\r\n\t</li>\r\n</ul>",
+    "_enSource": {
+      "name": "ab4907034666",
+      "description": "3437c2554dd1",
+      "descriptionHtml": "d2fe75f2376f",
+      "specs": "da39a3ee5e6b",
+      "subcategory": "c4425b91bb79"
+    }
   },
   {
     "name": "DATAWAY Optický adaptér SC, OM3, SIMPLEX",
@@ -4852,6 +5545,13 @@
       "Number of fibers": "simplex",
       "Color": "turquoise",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "ef81dd054d02",
+      "description": "f9e762992741",
+      "descriptionHtml": "c59bb854f06a",
+      "specs": "4784c05a20b8",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -4928,6 +5628,13 @@
       "Conductor": "solid copper 0.55 mm 23AWG",
       "PoE": "PoE, PoE+",
       "Color": "grey (RAL7035)"
+    },
+    "_enSource": {
+      "name": "a143a90ee725",
+      "description": "9f166e549a15",
+      "descriptionHtml": "29f0ed692652",
+      "specs": "2a3e9956c8b3",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -4990,6 +5697,13 @@
       "Conductor": "solid copper, AWG 26",
       "Connectors": "RJ-45",
       "Color": "grey"
+    },
+    "_enSource": {
+      "name": "d38e27d0ac07",
+      "description": "c3330137014b",
+      "descriptionHtml": "f040c04c7056",
+      "specs": "c57bfc1a6409",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5052,6 +5766,13 @@
       "Conductor": "solid copper, AWG 26",
       "Connectors": "RJ-45",
       "Color": "grey"
+    },
+    "_enSource": {
+      "name": "29c2ce7101be",
+      "description": "748c1a51d63b",
+      "descriptionHtml": "a77d9dba0f1f",
+      "specs": "7cd8c36ef36f",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5112,6 +5833,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "dc5b262222ab",
+      "description": "a8c30a87b179",
+      "descriptionHtml": "2c18cdda8d4a",
+      "specs": "25f10665657a",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5172,6 +5900,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "88f5a5a224c6",
+      "description": "0810a4332481",
+      "descriptionHtml": "6a672282f5cf",
+      "specs": "25f10665657a",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5242,6 +5977,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "fbc1c7b7ca73",
+      "description": "8fc06c3f1931",
+      "descriptionHtml": "4c739e989544",
+      "specs": "62b4b9aad19d",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5312,6 +6054,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "dd28c343aba5",
+      "description": "827463662c37",
+      "descriptionHtml": "f67e5b73fa97",
+      "specs": "09a0af3b489c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5360,6 +6109,13 @@
       "Length (m)": "3",
       "Cable diameter (mm)": "5.5",
       "Jacket material": "LSOH"
+    },
+    "_enSource": {
+      "name": "60bacf306d76",
+      "description": "5e0298f87874",
+      "descriptionHtml": "a2c6927338da",
+      "specs": "ed6598c11211",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5426,6 +6182,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "5d6a792149bb",
+      "description": "60d150dff8c4",
+      "descriptionHtml": "ad8d895cc0ea",
+      "specs": "c7ad61c3091a",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5492,6 +6255,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "64c108a1ea71",
+      "description": "818684a1679f",
+      "descriptionHtml": "d00625ed850a",
+      "specs": "efc5ba5bc718",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5558,6 +6328,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "bcff7da3379d",
+      "description": "09d6f6f769a4",
+      "descriptionHtml": "b80057fc745a",
+      "specs": "a0e4d3a27f6d",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5622,6 +6399,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "4496ea5d0389",
+      "description": "367eecb14fec",
+      "descriptionHtml": "e1df3f270742",
+      "specs": "98e5811cd637",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5686,6 +6470,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "91905b51a330",
+      "description": "b16ad441084a",
+      "descriptionHtml": "7f5311c3f25a",
+      "specs": "72e87dda67a2",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5750,6 +6541,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "df08ac5024c7",
+      "description": "58ac94e522bb",
+      "descriptionHtml": "6eb9b171cdfd",
+      "specs": "da7cd78d51ad",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -5826,6 +6624,13 @@
       "PoE": "PoE, PoE+",
       "Jacket": "PVC",
       "Color": "grey (RAL7035)"
+    },
+    "_enSource": {
+      "name": "7ee0391775a1",
+      "description": "2758cbeb75ae",
+      "descriptionHtml": "21b84fe1e92a",
+      "specs": "8a1bc0ea1888",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -5858,6 +6663,13 @@
       "Cable diameter (mm)": "3 mm",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "66271774014a",
+      "description": "a858ecc2a803",
+      "descriptionHtml": "cdb1a4457525",
+      "specs": "dcce666970f1",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -5892,6 +6704,13 @@
       "Packaging": "12 pcs per package",
       "Connectors": "LC/PC - blue",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "01852630b4b7",
+      "description": "d31bccdff732",
+      "descriptionHtml": "ab5500b8e22f",
+      "specs": "7938da285efb",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -5959,6 +6778,13 @@
       "Supported standards": "ANSI/TIA 568, ISO/IEC 11801, EN 50173",
       "Category": "CAT6A",
       "Color": "black"
+    },
+    "_enSource": {
+      "name": "a511d2ce1538",
+      "description": "67c4f9060130",
+      "descriptionHtml": "bc9b7ecd34fe",
+      "specs": "e53d417d01f8",
+      "subcategory": "9cf298768fa9"
     }
   },
   {
@@ -6022,6 +6848,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "cad96f232ef1",
+      "description": "8ee71cb28914",
+      "descriptionHtml": "766fb34edc2c",
+      "specs": "dc3b8568974c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -6085,6 +6918,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "132f56f0c0fc",
+      "description": "9b9720f99701",
+      "descriptionHtml": "f206f803183a",
+      "specs": "86569cb252af",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -6148,6 +6988,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "108d75718d40",
+      "description": "a9886bbc49c9",
+      "descriptionHtml": "ff9e11797976",
+      "specs": "f9f85090b238",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -6215,6 +7062,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "1001d51e88b5",
+      "description": "db1afcafcfe1",
+      "descriptionHtml": "726b6bac7b7f",
+      "specs": "acc6d1709850",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -6281,6 +7135,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "f3552b25af14",
+      "description": "546b32d84a47",
+      "descriptionHtml": "740f768d1593",
+      "specs": "d29f5b01f616",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -6347,6 +7208,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "93fbafdb93a7",
+      "description": "8ec7601aec1a",
+      "descriptionHtml": "e973f130500b",
+      "specs": "8b864d4bb87c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -6413,6 +7281,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "e868c9123d0f",
+      "description": "dd10f9eff715",
+      "descriptionHtml": "7ab19accdb87",
+      "specs": "8b864d4bb87c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -6479,6 +7354,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "2072bdeef208",
+      "description": "79014a82aafe",
+      "descriptionHtml": "9f872a7d82e5",
+      "specs": "8b864d4bb87c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -6545,6 +7427,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "a922917e00fd",
+      "description": "12daac62110c",
+      "descriptionHtml": "4c9f0367394d",
+      "specs": "8b864d4bb87c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -6581,6 +7470,13 @@
       "Depth (mm)": "350 mm",
       "Load capacity": "40 kg",
       "Color": "grey"
+    },
+    "_enSource": {
+      "name": "8ef889098fd2",
+      "description": "80d7682ced9d",
+      "descriptionHtml": "a40171ad7e6c",
+      "specs": "877eef8c4c29",
+      "subcategory": "a5dfc157da97"
     }
   },
   {
@@ -6617,6 +7513,13 @@
       "Depth (mm)": "350 mm",
       "Load capacity": "40 kg",
       "Color": "grey"
+    },
+    "_enSource": {
+      "name": "c045d7ef3a2a",
+      "description": "80d7682ced9d",
+      "descriptionHtml": "a40171ad7e6c",
+      "specs": "877eef8c4c29",
+      "subcategory": "a5dfc157da97"
     }
   },
   {
@@ -6650,6 +7553,13 @@
       "Weight (kg)": "0.89",
       "Dimensions (mm)": "325 x 75 x 40",
       "Material": "electro-galvanized steel"
+    },
+    "_enSource": {
+      "name": "8fa04bf6b905",
+      "description": "fbfd5cc6ed08",
+      "descriptionHtml": "7bce242db329",
+      "specs": "aee1f1fcee3b",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -6727,6 +7637,13 @@
       "Conductor": "solid copper 0.56 mm 23AWG",
       "Jacket": "PE",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "2da076123a99",
+      "description": "cd219ee579ab",
+      "descriptionHtml": "729bc7e3ee90",
+      "specs": "e17260ffec10",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -6766,6 +7683,13 @@
       "Connectors": "LC-LC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "a9eed7e0f661",
+      "description": "4a07039bd09f",
+      "descriptionHtml": "00ddbceaa9f0",
+      "specs": "0243fea89fef",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -6811,6 +7735,13 @@
       "Shielding": "yes",
       "Design": "tool-less",
       "Category": "CAT6A ; CAT7"
+    },
+    "_enSource": {
+      "name": "24be0f4b382a",
+      "description": "cff546a79bf8",
+      "descriptionHtml": "fe7da17c8b7f",
+      "specs": "f49877374f09",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -6851,6 +7782,13 @@
       "Number of fibers": "simplex",
       "Cable type": "Single Mode",
       "Color": "green"
+    },
+    "_enSource": {
+      "name": "d09f2a541fc6",
+      "description": "3fdc54f28adb",
+      "descriptionHtml": "51d6b7c7531c",
+      "specs": "58640886220c",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -6893,6 +7831,13 @@
       "Packaging": "ReadyKit",
       "Connectors": "SC/APC - LC/APC",
       "Number of fibers": "simplex"
+    },
+    "_enSource": {
+      "name": "a9bd0a07cf21",
+      "description": "460f55297f0b",
+      "descriptionHtml": "8058b9f80ef7",
+      "specs": "18e46e7d5768",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -6935,6 +7880,13 @@
       "Packaging": "ReadyKit",
       "Connectors": "SC/APC - LC/APC",
       "Number of fibers": "simplex"
+    },
+    "_enSource": {
+      "name": "2c5115df7ca4",
+      "description": "ba0ec1889d80",
+      "descriptionHtml": "779aba31f8a5",
+      "specs": "ebc13f89784e",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -6967,6 +7919,13 @@
       "Jacket color": "12 different pigtail colors",
       "Connectors": "LC",
       "Fiber type": "MM, 50/125, OM3"
+    },
+    "_enSource": {
+      "name": "955e54d91b77",
+      "description": "b45b7df8c66a",
+      "descriptionHtml": "25be06f4463f",
+      "specs": "05b13a4550a8",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -7038,7 +7997,14 @@
       "Fiber type": "SM G.657A2"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Optic Cables"
+    "subcategory_en": "Fiber Optic Cables",
+    "_enSource": {
+      "name": "f2c53a7e0dd7",
+      "description": "9bd91abaac6e",
+      "descriptionHtml": "376d80ee2fd7",
+      "specs": "a36275553c2e",
+      "subcategory": "89b928224040"
+    }
   },
   {
     "name": "DATAWAY DROP (1000m) 4-vlákno, G.657A2, PE, 3,0mm",
@@ -7108,6 +8074,13 @@
       "Jacket": "PE",
       "Connectors": "SC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "446dd171fa38",
+      "description": "4c3adb7c68dc",
+      "descriptionHtml": "b3c40b9a0838",
+      "specs": "d71b3d27539c",
+      "subcategory": "89b928224040"
     }
   },
   {
@@ -7150,6 +8123,13 @@
       "Application": "Orange, Telekom, UPC, Slovanet and others",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "06057a341a7a",
+      "description": "2425e97b041c",
+      "descriptionHtml": "e05367926947",
+      "specs": "275c117fcc42",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -7192,6 +8172,13 @@
       "Application": "Orange, Telekom, UPC, Slovanet and others",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "ec4074e311bf",
+      "description": "2425e97b041c",
+      "descriptionHtml": "0cce203d5871",
+      "specs": "275c117fcc42",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -7236,7 +8223,14 @@
       "Fiber type": "SM G.657A2"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Patch Cords"
+    "subcategory_en": "Fiber Patch Cords",
+    "_enSource": {
+      "name": "4bb6d71d647e",
+      "description": "9c5f89279444",
+      "descriptionHtml": "daf845880573",
+      "specs": "70cc2c19c14c",
+      "subcategory": "e05125d60ea2"
+    }
   },
   {
     "name": "DATAWAY Predlžovací kábel, 4x zásuvka 230V, vypínač, biely, 2m",
@@ -7276,6 +8270,13 @@
       "Number of sockets": "4",
       "Color": "white",
       "Buttons": "ON/OFF switch"
+    },
+    "_enSource": {
+      "name": "841394662267",
+      "description": "4dd64baae064",
+      "descriptionHtml": "f1c96b9ba4ac",
+      "specs": "f56732d80546",
+      "subcategory": "78b10e67c191"
     }
   },
   {
@@ -7316,6 +8317,13 @@
       "Number of sockets": "4",
       "Color": "white",
       "Buttons": "ON/OFF switch"
+    },
+    "_enSource": {
+      "name": "9d4382e0264a",
+      "description": "cba7fa06911b",
+      "descriptionHtml": "8e7c3426c296",
+      "specs": "9e9dcbcd6817",
+      "subcategory": "78b10e67c191"
     }
   },
   {
@@ -7353,6 +8361,13 @@
       "Weight (kg)": "0.03",
       "Length (m)": "2",
       "Color": "white"
+    },
+    "_enSource": {
+      "name": "751cd69e5c2b",
+      "description": "489f3cce5cd8",
+      "descriptionHtml": "62f81d485ce7",
+      "specs": "35ba4d8ccfd8",
+      "subcategory": "d8c20c00f313"
     }
   },
   {
@@ -7390,6 +8405,13 @@
       "Weight (kg)": "0.03",
       "Length (m)": "2",
       "Color": "white"
+    },
+    "_enSource": {
+      "name": "0cad55d76000",
+      "description": "b9cfafbc1fcb",
+      "descriptionHtml": "ea8d19973e97",
+      "specs": "35ba4d8ccfd8",
+      "subcategory": "d8c20c00f313"
     }
   },
   {
@@ -7444,6 +8466,13 @@
       "Category": "CAT5E ; CAT6 ; CAT6A",
       "Color": "black",
       "Packaging": "patch panel, M6 kit"
+    },
+    "_enSource": {
+      "name": "5f12b3e1bb09",
+      "description": "339c84fc3f5c",
+      "descriptionHtml": "7dd43e2b03cf",
+      "specs": "9bb2e2ef2dce",
+      "subcategory": "048ad33b477b"
     }
   },
   {
@@ -7488,6 +8517,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "11015cb939b0",
+      "description": "9c5f89279444",
+      "descriptionHtml": "ef7b74c3f36b",
+      "specs": "895db1499f6b",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -7534,6 +8570,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "34660a01d69b",
+      "description": "9c5f89279444",
+      "descriptionHtml": "13d823441af0",
+      "specs": "3626e8c3d64b",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -7580,6 +8623,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "ca788550e45c",
+      "description": "9c5f89279444",
+      "descriptionHtml": "d9085d0fa85a",
+      "specs": "ccd781761d93",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -7624,6 +8674,13 @@
       "Connectors": "SC/APC - SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "3efc6910291c",
+      "description": "9c5f89279444",
+      "descriptionHtml": "47e428e563e6",
+      "specs": "502d6de9e4fe",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -7663,6 +8720,13 @@
       "Number of fibers": "duplex",
       "Connectors": "LC-LC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "4c1c64910f21",
+      "description": "4a07039bd09f",
+      "descriptionHtml": "f7e6806fed4d",
+      "specs": "710d98b641ac",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -7695,6 +8759,13 @@
       "Cable diameter (mm)": "3 mm",
       "Number of fibers": "duplex",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "50ac3f2bab8d",
+      "description": "6172634d2ec2",
+      "descriptionHtml": "e7c8ed34526b",
+      "specs": "560a151d0453",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -7736,6 +8807,13 @@
       "Weight (kg)": "1.2 kg",
       "Dimensions (mm)": "245 x 105 x 79.5 mm",
       "Material": "galvanized steel"
+    },
+    "_enSource": {
+      "name": "93da3043457e",
+      "description": "7045671732b3",
+      "descriptionHtml": "61f7b74aad36",
+      "specs": "89c20e3194df",
+      "subcategory": "02cc2ebc592b"
     }
   },
   {
@@ -7771,6 +8849,13 @@
     "specs_en": {
       "Width (mm)": "20",
       "Material": "Stainless Steel 304"
+    },
+    "_enSource": {
+      "name": "56bb8881874f",
+      "description": "f8a7112d3455",
+      "descriptionHtml": "af412a5d4f5b",
+      "specs": "a716eb779aba",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -7812,6 +8897,13 @@
       "Weight (kg)": "5.29",
       "Packaging": "50 m",
       "Material": "Stainless Steel 304"
+    },
+    "_enSource": {
+      "name": "7b5b24f46d1e",
+      "description": "43fd680f7b5c",
+      "descriptionHtml": "f29572a9375d",
+      "specs": "2971dbd7d5fd",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -7848,6 +8940,13 @@
       "Fiber type": "MM OM2",
       "Connectors": "SC",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "8732053a5a59",
+      "description": "5b63ae55ef4b",
+      "descriptionHtml": "9b945c3553b3",
+      "specs": "6eb51fc8be51",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -7898,6 +8997,13 @@
       "Dimensions (mm)": "460 x 190",
       "Color": "black",
       "Protection rating": "IP68"
+    },
+    "_enSource": {
+      "name": "19c9d53dad02",
+      "description": "5a5858e50b05",
+      "descriptionHtml": "d051aa702a35",
+      "specs": "c4fac5af5826",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -7931,6 +9037,13 @@
       "Cable diameter (mm)": "3 mm",
       "Number of fibers": "duplex",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "33f476b1738c",
+      "description": "a858ecc2a803",
+      "descriptionHtml": "cdb1a4457525",
+      "specs": "560a151d0453",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -7965,6 +9078,13 @@
       "Number of fibers": "duplex",
       "Application": "Orange, Telekom, UPC, Slovanet and others",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "9e5f29e59e30",
+      "description": "134b2b4b55d9",
+      "descriptionHtml": "c6ce0a5bf13d",
+      "specs": "30e079f68eca",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -8009,6 +9129,13 @@
       "Connectors": "SC/APC ; SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "83109f10cf7a",
+      "description": "2425e97b041c",
+      "descriptionHtml": "9c1887dcdc47",
+      "specs": "b5018c2a4235",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -8051,6 +9178,13 @@
       "Connectors": "SC/APC ; SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "437a3133495e",
+      "description": "2425e97b041c",
+      "descriptionHtml": "6f5adf3804cb",
+      "specs": "cd09e6b0fb47",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -8091,6 +9225,13 @@
       "Connectors": "SC/APC ; SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "71ea103e2d10",
+      "description": "2425e97b041c",
+      "descriptionHtml": "b256d5439190",
+      "specs": "b309bcdc84fe",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -8134,6 +9275,13 @@
       "Packaging": "box, wall plugs, screws, splice protectors, cable ties",
       "Protection class": "IP31",
       "Number of fibers": "simplex"
+    },
+    "_enSource": {
+      "name": "093d92240009",
+      "description": "8f654724bbb7",
+      "descriptionHtml": "4029d7ccf7f6",
+      "specs": "e727778249b4",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -8179,6 +9327,13 @@
       "Construction": "alubox 55 x 7 x 4 mm",
       "Connectors": "without connectors",
       "Fiber type": "G657A1"
+    },
+    "_enSource": {
+      "name": "7639eba51089",
+      "description": "95a314dc58f5",
+      "descriptionHtml": "713dfd0c5d3c",
+      "specs": "46bab41de2e1",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -8213,7 +9368,14 @@
       "Fiber type": "SM G.657A"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Patch Cords"
+    "subcategory_en": "Fiber Patch Cords",
+    "_enSource": {
+      "name": "104dd7ed3e95",
+      "description": "a858ecc2a803",
+      "descriptionHtml": "45e41c18bbaa",
+      "specs": "560a151d0453",
+      "subcategory": "e05125d60ea2"
+    }
   },
   {
     "name": "DATAWAY Optický splitter PLC, MINI modul, 1x8 0.9mm, G657A1, bez konektorov",
@@ -8258,6 +9420,13 @@
       "Connectors": "without connectors",
       "Fiber type": "G657A1",
       "Construction": "MINI STEEL module"
+    },
+    "_enSource": {
+      "name": "ec3d7f88ae55",
+      "description": "002c254d551d",
+      "descriptionHtml": "885a250ed6a8",
+      "specs": "beeb7a14df46",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -8313,6 +9482,13 @@
       "Dimensions (mm)": "489 x 44 x 245",
       "Color": "white",
       "Protection rating": "IP41"
+    },
+    "_enSource": {
+      "name": "dd8a1694ac78",
+      "description": "c252f33d2050",
+      "descriptionHtml": "fc70cbdb5ff0",
+      "specs": "f2521ca943da",
+      "subcategory": "9cf298768fa9"
     }
   },
   {
@@ -8341,6 +9517,13 @@
     "descriptionHtml_en": "<p>Optical patch cord (jumper cable) is a standard interconnect optical cable, terminated on both sides with optical connectors. Patch cords are used to connect equipment within a cabinet, or to connect active elements to an optical line terminated in a cabinet. Patch cords are typically <strong>duplex</strong> (2x fiber, 4x connector), or in <strong>simplex version</strong> (1x fiber, 2x connector) for single-fiber WDM applications.</p>",
     "specs_en": {
       "Cable diameter (mm)": "3 mm"
+    },
+    "_enSource": {
+      "name": "3e2fd654e639",
+      "description": "a858ecc2a803",
+      "descriptionHtml": "cdb1a4457525",
+      "specs": "11ed9beb5f5f",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -8387,6 +9570,13 @@
       "Construction": "alubox 55 x 7 x 4 mm",
       "Fiber type": "G657A1",
       "Connectors": "SC/APC"
+    },
+    "_enSource": {
+      "name": "c4fabea6cdcc",
+      "description": "d7ee517c3789",
+      "descriptionHtml": "d330ea7bf936",
+      "specs": "936056d65c1d",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -8432,6 +9622,13 @@
       "Construction": "alubox 55x7x4",
       "Connectors": "SC / APC",
       "Fiber type": "SM G.657A1 (0.9mm 1m cable)"
+    },
+    "_enSource": {
+      "name": "edccee2e6b95",
+      "description": "0565e739d9d1",
+      "descriptionHtml": "4d5a1ed75e52",
+      "specs": "057387a21bc8",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -8478,6 +9675,13 @@
       "Connectors": "SC",
       "Number of fibers": "simplex",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "1ad714624a79",
+      "description": "be3f8d31741c",
+      "descriptionHtml": "b6a167786817",
+      "specs": "c1857fbe7d64",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -8523,6 +9727,13 @@
       "Connectors": "without connectors",
       "Fiber type": "G.657A1",
       "Construction": "MINI STEEL module"
+    },
+    "_enSource": {
+      "name": "41a134426ba7",
+      "description": "1e89e2063c92",
+      "descriptionHtml": "a26ff990ee38",
+      "specs": "18af17486e41",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -8563,6 +9774,13 @@
       "Application": "Orange, Telekom, UPC, Slovanet and others",
       "Connectors": "SC - SC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "af912bce4a0c",
+      "description": "9e9734f4c8ed",
+      "descriptionHtml": "e704546b867f",
+      "specs": "f1da74f91161",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -8599,6 +9817,13 @@
       "Number of fibers": "duplex",
       "Connectors": "SC/APC ; LC/PC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "3622d839e159",
+      "description": "6f543eaa796d",
+      "descriptionHtml": "fc219d735e24",
+      "specs": "b8ac16f555ff",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -8622,7 +9847,14 @@
     "category_en": "Optical Networks",
     "subcategory_en": "Other",
     "description_en": "Aluminum anchor for pole attachment using steel strap. Suitable for hanging carabiners or anchors.",
-    "descriptionHtml_en": "<p>Aluminum anchor for pole attachment using steel strap. Suitable for hanging carabiners or anchors.</p>"
+    "descriptionHtml_en": "<p>Aluminum anchor for pole attachment using steel strap. Suitable for hanging carabiners or anchors.</p>",
+    "_enSource": {
+      "name": "cad3086f051e",
+      "description": "7eeaff764a61",
+      "descriptionHtml": "b29929dc671d",
+      "specs": "da39a3ee5e6b",
+      "subcategory": "9ad8bd081e42"
+    }
   },
   {
     "name": "DATAWAY S-100, Spona 10mm, SS304",
@@ -8654,6 +9886,13 @@
     "specs_en": {
       "Width (mm)": "10",
       "Material": "Stainless Steel 304"
+    },
+    "_enSource": {
+      "name": "fac286148433",
+      "description": "bd84a34081bb",
+      "descriptionHtml": "59576243100d",
+      "specs": "355f5d505e13",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -8722,6 +9961,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "65214b5daa61",
+      "description": "2e7d551d9636",
+      "descriptionHtml": "54a14e9a2ac9",
+      "specs": "0a72ef9688e4",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -8747,7 +9993,14 @@
     "category_en": "Optical Networks",
     "subcategory_en": "Network Infrastructure",
     "description_en": "The DS-6 continuous anchor is designed for locations in self-supporting system installations where cable anchoring is not necessary.",
-    "descriptionHtml_en": "<p>This way, considerable costs can be saved from the perspective of the entire route implementation.</p>\r\n\r\n<p>The central part is made of UV-resistant neoprene, which ensures safe cable retention with a diameter of up to 4-6mm.</p>"
+    "descriptionHtml_en": "<p>This way, considerable costs can be saved from the perspective of the entire route implementation.</p>\r\n\r\n<p>The central part is made of UV-resistant neoprene, which ensures safe cable retention with a diameter of up to 4-6mm.</p>",
+    "_enSource": {
+      "name": "02dc40749b38",
+      "description": "e1f84197ad56",
+      "descriptionHtml": "e9f46213a415",
+      "specs": "da39a3ee5e6b",
+      "subcategory": "b3a3b1329ebd"
+    }
   },
   {
     "name": "DATAWAY, Rozvádzač 4U, 19\", 600x550mm, sklenené dvere, odímateľné bočnice, šedý",
@@ -8806,6 +10059,13 @@
       "Doors": "glass",
       "Color": "grey RAL7035",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "d18a2a9ada2e",
+      "description": "233b830dad34",
+      "descriptionHtml": "db5d635bc251",
+      "specs": "41cf5eae1ce1",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -8864,6 +10124,13 @@
       "Color": "black RAL9005",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "bc8e246c74cc",
+      "description": "233b830dad34",
+      "descriptionHtml": "0d2523a794d5",
+      "specs": "ac244d0d9361",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -8922,6 +10189,13 @@
       "Color": "black (RAL9005)",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "ffbe9e05b58d",
+      "description": "554b26226ed8",
+      "descriptionHtml": "89b3b012491c",
+      "specs": "9419d57bdba2",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -8979,6 +10253,13 @@
       "Color": "black RAL9005",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "67945c2649f6",
+      "description": "5486bd875d98",
+      "descriptionHtml": "6eb14741ee14",
+      "specs": "332bfc3fe690",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -9036,6 +10317,13 @@
       "Color": "black RAL9005",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "a68bd65cadf3",
+      "description": "d4c5b02b9077",
+      "descriptionHtml": "4c69409ec631",
+      "specs": "daed296d77be",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -9091,6 +10379,13 @@
       "Color": "black (RAL9005)",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "ed8fa6d091e4",
+      "description": "69a10d0c1a8d",
+      "descriptionHtml": "9951876c6386",
+      "specs": "e4d4486dc0ac",
+      "subcategory": "db58eb5b1fc8"
     }
   },
   {
@@ -9133,6 +10428,13 @@
       "Packaging": "ReadyKit",
       "Connectors": "SC/APC - LC/APC",
       "Number of fibers": "simplex"
+    },
+    "_enSource": {
+      "name": "e1a7c2190bfa",
+      "description": "460f55297f0b",
+      "descriptionHtml": "f149eba21966",
+      "specs": "2101a1fad2ae",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -9204,7 +10506,14 @@
       "Fiber type": "SM G.657A2"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Optic Cables"
+    "subcategory_en": "Fiber Optic Cables",
+    "_enSource": {
+      "name": "622436685353",
+      "description": "8da6a1a8eae0",
+      "descriptionHtml": "600aa42dd639",
+      "specs": "265d0bc2c88a",
+      "subcategory": "89b928224040"
+    }
   },
   {
     "name": "DATAWAY ReadyKit patchcord SC/APC - SC/APC 30m, 2mm, G.657A2, simplex",
@@ -9246,6 +10555,13 @@
       "Application": "Orange, Telekom, UPC, Slovanet and others",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "f7cd7c0d197a",
+      "description": "2425e97b041c",
+      "descriptionHtml": "015dcc3f7ed5",
+      "specs": "275c117fcc42",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -9269,7 +10585,14 @@
     "category_en": "Cabinets",
     "subcategory_en": "19\" Cabinets",
     "description_en": "DATAWAY lock set designed for securing removable side panels of 19\" rack cabinets. The set contains 2 locks and 2 keys, which allow locking of the side panels and protection of installed equipment against unauthorized access.",
-    "descriptionHtml_en": "<p>DATAWAY lock set designed for securing removable side panels of 19&quot; rack cabinets. The set contains <strong>2 locks and 2 keys</strong>, which allow locking of the side panels and protection of installed equipment against unauthorized access. An ideal solution when replacing damaged locks or adding security to an existing cabinet.</p>\r\n\n<p>Thanks to simple mounting, replacement is quick and requires no special tools. The locks are made of durable materials that ensure a long service life and reliable operation.</p>\r\n\n<h3><strong>Key features:</strong></h3>\r\n\n<ul>\r\n\t<li>Replacement set for <strong>19&quot; rack cabinets</strong></li>\r\n\t<li>Package contents: <strong>2&times; lock, 2&times; key</strong></li>\r\n\t<li>Designed for <strong>removable cabinet side panels</strong></li>\r\n\t<li>Increases security and protection of installed equipment</li>\r\n\t<li>Simple mounting and replacement</li>\r\n\t<li>Durable metal construction</li>\r\n\t<li>Suitable for new installations as well as servicing</li>\r\n</ul>\r\n\n<h3><strong>Applications:</strong></h3>\r\n\n<ul>\r\n\t<li>Data and telecommunications cabinets</li>\r\n\t<li>Server cabinets</li>\r\n\t<li>Industrial and technological installations</li>\r\n\t<li>Replacement of lost or damaged locks on rack cabinet side panels</li>\r\n</ul>"
+    "descriptionHtml_en": "<p>DATAWAY lock set designed for securing removable side panels of 19&quot; rack cabinets. The set contains <strong>2 locks and 2 keys</strong>, which allow locking of the side panels and protection of installed equipment against unauthorized access. An ideal solution when replacing damaged locks or adding security to an existing cabinet.</p>\r\n\n<p>Thanks to simple mounting, replacement is quick and requires no special tools. The locks are made of durable materials that ensure a long service life and reliable operation.</p>\r\n\n<h3><strong>Key features:</strong></h3>\r\n\n<ul>\r\n\t<li>Replacement set for <strong>19&quot; rack cabinets</strong></li>\r\n\t<li>Package contents: <strong>2&times; lock, 2&times; key</strong></li>\r\n\t<li>Designed for <strong>removable cabinet side panels</strong></li>\r\n\t<li>Increases security and protection of installed equipment</li>\r\n\t<li>Simple mounting and replacement</li>\r\n\t<li>Durable metal construction</li>\r\n\t<li>Suitable for new installations as well as servicing</li>\r\n</ul>\r\n\n<h3><strong>Applications:</strong></h3>\r\n\n<ul>\r\n\t<li>Data and telecommunications cabinets</li>\r\n\t<li>Server cabinets</li>\r\n\t<li>Industrial and technological installations</li>\r\n\t<li>Replacement of lost or damaged locks on rack cabinet side panels</li>\r\n</ul>",
+    "_enSource": {
+      "name": "e9fff60edd06",
+      "description": "f1c435067c1a",
+      "descriptionHtml": "5416d66d9b1f",
+      "specs": "da39a3ee5e6b",
+      "subcategory": "3d324d0f5274"
+    }
   },
   {
     "name": "DATAWAY Spojka RJ45, STP CAT6A/6/5E, vonkajšia IP68",
@@ -9311,7 +10634,14 @@
       "Device type": "RJ45/RJ45"
     },
     "category_en": "Copper Networks",
-    "subcategory_en": "Couplers"
+    "subcategory_en": "Couplers",
+    "_enSource": {
+      "name": "8c387364dc5a",
+      "description": "1674347827fa",
+      "descriptionHtml": "57bbb27e8ad6",
+      "specs": "cdc2c2748428",
+      "subcategory": "ab154e2fb76c"
+    }
   },
   {
     "name": "DATAWAY patch kábel CAT5E, UTP LSOH, 1m, šedý",
@@ -9377,6 +10707,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "c678027bc1fc",
+      "description": "750c391bc776",
+      "descriptionHtml": "b2e112ecd2d1",
+      "specs": "63bc4c2e0df6",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -9443,6 +10780,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "b27f47373a13",
+      "description": "4f0014847be2",
+      "descriptionHtml": "76dcea6d0360",
+      "specs": "f3cdb1ea67dc",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -9508,6 +10852,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "dca370f9a83a",
+      "description": "6da9a32fc2c5",
+      "descriptionHtml": "630b067ae0ef",
+      "specs": "9be0bec4ba0a",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -9545,6 +10896,13 @@
       "Dimensions (mm)": "10 x 100 x 8.7",
       "Max. allowed tension": "4 kN",
       "Material": "steel"
+    },
+    "_enSource": {
+      "name": "cdd7aa11fb32",
+      "description": "f283631ee150",
+      "descriptionHtml": "46a2b3b09f34",
+      "specs": "8a9b8038e223",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -9607,6 +10965,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "ced640d424f4",
+      "description": "3922532aa581",
+      "descriptionHtml": "18c4e123b7ad",
+      "specs": "2b97ae2997de",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -9643,6 +11008,13 @@
       "Connectors": "LC",
       "Number of fibers": "simplex",
       "Color": "green"
+    },
+    "_enSource": {
+      "name": "e2455ad04ef3",
+      "description": "e7e31c06652a",
+      "descriptionHtml": "25b461565802",
+      "specs": "2d278cfe3617",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -9682,7 +11054,14 @@
     "category_en": "Copper Networks",
     "subcategory_en": "Patch Cables",
     "description_en": "Gray patch cable in length 2m, FTP configuration, category 5E. Conductor cross-section is AWG26. Connector contacts are covered with a thin layer of gold.",
-    "descriptionHtml_en": "<p>Gray patch cable in length 2m, FTP configuration, category 5E. Conductor cross-section is <strong>AWG26</strong>. Connector contacts are covered with a thin layer of gold. DATAWAY patch cables are part of a comprehensive system of products for structured cabling.</p>\r\n\n<p>Available in several common patch cable lengths. All cables are certified according to internationally recognized standards. Due to the use of high-quality materials, they are characterized by excellent transmission parameters and long service life.</p>\r\n\n<p>Molded connector protection minimizes the possibility of crosstalk and cables can be easily used in any active or passive element. On all DATAWAY cables we provide extended <strong>5-year warranty</strong>!</p>"
+    "descriptionHtml_en": "<p>Gray patch cable in length 2m, FTP configuration, category 5E. Conductor cross-section is <strong>AWG26</strong>. Connector contacts are covered with a thin layer of gold. DATAWAY patch cables are part of a comprehensive system of products for structured cabling.</p>\r\n\n<p>Available in several common patch cable lengths. All cables are certified according to internationally recognized standards. Due to the use of high-quality materials, they are characterized by excellent transmission parameters and long service life.</p>\r\n\n<p>Molded connector protection minimizes the possibility of crosstalk and cables can be easily used in any active or passive element. On all DATAWAY cables we provide extended <strong>5-year warranty</strong>!</p>",
+    "_enSource": {
+      "name": "4e0c00e30819",
+      "description": "0f1baaacd8ea",
+      "descriptionHtml": "a1090c542e11",
+      "specs": "da39a3ee5e6b",
+      "subcategory": "4f3bd44fb8ba"
+    }
   },
   {
     "name": "DATAWAY patch kábel CAT5E, FTP LSOH, 0,50m, žltý",
@@ -9745,6 +11124,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "7eaea7d33eba",
+      "description": "88c6b0cd6d4e",
+      "descriptionHtml": "3fcbec511c7d",
+      "specs": "bf26c3c4e5f9",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -9808,6 +11194,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "a011401ca24b",
+      "description": "106bca7cc976",
+      "descriptionHtml": "3cb48c76a96c",
+      "specs": "8373a1380cf4",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -9867,6 +11260,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "062901a5014f",
+      "description": "1ad78ad0a5b3",
+      "descriptionHtml": "453bf499bdca",
+      "specs": "3089cf7241ab",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -9923,6 +11323,13 @@
       "Color": "black",
       "Protection rating": "IP68",
       "Material": "plastic, resistant to UV radiation and weathering"
+    },
+    "_enSource": {
+      "name": "5f8aa55de43b",
+      "description": "1b863ff25570",
+      "descriptionHtml": "9dd288783bee",
+      "specs": "687740faa71c",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -9964,6 +11371,13 @@
       "Number of fibers": "duplex",
       "Connectors": "LC/APC ; LC/PC",
       "Fiber type": "Singlemode (SM) G.657A2"
+    },
+    "_enSource": {
+      "name": "8939f7991d5a",
+      "description": "51f5f1e2a6d0",
+      "descriptionHtml": "a2d4490a2f35",
+      "specs": "764029a4702b",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -10004,6 +11418,13 @@
       "Weight (kg)": "0.06 kg",
       "Dimensions (mm)": "32 x 22 x 177 mm",
       "Color": "grey"
+    },
+    "_enSource": {
+      "name": "027dbc3bd8f5",
+      "description": "a95562f881a8",
+      "descriptionHtml": "831c97da6ab9",
+      "specs": "e83245a97c10",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -10045,6 +11466,13 @@
       "Jacket color": "blue",
       "Fiber type": "Single Mode",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "f9fc43e50ff6",
+      "description": "f4592cebb6f9",
+      "descriptionHtml": "c68e1876fa50",
+      "specs": "2b0c6ee8d793",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -10107,6 +11535,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "d6f4652fd0cd",
+      "description": "f6c71c91a254",
+      "descriptionHtml": "5d4182c2a44f",
+      "specs": "dff748d44697",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -10153,6 +11588,13 @@
       "Design": "with flange",
       "Connectors": "SC",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "e158f0a0c54c",
+      "description": "a34851b85fe2",
+      "descriptionHtml": "ddb2564fc444",
+      "specs": "56f25f6a77c4",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -10194,6 +11636,13 @@
       "Polish type": "APC",
       "Connectors": "SC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "e2c73cb37fe1",
+      "description": "1252b63bcb7c",
+      "descriptionHtml": "8fd15e302afe",
+      "specs": "7ce0433ee182",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -10233,6 +11682,13 @@
       "Connectors": "SC",
       "Fiber type": "SM G.657A2",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "a2e0de49d9e8",
+      "description": "70ca2cd748cb",
+      "descriptionHtml": "6bd200df7e8b",
+      "specs": "33586827d4d1",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -10288,6 +11744,13 @@
       "Dimensions (mm)": "489 x 44 x 245",
       "Color": "white",
       "Protection rating": "IP41"
+    },
+    "_enSource": {
+      "name": "60c30806b858",
+      "description": "39b233900b0d",
+      "descriptionHtml": "f99703cf2309",
+      "specs": "b1d29deebd5d",
+      "subcategory": "9cf298768fa9"
     }
   },
   {
@@ -10333,6 +11796,13 @@
       "Connectors": "without connectors",
       "Fiber type": "G657A1",
       "Construction": "MINI STEEL module"
+    },
+    "_enSource": {
+      "name": "bf4af2239575",
+      "description": "fe777a4f535c",
+      "descriptionHtml": "eb97deae5b53",
+      "specs": "beeb7a14df46",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -10365,6 +11835,13 @@
       "Packaging": "100 pcs per package",
       "Material": "metal (galvanized steel)",
       "Dimensions (mm)": "M2.2 × 0.85, length 6 mm"
+    },
+    "_enSource": {
+      "name": "10d4da20a198",
+      "description": "ba32484ef86c",
+      "descriptionHtml": "a2866a89ce77",
+      "specs": "9e7fc8232aa3",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -10403,6 +11880,13 @@
       "Connectors": "RJ45",
       "Design": "snag-proof",
       "Color": "grey"
+    },
+    "_enSource": {
+      "name": "0c493fd01b12",
+      "description": "d82e3d754ad3",
+      "descriptionHtml": "d82e3d754ad3",
+      "specs": "5349eade33b4",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -10441,6 +11925,13 @@
       "Color": "black",
       "Connectors": "RJ45",
       "Design": "snag-proof"
+    },
+    "_enSource": {
+      "name": "db618c21e5cc",
+      "description": "450690d0e694",
+      "descriptionHtml": "450690d0e694",
+      "specs": "a83a664fd345",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -10480,6 +11971,13 @@
       "Dimensions (mm)": "63.8 x 37.3 x 19.1 mm",
       "Color": "black",
       "Material": "UV-stabilized plastic"
+    },
+    "_enSource": {
+      "name": "7a055250410b",
+      "description": "6b124b50c61c",
+      "descriptionHtml": "9e6e65627593",
+      "specs": "1c92c551bda1",
+      "subcategory": "b3a3b1329ebd"
     }
   },
   {
@@ -10514,6 +12012,13 @@
       "Core diameter (µm)": "50/125 (OM3)",
       "Fiber type": "MM OM3",
       "Connectors": "SC"
+    },
+    "_enSource": {
+      "name": "55e012c762e7",
+      "description": "befd957e5ba2",
+      "descriptionHtml": "deea2dd64228",
+      "specs": "ad81e9694b64",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -10547,7 +12052,14 @@
       "Fiber type": "SM G.657A"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Patch Cords"
+    "subcategory_en": "Fiber Patch Cords",
+    "_enSource": {
+      "name": "a186d69cbf3c",
+      "description": "a858ecc2a803",
+      "descriptionHtml": "cdb1a4457525",
+      "specs": "dcce666970f1",
+      "subcategory": "e05125d60ea2"
+    }
   },
   {
     "name": "DATAWAY Optický patchcord SC/APC - SC/PC 0,5m simplex, SM, G657A2",
@@ -10585,6 +12097,13 @@
       "Jacket color": "white",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "461a441325f6",
+      "description": "2425e97b041c",
+      "descriptionHtml": "11ff7ffd3e4d",
+      "specs": "ba3b1ae6d53a",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -10623,6 +12142,13 @@
       "Connectors": "LC ; LC",
       "Fiber type": "SM G.657A2",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "697bdc97f2fc",
+      "description": "014edecd03e0",
+      "descriptionHtml": "e9e6652a0ecf",
+      "specs": "5141e23dc853",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -10678,6 +12204,13 @@
       "Shielding": "no, U/UTP",
       "Jacket material": "PVC",
       "Connectors": "RJ45 - RJ45 (50µ)"
+    },
+    "_enSource": {
+      "name": "3585cc2213c4",
+      "description": "b643f14191bf",
+      "descriptionHtml": "555c30739000",
+      "specs": "19c0a8c34447",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -10733,6 +12266,13 @@
       "Shielding": "no, U/UTP",
       "Jacket material": "PVC",
       "Connectors": "RJ45 - RJ45 (50µ)"
+    },
+    "_enSource": {
+      "name": "70a7ba2b3f32",
+      "description": "7c830dbd2793",
+      "descriptionHtml": "555c30739000",
+      "specs": "bdf3bf642c17",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -10788,6 +12328,13 @@
       "Shielding": "no, U/UTP",
       "Jacket material": "PVC",
       "Connectors": "RJ45 - RJ45 (50µ)"
+    },
+    "_enSource": {
+      "name": "6c7ef8ca0a53",
+      "description": "7c830dbd2793",
+      "descriptionHtml": "555c30739000",
+      "specs": "c689c849e39b",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -10843,6 +12390,13 @@
       "Shielding": "no, U/UTP",
       "Jacket material": "PVC",
       "Connectors": "RJ45 - RJ45 (50µ)"
+    },
+    "_enSource": {
+      "name": "f8c3fedb3523",
+      "description": "7c830dbd2793",
+      "descriptionHtml": "555c30739000",
+      "specs": "6ca8167ef71c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -10898,6 +12452,13 @@
       "Shielding": "no, U/UTP",
       "Jacket material": "PVC",
       "Connectors": "RJ45 - RJ45 (50µ)"
+    },
+    "_enSource": {
+      "name": "f5b6c0716c93",
+      "description": "7c830dbd2793",
+      "descriptionHtml": "555c30739000",
+      "specs": "33747fc4c945",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -10953,6 +12514,13 @@
       "Shielding": "no, U/UTP",
       "Jacket material": "PVC",
       "Connectors": "RJ45 - RJ45 (50µ)"
+    },
+    "_enSource": {
+      "name": "3a4f0e9e17c1",
+      "description": "7c830dbd2793",
+      "descriptionHtml": "555c30739000",
+      "specs": "8d084e5af42c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -11019,6 +12587,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "edc1d20b3778",
+      "description": "73ac1cec2b18",
+      "descriptionHtml": "4361e5b60230",
+      "specs": "493a82bf7c02",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -11059,6 +12634,13 @@
       "Load capacity": "600 kg",
       "Material": "steel",
       "Color": "orange"
+    },
+    "_enSource": {
+      "name": "86e8c2946102",
+      "description": "7550ee3c7d29",
+      "descriptionHtml": "e3b65806e6b7",
+      "specs": "73d54cf120eb",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -11089,6 +12671,13 @@
     "specs_en": {
       "Load capacity": "2000 kg",
       "Material": "steel"
+    },
+    "_enSource": {
+      "name": "7d92881df06c",
+      "description": "d70378dc3486",
+      "descriptionHtml": "72bf987b9fb8",
+      "specs": "5e4da8c15d8a",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -11137,6 +12726,13 @@
       "Dimensions (mm)": "482 x 44",
       "Color": "black / blue",
       "Material": "metal + plastic"
+    },
+    "_enSource": {
+      "name": "4b4aeb9214fd",
+      "description": "e1d9a7737013",
+      "descriptionHtml": "ca581cd7349f",
+      "specs": "4a865df71670",
+      "subcategory": "c4425b91bb79"
     }
   },
   {
@@ -11171,6 +12767,13 @@
       "Operating temperature (°C)": "0 to 40",
       "Weight (kg)": "0.08",
       "Compatible categories": "M5 ; M6"
+    },
+    "_enSource": {
+      "name": "7b7c44787865",
+      "description": "55b4ab68c2c4",
+      "descriptionHtml": "14de420387cb",
+      "specs": "71c01a2b12ae",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -11232,6 +12835,13 @@
       "Conductor": "solid copper, AWG 26",
       "Color": "blue",
       "Connectors": "RJ-45 (50µ gold)"
+    },
+    "_enSource": {
+      "name": "fd7ae62d0fd3",
+      "description": "9aad4cd225b8",
+      "descriptionHtml": "784d0e9a2e04",
+      "specs": "b13640a1935f",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -11272,6 +12882,13 @@
       "Load capacity": "25 kg",
       "Color": "blue",
       "Material": "reinforced nylon + stainless steel"
+    },
+    "_enSource": {
+      "name": "608a2c33061b",
+      "description": "6c8de0452292",
+      "descriptionHtml": "0183d606e194",
+      "specs": "c7e61fdf0960",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -11322,6 +12939,13 @@
       "Design": "SC-simplex , LC-duplex",
       "Number of fibers": "simplex",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "e99401fd162b",
+      "description": "1aa50b34e1e0",
+      "descriptionHtml": "c41506f4f69c",
+      "specs": "7feb8b594ac2",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -11356,6 +12980,13 @@
       "Weight (kg)": "0.05",
       "Compatible cables": "max. 3 x 13 mm",
       "Material": "Stainless Steel"
+    },
+    "_enSource": {
+      "name": "3a97aa1c022c",
+      "description": "0ecfaabaf57f",
+      "descriptionHtml": "8274997f4328",
+      "specs": "d84b44cbd1c2",
+      "subcategory": "b3a3b1329ebd"
     }
   },
   {
@@ -11399,6 +13030,13 @@
       "Depth (mm)": "450",
       "Packaging": "shelf, M6 kit",
       "Color": "grey"
+    },
+    "_enSource": {
+      "name": "a2f3052c2a79",
+      "description": "471b433550a2",
+      "descriptionHtml": "226db8999e79",
+      "specs": "35a5b43fe032",
+      "subcategory": "a5dfc157da97"
     }
   },
   {
@@ -11442,6 +13080,13 @@
       "Depth (mm)": "350",
       "Color": "black",
       "Packaging": "shelf, M6 kit"
+    },
+    "_enSource": {
+      "name": "f051f6a990be",
+      "description": "d7141ec7d047",
+      "descriptionHtml": "f6ed2ea0a0d4",
+      "specs": "75272cb2693f",
+      "subcategory": "a5dfc157da97"
     }
   },
   {
@@ -11499,6 +13144,13 @@
       "Jacket material": "LSZH",
       "Connectors": "SC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "b2b60123aa57",
+      "description": "020821e16388",
+      "descriptionHtml": "146ef764e5db",
+      "specs": "2a5d4493fd50",
+      "subcategory": "89b928224040"
     }
   },
   {
@@ -11533,6 +13185,13 @@
       "Dimensions (mm)": "18 x 18 x 22",
       "Service life": "800 cleanings",
       "Connectors": "LC/MU (APC/UPC)"
+    },
+    "_enSource": {
+      "name": "e04b52108a8d",
+      "description": "b1a4dfe87687",
+      "descriptionHtml": "485391fba34b",
+      "specs": "01389afbde37",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -11581,6 +13240,13 @@
       "Material": "FR plastic per UL94-0",
       "Design": "surface-mounted",
       "Shielding": "no"
+    },
+    "_enSource": {
+      "name": "c2ba96844e31",
+      "description": "5ddde93392d2",
+      "descriptionHtml": "ef6933efc57a",
+      "specs": "8395b841d515",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -11633,6 +13299,13 @@
       "Material": "FR plastic per UL94-0",
       "Shielding": "no",
       "Design": "flush-mounted, surface-mounted (with installation box)"
+    },
+    "_enSource": {
+      "name": "a9b0373c3657",
+      "description": "ab3d974ad636",
+      "descriptionHtml": "711cc7011ff4",
+      "specs": "b147f1fc92a4",
+      "subcategory": "048ad33b477b"
     }
   },
   {
@@ -11679,6 +13352,13 @@
       "Cable type": "Flat DROP",
       "Jacket": "LSZH",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "4e3db15663dc",
+      "description": "248c46e5bf83",
+      "descriptionHtml": "c3ca3587137e",
+      "specs": "62c8ea543831",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -11732,6 +13412,13 @@
       "Shielding": "no, U/UTP",
       "Jacket material": "PVC",
       "Connectors": "RJ45 - RJ45 (50µ)"
+    },
+    "_enSource": {
+      "name": "3bf9148f2d7f",
+      "description": "b643f14191bf",
+      "descriptionHtml": "555c30739000",
+      "specs": "41076d733c1e",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -11807,6 +13494,13 @@
       "Jacket": "LSOH",
       "Color": "orange (RAL 2003)",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "424a17dccd17",
+      "description": "c9094126d8d4",
+      "descriptionHtml": "3c44c39620f7",
+      "specs": "efd3a5833b8e",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -11882,6 +13576,13 @@
       "Shielding": "no, U/UTP",
       "Color": "orange (RAL 2003)",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "c532342c683c",
+      "description": "ea62ae6ef761",
+      "descriptionHtml": "dccaf1eff358",
+      "specs": "f7bbe6541eda",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -11957,6 +13658,13 @@
       "Jacket": "LSOH",
       "Color": "orange (RAL 2003)",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "63533e02ee76",
+      "description": "bb354bcafe89",
+      "descriptionHtml": "7dee15f799e3",
+      "specs": "486500c733d6",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -12032,6 +13740,13 @@
       "Shielding": "no, U/UTP",
       "Color": "orange (RAL 2003)",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "6262674a81d0",
+      "description": "4b339741dea7",
+      "descriptionHtml": "467d5f6cd054",
+      "specs": "47639073727d",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -12086,6 +13801,13 @@
       "Dimensions (mm)": "489 x 44 x 245",
       "Color": "white",
       "Protection rating": "IP41"
+    },
+    "_enSource": {
+      "name": "e8dbf78df3f7",
+      "description": "c68593a089c8",
+      "descriptionHtml": "b1507be292d0",
+      "specs": "0b8c1bf9d4ae",
+      "subcategory": "9cf298768fa9"
     }
   },
   {
@@ -12155,6 +13877,13 @@
       "Category": "CAT6A, CAT7, CAT7A",
       "Design": "EASY",
       "Certifications": "RoHS"
+    },
+    "_enSource": {
+      "name": "c0caeae664ab",
+      "description": "8fe13f266235",
+      "descriptionHtml": "82b62bdfdada",
+      "specs": "6b517228af96",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -12198,6 +13927,13 @@
       "Packaging": "ReadyKit",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "d02dc4a5a43c",
+      "description": "82813681e917",
+      "descriptionHtml": "28013cd9b81b",
+      "specs": "a2e816fc3c7e",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -12241,6 +13977,13 @@
       "Packaging": "ReadyKit",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "96b019c8a49f",
+      "description": "aa1c3f690737",
+      "descriptionHtml": "1bd001b86dae",
+      "specs": "c17b116f49b6",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -12320,6 +14063,13 @@
       "Conductor": "solid copper 0.56 mm 23AWG",
       "Color": "orange (RAL 2003)",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "6081c0978f70",
+      "description": "5dc20c0d318d",
+      "descriptionHtml": "72c3c25ad8df",
+      "specs": "de713b08240d",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -12361,6 +14111,13 @@
       "Category": "CAT6A",
       "Material": "FR plastic per UL94-0",
       "Device type": "RJ45/RJ45"
+    },
+    "_enSource": {
+      "name": "9cea9b5c427f",
+      "description": "f192e45413c0",
+      "descriptionHtml": "7574ef7c58c2",
+      "specs": "d2e5540c5ca4",
+      "subcategory": "ab154e2fb76c"
     }
   },
   {
@@ -12439,6 +14196,13 @@
       "Conductor": "solid copper 0.55 mm 23AWG",
       "PoE": "PoE, PoE+",
       "Color": "grey (RAL7035)"
+    },
+    "_enSource": {
+      "name": "8ba2c7b50e93",
+      "description": "9f166e549a15",
+      "descriptionHtml": "9e303c1ee62e",
+      "specs": "f3d8941e6122",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -12514,6 +14278,13 @@
       "Conductor": "solid copper 0.55 mm 23AWG",
       "PoE": "PoE, PoE+",
       "Color": "grey (RAL7035)"
+    },
+    "_enSource": {
+      "name": "314afce97b73",
+      "description": "73e5bc03bf67",
+      "descriptionHtml": "fdf4cee2f8d4",
+      "specs": "0ffd81f00a10",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -12576,6 +14347,13 @@
       "Conductor": "solid copper, AWG 26",
       "Connectors": "RJ-45",
       "Color": "grey"
+    },
+    "_enSource": {
+      "name": "7671fa3cf283",
+      "description": "2e91fd874ed9",
+      "descriptionHtml": "827effcab162",
+      "specs": "19bb0fc4bd14",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -12646,6 +14424,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "360e12e87f45",
+      "description": "f136ea9dcc97",
+      "descriptionHtml": "b6aa3d5edba9",
+      "specs": "6b05c6efe036",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -12712,6 +14497,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "939fdeb28373",
+      "description": "c8cc37887dd2",
+      "descriptionHtml": "8444e142dad9",
+      "specs": "badae3ebee79",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -12778,6 +14570,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "71f402962ed1",
+      "description": "318b070ef6d7",
+      "descriptionHtml": "4381a572ba26",
+      "specs": "6cc840e7fc29",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -12820,6 +14619,13 @@
       "Application": "Orange, Telekom, UPC, Slovanet and others",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "6ecfb4f6e584",
+      "description": "2425e97b041c",
+      "descriptionHtml": "27e0c129798d",
+      "specs": "275c117fcc42",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -12886,6 +14692,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "00df0ea870c4",
+      "description": "fcbbce655cd8",
+      "descriptionHtml": "873b45e0ff39",
+      "specs": "bffa13161028",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -12928,6 +14741,13 @@
       "Storage temperature (°C)": "-30 to 60",
       "Category": "CAT3 ; CAT5E ; CAT6 ; CAT6A ; CAT7",
       "Connectors": "RJ45, RJ12, RJ11"
+    },
+    "_enSource": {
+      "name": "32ecbe3d8ed0",
+      "description": "c26cf9e6444b",
+      "descriptionHtml": "4891ef2d54a2",
+      "specs": "515419deaa9a",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -12994,6 +14814,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "f30c56ea8735",
+      "description": "9afdcfa94b03",
+      "descriptionHtml": "46bbb2f96177",
+      "specs": "8b864d4bb87c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -13041,6 +14868,13 @@
       "Category": "CAT5E ; CAT6",
       "Design": "EASY, CLASSIC",
       "Connectors": "RJ45 8p8c ; RJ12 6p6c (EASY connectors)"
+    },
+    "_enSource": {
+      "name": "80130ef25f0c",
+      "description": "ac426b61d9ce",
+      "descriptionHtml": "75292a8ed9f8",
+      "specs": "a986aac1ad61",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -13119,6 +14953,13 @@
       "Conductor": "solid copper 0.55 mm 23AWG",
       "Jacket": "PE",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "9886ead37275",
+      "description": "0a387d5ef853",
+      "descriptionHtml": "6d2076c01d25",
+      "specs": "fff859eb7500",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -13196,6 +15037,13 @@
       "Conductor": "solid copper 0.56 mm 23AWG",
       "Jacket": "PE",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "9999c0c41790",
+      "description": "cd219ee579ab",
+      "descriptionHtml": "729bc7e3ee90",
+      "specs": "fdb4b7e78930",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -13249,6 +15097,13 @@
       "Shielding": "no, U/UTP",
       "Jacket material": "PVC",
       "Connectors": "RJ45 - RJ45 (50µ)"
+    },
+    "_enSource": {
+      "name": "b4d6cb2dfefc",
+      "description": "b643f14191bf",
+      "descriptionHtml": "555c30739000",
+      "specs": "f2bc42875447",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -13304,6 +15159,13 @@
       "Shielding": "no, U/UTP",
       "Jacket material": "PVC",
       "Connectors": "RJ45 - RJ45 (50µ)"
+    },
+    "_enSource": {
+      "name": "58c81dd8d6e9",
+      "description": "7c830dbd2793",
+      "descriptionHtml": "555c30739000",
+      "specs": "8b917d40fbaa",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -13354,6 +15216,13 @@
       "Shielding": "no, U/UTP",
       "Jacket material": "PVC",
       "Connectors": "RJ45 - RJ45 (50µ)"
+    },
+    "_enSource": {
+      "name": "61463b15b780",
+      "description": "7c830dbd2793",
+      "descriptionHtml": "555c30739000",
+      "specs": "790822f8eb5a",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -13420,6 +15289,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "4b806d1585db",
+      "description": "c0f1ed029eed",
+      "descriptionHtml": "e7fa1ff1fec2",
+      "specs": "0688b5bde024",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -13468,6 +15344,13 @@
       "Color": "white",
       "Design": "flush-mounted",
       "Depth (mm)": "required depth 39 mm"
+    },
+    "_enSource": {
+      "name": "23041fcfbc08",
+      "description": "d50303588f16",
+      "descriptionHtml": "91e4892ed3ab",
+      "specs": "b57801cebba0",
+      "subcategory": "78b10e67c191"
     }
   },
   {
@@ -13538,6 +15421,13 @@
       "Jacket": "LSZH",
       "Connectors": "SC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "268e1bafd303",
+      "description": "8ffb35d177f9",
+      "descriptionHtml": "c62a0824fcf9",
+      "specs": "18ead55524e6",
+      "subcategory": "89b928224040"
     }
   },
   {
@@ -13599,6 +15489,13 @@
       "Jacket": "LSZH",
       "Connectors": "SC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "47d7bf9fd5a4",
+      "description": "0586f8fd94ba",
+      "descriptionHtml": "b1fee85fdba5",
+      "specs": "ce7960f58b4f",
+      "subcategory": "89b928224040"
     }
   },
   {
@@ -13633,6 +15530,13 @@
       "Dimensions (mm)": "18 x 18 x 22",
       "Service life": "800 cleanings",
       "Connectors": "LC/MU (APC/UPC)"
+    },
+    "_enSource": {
+      "name": "7bcc857cb5d2",
+      "description": "ecc80e78dbfa",
+      "descriptionHtml": "aa75c35fea32",
+      "specs": "01389afbde37",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -13685,6 +15589,13 @@
       "Material": "FR plastic per UL94-0",
       "Shielding": "no",
       "Design": "flush-mounted, surface-mounted (with installation box)"
+    },
+    "_enSource": {
+      "name": "1257aa2c50fd",
+      "description": "df55128e02d2",
+      "descriptionHtml": "523837b02865",
+      "specs": "1b7a695acfef",
+      "subcategory": "048ad33b477b"
     }
   },
   {
@@ -13731,6 +15642,13 @@
       "Cable type": "Flat DROP",
       "Jacket": "LSZH",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "7e04e2158624",
+      "description": "a125f744a2da",
+      "descriptionHtml": "d8689889bcc0",
+      "specs": "62c8ea543831",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -13785,6 +15703,13 @@
       "Dimensions (mm)": "489 x 44 x 245",
       "Color": "white",
       "Protection rating": "IP41"
+    },
+    "_enSource": {
+      "name": "8897e95ae55d",
+      "description": "026b79e5c5fe",
+      "descriptionHtml": "fc1f5da0bcda",
+      "specs": "02eaa6dc6a14",
+      "subcategory": "9cf298768fa9"
     }
   },
   {
@@ -13867,6 +15792,13 @@
       "Conductor": "solid copper 0.50 mm AWG 24",
       "Shielding": "no",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "6ecdacd1a612",
+      "description": "038878af2c1a",
+      "descriptionHtml": "958accfa343b",
+      "specs": "8fff33b458d6",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -13926,6 +15858,13 @@
       "Doors": "glass",
       "Color": "grey RAL7035",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "8d494ac12cf6",
+      "description": "554b26226ed8",
+      "descriptionHtml": "6a1626dcd412",
+      "specs": "4ace3dd86834",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -13992,6 +15931,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "95ada9a231b9",
+      "description": "3943ea0f2d76",
+      "descriptionHtml": "32a6a82b12ec",
+      "specs": "8b864d4bb87c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -14030,6 +15976,13 @@
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "153b7672b219",
+      "description": "d673efbed0d8",
+      "descriptionHtml": "f342023806cd",
+      "specs": "45e5047aec61",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -14066,6 +16019,13 @@
       "Number of fibers": "duplex",
       "Connectors": "SC/APC ; LC/PC",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "f60ba08ca69f",
+      "description": "6f543eaa796d",
+      "descriptionHtml": "fd8e8afb135b",
+      "specs": "c3629134b319",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -14098,7 +16058,14 @@
       "Fiber type": "SM G.657A"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Patch Cords"
+    "subcategory_en": "Fiber Patch Cords",
+    "_enSource": {
+      "name": "ba750b22fa84",
+      "description": "a858ecc2a803",
+      "descriptionHtml": "45e41c18bbaa",
+      "specs": "32d52c96f83e",
+      "subcategory": "e05125d60ea2"
+    }
   },
   {
     "name": "DATAWAY Optický patchcord SC/APC - LC/PC 2m simplex, SM, G657A2",
@@ -14132,7 +16099,14 @@
       "Fiber type": "SM G.657A"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Patch Cords"
+    "subcategory_en": "Fiber Patch Cords",
+    "_enSource": {
+      "name": "083f090ab502",
+      "description": "a858ecc2a803",
+      "descriptionHtml": "45e41c18bbaa",
+      "specs": "dcce666970f1",
+      "subcategory": "e05125d60ea2"
+    }
   },
   {
     "name": "DATAWAY Optický adaptér LC/APC quad , SM (SC MOUNT)",
@@ -14162,7 +16136,14 @@
       "Number of fibers": "simplex"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Optic Adapters"
+    "subcategory_en": "Fiber Optic Adapters",
+    "_enSource": {
+      "name": "4cdfa12b4af4",
+      "description": "3f0f935b84bf",
+      "descriptionHtml": "4c7e6376eb72",
+      "specs": "a6e3dc751026",
+      "subcategory": "f554dfb78b12"
+    }
   },
   {
     "name": "DATAWAY Optický pigtail set LC/APC, SM G657A2, 2m (12 colours 0,9/0,25mm) (Box)",
@@ -14201,6 +16182,13 @@
       "Buffer type": "APC",
       "Connectors": "LC/APC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "bb5ab991c0e2",
+      "description": "738906d8a319",
+      "descriptionHtml": "432e415855cf",
+      "specs": "44f51692b83c",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -14267,6 +16255,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "4716282eb1af",
+      "description": "f36688e2395a",
+      "descriptionHtml": "265681543a00",
+      "specs": "d49bdb46c169",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -14333,6 +16328,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "d0cd1606928f",
+      "description": "92110c671416",
+      "descriptionHtml": "b536c6861fcb",
+      "specs": "6739f4841369",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -14399,6 +16401,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "1509af9bf513",
+      "description": "f82ee706480a",
+      "descriptionHtml": "f13c87b2dfa4",
+      "specs": "70513e8d7e5b",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -14427,6 +16436,13 @@
     "descriptionHtml_en": "<p>Optical pigtail serves to terminate optical cables in an optical distribution frame by welding to an optical fiber. The pigtail fiber is further protected by secondary protection with diameter of 900&micro;m. Secondary protection 900&micro;m can be tight or loose (EASY-STRIP).</p>\r\n\n<p>Optical pigtails are supplied in multimode and singlemode design with various types of connectors (E2000, LC, SC, ST, FC, ...). Pigtails can be standardly ordered with cable length of 1m, however it is no problem to manufacture pigtails of any length on request.</p>",
     "specs_en": {
       "Fiber type": "MM OM2"
+    },
+    "_enSource": {
+      "name": "4844741b1f53",
+      "description": "a7037935393d",
+      "descriptionHtml": "3fe08f919600",
+      "specs": "00a383c6d4c8",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -14468,6 +16484,13 @@
       "Depth (mm)": "160 mm",
       "Packaging": "shelf",
       "Color": "grey"
+    },
+    "_enSource": {
+      "name": "8ca5a979aaeb",
+      "description": "3283ba204305",
+      "descriptionHtml": "4c993d4afeaf",
+      "specs": "6c7821c5896e",
+      "subcategory": "a5dfc157da97"
     }
   },
   {
@@ -14508,6 +16531,13 @@
       "Polish type": "APC",
       "Connectors": "E2000",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "a0a5f84aa8c7",
+      "description": "a4ae5f0662f4",
+      "descriptionHtml": "deea2dd64228",
+      "specs": "d1d330c0ca55",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -14574,6 +16604,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "c64e98875540",
+      "description": "549119ef9a31",
+      "descriptionHtml": "f8efc889e24e",
+      "specs": "364ad94e6cc1",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -14638,6 +16675,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "910fb6db6322",
+      "description": "c1d8bb6b02e5",
+      "descriptionHtml": "cfecceded87b",
+      "specs": "6e4ffa21b109",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -14704,6 +16748,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "845d30fdd40c",
+      "description": "8a3104e06825",
+      "descriptionHtml": "0e3924dd58ca",
+      "specs": "186499730d63",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -14770,6 +16821,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "f64fc26a545d",
+      "description": "25b5491caa0c",
+      "descriptionHtml": "5dc23b150dfd",
+      "specs": "7bb8459737c9",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -14832,6 +16890,13 @@
       "Connectors": "RJ45 - RJ45",
       "Application": "indoor",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "ad0b5a8f066b",
+      "description": "51037d18f781",
+      "descriptionHtml": "41b44a332ba3",
+      "specs": "44b9380e9f5e",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -14890,6 +16955,13 @@
       "Jacket": "LSOH",
       "Connectors": "RJ-45",
       "Jacket color": "grey"
+    },
+    "_enSource": {
+      "name": "063198d23466",
+      "description": "967952ed18b8",
+      "descriptionHtml": "8644726785e4",
+      "specs": "4832075f0671",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -14950,6 +17022,13 @@
       "Connectors": "RJ-45",
       "Certifications": "RoHS",
       "Jacket color": "yellow"
+    },
+    "_enSource": {
+      "name": "e329342f2be4",
+      "description": "26a63798fa91",
+      "descriptionHtml": "aa8d34acca40",
+      "specs": "992a5f03ecee",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -15010,6 +17089,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Jacket color": "grey"
+    },
+    "_enSource": {
+      "name": "33171e8c0f7a",
+      "description": "293e90366e13",
+      "descriptionHtml": "b496de7729c2",
+      "specs": "607d5d4ffc17",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -15068,6 +17154,13 @@
       "Conductor": "solid copper, AWG 26",
       "Connectors": "RJ-45",
       "Color": "grey"
+    },
+    "_enSource": {
+      "name": "bf6fe0e40479",
+      "description": "837160247f04",
+      "descriptionHtml": "7ab14164ce1b",
+      "specs": "2fe15631663c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -15132,6 +17225,13 @@
       "Color": "blue",
       "Connectors": "RJ-45 (50µ gold)",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "3eb6da7911c2",
+      "description": "07f584b2e881",
+      "descriptionHtml": "b8e229460294",
+      "specs": "93aaa8a74c1e",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -15200,6 +17300,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "03eeb452549b",
+      "description": "eb6028c238c6",
+      "descriptionHtml": "056bc919146c",
+      "specs": "bf3a4f20c75e",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -15245,6 +17352,13 @@
       "Depth (mm)": "350",
       "Color": "black (RAL9005)",
       "Packaging": "shelf, M6 kit"
+    },
+    "_enSource": {
+      "name": "bde239131f6b",
+      "description": "2cc83a6157ff",
+      "descriptionHtml": "16977eb61ad7",
+      "specs": "e1b3c4b6ab98",
+      "subcategory": "a5dfc157da97"
     }
   },
   {
@@ -15283,6 +17397,13 @@
       "Connectors": "RJ45",
       "Design": "snag-proof",
       "Color": "yellow"
+    },
+    "_enSource": {
+      "name": "7733615e8427",
+      "description": "b1de8be4a6c7",
+      "descriptionHtml": "b1de8be4a6c7",
+      "specs": "11b0842379d9",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -15323,6 +17444,13 @@
       "Height U": "1U",
       "Height (mm)": "44 mm",
       "Color": "black"
+    },
+    "_enSource": {
+      "name": "b7043bc0c70f",
+      "description": "6a74c5f133f8",
+      "descriptionHtml": "819c4facbd73",
+      "specs": "ff5b731508f9",
+      "subcategory": "048ad33b477b"
     }
   },
   {
@@ -15362,6 +17490,13 @@
       "Connectors": "SC/PC - SC/PC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "ada663b9928e",
+      "description": "bfdaf8f4444b",
+      "descriptionHtml": "3e494b617ae1",
+      "specs": "65afd5a8e9d4",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -15399,6 +17534,13 @@
       "Weight (kg)": "0.025",
       "Dimensions (mm)": "300 x 18 x 0.25 mm",
       "Connectors": "RJ45 - RJ45"
+    },
+    "_enSource": {
+      "name": "d9b805169cea",
+      "description": "747f2b2e781f",
+      "descriptionHtml": "759b852f44ef",
+      "specs": "e0a73b09f9a1",
+      "subcategory": "ab154e2fb76c"
     }
   },
   {
@@ -15433,6 +17575,13 @@
       "Max. load (kN)": "1.5",
       "Tensile strength (N)": "1500 N",
       "Dimensions (mm)": "67 x 54 x 50"
+    },
+    "_enSource": {
+      "name": "1fcf696e8725",
+      "description": "dc5e5f784b0f",
+      "descriptionHtml": "2b180222523d",
+      "specs": "71e75c82b3a1",
+      "subcategory": "02cc2ebc592b"
     }
   },
   {
@@ -15478,6 +17627,13 @@
       "Depth (mm)": "250",
       "Color": "black (RAL9005)",
       "Packaging": "shelf, M6 kit"
+    },
+    "_enSource": {
+      "name": "d76ed4a07ff5",
+      "description": "da5e98e04481",
+      "descriptionHtml": "16977eb61ad7",
+      "specs": "b2dee0f7eeed",
+      "subcategory": "a5dfc157da97"
     }
   },
   {
@@ -15523,6 +17679,13 @@
       "Depth (mm)": "250",
       "Packaging": "shelf, M6 kit",
       "Color": "grey (RAL7035)"
+    },
+    "_enSource": {
+      "name": "d72a629a0be5",
+      "description": "da5e98e04481",
+      "descriptionHtml": "16977eb61ad7",
+      "specs": "9518eaf8dd75",
+      "subcategory": "a5dfc157da97"
     }
   },
   {
@@ -15591,6 +17754,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "b453d2bcd5e9",
+      "description": "4ea18468543e",
+      "descriptionHtml": "e687a1933419",
+      "specs": "bf3c32ac60a8",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -15622,6 +17792,13 @@
     "specs_en": {
       "Packaging": "(100)",
       "Dimensions (mm)": "2.5 x 45 mm"
+    },
+    "_enSource": {
+      "name": "ed8e50e1e67f",
+      "description": "68277a53f899",
+      "descriptionHtml": "34cc463fdc3f",
+      "specs": "7c89342c8364",
+      "subcategory": "95aa4b4c5b5d"
     }
   },
   {
@@ -15664,6 +17841,13 @@
       "Connectors": "SC/APC ; SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "06b3b5ed3ada",
+      "description": "2425e97b041c",
+      "descriptionHtml": "140676ea606d",
+      "specs": "3b00a7af74e1",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -15712,6 +17896,13 @@
       "Material": "galvanized steel sheet",
       "Color": "grey (RAL7035)",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "f3c6f190900c",
+      "description": "917965adcbed",
+      "descriptionHtml": "ee31dc61d16a",
+      "specs": "e88cb657ac99",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -15771,6 +17962,13 @@
       "Doors": "glass",
       "Color": "grey RAL7035",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "a72b51c21d75",
+      "description": "35c5822bfdb9",
+      "descriptionHtml": "481cfe1ccf3f",
+      "specs": "2ac4b8bb2ab2",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -15815,6 +18013,13 @@
       "Dimensions (mm)": "431 x 44 x 44 mm",
       "Frequency band": "50 Hz",
       "Protection rating": "IP20"
+    },
+    "_enSource": {
+      "name": "c3a252ccc5d6",
+      "description": "b2cd48c6143c",
+      "descriptionHtml": "a0e8343e50db",
+      "specs": "1d0b86251919",
+      "subcategory": "3a95f6d5233e"
     }
   },
   {
@@ -15855,6 +18060,13 @@
       "Length (m)": "5",
       "Color": "white",
       "Buttons": "ON/OFF switch"
+    },
+    "_enSource": {
+      "name": "e5fc53ba76a6",
+      "description": "db29cd97b5f1",
+      "descriptionHtml": "1d6677fa19b9",
+      "specs": "abb75c95dcb1",
+      "subcategory": "78b10e67c191"
     }
   },
   {
@@ -15898,6 +18110,13 @@
       "Packaging": "ReadyKit",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "a75034ee4b33",
+      "description": "89c013c80038",
+      "descriptionHtml": "84b7c19dbc43",
+      "specs": "f90e26742d93",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -15952,6 +18171,13 @@
       "Height (mm)": "50",
       "Color": "white",
       "Material": "LSZH"
+    },
+    "_enSource": {
+      "name": "37bd8823c0e0",
+      "description": "dacbeaa48669",
+      "descriptionHtml": "c6975010c0ec",
+      "specs": "e8fe0b5b0d6d",
+      "subcategory": "d8c20c00f313"
     }
   },
   {
@@ -16004,6 +18230,13 @@
       "Width (mm)": "40",
       "Color": "white",
       "Material": "LSZH"
+    },
+    "_enSource": {
+      "name": "e7758b351828",
+      "description": "92bd1fb5248d",
+      "descriptionHtml": "0338641102eb",
+      "specs": "1c1f58efee4a",
+      "subcategory": "d8c20c00f313"
     }
   },
   {
@@ -16032,6 +18265,13 @@
     "descriptionHtml_en": "<p><strong>DATAWAY expansion anchor 6&times;60 mm</strong> with countersunk head is a versatile and robust fastening component for quick and secure installation into <strong>concrete, masonry, brick, or aerated concrete</strong>. It is designed so that when the screw or bolt head is countersunk, the anchor head lies <strong>flush with the surface</strong>, improving aesthetics while ensuring firm attachment of various accessories.</p>\r\n\n<p>Due to its length and diameter, the anchor is suitable for a wide range of applications in both indoor and outdoor environments — from securing shelves, racks, or cable trays to mounting various building elements.</p>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Key Features:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p><strong>Dimensions:</strong> 6 mm diameter &times; <strong>60 mm length</strong></p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>Type:</strong> expansion anchor with <strong>countersunk head</strong></p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>Material:</strong> durable plastic (nylon / polypropylene)</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Designed for use in concrete, masonry, brick, aerated concrete</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Countersunk head allows for clean and flush installation</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Compatible with screws and bolts <strong>M5 – M6</strong></p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Suitable for various fastening applications (shelves, racks, trays, brackets)</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Simple installation without special tools</p>\r\n\t</li>\r\n</ul>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Applications:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p>Installation of shelves, racks, and built-in accessories</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Securing cable trays and cabinets</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Fastening brackets, brackets, or moldings</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Home, office, and technical installations</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Quick and reliable fixation in building materials</p>\r\n\t</li>\r\n</ul>\r\n\n<hr />\r\n<h3> </h3>\r\n\r\n<h3><strong>Why Choose It:</strong></h3>\r\n\n<ul>\r\n\t<li>\r\n\t<p><strong>Countersunk head</strong> for aesthetic and secure installation</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Universal size <strong>6&times;60 mm</strong> suitable for common applications</p>\r\n\t</li>\r\n\t<li>\r\n\t<p><strong>Quick installation</strong> without complications</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>High <strong>strength and reliability</strong> of fastening</p>\r\n\t</li>\r\n</ul>",
     "specs_en": {
       "Packaging": "250 pcs per package"
+    },
+    "_enSource": {
+      "name": "56d9693a3e1d",
+      "description": "6510d9f4a1ae",
+      "descriptionHtml": "9dc26e18f860",
+      "specs": "b9c215447255",
+      "subcategory": "78b10e67c191"
     }
   },
   {
@@ -16071,6 +18311,13 @@
       "Length (m)": "2",
       "Color": "white",
       "Material": "PVC"
+    },
+    "_enSource": {
+      "name": "c8ad1280a7b6",
+      "description": "161b0d4d7f2c",
+      "descriptionHtml": "e01f13fca63b",
+      "specs": "32b54416bf81",
+      "subcategory": "d8c20c00f313"
     }
   },
   {
@@ -16108,6 +18355,13 @@
       "Weight (kg)": "0.05",
       "Length (m)": "2",
       "Color": "white"
+    },
+    "_enSource": {
+      "name": "f86367e5b86c",
+      "description": "acef9313535a",
+      "descriptionHtml": "5feceaca6053",
+      "specs": "df6bf1d09438",
+      "subcategory": "d8c20c00f313"
     }
   },
   {
@@ -16145,6 +18399,13 @@
       "Weight (kg)": "0.03",
       "Length (m)": "2",
       "Color": "white"
+    },
+    "_enSource": {
+      "name": "438d2e1f5005",
+      "description": "7c05b3c00846",
+      "descriptionHtml": "4940e613f9b5",
+      "specs": "35ba4d8ccfd8",
+      "subcategory": "d8c20c00f313"
     }
   },
   {
@@ -16182,6 +18443,13 @@
       "Weight (kg)": "0.05",
       "Length (m)": "2",
       "Color": "white"
+    },
+    "_enSource": {
+      "name": "96ce269268ad",
+      "description": "fafa3e803cb4",
+      "descriptionHtml": "40b80eeac490",
+      "specs": "df6bf1d09438",
+      "subcategory": "d8c20c00f313"
     }
   },
   {
@@ -16237,6 +18505,13 @@
       "Category": "CAT5E ; CAT6 ; CAT6A",
       "Color": "black",
       "Packaging": "patch panel, M6 kit"
+    },
+    "_enSource": {
+      "name": "23648a814180",
+      "description": "0f085816ff91",
+      "descriptionHtml": "e7653936bac7",
+      "specs": "b987890eb2d2",
+      "subcategory": "048ad33b477b"
     }
   },
   {
@@ -16293,6 +18568,13 @@
       "Category": "CAT6A",
       "Terminal block": "self-punching",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "91e5ed512e5a",
+      "description": "a9fd3cfc0445",
+      "descriptionHtml": "c4057e5af4ca",
+      "specs": "06f2a871504e",
+      "subcategory": "048ad33b477b"
     }
   },
   {
@@ -16331,6 +18613,13 @@
       "Color": "red",
       "Connectors": "RJ45",
       "Design": "snag-proof"
+    },
+    "_enSource": {
+      "name": "d50800cb77fd",
+      "description": "98c48683efe1",
+      "descriptionHtml": "98c48683efe1",
+      "specs": "d6db5eaae6d0",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -16369,6 +18658,13 @@
       "Compatible cables": "CAT5E, CAT6",
       "Connectors": "RJ45",
       "Design": "snag-proof"
+    },
+    "_enSource": {
+      "name": "dfc73ac1936b",
+      "description": "ae9baf39b633",
+      "descriptionHtml": "ae9baf39b633",
+      "specs": "5e14b82ef011",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -16409,6 +18705,13 @@
       "Compatible cables": "4 - 6 mm",
       "Application": "DROP",
       "Material": "Stainless Steel 201"
+    },
+    "_enSource": {
+      "name": "e743afe2a993",
+      "description": "7b45571c6e3a",
+      "descriptionHtml": "48ebdbc7e178",
+      "specs": "147446b802b4",
+      "subcategory": "b3a3b1329ebd"
     }
   },
   {
@@ -16454,6 +18757,13 @@
       "Category": "CAT5E",
       "Color": "black",
       "Shielding": "no"
+    },
+    "_enSource": {
+      "name": "4f637de37cbe",
+      "description": "820af38ea51f",
+      "descriptionHtml": "0439834d5637",
+      "specs": "b9f2509bec65",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -16502,6 +18812,13 @@
       "Category": "CAT6 and lower",
       "Packaging": "patch panel, M6 mounting kit",
       "Terminal block": "Universal 110/Krone"
+    },
+    "_enSource": {
+      "name": "36c89b3dac05",
+      "description": "b71b710d86c5",
+      "descriptionHtml": "546bfc5f9733",
+      "specs": "f18770b36420",
+      "subcategory": "9cf298768fa9"
     }
   },
   {
@@ -16544,6 +18861,13 @@
       "Category": "CAT5E",
       "Material": "FR plastic per UL94-0",
       "Device type": "RJ45/RJ45"
+    },
+    "_enSource": {
+      "name": "ae15a06b24b9",
+      "description": "edd5000357a2",
+      "descriptionHtml": "5df2f592ff9f",
+      "specs": "d0368dea8515",
+      "subcategory": "ab154e2fb76c"
     }
   },
   {
@@ -16598,6 +18922,13 @@
       "Category": "CAT6",
       "Design": "CLASSIC",
       "Certifications": "RoHS"
+    },
+    "_enSource": {
+      "name": "315e013d6e7d",
+      "description": "9fb999c5007a",
+      "descriptionHtml": "785733acaf03",
+      "specs": "8067c40dee49",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -16637,6 +18968,13 @@
       "Compatible cables": "CAT6 ;  CAT5E ; CAT3 ; RG59 ; RG6 ; RG7 ; RG11",
       "Material": "plastic, metal",
       "Color": "yellow"
+    },
+    "_enSource": {
+      "name": "4976cdbccf6b",
+      "description": "d42a4536be17",
+      "descriptionHtml": "7c34db30b635",
+      "specs": "015877eda06a",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -16675,6 +19013,13 @@
     "specs_en": {
       "Packaging": "5 spare blades",
       "Compatible devices": "DW-HT-EASY"
+    },
+    "_enSource": {
+      "name": "39606a5dff92",
+      "description": "756e775d18aa",
+      "descriptionHtml": "065d72fe5a51",
+      "specs": "0e6675126cae",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -16739,6 +19084,13 @@
       "Category": "CAT5E ; CAT6",
       "Design": "EASY",
       "Certifications": "RoHS, REACH"
+    },
+    "_enSource": {
+      "name": "45388ea27573",
+      "description": "54ad37e2b3b1",
+      "descriptionHtml": "3007c55405ae",
+      "specs": "8b57b514db9c",
+      "subcategory": "77e42474e445"
     }
   },
   {
@@ -16817,6 +19169,13 @@
       "PoE": "PoE, PoE+",
       "Jacket": "PVC",
       "Color": "grey (RAL7035)"
+    },
+    "_enSource": {
+      "name": "11e09a4819f9",
+      "description": "038878af2c1a",
+      "descriptionHtml": "97a854e154ff",
+      "specs": "da845413155a",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -16899,6 +19258,13 @@
       "PoE": "PoE, PoE+",
       "Jacket": "PVC",
       "Color": "grey (RAL7035)"
+    },
+    "_enSource": {
+      "name": "280b87f4f9ec",
+      "description": "038878af2c1a",
+      "descriptionHtml": "80891565b663",
+      "specs": "274eb71e4452",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -16985,6 +19351,13 @@
       "Conductor": "solid copper 0.50 mm AWG 24",
       "Shielding": "no",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "a3fb04393a1a",
+      "description": "038878af2c1a",
+      "descriptionHtml": "97a854e154ff",
+      "specs": "02bed9acf956",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -17065,6 +19438,13 @@
       "Shielding": "no",
       "Jacket": "PE",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "3e68b11b9101",
+      "description": "644e5d45b606",
+      "descriptionHtml": "42e4649403ac",
+      "specs": "1f8a6dbac147",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -17137,6 +19517,13 @@
       "PoE": "PoE, PoE+",
       "Jacket": "PVC",
       "Color": "grey (RAL7035)"
+    },
+    "_enSource": {
+      "name": "4e55c7d62cc2",
+      "description": "703015f9dee1",
+      "descriptionHtml": "e90eec97370c",
+      "specs": "c1c035870623",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -17209,6 +19596,13 @@
       "Jacket": "LSOH",
       "Conductor": "solid copper 0.48",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "8fde462d9321",
+      "description": "2758cbeb75ae",
+      "descriptionHtml": "7ae97212fae0",
+      "specs": "65e6b9dc1f10",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -17281,6 +19675,13 @@
       "Jacket": "LSOH",
       "Conductor": "solid copper 0.50 mm AWG 24",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "14063495645b",
+      "description": "2758cbeb75ae",
+      "descriptionHtml": "58d551624883",
+      "specs": "493ef09e1928",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -17363,6 +19764,13 @@
       "Jacket": "LSOH",
       "Conductor": "solid copper 0.55 mm 23AWG",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "818f980738b3",
+      "description": "4a409de06a43",
+      "descriptionHtml": "d0acb651b9f8",
+      "specs": "55164ce32a05",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -17435,6 +19843,13 @@
       "Conductor": "solid copper 0.50 mm AWG 24",
       "Jacket": "PE",
       "PoE": "PoE, PoE+"
+    },
+    "_enSource": {
+      "name": "c8f4b93fc99b",
+      "description": "2b7d8dada4f0",
+      "descriptionHtml": "a6cd7050aff8",
+      "specs": "855cdec4029e",
+      "subcategory": "d64a6202a28f"
     }
   },
   {
@@ -17486,6 +19901,13 @@
       "Category": "CAT6",
       "Terminal block": "self-punching",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "f9a0b43dd7db",
+      "description": "30ad0360e397",
+      "descriptionHtml": "205c4085b3d5",
+      "specs": "3fb7a18af792",
+      "subcategory": "048ad33b477b"
     }
   },
   {
@@ -17532,6 +19954,13 @@
     "specs_en": {
       "Length (m)": "1",
       "Cable diameter (mm)": "5.5"
+    },
+    "_enSource": {
+      "name": "f83cd4cc6f13",
+      "description": "f51ae1cf4ef4",
+      "descriptionHtml": "184c78984d6e",
+      "specs": "bb18085b3509",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -17580,6 +20009,13 @@
       "Length (m)": "3",
       "Cable diameter (mm)": "5.5",
       "Category": "CAT5E"
+    },
+    "_enSource": {
+      "name": "1d7b2507bb6a",
+      "description": "75b9e1e993b2",
+      "descriptionHtml": "194d276b965a",
+      "specs": "bb878533f290",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -17618,6 +20054,13 @@
       "Connectors": "LC ; LC",
       "Fiber type": "SM G.657A2",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "331b1a99b0af",
+      "description": "dc7985332683",
+      "descriptionHtml": "b60c83f76015",
+      "specs": "094aaee90dfa",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -17654,6 +20097,13 @@
       "Connectors": "LC",
       "Color": "blue",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "dfae90156ba0",
+      "description": "71cc2acb4519",
+      "descriptionHtml": "7f7e89639dd6",
+      "specs": "384e9b05fa91",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -17694,6 +20144,13 @@
       "Number of fibers": "duplex",
       "Application": "Orange, Telekom, UPC, Slovanet and others",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "4c1f34446e0d",
+      "description": "b3c9fb0aa929",
+      "descriptionHtml": "a45f99daf154",
+      "specs": "4252534735e7",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -17726,6 +20183,13 @@
       "Cable diameter (mm)": "3 mm",
       "Number of fibers": "duplex",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "c10b67334fa0",
+      "description": "fb61b7695206",
+      "descriptionHtml": "8f0733637e77",
+      "specs": "560a151d0453",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -17774,6 +20238,13 @@
       "Packaging": "box, screws, splice protectors",
       "Protection rating": "IP31",
       "Design": "wall-mounted"
+    },
+    "_enSource": {
+      "name": "766e00be29f1",
+      "description": "3cb5d913c81c",
+      "descriptionHtml": "b35a210222a8",
+      "specs": "22600e75b1db",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -17815,6 +20286,13 @@
       "Color": "white",
       "Number of fibers": "simplex",
       "Application": "outdoor - IP65"
+    },
+    "_enSource": {
+      "name": "3ba123b023e5",
+      "description": "84932479c356",
+      "descriptionHtml": "e15e2b17b54c",
+      "specs": "2047c331b892",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -17860,6 +20338,13 @@
       "Fiber type": "G657A1",
       "Construction": "MINI STEEL module",
       "Connectors": "SC / APC"
+    },
+    "_enSource": {
+      "name": "3b6de7ffd865",
+      "description": "2f8d48478a31",
+      "descriptionHtml": "04909d251af3",
+      "specs": "2116a0ef4699",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -17901,6 +20386,13 @@
       "Depth (mm)": "160 mm",
       "Packaging": "shelf",
       "Color": "grey"
+    },
+    "_enSource": {
+      "name": "46008d7f1f58",
+      "description": "3283ba204305",
+      "descriptionHtml": "4c993d4afeaf",
+      "specs": "6c7821c5896e",
+      "subcategory": "a5dfc157da97"
     }
   },
   {
@@ -17936,6 +20428,13 @@
       "Dimensions (mm)": "550 x 82 x 41",
       "Compatible cables": "8mm to 12mm",
       "Material": "PA6 + SS304"
+    },
+    "_enSource": {
+      "name": "c2d34ffef79b",
+      "description": "1cc180c1b818",
+      "descriptionHtml": "810a91822867",
+      "specs": "bb88c349d477",
+      "subcategory": "b3a3b1329ebd"
     }
   },
   {
@@ -17984,6 +20483,13 @@
       "Connectors": "SC",
       "Cable type": "Single Mode",
       "Color": "green"
+    },
+    "_enSource": {
+      "name": "17efa426b0a2",
+      "description": "45889a4d77c6",
+      "descriptionHtml": "8da0545ddb01",
+      "specs": "e92985f5ef59",
+      "subcategory": "f554dfb78b12"
     }
   },
   {
@@ -18009,7 +20515,14 @@
     "descriptionHtml_en": "<p>Splice protectors <strong>(60 / 2.8 mm)</strong> are components for protecting fiber optic splices during fusion splicing. They are flexible, heat-shrinkable elements that reduce their volume under the influence of heat. They are equipped with stainless steel rods that provide additional mechanical protection to the splice. After heat shrinkage, the fibers are protected not only from mechanical damage but also from moisture and all types of contamination.</p>",
     "specs_en": {},
     "category_en": "Optical Networks",
-    "subcategory_en": "Cable Accessories"
+    "subcategory_en": "Cable Accessories",
+    "_enSource": {
+      "name": "dab4ea4a40de",
+      "description": "bdae51d94c2f",
+      "descriptionHtml": "4aef1bd2d356",
+      "specs": "da39a3ee5e6b",
+      "subcategory": "95aa4b4c5b5d"
+    }
   },
   {
     "name": "DATAWAY Optický splitter PLC, MINI modul, 1x16 0.9mm, G657A1, bez konektorov",
@@ -18054,6 +20567,13 @@
       "Connectors": "without connectors",
       "Fiber type": "G657A1",
       "Construction": "MINI STEEL module"
+    },
+    "_enSource": {
+      "name": "1e3d2268432d",
+      "description": "6244905334a9",
+      "descriptionHtml": "d35c178b57c3",
+      "specs": "beeb7a14df46",
+      "subcategory": "37803c710b2c"
     }
   },
   {
@@ -18090,6 +20610,13 @@
       "Number of fibers": "duplex",
       "Connectors": "SC/APC ; LC/PC",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "b0993f615cbe",
+      "description": "6f543eaa796d",
+      "descriptionHtml": "e5c48852739c",
+      "specs": "45d6028cc837",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -18122,7 +20649,14 @@
       "Fiber type": "SM G.657A"
     },
     "category_en": "Optical Networks",
-    "subcategory_en": "Fiber Patch Cords"
+    "subcategory_en": "Fiber Patch Cords",
+    "_enSource": {
+      "name": "1149b0140f29",
+      "description": "a858ecc2a803",
+      "descriptionHtml": "45e41c18bbaa",
+      "specs": "32d52c96f83e",
+      "subcategory": "e05125d60ea2"
+    }
   },
   {
     "name": "DATAWAY Páska napínacia (50m) 10mm, 0.7mm, SS304",
@@ -18163,6 +20697,13 @@
       "Weight (kg)": "5.1",
       "Packaging": "50 m",
       "Material": "Stainless Steel 304"
+    },
+    "_enSource": {
+      "name": "ca095a44da3a",
+      "description": "0828f034c044",
+      "descriptionHtml": "5b2266a38a99",
+      "specs": "296f72d9bcf2",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -18213,6 +20754,13 @@
       "Thickness (mm)": "max. 1.5",
       "Width (mm)": "max. 20",
       "Color": "blue"
+    },
+    "_enSource": {
+      "name": "5d80ab32632b",
+      "description": "abbff3361dcc",
+      "descriptionHtml": "b38843df6aa2",
+      "specs": "0ac7b1ea80d6",
+      "subcategory": "02cc2ebc592b"
     }
   },
   {
@@ -18247,6 +20795,13 @@
       "Core diameter (µm)": "9/125 (OS2)",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "41d320feebde",
+      "description": "2425e97b041c",
+      "descriptionHtml": "7b7bd83f1505",
+      "specs": "e0bdb96c1e8c",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -18279,6 +20834,13 @@
       "Cable diameter (mm)": "3 mm",
       "Number of fibers": "duplex",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "615813b60bb5",
+      "description": "6994e1ab8537",
+      "descriptionHtml": "18ccf675c359",
+      "specs": "560a151d0453",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -18342,6 +20904,13 @@
       "Certifications": "RoHS",
       "Jacket color": "grey",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "f0092e9a9f88",
+      "description": "3866ce637607",
+      "descriptionHtml": "4b880f81c95e",
+      "specs": "847a7a84b5e8",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -18382,6 +20951,13 @@
       "Connectors": "SC/APC ; SC/UPC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "de3a9e312826",
+      "description": "2425e97b041c",
+      "descriptionHtml": "61b6bd16fd2b",
+      "specs": "22961799d8eb",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -18432,6 +21008,13 @@
       "Max. crush resistance (N)": "1000 N",
       "Dimensions (mm)": "165 x 115 x 34 mm",
       "Material": "aluminium"
+    },
+    "_enSource": {
+      "name": "79847bb235b8",
+      "description": "3c113bc8cb0d",
+      "descriptionHtml": "a43e5162db22",
+      "specs": "06c2e8816c7b",
+      "subcategory": "9ad8bd081e42"
     }
   },
   {
@@ -18477,6 +21060,13 @@
       "Depth (mm)": "350",
       "Packaging": "shelf, M6 kit",
       "Color": "grey (RAL7035)"
+    },
+    "_enSource": {
+      "name": "f7e7e7f12303",
+      "description": "2cc83a6157ff",
+      "descriptionHtml": "16977eb61ad7",
+      "specs": "a6955f2135dc",
+      "subcategory": "a5dfc157da97"
     }
   },
   {
@@ -18507,6 +21097,13 @@
     "specs_en": {
       "Cable diameter (mm)": "3 mm",
       "Fiber type": "SM G.657A"
+    },
+    "_enSource": {
+      "name": "082701a6264c",
+      "description": "a858ecc2a803",
+      "descriptionHtml": "cdb1a4457525",
+      "specs": "32d52c96f83e",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -18544,6 +21141,13 @@
       "Jacket material": "LSZH",
       "Jacket color": "blue",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "8f06bbcecaec",
+      "description": "c886192ac7ee",
+      "descriptionHtml": "c65fbbb1f6b7",
+      "specs": "63709ec514bf",
+      "subcategory": "fd2d7b0253c6"
     }
   },
   {
@@ -18587,6 +21191,13 @@
       "Connectors": "LC ; LC",
       "Fiber type": "SM G.657A2",
       "Polish type": "UPC"
+    },
+    "_enSource": {
+      "name": "f7fb89680e02",
+      "description": "37e940f4c6e5",
+      "descriptionHtml": "d56567d439dc",
+      "specs": "5f8c6b7bd1a5",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -18629,6 +21240,13 @@
       "Application": "Orange, Telekom, UPC, Slovanet and others",
       "Connectors": "SC - SC",
       "Fiber types": "SM, G.657B3"
+    },
+    "_enSource": {
+      "name": "61d7e5c4b596",
+      "description": "e7ef972a5d8c",
+      "descriptionHtml": "a74ebb09a987",
+      "specs": "d9861c5bb75d",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -18671,6 +21289,13 @@
       "Application": "Orange, Telekom, UPC, Slovanet and others",
       "Connectors": "SC - SC",
       "Fiber types": "SM, G.657B3"
+    },
+    "_enSource": {
+      "name": "0ef61066f917",
+      "description": "e7ef972a5d8c",
+      "descriptionHtml": "05cfc804e1e0",
+      "specs": "fdfebff6646d",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -18715,6 +21340,13 @@
       "Application": "Orange, Telekom, UPC, Slovanet and others",
       "Connectors": "SC - SC",
       "Fiber types": "SM, G.657B3"
+    },
+    "_enSource": {
+      "name": "136e06ee5b50",
+      "description": "e7ef972a5d8c",
+      "descriptionHtml": "9c01794fe489",
+      "specs": "a22bc67bcde9",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -18760,6 +21392,13 @@
       "Dimensions (mm)": "431 x 44 x 44 mm",
       "Frequency band": "50 Hz",
       "Protection rating": "IP20"
+    },
+    "_enSource": {
+      "name": "6ac70cfc2be6",
+      "description": "6ba18b96adba",
+      "descriptionHtml": "d65ed215ba1f",
+      "specs": "1d0b86251919",
+      "subcategory": "3a95f6d5233e"
     }
   },
   {
@@ -18820,6 +21459,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "8ed06a42558f",
+      "description": "1ad78ad0a5b3",
+      "descriptionHtml": "763274e1fd70",
+      "specs": "bbcda61b5867",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -18880,6 +21526,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "5c02eeb38fc6",
+      "description": "755c8bd6ff08",
+      "descriptionHtml": "c05342349488",
+      "specs": "ff39dc4ad93b",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -18940,6 +21593,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "531e90ca69e5",
+      "description": "493cb3560523",
+      "descriptionHtml": "282781810247",
+      "specs": "0798e0bb5d11",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -19006,6 +21666,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "4d60aa5bbd3a",
+      "description": "217d6c439275",
+      "descriptionHtml": "cde1a8d28493",
+      "specs": "605ae095dc3a",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -19075,6 +21742,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "7084d6755153",
+      "description": "5828e2c4784b",
+      "descriptionHtml": "3414f824dc22",
+      "specs": "2152731a221d",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -19145,6 +21819,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "7ed9ca83456a",
+      "description": "9205f25acefb",
+      "descriptionHtml": "a6ace1de0758",
+      "specs": "41b4d6f549ee",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -19209,6 +21890,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "e75a1c20f22e",
+      "description": "c8cf446a98e7",
+      "descriptionHtml": "7e4f3b83db54",
+      "specs": "0296136ffa4c",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -19273,6 +21961,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "695bebfddbd5",
+      "description": "c26464e5cc47",
+      "descriptionHtml": "16ad6161335f",
+      "specs": "53ff98bbdd99",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -19337,6 +22032,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "1a1f30a9a402",
+      "description": "dcc58b63fe8c",
+      "descriptionHtml": "42000dde93f6",
+      "specs": "2786d7a167ec",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -19401,6 +22103,13 @@
       "Certifications": "RoHS",
       "Application": "indoor",
       "Jacket color": "green"
+    },
+    "_enSource": {
+      "name": "4772443eacb9",
+      "description": "126683de65ba",
+      "descriptionHtml": "589dec959b2a",
+      "specs": "89a2c77813ad",
+      "subcategory": "4f3bd44fb8ba"
     }
   },
   {
@@ -19463,6 +22172,13 @@
       "Supported standards": "ANSI/TIA 568, ISO/IEC 11801, EN 50173",
       "Category": "CAT6A",
       "Color": "black"
+    },
+    "_enSource": {
+      "name": "de1320eefb7a",
+      "description": "d5e7249f7f16",
+      "descriptionHtml": "7f34e93cf008",
+      "specs": "a9e35c00250f",
+      "subcategory": "9cf298768fa9"
     }
   },
   {
@@ -19529,6 +22245,13 @@
       "Category": "CAT5E",
       "Color": "black",
       "Shielding": "no"
+    },
+    "_enSource": {
+      "name": "b8eb16e851e8",
+      "description": "0c72dd40296d",
+      "descriptionHtml": "20a50371f3c1",
+      "specs": "c854c1ee1289",
+      "subcategory": "9cf298768fa9"
     }
   },
   {
@@ -19581,6 +22304,13 @@
       "Shielding": "no",
       "Terminal block": "self-punching",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "b09176c39e84",
+      "description": "2d90ba2c2b13",
+      "descriptionHtml": "9b32ed4902cc",
+      "specs": "96f252ea30de",
+      "subcategory": "048ad33b477b"
     }
   },
   {
@@ -19624,6 +22354,13 @@
       "Category": "CAT6",
       "Material": "FR plastic per UL94-0",
       "Device type": "RJ45/RJ45"
+    },
+    "_enSource": {
+      "name": "26b6f6ff6cf7",
+      "description": "e3800e7b9169",
+      "descriptionHtml": "e407138822e4",
+      "specs": "a52e684e0897",
+      "subcategory": "ab154e2fb76c"
     }
   },
   {
@@ -19685,6 +22422,13 @@
       "Jacket": "LSZH",
       "Connectors": "SC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "1cc0ac25e15e",
+      "description": "0384a100eb81",
+      "descriptionHtml": "ab92220da551",
+      "specs": "a616f320a334",
+      "subcategory": "89b928224040"
     }
   },
   {
@@ -19756,6 +22500,13 @@
       "Jacket": "LSZH",
       "Connectors": "SC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "a68b287dd126",
+      "description": "63f4eb62fb54",
+      "descriptionHtml": "376d80ee2fd7",
+      "specs": "37261905c323",
+      "subcategory": "89b928224040"
     }
   },
   {
@@ -19827,6 +22578,13 @@
       "Jacket": "LSZH",
       "Connectors": "SC",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "fec02a0e3ec0",
+      "description": "8ffb35d177f9",
+      "descriptionHtml": "0ac3eaf4aefb",
+      "specs": "62f33eed762b",
+      "subcategory": "89b928224040"
     }
   },
   {
@@ -19871,6 +22629,13 @@
       "Connectors": "SC/APC ; SC/APC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "501da65ec50f",
+      "description": "2425e97b041c",
+      "descriptionHtml": "77bd048bc9ea",
+      "specs": "08ca36e62c9c",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -19906,6 +22671,13 @@
       "Dimensions (mm)": "125 x 35 x 17",
       "Compatible cables": "2.5 to 4 mm",
       "Color": "black"
+    },
+    "_enSource": {
+      "name": "19208baa3cfa",
+      "description": "ce06ce9e17a4",
+      "descriptionHtml": "0d23f0670872",
+      "specs": "f4bebc7ebb30",
+      "subcategory": "b3a3b1329ebd"
     }
   },
   {
@@ -19946,6 +22718,13 @@
       "Connectors": "SC/PC - SC/PC",
       "Number of fibers": "simplex",
       "Fiber type": "SM G.657A2"
+    },
+    "_enSource": {
+      "name": "6342736bd70e",
+      "description": "c7702897035e",
+      "descriptionHtml": "3515d5cc1bfd",
+      "specs": "1811cf660ea0",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -20010,6 +22789,13 @@
       "Jacket": "LSZH",
       "Connectors": "SC",
       "Fiber type": "SM G.657A1"
+    },
+    "_enSource": {
+      "name": "77509b1e4835",
+      "description": "8622736078a9",
+      "descriptionHtml": "546e7c3cbb7c",
+      "specs": "1fb88902fc80",
+      "subcategory": "89b928224040"
     }
   },
   {
@@ -20067,6 +22853,13 @@
       "Color": "black RAL9005",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "2e44fe0a2bf9",
+      "description": "77dd06928a1d",
+      "descriptionHtml": "259bc38ae457",
+      "specs": "ccc2eb5fd6bc",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -20124,6 +22917,13 @@
       "Color": "black RAL9005",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "2c9b264056b5",
+      "description": "77dd06928a1d",
+      "descriptionHtml": "19d7ef2e4ae2",
+      "specs": "5b357eab33e6",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -20182,6 +22982,13 @@
       "Color": "black RAL9005",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "a3b0ddc0f7fa",
+      "description": "5486bd875d98",
+      "descriptionHtml": "f5f32e1d3d50",
+      "specs": "92fba14be11c",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -20239,6 +23046,13 @@
       "Color": "black RAL9005",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "bb2d253c53fb",
+      "description": "d4c5b02b9077",
+      "descriptionHtml": "e7cdb9c62cd3",
+      "specs": "02d50307d8f7",
+      "subcategory": "3d324d0f5274"
     }
   },
   {
@@ -20294,6 +23108,13 @@
       "Color": "black (RAL9005)",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "052d8633b7bd",
+      "description": "a460ecd1181d",
+      "descriptionHtml": "d7e30893a8b8",
+      "specs": "404b9352da0b",
+      "subcategory": "db58eb5b1fc8"
     }
   },
   {
@@ -20349,6 +23170,13 @@
       "Color": "black (RAL9005)",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "805228fbcade",
+      "description": "4676af12db19",
+      "descriptionHtml": "1f0c5818b018",
+      "specs": "ca2da0381725",
+      "subcategory": "db58eb5b1fc8"
     }
   },
   {
@@ -20404,6 +23232,13 @@
       "Color": "black (RAL9005)",
       "Doors": "glass",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "dbf62f7df80a",
+      "description": "fee7d12eabdd",
+      "descriptionHtml": "ff9d78d2e8c6",
+      "specs": "cea061046f88",
+      "subcategory": "db58eb5b1fc8"
     }
   },
   {
@@ -20460,6 +23295,13 @@
       "Doors": "glass",
       "Color": "grey (RAL7035)",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "dc7fca91f37d",
+      "description": "a460ecd1181d",
+      "descriptionHtml": "37aa865d1938",
+      "specs": "9aebed530707",
+      "subcategory": "db58eb5b1fc8"
     }
   },
   {
@@ -20515,6 +23357,13 @@
       "Doors": "glass",
       "Color": "grey (RAL7035)",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "0b2b3e25cd42",
+      "description": "4676af12db19",
+      "descriptionHtml": "6394509df38b",
+      "specs": "a764f53096d3",
+      "subcategory": "db58eb5b1fc8"
     }
   },
   {
@@ -20570,6 +23419,13 @@
       "Doors": "glass",
       "Color": "grey (RAL7035)",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "137057149e76",
+      "description": "69a10d0c1a8d",
+      "descriptionHtml": "cdc6eb8458a7",
+      "specs": "bdc8482f58c9",
+      "subcategory": "db58eb5b1fc8"
     }
   },
   {
@@ -20625,6 +23481,13 @@
       "Doors": "glass",
       "Color": "grey (RAL7035)",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "bcd9305670eb",
+      "description": "3a64db3eeb0b",
+      "descriptionHtml": "62e6caaf3de2",
+      "specs": "da1594688934",
+      "subcategory": "db58eb5b1fc8"
     }
   },
   {
@@ -20667,6 +23530,13 @@
       "Packaging": "ReadyKit",
       "Connectors": "SC/APC - LC/APC",
       "Number of fibers": "simplex"
+    },
+    "_enSource": {
+      "name": "3a302111ae6c",
+      "description": "460f55297f0b",
+      "descriptionHtml": "3a8e7faf3d86",
+      "specs": "7ad9cad24d75",
+      "subcategory": "e05125d60ea2"
     }
   },
   {
@@ -20733,6 +23603,13 @@
       "Connectors": "RJ45 - RJ45",
       "Certifications": "RoHS",
       "Application": "indoor"
+    },
+    "_enSource": {
+      "name": "be6c64e0c502",
+      "description": "8f5310c87ccf",
+      "descriptionHtml": "7e157c7d7104",
+      "specs": "342cfc501afb",
+      "subcategory": "4f3bd44fb8ba"
     }
   }
 ]

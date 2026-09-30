@@ -23,6 +23,7 @@ The check always exits 0 — it **reports** problems, never blocks.
 ### How to react to reported issues
 
 - **Missing `_en` fields on products** → translate them inline (small batches) or run `translate-descriptions.mjs` (needs `ANTHROPIC_API_KEY`)
+- **`X_en is stale — SK text changed`** / **`EN translation not stamped`** → see *Stale translation tracking* below
 - **Slovak words in `_en` fields** → fix the specific field manually
 - **`category_en` not in allowed list** → must match `i18n.js` CATEGORY_MAP: `Copper Networks`, `Optical Networks`, `Cabinets`, `Installation Accessories`, `Other`
 - **Hardcoded Slovak text in HTML** (outside `data-i18n`) → wrap with `data-i18n="key"` and add the key to **both** `lang/sk.json` and `lang/en.json`
@@ -42,6 +43,16 @@ Montážne príslušenstvo → Installation Accessories
 
 Never introduce other variants (e.g. "Fiber Optics", "Cabinets & Racks") — the check will flag them.
 
+### Stale translation tracking
+
+Each product has `_enSource` — a fingerprint of the SK fields (`name`, `description`, `descriptionHtml`, `specs`, `subcategory`) at the time the `_en` fields were translated (`translation-sync.js`). Image tags and empty paragraphs are ignored, so localizing/stripping images never counts as a text change.
+
+- `rebuild-from-api.js` restores an EN field only if its SK source is unchanged; otherwise it drops it and logs `SK text changed -> stale EN dropped`. The check then reports it as missing.
+- `translate-descriptions.mjs` picks up missing **and** stale products and stamps them after translating.
+- **After translating by hand**, stamp the products: `node translation-sync.js stamp CODE [CODE...]`. Only stamp after the EN text really matches the current SK text — stamping is what marks a translation as up to date.
+- `node translation-sync.js status` lists stale/unstamped products. Never use `stamp --all` to silence the check; it is only for a verified baseline.
+- `_`-prefixed fields are internal and are not embedded into the HTML pages.
+
 ## Data pipeline
 
 | Script | Purpose |
@@ -51,6 +62,7 @@ Never introduce other variants (e.g. "Fiber Optics", "Cabinets & Racks") — the
 | `translate-descriptions.mjs` | Translate SK → EN for products missing `_en` fields (needs `ANTHROPIC_API_KEY`). `category_en` is always forced to the canonical CATEGORY_MAP, model output is not trusted for it. |
 | `embed-products.js` | Embed products.json into produkty.html/produkt.html + generate products-search.json |
 | `check-translations.mjs` | Validate everything |
+| `translation-sync.js` | SK-source fingerprints for EN fields (`stamp CODE…`, `status`) — detects stale translations |
 
 **Product update flow:** `rebuild-from-api.js` → `translate-descriptions.mjs` (if new products) → `embed-products.js`. Afterwards verify products.json contains **zero** `tesshop.sk` occurrences (dead-photo/dead-datasheet risk) — only YouTube links may stay remote.
 

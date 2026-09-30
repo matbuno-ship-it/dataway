@@ -5,6 +5,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import sync from './translation-sync.js';
 
 const args = process.argv.slice(2);
 const runAll = args.length === 0;
@@ -75,6 +76,15 @@ function checkProducts() {
       if (f === 'specs_en' && !p.specs) return;
       if (!p[f]) addIssue('products', `${id}: missing ${f}`);
     });
+
+    // 1b. Stale EN fields: SK source changed since the EN text was translated
+    const stale = sync.staleFields(p);
+    if (stale === null) {
+      addIssue('products', `${id}: EN translation not stamped (translation-sync.js stamp ${id} once EN is verified)`);
+    } else {
+      stale.filter(f => p[f] !== undefined).forEach(f =>
+        addIssue('products', `${id}: ${f} is stale — SK text changed since it was translated`));
+    }
 
     // 2. Slovak words in EN fields
     const checkStr = (val, label) => {
@@ -378,7 +388,8 @@ function main() {
   } else {
     console.log(`Fix commands:`);
     if (run.products && report.products.length) {
-      console.log('  → node translate-descriptions.mjs   (missing _en fields; needs ANTHROPIC_API_KEY)');
+      console.log('  → node translate-descriptions.mjs   (missing/stale _en fields; needs ANTHROPIC_API_KEY)');
+      console.log('  → or translate by hand, then: node translation-sync.js stamp CODE...');
     }
     if (run.embed && report.embed.length) {
       console.log('  → node embed-products.js            (re-embed products.json into HTML)');

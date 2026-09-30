@@ -186,13 +186,17 @@ const unique = products.filter(p => {
   return true;
 });
 
-// Preserve existing EN translations from previous products.json
+// Preserve existing EN translations from previous products.json — but only where the SK
+// source is unchanged. An EN field whose SK text changed on TES Shop is dropped, so the
+// translation check reports it as missing and translate-descriptions.mjs re-translates it.
 const EN_FIELDS = ['name_en', 'category_en', 'subcategory_en', 'description_en', 'descriptionHtml_en', 'specs_en'];
+const { TRACKED, fingerprint } = require('./translation-sync');
 try {
   const prev = JSON.parse(fs.readFileSync('products.json', 'utf8'));
   const prevByCode = {};
   prev.forEach(p => { if (p.code) prevByCode[p.code] = p; });
   let restored = 0;
+  const stale = [];
   unique.forEach(p => {
     const old = prevByCode[p.code];
     if (!old) return;
@@ -201,10 +205,25 @@ try {
         p[f] = old[f];
       }
     });
+    if (old._enSource) {
+      p._enSource = old._enSource;
+      const dropped = [];
+      for (const [sk, en] of Object.entries(TRACKED)) {
+        if (old._enSource[sk] !== fingerprint(sk, p[sk]) && p[en] !== undefined) {
+          delete p[en];
+          dropped.push(en);
+        }
+      }
+      if (dropped.length) stale.push(p.code + ': ' + dropped.join(', '));
+    }
     restored++;
   });
   const withEn = unique.filter(p => p.name_en).length;
   console.log('Restored EN translations for', withEn, 'products (matched', restored, 'by code)');
+  if (stale.length) {
+    console.log('SK text changed -> stale EN dropped for re-translation (' + stale.length + ' products):');
+    stale.forEach(s => console.log('  ' + s));
+  }
 } catch (e) {
   console.log('No previous products.json found, skipping EN restore');
 }

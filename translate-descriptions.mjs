@@ -1,5 +1,6 @@
 import fs from 'fs';
 import https from 'https';
+import sync from './translation-sync.js';
 
 const API_KEY = process.env.ANTHROPIC_API_KEY;
 const MODEL = 'claude-haiku-4-5-20251001';
@@ -128,10 +129,10 @@ async function translateBatch(products, startIdx) {
 async function main() {
   const products = JSON.parse(fs.readFileSync('products.json', 'utf8'));
 
-  // Find products that need translation (missing any _en field)
+  // Find products that need translation (missing _en field, or SK text changed since translation)
   const needsTranslation = [];
   products.forEach((p, i) => {
-    if (!p.name_en || !p.description_en || !p.specs_en || !p.category_en || !p.subcategory_en) {
+    if (sync.needsTranslation(p)) {
       needsTranslation.push({ product: p, index: i });
     }
   });
@@ -162,6 +163,7 @@ async function main() {
         // Enforce canonical category translation regardless of model output
         const canonical = CATEGORY_MAP[products[targetIdx].category];
         if (canonical) products[targetIdx].category_en = canonical;
+        if (!sync.missingFields(products[targetIdx]).length) sync.stamp(products[targetIdx]);
       });
 
       translated += batch.length;
@@ -188,6 +190,7 @@ async function main() {
             });
             const canonical = CATEGORY_MAP[products[item.index].category];
             if (canonical) products[item.index].category_en = canonical;
+            if (!sync.missingFields(products[item.index]).length) sync.stamp(products[item.index]);
             translated++;
             console.log(`  Recovered: ${item.product.name.substring(0, 50)}`);
             fs.writeFileSync('products.json', JSON.stringify(products, null, 2), 'utf8');
